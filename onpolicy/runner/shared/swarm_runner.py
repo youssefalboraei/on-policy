@@ -212,3 +212,57 @@ class SwarmRunner(Runner):
 
         if self.all_args.save_gifs:
             imageio.mimsave(str(self.gif_dir) + '/render.gif', all_frames, duration=self.all_args.ifi)
+
+    # @torch.no_grad()
+    # def eval(self, eval_episodes=1000):
+    #     self.trainer.prep_rollout()
+    #     eval_envs = self.eval_envs
+
+    #     eval_scores = []
+    #     for _ in range(eval_episodes):
+    #         eval_obs = eval_envs.reset()
+    #         eval_rnn_states = np.zeros((self.n_eval_rollout_threads, self.num_agents, self.recurrent_N, self.hidden_size), dtype=np.float32)
+    #         eval_masks = np.ones((self.n_eval_rollout_threads, self.num_agents, 1), dtype=np.float32)
+
+    #         eval_episode_rewards = []
+    #         eval_episode_length = 0
+            
+    #         while True:
+    #             self.trainer.prep_rollout()
+    #             eval_actions, eval_rnn_states = self.trainer.policy.act(
+    #                 np.concatenate(eval_obs),
+    #                 np.concatenate(eval_rnn_states),
+    #                 np.concatenate(eval_masks),
+    #                 deterministic=True
+    #             )
+    #             eval_actions = np.array(np.split(_t2n(eval_actions), self.n_eval_rollout_threads))
+    #             eval_rnn_states = np.array(np.split(_t2n(eval_rnn_states), self.n_eval_rollout_threads))
+
+    #             # Observe reward and next obs
+    #             eval_obs, eval_rewards, eval_dones, eval_infos = eval_envs.step(eval_actions)
+    #             print(eval_action)
+    #             print(eval_rewards)
+    #             print()
+    #             eval_episode_rewards.append(eval_rewards)
+    #             eval_episode_length += 1
+
+    #             eval_rnn_states[eval_dones == True] = np.zeros(((eval_dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
+    #             eval_masks = np.ones((self.n_eval_rollout_threads, self.num_agents, 1), dtype=np.float32)
+    #             eval_masks[eval_dones == True] = np.zeros(((eval_dones == True).sum(), 1), dtype=np.float32)
+
+    #             # Check if all environments are done
+    #             if np.all(eval_dones):
+    #                 eval_episode_rewards = np.array(eval_episode_rewards)
+    #                 eval_scores.append(np.sum(eval_episode_rewards, axis=0).mean())
+    #                 break
+
+    #     eval_average_score = np.mean(eval_scores)
+    #     eval_score_std = np.std(eval_scores)
+    #     print("Evaluation using {} episodes: mean score: {:.2f} +/- {:.2f}".format(eval_episodes, eval_average_score, eval_score_std))
+        
+    #     if self.use_wandb:
+    #         wandb.log({
+    #             "eval_average_score": eval_average_score,
+    #             "eval_score_std": eval_score_std,
+    #             "eval_average_episode_length": eval_episode_length
+    #         })
