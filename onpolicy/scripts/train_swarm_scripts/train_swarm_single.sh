@@ -1,7 +1,7 @@
 #!/bin/sh
 env="SwarmEnv"
 scenario="single_transport" 
-num_agents=15
+num_agents=10
 algo="rmappo" #"mappo" "ippo"
 exp="check"
 seed_max=1
