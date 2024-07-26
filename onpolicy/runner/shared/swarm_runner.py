@@ -29,6 +29,8 @@ class SwarmRunner(Runner):
 
                 data = obs, rewards, dones, infos, values, actions, action_log_probs, rnn_states, rnn_states_critic
 
+                # print(infos)
+                # exit()
                 # insert data into buffer
                 self.insert(data)
 
@@ -59,8 +61,17 @@ class SwarmRunner(Runner):
                 if self.env_name == "SwarmEnv":
                     env_infos = {}
                     for agent_id in range(self.num_agents):
-                        env_infos[f'agent{agent_id}/delivery_rate'] = np.mean([info[agent_id]['delivery_rate'] for info in infos])
-
+                        delivery_rates = []
+                        for info_list in infos:
+                            agent_key = f'agent_{agent_id}'
+                            agent_info = next((item[agent_key] for item in info_list if agent_key in item), None)
+                            if agent_info and 'delivery_rate' in agent_info:
+                                delivery_rates.append(agent_info['delivery_rate'])
+                        agent_k = f'agent{agent_id}/delivery_rate'
+                        # Store the list of delivery rates, or a list with the mean if delivery_rates is empty
+                        env_infos[agent_k] = delivery_rates if delivery_rates else [0]
+                    # for agent_id in range(self.num_agents):
+                    #     env_infos[f'agent{agent_id}/delivery_rate'] = np.mean([info[f'agent{agent_id}']['delivery_rate'] for info in infos])
                 train_infos["average_episode_rewards"] = np.mean(self.buffer.rewards) * self.episode_length
                 print("average episode rewards is {}".format(train_infos["average_episode_rewards"]))
                 self.log_train(train_infos, total_num_steps)

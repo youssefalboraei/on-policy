@@ -5,6 +5,7 @@ import wandb
 import socket
 import setproctitle
 import numpy as np
+import argparse
 from pathlib import Path
 import torch
 from onpolicy.config import get_config
@@ -46,8 +47,22 @@ def make_eval_env(all_args):
         return SubprocVecEnv([get_env_fn(i) for i in range(all_args.n_eval_rollout_threads)])
 
 def parse_args(args, parser):
-    parser.add_argument('--num_agents', type=int, default=3, help="number of agents")
-    # Add any other SwarmEnv-specific arguments here
+    parser.add_argument('--scenario_name', type=str,
+                        default='single_transport', help="Which scenario to run on")
+    parser.add_argument("--num_fualts", type=int, default=0, 
+                        help="number of faults")
+    parser.add_argument('--fault_type', type=int,
+                        default=0, help="type of fault")
+    parser.add_argument('--num_agents', type=int,
+                        default=10, help="number of players")
+    parser.add_argument('--num_boxes', type=int,
+                        default=10, help="number of boxes")
+    parser.add_argument('--num_mboxes', type=int,
+                        default=0, help="number of mboxes")
+    parser.add_argument('--fault_number', type=int,
+                        default=0, help="number of faulty agents")
+    parser.add_argument('--delivery_bias', type=int,
+                        default=1, help="delivery bias")
 
     all_args = parser.parse_known_args(args)[0]
 
@@ -127,6 +142,7 @@ def main(args):
     envs = make_train_env(all_args)
     eval_envs = make_eval_env(all_args) if all_args.use_eval else None
     num_agents = all_args.num_agents
+    # print("HHHHHHHHHHI", num_agents)
 
     config = {
         "all_args": all_args,

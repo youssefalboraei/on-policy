@@ -80,7 +80,6 @@ class SharedReplayBuffer(object):
             (self.episode_length, self.n_rollout_threads, num_agents, act_shape), dtype=np.float32)
         self.rewards = np.zeros(
             (self.episode_length, self.n_rollout_threads, num_agents, 1), dtype=np.float32)
-
         self.masks = np.ones((self.episode_length + 1, self.n_rollout_threads, num_agents, 1), dtype=np.float32)
         self.bad_masks = np.ones_like(self.masks)
         self.active_masks = np.ones_like(self.masks)
@@ -104,6 +103,8 @@ class SharedReplayBuffer(object):
         :param active_masks: (np.ndarray) denotes whether an agent is active or dead in the env.
         :param available_actions: (np.ndarray) actions available to each agent. If None, all actions are available.
         """
+        rewards = np.expand_dims(rewards, axis=2)
+
         self.share_obs[self.step + 1] = share_obs.copy()
         self.obs[self.step + 1] = obs.copy()
         self.rnn_states[self.step + 1] = rnn_states_actor.copy()

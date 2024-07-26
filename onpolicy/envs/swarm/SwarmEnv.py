@@ -2,12 +2,15 @@ import marl_sim
 import numpy as np
 import gym
 from gym import spaces
+import argparse
 
 class SwarmEnv(gym.Env):
     def __init__(self, config_args):
         super(SwarmEnv, self).__init__()
-        self.config = marl_sim.Config(config_args)
+        self.config = marl_sim.Config(self.dict_to_config_list(config_args))
+        
         self.config.compute_delivery_rate = True
+        self.config.compute_metrics = True #
         self.config.predict_fault = False
         self.simulator = None
         self.num_agents = self.config.number_of_agents
@@ -16,7 +19,7 @@ class SwarmEnv(gym.Env):
 
         # Define discrete action space for each agent
         self.action_space = {
-            agent: spaces.Discrete(21)  # 21 discrete actions
+            agent: spaces.Discrete(15)  # 21 discrete actions
             for agent in self.agents
         }
         
@@ -35,10 +38,9 @@ class SwarmEnv(gym.Env):
             # marl_sim.M_type.BY_MARL_SINGLE
             marl_sim.M_type.BY_MARL_SINGLE
         )
-
-        self.previous_delivery_rate_m = self.simulator.bb.s_delivery_rate_m[-1]
-        self.previous_rbm_distance = np.array(self.simulator.bb.rbm_distance).reshape(self.simulator.bb.s_no_robots, self.simulator.bb.s_no_boxes_m)
-        self.previous_boxm_y_positions = np.array(self.simulator.bb.bm_pos_y)
+        self.previous_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
+        self.previous_rb_distance = np.array(self.simulator.bb.rb_distance).reshape(self.simulator.bb.s_no_robots, self.simulator.bb.s_no_boxes)
+        self.previous_box_y_positions = np.array(self.simulator.bb.b_pos_y)
         
         # Define the observation space based on the actual observation size
         sample_obs = self._get_observation()
@@ -75,7 +77,7 @@ class SwarmEnv(gym.Env):
         for i, agent in enumerate(self.agents):
             agent_obs = np.array([
                 bb.r_robots_in_range[i],
-                bb.r_boxm_in_range[i],
+                bb.r_box_in_range[i],
                 bb.r_walls_in_range[i],
                 bb.r_velocity_comp[i],
                 bb.r_state[i],
@@ -101,51 +103,51 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 500.0
-        DISTANCE_TO_BOX_WEIGHT = 0.01
+        DELIVERY_REWARD = 100.0
+        DISTANCE_TO_BOX_WEIGHT = 0.00
         DISTANCE_TO_DROP_AREA_WEIGHT = 0.02
         TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
-        num_boxes = self.simulator.bb.s_no_boxes_m
+        num_boxes = self.simulator.bb.s_no_boxes
 
         # Initialize rewards for each agent
         rewards = {agent: 0.0 for agent in self.agents}
 
         # 1. Reward for delivered boxes (global reward, split among agents)
-        current_delivery_rate = self.simulator.bb.s_delivery_rate_m[-1]
+        current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
         # print(current_delivery_rate)
 
-        if hasattr(self, 'previous_delivery_rate_m'):
+        if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')
-            boxes_delivered = current_delivery_rate - self.previous_delivery_rate_m
+            boxes_delivered = current_delivery_rate - self.previous_delivery_rate
             delivery_reward = DELIVERY_REWARD * boxes_delivered / num_robots
             for agent in self.agents:
                 rewards[agent] += delivery_reward
-        self.previous_delivery_rate_m = current_delivery_rate
+        self.previous_delivery_rate = current_delivery_rate
 
         # 2. Reward for decreasing distance to boxes (per agent)
-        rbm_distance = np.array(self.simulator.bb.rbm_distance).reshape(num_robots, num_boxes)
+        rb_distance = np.array(self.simulator.bb.rb_distance).reshape(num_robots, num_boxes)
         # print(rbm_distance)
 
         if hasattr(self, 'previous_rbm_distance'):
             # print('yes2')
             for i, agent in enumerate(self.agents):
-                distance_decrease = np.sum(self.previous_rbm_distance[i] - rbm_distance[i])
+                distance_decrease = np.sum(self.previous_rb_distance[i] - rb_distance[i])
                 rewards[agent] += DISTANCE_TO_BOX_WEIGHT * distance_decrease
-        self.previous_rbm_distance = rbm_distance.copy()
+        self.previous_rb_distance = rb_distance.copy()
 
         # 3. Reward for boxes moving towards drop area
-        current_boxm_y_positions = np.array(self.simulator.bb.bm_pos_y)
+        current_box_y_positions = np.array(self.simulator.bb.b_pos_y)
         # print(current_boxm_y_positions)
 
         if hasattr(self, 'previous_boxm_y_positions'):
             # print('yes3')
-            y_progress = np.sum(current_boxm_y_positions - self.previous_boxm_y_positions)
+            y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions)
             progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
             for agent in self.agents:
                 rewards[agent] += progress_reward
-        self.previous_boxm_y_positions = current_boxm_y_positions.copy()
+        self.previous_boxm_y_positions = current_box_y_positions.copy()
 
         # 4. Time penalty (per agent)
         for agent in self.agents:
@@ -212,10 +214,12 @@ class SwarmEnv(gym.Env):
 
     def _get_info(self):
         # Return any additional information you want to log
-        return {
-            # "delivery_rate": self.simulator.bb.s_delivery_rate,
-            "delivery_rate_m": self.simulator.bb.s_delivery_rate_m
-        }
+        return {agent: {'delivery_rate': self.simulator.bb.s_delivery_rate[-1]}
+                 for agent in self.agents}
+        # return {
+        #     "delivery_rate": self.simulator.bb.s_delivery_rate,
+        #     # "delivery_rate_m": self.simulator.bb.s_delivery_rate_m
+        # }
 
     def render(self, mode='human'):
         # Implement rendering if needed
@@ -245,3 +249,10 @@ class SwarmEnv(gym.Env):
         arr = np.array(data)
         cleaned_arr = np.nan_to_num(arr, nan=0.0, posinf=0.0, neginf=0.0)
         return cleaned_arr.tolist()
+    
+    def dict_to_config_list(self, config_dict):
+        config_list = []
+        for key, value in config_dict.items():
+            config_list.append(f"-{key}")
+            config_list.append(str(value))
+        return config_list

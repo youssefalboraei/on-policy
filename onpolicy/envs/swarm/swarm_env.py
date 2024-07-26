@@ -10,10 +10,19 @@ class SwarmEnvWrapper(gym.Env):
 
     def __init__(self, all_args):
         config_args = {
-            "number_of_agents": all_args.num_agents,
-            "seed": all_args.seed,
-            # Add other parameters as needed
+            "a": all_args.num_agents,
+            "b": all_args.num_boxes,
+            "bm": all_args.num_mboxes,
+            "s": all_args.seed,
+            "ft": all_args.fault_type,
+            "fn": all_args.fault_number,
+            "dbias": all_args.delivery_bias,
+            "aw": 500,
+            "ah": 500,
+            "i": 1_000_000
         }
+
+        # print(config_args)
         self.env = SwarmEnv(config_args)
         
         self.n_agents = self.env.num_agents
@@ -29,7 +38,7 @@ class SwarmEnvWrapper(gym.Env):
         
         # Assuming global state is the concatenation of all observations
         global_state_dim = sum([obs_space.shape[0] for obs_space in self.observation_space])
-        self.share_observation_space = [spaces.Box(low=-np.inf, high=+np.inf, shape=(global_state_dim,), dtype=np.float32) for _ in range(self.n_agents)]
+        self.share_observation_space = [spaces.Box(low=-np.inf, high=+np.inf, shape=(global_state_dim,), dtype=np.float32)]# for _ in range(self.n_agents)]
 
         self.current_step = 0
 
@@ -74,5 +83,5 @@ class SwarmEnvWrapper(gym.Env):
             "n_agents": self.n_agents,
             "state_shape": self.get_state().shape[0],
             "obs_shape": self.observation_space[0].shape[0],
-            "episode_limit": 1000  # Set an appropriate episode limit
+            "episode_limit": 10_000  # Set an appropriate episode limit
         }
