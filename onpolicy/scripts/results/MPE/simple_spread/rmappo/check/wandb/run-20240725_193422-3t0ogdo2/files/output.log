@@ -1,0 +1,1886 @@
+obs_space:  [Box(-inf, inf, (18,), float32), Box(-inf, inf, (18,), float32), Box(-inf, inf, (18,), float32)]
+share_obs_space:  [Box(-inf, inf, (54,), float32), Box(-inf, inf, (54,), float32), Box(-inf, inf, (54,), float32)]
+act_space:  [Discrete(5), Discrete(5), Discrete(5)]
+ Scenario simple_spread Algo rmappo Exp check updates 0/6250 episodes, total num timesteps 3200/20000000, FPS 214.
+average episode rewards is -227.12750434875488
+ Scenario simple_spread Algo rmappo Exp check updates 5/6250 episodes, total num timesteps 19200/20000000, FPS 305.
+average episode rewards is -197.48435020446777
+ Scenario simple_spread Algo rmappo Exp check updates 10/6250 episodes, total num timesteps 35200/20000000, FPS 482.
+average episode rewards is -185.2197527885437
+ Scenario simple_spread Algo rmappo Exp check updates 15/6250 episodes, total num timesteps 51200/20000000, FPS 623.
+average episode rewards is -179.68721389770508
+ Scenario simple_spread Algo rmappo Exp check updates 20/6250 episodes, total num timesteps 67200/20000000, FPS 737.
+average episode rewards is -181.01623058319092
+ Scenario simple_spread Algo rmappo Exp check updates 25/6250 episodes, total num timesteps 83200/20000000, FPS 831.
+average episode rewards is -178.19427251815796
+ Scenario simple_spread Algo rmappo Exp check updates 30/6250 episodes, total num timesteps 99200/20000000, FPS 909.
+average episode rewards is -177.13897228240967
+ Scenario simple_spread Algo rmappo Exp check updates 35/6250 episodes, total num timesteps 115200/20000000, FPS 975.
+average episode rewards is -177.14500427246094
+ Scenario simple_spread Algo rmappo Exp check updates 40/6250 episodes, total num timesteps 131200/20000000, FPS 1031.
+average episode rewards is -174.4940996170044
+ Scenario simple_spread Algo rmappo Exp check updates 45/6250 episodes, total num timesteps 147200/20000000, FPS 1081.
+average episode rewards is -173.36333990097046
+ Scenario simple_spread Algo rmappo Exp check updates 50/6250 episodes, total num timesteps 163200/20000000, FPS 1123.
+average episode rewards is -169.79782581329346
+ Scenario simple_spread Algo rmappo Exp check updates 55/6250 episodes, total num timesteps 179200/20000000, FPS 1161.
+average episode rewards is -170.60658931732178
+ Scenario simple_spread Algo rmappo Exp check updates 60/6250 episodes, total num timesteps 195200/20000000, FPS 1196.
+average episode rewards is -170.5827236175537
+ Scenario simple_spread Algo rmappo Exp check updates 65/6250 episodes, total num timesteps 211200/20000000, FPS 1226.
+average episode rewards is -164.37902450561523
+ Scenario simple_spread Algo rmappo Exp check updates 70/6250 episodes, total num timesteps 227200/20000000, FPS 1254.
+average episode rewards is -160.73399782180786
+ Scenario simple_spread Algo rmappo Exp check updates 75/6250 episodes, total num timesteps 243200/20000000, FPS 1279.
+average episode rewards is -161.39726638793945
+ Scenario simple_spread Algo rmappo Exp check updates 80/6250 episodes, total num timesteps 259200/20000000, FPS 1301.
+average episode rewards is -161.26501560211182
+ Scenario simple_spread Algo rmappo Exp check updates 85/6250 episodes, total num timesteps 275200/20000000, FPS 1320.
+average episode rewards is -158.5302710533142
+ Scenario simple_spread Algo rmappo Exp check updates 90/6250 episodes, total num timesteps 291200/20000000, FPS 1339.
+average episode rewards is -155.48734664916992
+ Scenario simple_spread Algo rmappo Exp check updates 95/6250 episodes, total num timesteps 307200/20000000, FPS 1356.
+average episode rewards is -157.44541883468628
+ Scenario simple_spread Algo rmappo Exp check updates 100/6250 episodes, total num timesteps 323200/20000000, FPS 1372.
+average episode rewards is -149.9245047569275
+ Scenario simple_spread Algo rmappo Exp check updates 105/6250 episodes, total num timesteps 339200/20000000, FPS 1387.
+average episode rewards is -149.61297512054443
+ Scenario simple_spread Algo rmappo Exp check updates 110/6250 episodes, total num timesteps 355200/20000000, FPS 1401.
+average episode rewards is -151.4568328857422
+ Scenario simple_spread Algo rmappo Exp check updates 115/6250 episodes, total num timesteps 371200/20000000, FPS 1413.
+average episode rewards is -153.17254066467285
+ Scenario simple_spread Algo rmappo Exp check updates 120/6250 episodes, total num timesteps 387200/20000000, FPS 1425.
+average episode rewards is -150.72413682937622
+ Scenario simple_spread Algo rmappo Exp check updates 125/6250 episodes, total num timesteps 403200/20000000, FPS 1436.
+average episode rewards is -147.69850969314575
+ Scenario simple_spread Algo rmappo Exp check updates 130/6250 episodes, total num timesteps 419200/20000000, FPS 1446.
+average episode rewards is -145.23859024047852
+ Scenario simple_spread Algo rmappo Exp check updates 135/6250 episodes, total num timesteps 435200/20000000, FPS 1456.
+average episode rewards is -144.1419005393982
+ Scenario simple_spread Algo rmappo Exp check updates 140/6250 episodes, total num timesteps 451200/20000000, FPS 1465.
+average episode rewards is -147.02333211898804
+ Scenario simple_spread Algo rmappo Exp check updates 145/6250 episodes, total num timesteps 467200/20000000, FPS 1474.
+average episode rewards is -143.50030422210693
+ Scenario simple_spread Algo rmappo Exp check updates 150/6250 episodes, total num timesteps 483200/20000000, FPS 1482.
+average episode rewards is -143.4154987335205
+ Scenario simple_spread Algo rmappo Exp check updates 155/6250 episodes, total num timesteps 499200/20000000, FPS 1490.
+average episode rewards is -144.21988725662231
+ Scenario simple_spread Algo rmappo Exp check updates 160/6250 episodes, total num timesteps 515200/20000000, FPS 1497.
+average episode rewards is -141.2389874458313
+ Scenario simple_spread Algo rmappo Exp check updates 165/6250 episodes, total num timesteps 531200/20000000, FPS 1505.
+average episode rewards is -144.61840391159058
+ Scenario simple_spread Algo rmappo Exp check updates 170/6250 episodes, total num timesteps 547200/20000000, FPS 1511.
+average episode rewards is -144.6100115776062
+ Scenario simple_spread Algo rmappo Exp check updates 175/6250 episodes, total num timesteps 563200/20000000, FPS 1518.
+average episode rewards is -141.5790557861328
+ Scenario simple_spread Algo rmappo Exp check updates 180/6250 episodes, total num timesteps 579200/20000000, FPS 1524.
+average episode rewards is -138.9203906059265
+ Scenario simple_spread Algo rmappo Exp check updates 185/6250 episodes, total num timesteps 595200/20000000, FPS 1530.
+average episode rewards is -143.24551820755005
+ Scenario simple_spread Algo rmappo Exp check updates 190/6250 episodes, total num timesteps 611200/20000000, FPS 1535.
+average episode rewards is -138.28163146972656
+ Scenario simple_spread Algo rmappo Exp check updates 195/6250 episodes, total num timesteps 627200/20000000, FPS 1540.
+average episode rewards is -138.1287932395935
+ Scenario simple_spread Algo rmappo Exp check updates 200/6250 episodes, total num timesteps 643200/20000000, FPS 1545.
+average episode rewards is -138.2402539253235
+ Scenario simple_spread Algo rmappo Exp check updates 205/6250 episodes, total num timesteps 659200/20000000, FPS 1550.
+average episode rewards is -136.44003868103027
+ Scenario simple_spread Algo rmappo Exp check updates 210/6250 episodes, total num timesteps 675200/20000000, FPS 1555.
+average episode rewards is -137.9194736480713
+ Scenario simple_spread Algo rmappo Exp check updates 215/6250 episodes, total num timesteps 691200/20000000, FPS 1559.
+average episode rewards is -134.55286026000977
+ Scenario simple_spread Algo rmappo Exp check updates 220/6250 episodes, total num timesteps 707200/20000000, FPS 1564.
+average episode rewards is -134.56430435180664
+ Scenario simple_spread Algo rmappo Exp check updates 225/6250 episodes, total num timesteps 723200/20000000, FPS 1568.
+average episode rewards is -134.68422889709473
+ Scenario simple_spread Algo rmappo Exp check updates 230/6250 episodes, total num timesteps 739200/20000000, FPS 1572.
+average episode rewards is -134.6360445022583
+ Scenario simple_spread Algo rmappo Exp check updates 235/6250 episodes, total num timesteps 755200/20000000, FPS 1576.
+average episode rewards is -133.87731313705444
+ Scenario simple_spread Algo rmappo Exp check updates 240/6250 episodes, total num timesteps 771200/20000000, FPS 1580.
+average episode rewards is -134.9830150604248
+ Scenario simple_spread Algo rmappo Exp check updates 245/6250 episodes, total num timesteps 787200/20000000, FPS 1583.
+average episode rewards is -133.87746810913086
+ Scenario simple_spread Algo rmappo Exp check updates 250/6250 episodes, total num timesteps 803200/20000000, FPS 1587.
+average episode rewards is -130.82687854766846
+ Scenario simple_spread Algo rmappo Exp check updates 255/6250 episodes, total num timesteps 819200/20000000, FPS 1591.
+average episode rewards is -136.87818050384521
+ Scenario simple_spread Algo rmappo Exp check updates 260/6250 episodes, total num timesteps 835200/20000000, FPS 1594.
+average episode rewards is -135.33294200897217
+ Scenario simple_spread Algo rmappo Exp check updates 265/6250 episodes, total num timesteps 851200/20000000, FPS 1597.
+average episode rewards is -132.87274837493896
+ Scenario simple_spread Algo rmappo Exp check updates 270/6250 episodes, total num timesteps 867200/20000000, FPS 1600.
+average episode rewards is -132.38182067871094
+ Scenario simple_spread Algo rmappo Exp check updates 275/6250 episodes, total num timesteps 883200/20000000, FPS 1603.
+average episode rewards is -132.07547664642334
+ Scenario simple_spread Algo rmappo Exp check updates 280/6250 episodes, total num timesteps 899200/20000000, FPS 1606.
+average episode rewards is -130.15551567077637
+ Scenario simple_spread Algo rmappo Exp check updates 285/6250 episodes, total num timesteps 915200/20000000, FPS 1609.
+average episode rewards is -131.0358166694641
+ Scenario simple_spread Algo rmappo Exp check updates 290/6250 episodes, total num timesteps 931200/20000000, FPS 1611.
+average episode rewards is -132.25438594818115
+ Scenario simple_spread Algo rmappo Exp check updates 295/6250 episodes, total num timesteps 947200/20000000, FPS 1614.
+average episode rewards is -131.23254776000977
+ Scenario simple_spread Algo rmappo Exp check updates 300/6250 episodes, total num timesteps 963200/20000000, FPS 1616.
+average episode rewards is -131.04734420776367
+ Scenario simple_spread Algo rmappo Exp check updates 305/6250 episodes, total num timesteps 979200/20000000, FPS 1618.
+average episode rewards is -128.12738418579102
+ Scenario simple_spread Algo rmappo Exp check updates 310/6250 episodes, total num timesteps 995200/20000000, FPS 1620.
+average episode rewards is -126.300048828125
+ Scenario simple_spread Algo rmappo Exp check updates 315/6250 episodes, total num timesteps 1011200/20000000, FPS 1623.
+average episode rewards is -131.48446083068848
+ Scenario simple_spread Algo rmappo Exp check updates 320/6250 episodes, total num timesteps 1027200/20000000, FPS 1625.
+average episode rewards is -128.05095911026
+ Scenario simple_spread Algo rmappo Exp check updates 325/6250 episodes, total num timesteps 1043200/20000000, FPS 1627.
+average episode rewards is -129.92595434188843
+ Scenario simple_spread Algo rmappo Exp check updates 330/6250 episodes, total num timesteps 1059200/20000000, FPS 1629.
+average episode rewards is -125.89129209518433
+ Scenario simple_spread Algo rmappo Exp check updates 335/6250 episodes, total num timesteps 1075200/20000000, FPS 1631.
+average episode rewards is -127.45375633239746
+ Scenario simple_spread Algo rmappo Exp check updates 340/6250 episodes, total num timesteps 1091200/20000000, FPS 1633.
+average episode rewards is -127.31081247329712
+ Scenario simple_spread Algo rmappo Exp check updates 345/6250 episodes, total num timesteps 1107200/20000000, FPS 1635.
+average episode rewards is -127.39344835281372
+ Scenario simple_spread Algo rmappo Exp check updates 350/6250 episodes, total num timesteps 1123200/20000000, FPS 1637.
+average episode rewards is -128.8602113723755
+ Scenario simple_spread Algo rmappo Exp check updates 355/6250 episodes, total num timesteps 1139200/20000000, FPS 1638.
+average episode rewards is -128.3626914024353
+ Scenario simple_spread Algo rmappo Exp check updates 360/6250 episodes, total num timesteps 1155200/20000000, FPS 1640.
+average episode rewards is -125.70472955703735
+ Scenario simple_spread Algo rmappo Exp check updates 365/6250 episodes, total num timesteps 1171200/20000000, FPS 1641.
+average episode rewards is -125.78918933868408
+ Scenario simple_spread Algo rmappo Exp check updates 370/6250 episodes, total num timesteps 1187200/20000000, FPS 1643.
+average episode rewards is -123.24553728103638
+ Scenario simple_spread Algo rmappo Exp check updates 375/6250 episodes, total num timesteps 1203200/20000000, FPS 1645.
+average episode rewards is -124.11564588546753
+ Scenario simple_spread Algo rmappo Exp check updates 380/6250 episodes, total num timesteps 1219200/20000000, FPS 1646.
+average episode rewards is -127.4309754371643
+ Scenario simple_spread Algo rmappo Exp check updates 385/6250 episodes, total num timesteps 1235200/20000000, FPS 1648.
+average episode rewards is -125.77799558639526
+ Scenario simple_spread Algo rmappo Exp check updates 390/6250 episodes, total num timesteps 1251200/20000000, FPS 1649.
+average episode rewards is -123.22967052459717
+ Scenario simple_spread Algo rmappo Exp check updates 395/6250 episodes, total num timesteps 1267200/20000000, FPS 1651.
+average episode rewards is -124.0814208984375
+ Scenario simple_spread Algo rmappo Exp check updates 400/6250 episodes, total num timesteps 1283200/20000000, FPS 1652.
+average episode rewards is -126.75961256027222
+ Scenario simple_spread Algo rmappo Exp check updates 405/6250 episodes, total num timesteps 1299200/20000000, FPS 1654.
+average episode rewards is -125.8601427078247
+ Scenario simple_spread Algo rmappo Exp check updates 410/6250 episodes, total num timesteps 1315200/20000000, FPS 1655.
+average episode rewards is -130.10119199752808
+ Scenario simple_spread Algo rmappo Exp check updates 415/6250 episodes, total num timesteps 1331200/20000000, FPS 1656.
+average episode rewards is -125.10561943054199
+ Scenario simple_spread Algo rmappo Exp check updates 420/6250 episodes, total num timesteps 1347200/20000000, FPS 1658.
+average episode rewards is -123.44175577163696
+ Scenario simple_spread Algo rmappo Exp check updates 425/6250 episodes, total num timesteps 1363200/20000000, FPS 1659.
+average episode rewards is -127.11387872695923
+ Scenario simple_spread Algo rmappo Exp check updates 430/6250 episodes, total num timesteps 1379200/20000000, FPS 1660.
+average episode rewards is -123.05610179901123
+ Scenario simple_spread Algo rmappo Exp check updates 435/6250 episodes, total num timesteps 1395200/20000000, FPS 1662.
+average episode rewards is -125.4974365234375
+ Scenario simple_spread Algo rmappo Exp check updates 440/6250 episodes, total num timesteps 1411200/20000000, FPS 1663.
+average episode rewards is -125.08503198623657
+ Scenario simple_spread Algo rmappo Exp check updates 445/6250 episodes, total num timesteps 1427200/20000000, FPS 1664.
+average episode rewards is -125.87001323699951
+ Scenario simple_spread Algo rmappo Exp check updates 450/6250 episodes, total num timesteps 1443200/20000000, FPS 1665.
+average episode rewards is -126.40715837478638
+ Scenario simple_spread Algo rmappo Exp check updates 455/6250 episodes, total num timesteps 1459200/20000000, FPS 1666.
+average episode rewards is -125.4643440246582
+ Scenario simple_spread Algo rmappo Exp check updates 460/6250 episodes, total num timesteps 1475200/20000000, FPS 1667.
+average episode rewards is -123.23909997940063
+ Scenario simple_spread Algo rmappo Exp check updates 465/6250 episodes, total num timesteps 1491200/20000000, FPS 1668.
+average episode rewards is -122.4901795387268
+ Scenario simple_spread Algo rmappo Exp check updates 470/6250 episodes, total num timesteps 1507200/20000000, FPS 1669.
+average episode rewards is -123.70226383209229
+ Scenario simple_spread Algo rmappo Exp check updates 475/6250 episodes, total num timesteps 1523200/20000000, FPS 1670.
+average episode rewards is -124.03942346572876
+ Scenario simple_spread Algo rmappo Exp check updates 480/6250 episodes, total num timesteps 1539200/20000000, FPS 1671.
+average episode rewards is -125.76315402984619
+ Scenario simple_spread Algo rmappo Exp check updates 485/6250 episodes, total num timesteps 1555200/20000000, FPS 1672.
+average episode rewards is -123.8701343536377
+ Scenario simple_spread Algo rmappo Exp check updates 490/6250 episodes, total num timesteps 1571200/20000000, FPS 1673.
+average episode rewards is -123.59715700149536
+ Scenario simple_spread Algo rmappo Exp check updates 495/6250 episodes, total num timesteps 1587200/20000000, FPS 1674.
+average episode rewards is -124.21265840530396
+ Scenario simple_spread Algo rmappo Exp check updates 500/6250 episodes, total num timesteps 1603200/20000000, FPS 1675.
+average episode rewards is -123.9010214805603
+ Scenario simple_spread Algo rmappo Exp check updates 505/6250 episodes, total num timesteps 1619200/20000000, FPS 1676.
+average episode rewards is -124.52878952026367
+ Scenario simple_spread Algo rmappo Exp check updates 510/6250 episodes, total num timesteps 1635200/20000000, FPS 1677.
+average episode rewards is -123.72331619262695
+ Scenario simple_spread Algo rmappo Exp check updates 515/6250 episodes, total num timesteps 1651200/20000000, FPS 1678.
+average episode rewards is -123.15802574157715
+ Scenario simple_spread Algo rmappo Exp check updates 520/6250 episodes, total num timesteps 1667200/20000000, FPS 1679.
+average episode rewards is -124.72906112670898
+ Scenario simple_spread Algo rmappo Exp check updates 525/6250 episodes, total num timesteps 1683200/20000000, FPS 1680.
+average episode rewards is -125.44728517532349
+ Scenario simple_spread Algo rmappo Exp check updates 530/6250 episodes, total num timesteps 1699200/20000000, FPS 1681.
+average episode rewards is -121.82084321975708
+ Scenario simple_spread Algo rmappo Exp check updates 535/6250 episodes, total num timesteps 1715200/20000000, FPS 1682.
+average episode rewards is -120.49050331115723
+ Scenario simple_spread Algo rmappo Exp check updates 540/6250 episodes, total num timesteps 1731200/20000000, FPS 1683.
+average episode rewards is -124.98166561126709
+ Scenario simple_spread Algo rmappo Exp check updates 545/6250 episodes, total num timesteps 1747200/20000000, FPS 1684.
+average episode rewards is -122.415030002594
+ Scenario simple_spread Algo rmappo Exp check updates 550/6250 episodes, total num timesteps 1763200/20000000, FPS 1685.
+average episode rewards is -123.33253622055054
+ Scenario simple_spread Algo rmappo Exp check updates 555/6250 episodes, total num timesteps 1779200/20000000, FPS 1686.
+average episode rewards is -122.58896827697754
+ Scenario simple_spread Algo rmappo Exp check updates 560/6250 episodes, total num timesteps 1795200/20000000, FPS 1687.
+average episode rewards is -122.59249687194824
+ Scenario simple_spread Algo rmappo Exp check updates 565/6250 episodes, total num timesteps 1811200/20000000, FPS 1688.
+average episode rewards is -122.20405340194702
+ Scenario simple_spread Algo rmappo Exp check updates 570/6250 episodes, total num timesteps 1827200/20000000, FPS 1689.
+average episode rewards is -123.14419746398926
+ Scenario simple_spread Algo rmappo Exp check updates 575/6250 episodes, total num timesteps 1843200/20000000, FPS 1690.
+average episode rewards is -123.297119140625
+ Scenario simple_spread Algo rmappo Exp check updates 580/6250 episodes, total num timesteps 1859200/20000000, FPS 1691.
+average episode rewards is -124.28841590881348
+ Scenario simple_spread Algo rmappo Exp check updates 585/6250 episodes, total num timesteps 1875200/20000000, FPS 1692.
+average episode rewards is -122.64868021011353
+ Scenario simple_spread Algo rmappo Exp check updates 590/6250 episodes, total num timesteps 1891200/20000000, FPS 1693.
+average episode rewards is -124.08990859985352
+ Scenario simple_spread Algo rmappo Exp check updates 595/6250 episodes, total num timesteps 1907200/20000000, FPS 1694.
+average episode rewards is -122.60373830795288
+ Scenario simple_spread Algo rmappo Exp check updates 600/6250 episodes, total num timesteps 1923200/20000000, FPS 1695.
+average episode rewards is -124.88032579421997
+ Scenario simple_spread Algo rmappo Exp check updates 605/6250 episodes, total num timesteps 1939200/20000000, FPS 1696.
+average episode rewards is -122.95444011688232
+ Scenario simple_spread Algo rmappo Exp check updates 610/6250 episodes, total num timesteps 1955200/20000000, FPS 1697.
+average episode rewards is -122.21711874008179
+ Scenario simple_spread Algo rmappo Exp check updates 615/6250 episodes, total num timesteps 1971200/20000000, FPS 1698.
+average episode rewards is -123.07536602020264
+ Scenario simple_spread Algo rmappo Exp check updates 620/6250 episodes, total num timesteps 1987200/20000000, FPS 1699.
+average episode rewards is -123.46354722976685
+ Scenario simple_spread Algo rmappo Exp check updates 625/6250 episodes, total num timesteps 2003200/20000000, FPS 1699.
+average episode rewards is -122.33501672744751
+ Scenario simple_spread Algo rmappo Exp check updates 630/6250 episodes, total num timesteps 2019200/20000000, FPS 1700.
+average episode rewards is -124.20127391815186
+ Scenario simple_spread Algo rmappo Exp check updates 635/6250 episodes, total num timesteps 2035200/20000000, FPS 1701.
+average episode rewards is -125.38191080093384
+ Scenario simple_spread Algo rmappo Exp check updates 640/6250 episodes, total num timesteps 2051200/20000000, FPS 1702.
+average episode rewards is -123.91784191131592
+ Scenario simple_spread Algo rmappo Exp check updates 645/6250 episodes, total num timesteps 2067200/20000000, FPS 1703.
+average episode rewards is -121.93877696990967
+ Scenario simple_spread Algo rmappo Exp check updates 650/6250 episodes, total num timesteps 2083200/20000000, FPS 1703.
+average episode rewards is -120.66376209259033
+ Scenario simple_spread Algo rmappo Exp check updates 655/6250 episodes, total num timesteps 2099200/20000000, FPS 1704.
+average episode rewards is -122.7749228477478
+ Scenario simple_spread Algo rmappo Exp check updates 660/6250 episodes, total num timesteps 2115200/20000000, FPS 1705.
+average episode rewards is -122.30298519134521
+ Scenario simple_spread Algo rmappo Exp check updates 665/6250 episodes, total num timesteps 2131200/20000000, FPS 1706.
+average episode rewards is -123.6464262008667
+ Scenario simple_spread Algo rmappo Exp check updates 670/6250 episodes, total num timesteps 2147200/20000000, FPS 1707.
+average episode rewards is -124.76683855056763
+ Scenario simple_spread Algo rmappo Exp check updates 675/6250 episodes, total num timesteps 2163200/20000000, FPS 1707.
+average episode rewards is -122.23343849182129
+ Scenario simple_spread Algo rmappo Exp check updates 680/6250 episodes, total num timesteps 2179200/20000000, FPS 1708.
+average episode rewards is -122.10572957992554
+ Scenario simple_spread Algo rmappo Exp check updates 685/6250 episodes, total num timesteps 2195200/20000000, FPS 1708.
+average episode rewards is -123.64217042922974
+ Scenario simple_spread Algo rmappo Exp check updates 690/6250 episodes, total num timesteps 2211200/20000000, FPS 1708.
+average episode rewards is -122.67827987670898
+ Scenario simple_spread Algo rmappo Exp check updates 695/6250 episodes, total num timesteps 2227200/20000000, FPS 1709.
+average episode rewards is -120.56492567062378
+ Scenario simple_spread Algo rmappo Exp check updates 700/6250 episodes, total num timesteps 2243200/20000000, FPS 1709.
+average episode rewards is -119.96759176254272
+ Scenario simple_spread Algo rmappo Exp check updates 705/6250 episodes, total num timesteps 2259200/20000000, FPS 1710.
+average episode rewards is -123.2646107673645
+ Scenario simple_spread Algo rmappo Exp check updates 710/6250 episodes, total num timesteps 2275200/20000000, FPS 1710.
+average episode rewards is -123.2203722000122
+ Scenario simple_spread Algo rmappo Exp check updates 715/6250 episodes, total num timesteps 2291200/20000000, FPS 1711.
+average episode rewards is -120.95228433609009
+ Scenario simple_spread Algo rmappo Exp check updates 720/6250 episodes, total num timesteps 2307200/20000000, FPS 1712.
+average episode rewards is -121.69771194458008
+ Scenario simple_spread Algo rmappo Exp check updates 725/6250 episodes, total num timesteps 2323200/20000000, FPS 1712.
+average episode rewards is -121.18700742721558
+ Scenario simple_spread Algo rmappo Exp check updates 730/6250 episodes, total num timesteps 2339200/20000000, FPS 1713.
+average episode rewards is -123.30838441848755
+ Scenario simple_spread Algo rmappo Exp check updates 735/6250 episodes, total num timesteps 2355200/20000000, FPS 1713.
+average episode rewards is -120.00775337219238
+ Scenario simple_spread Algo rmappo Exp check updates 740/6250 episodes, total num timesteps 2371200/20000000, FPS 1714.
+average episode rewards is -123.93652200698853
+ Scenario simple_spread Algo rmappo Exp check updates 745/6250 episodes, total num timesteps 2387200/20000000, FPS 1715.
+average episode rewards is -119.57287788391113
+ Scenario simple_spread Algo rmappo Exp check updates 750/6250 episodes, total num timesteps 2403200/20000000, FPS 1715.
+average episode rewards is -122.83518314361572
+ Scenario simple_spread Algo rmappo Exp check updates 755/6250 episodes, total num timesteps 2419200/20000000, FPS 1716.
+average episode rewards is -120.23961544036865
+ Scenario simple_spread Algo rmappo Exp check updates 760/6250 episodes, total num timesteps 2435200/20000000, FPS 1716.
+average episode rewards is -121.3087797164917
+ Scenario simple_spread Algo rmappo Exp check updates 765/6250 episodes, total num timesteps 2451200/20000000, FPS 1717.
+average episode rewards is -120.58650255203247
+ Scenario simple_spread Algo rmappo Exp check updates 770/6250 episodes, total num timesteps 2467200/20000000, FPS 1717.
+average episode rewards is -121.87726497650146
+ Scenario simple_spread Algo rmappo Exp check updates 775/6250 episodes, total num timesteps 2483200/20000000, FPS 1718.
+average episode rewards is -122.20522165298462
+ Scenario simple_spread Algo rmappo Exp check updates 780/6250 episodes, total num timesteps 2499200/20000000, FPS 1718.
+average episode rewards is -121.64905071258545
+ Scenario simple_spread Algo rmappo Exp check updates 785/6250 episodes, total num timesteps 2515200/20000000, FPS 1719.
+average episode rewards is -120.53672075271606
+ Scenario simple_spread Algo rmappo Exp check updates 790/6250 episodes, total num timesteps 2531200/20000000, FPS 1719.
+average episode rewards is -121.2104082107544
+ Scenario simple_spread Algo rmappo Exp check updates 795/6250 episodes, total num timesteps 2547200/20000000, FPS 1720.
+average episode rewards is -119.8028564453125
+ Scenario simple_spread Algo rmappo Exp check updates 800/6250 episodes, total num timesteps 2563200/20000000, FPS 1720.
+average episode rewards is -117.76571273803711
+ Scenario simple_spread Algo rmappo Exp check updates 805/6250 episodes, total num timesteps 2579200/20000000, FPS 1721.
+average episode rewards is -121.81835174560547
+ Scenario simple_spread Algo rmappo Exp check updates 810/6250 episodes, total num timesteps 2595200/20000000, FPS 1721.
+average episode rewards is -120.53154706954956
+ Scenario simple_spread Algo rmappo Exp check updates 815/6250 episodes, total num timesteps 2611200/20000000, FPS 1722.
+average episode rewards is -119.57931518554688
+ Scenario simple_spread Algo rmappo Exp check updates 820/6250 episodes, total num timesteps 2627200/20000000, FPS 1722.
+average episode rewards is -121.98920249938965
+ Scenario simple_spread Algo rmappo Exp check updates 825/6250 episodes, total num timesteps 2643200/20000000, FPS 1723.
+average episode rewards is -121.02683782577515
+ Scenario simple_spread Algo rmappo Exp check updates 830/6250 episodes, total num timesteps 2659200/20000000, FPS 1724.
+average episode rewards is -117.52458810806274
+ Scenario simple_spread Algo rmappo Exp check updates 835/6250 episodes, total num timesteps 2675200/20000000, FPS 1724.
+average episode rewards is -120.90922594070435
+ Scenario simple_spread Algo rmappo Exp check updates 840/6250 episodes, total num timesteps 2691200/20000000, FPS 1724.
+average episode rewards is -119.26155090332031
+ Scenario simple_spread Algo rmappo Exp check updates 845/6250 episodes, total num timesteps 2707200/20000000, FPS 1725.
+average episode rewards is -120.79887390136719
+ Scenario simple_spread Algo rmappo Exp check updates 850/6250 episodes, total num timesteps 2723200/20000000, FPS 1725.
+average episode rewards is -119.16671991348267
+ Scenario simple_spread Algo rmappo Exp check updates 855/6250 episodes, total num timesteps 2739200/20000000, FPS 1725.
+average episode rewards is -118.84944438934326
+ Scenario simple_spread Algo rmappo Exp check updates 860/6250 episodes, total num timesteps 2755200/20000000, FPS 1726.
+average episode rewards is -118.16606521606445
+ Scenario simple_spread Algo rmappo Exp check updates 865/6250 episodes, total num timesteps 2771200/20000000, FPS 1726.
+average episode rewards is -119.79292631149292
+ Scenario simple_spread Algo rmappo Exp check updates 870/6250 episodes, total num timesteps 2787200/20000000, FPS 1727.
+average episode rewards is -120.21243572235107
+ Scenario simple_spread Algo rmappo Exp check updates 875/6250 episodes, total num timesteps 2803200/20000000, FPS 1727.
+average episode rewards is -119.07027959823608
+ Scenario simple_spread Algo rmappo Exp check updates 880/6250 episodes, total num timesteps 2819200/20000000, FPS 1727.
+average episode rewards is -118.07278394699097
+ Scenario simple_spread Algo rmappo Exp check updates 885/6250 episodes, total num timesteps 2835200/20000000, FPS 1728.
+average episode rewards is -119.24283504486084
+ Scenario simple_spread Algo rmappo Exp check updates 890/6250 episodes, total num timesteps 2851200/20000000, FPS 1728.
+average episode rewards is -118.8403844833374
+ Scenario simple_spread Algo rmappo Exp check updates 895/6250 episodes, total num timesteps 2867200/20000000, FPS 1729.
+average episode rewards is -121.74863815307617
+ Scenario simple_spread Algo rmappo Exp check updates 900/6250 episodes, total num timesteps 2883200/20000000, FPS 1729.
+average episode rewards is -118.75147819519043
+ Scenario simple_spread Algo rmappo Exp check updates 905/6250 episodes, total num timesteps 2899200/20000000, FPS 1730.
+average episode rewards is -121.19982242584229
+ Scenario simple_spread Algo rmappo Exp check updates 910/6250 episodes, total num timesteps 2915200/20000000, FPS 1731.
+average episode rewards is -120.35481929779053
+ Scenario simple_spread Algo rmappo Exp check updates 915/6250 episodes, total num timesteps 2931200/20000000, FPS 1731.
+average episode rewards is -120.09847164154053
+ Scenario simple_spread Algo rmappo Exp check updates 920/6250 episodes, total num timesteps 2947200/20000000, FPS 1732.
+average episode rewards is -118.98884773254395
+ Scenario simple_spread Algo rmappo Exp check updates 925/6250 episodes, total num timesteps 2963200/20000000, FPS 1732.
+average episode rewards is -120.57362794876099
+ Scenario simple_spread Algo rmappo Exp check updates 930/6250 episodes, total num timesteps 2979200/20000000, FPS 1733.
+average episode rewards is -123.08493852615356
+ Scenario simple_spread Algo rmappo Exp check updates 935/6250 episodes, total num timesteps 2995200/20000000, FPS 1733.
+average episode rewards is -120.54736614227295
+ Scenario simple_spread Algo rmappo Exp check updates 940/6250 episodes, total num timesteps 3011200/20000000, FPS 1734.
+average episode rewards is -118.85092258453369
+ Scenario simple_spread Algo rmappo Exp check updates 945/6250 episodes, total num timesteps 3027200/20000000, FPS 1734.
+average episode rewards is -122.13510274887085
+ Scenario simple_spread Algo rmappo Exp check updates 950/6250 episodes, total num timesteps 3043200/20000000, FPS 1735.
+average episode rewards is -121.37808799743652
+ Scenario simple_spread Algo rmappo Exp check updates 955/6250 episodes, total num timesteps 3059200/20000000, FPS 1735.
+average episode rewards is -118.86546611785889
+ Scenario simple_spread Algo rmappo Exp check updates 960/6250 episodes, total num timesteps 3075200/20000000, FPS 1735.
+average episode rewards is -120.61681747436523
+ Scenario simple_spread Algo rmappo Exp check updates 965/6250 episodes, total num timesteps 3091200/20000000, FPS 1736.
+average episode rewards is -121.16397619247437
+ Scenario simple_spread Algo rmappo Exp check updates 970/6250 episodes, total num timesteps 3107200/20000000, FPS 1736.
+average episode rewards is -121.54967784881592
+ Scenario simple_spread Algo rmappo Exp check updates 975/6250 episodes, total num timesteps 3123200/20000000, FPS 1737.
+average episode rewards is -120.44628858566284
+ Scenario simple_spread Algo rmappo Exp check updates 980/6250 episodes, total num timesteps 3139200/20000000, FPS 1738.
+average episode rewards is -117.06230640411377
+ Scenario simple_spread Algo rmappo Exp check updates 985/6250 episodes, total num timesteps 3155200/20000000, FPS 1738.
+average episode rewards is -119.05615329742432
+ Scenario simple_spread Algo rmappo Exp check updates 990/6250 episodes, total num timesteps 3171200/20000000, FPS 1738.
+average episode rewards is -118.5509204864502
+ Scenario simple_spread Algo rmappo Exp check updates 995/6250 episodes, total num timesteps 3187200/20000000, FPS 1739.
+average episode rewards is -116.71555042266846
+ Scenario simple_spread Algo rmappo Exp check updates 1000/6250 episodes, total num timesteps 3203200/20000000, FPS 1739.
+average episode rewards is -120.30773162841797
+ Scenario simple_spread Algo rmappo Exp check updates 1005/6250 episodes, total num timesteps 3219200/20000000, FPS 1740.
+average episode rewards is -119.59545612335205
+ Scenario simple_spread Algo rmappo Exp check updates 1010/6250 episodes, total num timesteps 3235200/20000000, FPS 1740.
+average episode rewards is -117.53419637680054
+ Scenario simple_spread Algo rmappo Exp check updates 1015/6250 episodes, total num timesteps 3251200/20000000, FPS 1741.
+average episode rewards is -120.13143301010132
+ Scenario simple_spread Algo rmappo Exp check updates 1020/6250 episodes, total num timesteps 3267200/20000000, FPS 1741.
+average episode rewards is -120.38705348968506
+ Scenario simple_spread Algo rmappo Exp check updates 1025/6250 episodes, total num timesteps 3283200/20000000, FPS 1742.
+average episode rewards is -116.73986911773682
+ Scenario simple_spread Algo rmappo Exp check updates 1030/6250 episodes, total num timesteps 3299200/20000000, FPS 1742.
+average episode rewards is -118.94035339355469
+ Scenario simple_spread Algo rmappo Exp check updates 1035/6250 episodes, total num timesteps 3315200/20000000, FPS 1743.
+average episode rewards is -118.37353706359863
+ Scenario simple_spread Algo rmappo Exp check updates 1040/6250 episodes, total num timesteps 3331200/20000000, FPS 1743.
+average episode rewards is -117.73850917816162
+ Scenario simple_spread Algo rmappo Exp check updates 1045/6250 episodes, total num timesteps 3347200/20000000, FPS 1744.
+average episode rewards is -120.22091150283813
+ Scenario simple_spread Algo rmappo Exp check updates 1050/6250 episodes, total num timesteps 3363200/20000000, FPS 1744.
+average episode rewards is -118.1848406791687
+ Scenario simple_spread Algo rmappo Exp check updates 1055/6250 episodes, total num timesteps 3379200/20000000, FPS 1745.
+average episode rewards is -118.09110641479492
+ Scenario simple_spread Algo rmappo Exp check updates 1060/6250 episodes, total num timesteps 3395200/20000000, FPS 1745.
+average episode rewards is -120.73975801467896
+ Scenario simple_spread Algo rmappo Exp check updates 1065/6250 episodes, total num timesteps 3411200/20000000, FPS 1746.
+average episode rewards is -120.75185775756836
+ Scenario simple_spread Algo rmappo Exp check updates 1070/6250 episodes, total num timesteps 3427200/20000000, FPS 1746.
+average episode rewards is -117.92240142822266
+ Scenario simple_spread Algo rmappo Exp check updates 1075/6250 episodes, total num timesteps 3443200/20000000, FPS 1746.
+average episode rewards is -119.29101943969727
+ Scenario simple_spread Algo rmappo Exp check updates 1080/6250 episodes, total num timesteps 3459200/20000000, FPS 1747.
+average episode rewards is -118.77963542938232
+ Scenario simple_spread Algo rmappo Exp check updates 1085/6250 episodes, total num timesteps 3475200/20000000, FPS 1747.
+average episode rewards is -119.46669816970825
+ Scenario simple_spread Algo rmappo Exp check updates 1090/6250 episodes, total num timesteps 3491200/20000000, FPS 1748.
+average episode rewards is -120.4777479171753
+ Scenario simple_spread Algo rmappo Exp check updates 1095/6250 episodes, total num timesteps 3507200/20000000, FPS 1748.
+average episode rewards is -122.03943729400635
+ Scenario simple_spread Algo rmappo Exp check updates 1100/6250 episodes, total num timesteps 3523200/20000000, FPS 1748.
+average episode rewards is -119.70292329788208
+ Scenario simple_spread Algo rmappo Exp check updates 1105/6250 episodes, total num timesteps 3539200/20000000, FPS 1749.
+average episode rewards is -120.78604698181152
+ Scenario simple_spread Algo rmappo Exp check updates 1110/6250 episodes, total num timesteps 3555200/20000000, FPS 1749.
+average episode rewards is -117.54021644592285
+ Scenario simple_spread Algo rmappo Exp check updates 1115/6250 episodes, total num timesteps 3571200/20000000, FPS 1750.
+average episode rewards is -117.61859655380249
+ Scenario simple_spread Algo rmappo Exp check updates 1120/6250 episodes, total num timesteps 3587200/20000000, FPS 1750.
+average episode rewards is -118.45577955245972
+ Scenario simple_spread Algo rmappo Exp check updates 1125/6250 episodes, total num timesteps 3603200/20000000, FPS 1750.
+average episode rewards is -120.04225254058838
+ Scenario simple_spread Algo rmappo Exp check updates 1130/6250 episodes, total num timesteps 3619200/20000000, FPS 1751.
+average episode rewards is -118.11470985412598
+ Scenario simple_spread Algo rmappo Exp check updates 1135/6250 episodes, total num timesteps 3635200/20000000, FPS 1751.
+average episode rewards is -118.75377893447876
+ Scenario simple_spread Algo rmappo Exp check updates 1140/6250 episodes, total num timesteps 3651200/20000000, FPS 1751.
+average episode rewards is -120.40655612945557
+ Scenario simple_spread Algo rmappo Exp check updates 1145/6250 episodes, total num timesteps 3667200/20000000, FPS 1752.
+average episode rewards is -115.68619012832642
+ Scenario simple_spread Algo rmappo Exp check updates 1150/6250 episodes, total num timesteps 3683200/20000000, FPS 1752.
+average episode rewards is -116.93004369735718
+ Scenario simple_spread Algo rmappo Exp check updates 1155/6250 episodes, total num timesteps 3699200/20000000, FPS 1753.
+average episode rewards is -121.78535461425781
+ Scenario simple_spread Algo rmappo Exp check updates 1160/6250 episodes, total num timesteps 3715200/20000000, FPS 1753.
+average episode rewards is -119.43192481994629
+ Scenario simple_spread Algo rmappo Exp check updates 1165/6250 episodes, total num timesteps 3731200/20000000, FPS 1753.
+average episode rewards is -118.84474754333496
+ Scenario simple_spread Algo rmappo Exp check updates 1170/6250 episodes, total num timesteps 3747200/20000000, FPS 1754.
+average episode rewards is -119.5135235786438
+ Scenario simple_spread Algo rmappo Exp check updates 1175/6250 episodes, total num timesteps 3763200/20000000, FPS 1754.
+average episode rewards is -118.15866231918335
+ Scenario simple_spread Algo rmappo Exp check updates 1180/6250 episodes, total num timesteps 3779200/20000000, FPS 1754.
+average episode rewards is -118.33034753799438
+ Scenario simple_spread Algo rmappo Exp check updates 1185/6250 episodes, total num timesteps 3795200/20000000, FPS 1754.
+average episode rewards is -120.54699659347534
+ Scenario simple_spread Algo rmappo Exp check updates 1190/6250 episodes, total num timesteps 3811200/20000000, FPS 1755.
+average episode rewards is -117.59966611862183
+ Scenario simple_spread Algo rmappo Exp check updates 1195/6250 episodes, total num timesteps 3827200/20000000, FPS 1755.
+average episode rewards is -118.51537227630615
+ Scenario simple_spread Algo rmappo Exp check updates 1200/6250 episodes, total num timesteps 3843200/20000000, FPS 1756.
+average episode rewards is -117.66544580459595
+ Scenario simple_spread Algo rmappo Exp check updates 1205/6250 episodes, total num timesteps 3859200/20000000, FPS 1756.
+average episode rewards is -118.21784973144531
+ Scenario simple_spread Algo rmappo Exp check updates 1210/6250 episodes, total num timesteps 3875200/20000000, FPS 1756.
+average episode rewards is -121.26611471176147
+ Scenario simple_spread Algo rmappo Exp check updates 1215/6250 episodes, total num timesteps 3891200/20000000, FPS 1756.
+average episode rewards is -117.03397035598755
+ Scenario simple_spread Algo rmappo Exp check updates 1220/6250 episodes, total num timesteps 3907200/20000000, FPS 1757.
+average episode rewards is -116.97772741317749
+ Scenario simple_spread Algo rmappo Exp check updates 1225/6250 episodes, total num timesteps 3923200/20000000, FPS 1757.
+average episode rewards is -115.89330434799194
+ Scenario simple_spread Algo rmappo Exp check updates 1230/6250 episodes, total num timesteps 3939200/20000000, FPS 1757.
+average episode rewards is -117.29546785354614
+ Scenario simple_spread Algo rmappo Exp check updates 1235/6250 episodes, total num timesteps 3955200/20000000, FPS 1758.
+average episode rewards is -119.01949644088745
+ Scenario simple_spread Algo rmappo Exp check updates 1240/6250 episodes, total num timesteps 3971200/20000000, FPS 1758.
+average episode rewards is -119.1962718963623
+ Scenario simple_spread Algo rmappo Exp check updates 1245/6250 episodes, total num timesteps 3987200/20000000, FPS 1758.
+average episode rewards is -119.90659236907959
+ Scenario simple_spread Algo rmappo Exp check updates 1250/6250 episodes, total num timesteps 4003200/20000000, FPS 1759.
+average episode rewards is -114.95361328125
+ Scenario simple_spread Algo rmappo Exp check updates 1255/6250 episodes, total num timesteps 4019200/20000000, FPS 1759.
+average episode rewards is -118.9695954322815
+ Scenario simple_spread Algo rmappo Exp check updates 1260/6250 episodes, total num timesteps 4035200/20000000, FPS 1759.
+average episode rewards is -118.35039854049683
+ Scenario simple_spread Algo rmappo Exp check updates 1265/6250 episodes, total num timesteps 4051200/20000000, FPS 1760.
+average episode rewards is -115.47731161117554
+ Scenario simple_spread Algo rmappo Exp check updates 1270/6250 episodes, total num timesteps 4067200/20000000, FPS 1760.
+average episode rewards is -118.7470555305481
+ Scenario simple_spread Algo rmappo Exp check updates 1275/6250 episodes, total num timesteps 4083200/20000000, FPS 1760.
+average episode rewards is -117.75425672531128
+ Scenario simple_spread Algo rmappo Exp check updates 1280/6250 episodes, total num timesteps 4099200/20000000, FPS 1761.
+average episode rewards is -119.26586627960205
+ Scenario simple_spread Algo rmappo Exp check updates 1285/6250 episodes, total num timesteps 4115200/20000000, FPS 1761.
+average episode rewards is -117.63893365859985
+ Scenario simple_spread Algo rmappo Exp check updates 1290/6250 episodes, total num timesteps 4131200/20000000, FPS 1761.
+average episode rewards is -118.4752106666565
+ Scenario simple_spread Algo rmappo Exp check updates 1295/6250 episodes, total num timesteps 4147200/20000000, FPS 1761.
+average episode rewards is -116.86512231826782
+ Scenario simple_spread Algo rmappo Exp check updates 1300/6250 episodes, total num timesteps 4163200/20000000, FPS 1761.
+average episode rewards is -118.70238780975342
+ Scenario simple_spread Algo rmappo Exp check updates 1305/6250 episodes, total num timesteps 4179200/20000000, FPS 1762.
+average episode rewards is -118.172287940979
+ Scenario simple_spread Algo rmappo Exp check updates 1310/6250 episodes, total num timesteps 4195200/20000000, FPS 1762.
+average episode rewards is -118.49198341369629
+ Scenario simple_spread Algo rmappo Exp check updates 1315/6250 episodes, total num timesteps 4211200/20000000, FPS 1762.
+average episode rewards is -115.86953401565552
+ Scenario simple_spread Algo rmappo Exp check updates 1320/6250 episodes, total num timesteps 4227200/20000000, FPS 1762.
+average episode rewards is -115.5907154083252
+ Scenario simple_spread Algo rmappo Exp check updates 1325/6250 episodes, total num timesteps 4243200/20000000, FPS 1763.
+average episode rewards is -118.6557412147522
+ Scenario simple_spread Algo rmappo Exp check updates 1330/6250 episodes, total num timesteps 4259200/20000000, FPS 1763.
+average episode rewards is -118.9874529838562
+ Scenario simple_spread Algo rmappo Exp check updates 1335/6250 episodes, total num timesteps 4275200/20000000, FPS 1763.
+average episode rewards is -119.25336122512817
+ Scenario simple_spread Algo rmappo Exp check updates 1340/6250 episodes, total num timesteps 4291200/20000000, FPS 1763.
+average episode rewards is -117.71069765090942
+ Scenario simple_spread Algo rmappo Exp check updates 1345/6250 episodes, total num timesteps 4307200/20000000, FPS 1764.
+average episode rewards is -117.7687406539917
+ Scenario simple_spread Algo rmappo Exp check updates 1350/6250 episodes, total num timesteps 4323200/20000000, FPS 1764.
+average episode rewards is -117.73262023925781
+ Scenario simple_spread Algo rmappo Exp check updates 1355/6250 episodes, total num timesteps 4339200/20000000, FPS 1764.
+average episode rewards is -119.5530891418457
+ Scenario simple_spread Algo rmappo Exp check updates 1360/6250 episodes, total num timesteps 4355200/20000000, FPS 1764.
+average episode rewards is -119.00084018707275
+ Scenario simple_spread Algo rmappo Exp check updates 1365/6250 episodes, total num timesteps 4371200/20000000, FPS 1765.
+average episode rewards is -118.30531358718872
+ Scenario simple_spread Algo rmappo Exp check updates 1370/6250 episodes, total num timesteps 4387200/20000000, FPS 1765.
+average episode rewards is -115.64042568206787
+ Scenario simple_spread Algo rmappo Exp check updates 1375/6250 episodes, total num timesteps 4403200/20000000, FPS 1765.
+average episode rewards is -115.72465896606445
+ Scenario simple_spread Algo rmappo Exp check updates 1380/6250 episodes, total num timesteps 4419200/20000000, FPS 1765.
+average episode rewards is -116.73614978790283
+ Scenario simple_spread Algo rmappo Exp check updates 1385/6250 episodes, total num timesteps 4435200/20000000, FPS 1766.
+average episode rewards is -118.90124082565308
+ Scenario simple_spread Algo rmappo Exp check updates 1390/6250 episodes, total num timesteps 4451200/20000000, FPS 1766.
+average episode rewards is -117.84573793411255
+ Scenario simple_spread Algo rmappo Exp check updates 1395/6250 episodes, total num timesteps 4467200/20000000, FPS 1766.
+average episode rewards is -116.58298969268799
+ Scenario simple_spread Algo rmappo Exp check updates 1400/6250 episodes, total num timesteps 4483200/20000000, FPS 1766.
+average episode rewards is -117.18212366104126
+ Scenario simple_spread Algo rmappo Exp check updates 1405/6250 episodes, total num timesteps 4499200/20000000, FPS 1766.
+average episode rewards is -117.33944416046143
+ Scenario simple_spread Algo rmappo Exp check updates 1410/6250 episodes, total num timesteps 4515200/20000000, FPS 1766.
+average episode rewards is -115.15529155731201
+ Scenario simple_spread Algo rmappo Exp check updates 1415/6250 episodes, total num timesteps 4531200/20000000, FPS 1766.
+average episode rewards is -116.09013080596924
+ Scenario simple_spread Algo rmappo Exp check updates 1420/6250 episodes, total num timesteps 4547200/20000000, FPS 1767.
+average episode rewards is -114.59131240844727
+ Scenario simple_spread Algo rmappo Exp check updates 1425/6250 episodes, total num timesteps 4563200/20000000, FPS 1767.
+average episode rewards is -117.06459522247314
+ Scenario simple_spread Algo rmappo Exp check updates 1430/6250 episodes, total num timesteps 4579200/20000000, FPS 1767.
+average episode rewards is -117.33742952346802
+ Scenario simple_spread Algo rmappo Exp check updates 1435/6250 episodes, total num timesteps 4595200/20000000, FPS 1767.
+average episode rewards is -115.83560705184937
+ Scenario simple_spread Algo rmappo Exp check updates 1440/6250 episodes, total num timesteps 4611200/20000000, FPS 1768.
+average episode rewards is -118.24623346328735
+ Scenario simple_spread Algo rmappo Exp check updates 1445/6250 episodes, total num timesteps 4627200/20000000, FPS 1768.
+average episode rewards is -117.19783544540405
+ Scenario simple_spread Algo rmappo Exp check updates 1450/6250 episodes, total num timesteps 4643200/20000000, FPS 1768.
+average episode rewards is -116.62113666534424
+ Scenario simple_spread Algo rmappo Exp check updates 1455/6250 episodes, total num timesteps 4659200/20000000, FPS 1768.
+average episode rewards is -115.50360918045044
+ Scenario simple_spread Algo rmappo Exp check updates 1460/6250 episodes, total num timesteps 4675200/20000000, FPS 1768.
+average episode rewards is -117.95803308486938
+ Scenario simple_spread Algo rmappo Exp check updates 1465/6250 episodes, total num timesteps 4691200/20000000, FPS 1769.
+average episode rewards is -116.59954786300659
+ Scenario simple_spread Algo rmappo Exp check updates 1470/6250 episodes, total num timesteps 4707200/20000000, FPS 1769.
+average episode rewards is -117.44589805603027
+ Scenario simple_spread Algo rmappo Exp check updates 1475/6250 episodes, total num timesteps 4723200/20000000, FPS 1769.
+average episode rewards is -116.13740921020508
+ Scenario simple_spread Algo rmappo Exp check updates 1480/6250 episodes, total num timesteps 4739200/20000000, FPS 1769.
+average episode rewards is -117.44736433029175
+ Scenario simple_spread Algo rmappo Exp check updates 1485/6250 episodes, total num timesteps 4755200/20000000, FPS 1770.
+average episode rewards is -116.61109924316406
+ Scenario simple_spread Algo rmappo Exp check updates 1490/6250 episodes, total num timesteps 4771200/20000000, FPS 1770.
+average episode rewards is -115.29299020767212
+ Scenario simple_spread Algo rmappo Exp check updates 1495/6250 episodes, total num timesteps 4787200/20000000, FPS 1770.
+average episode rewards is -116.61375761032104
+ Scenario simple_spread Algo rmappo Exp check updates 1500/6250 episodes, total num timesteps 4803200/20000000, FPS 1770.
+average episode rewards is -116.52510166168213
+ Scenario simple_spread Algo rmappo Exp check updates 1505/6250 episodes, total num timesteps 4819200/20000000, FPS 1770.
+average episode rewards is -119.32278871536255
+ Scenario simple_spread Algo rmappo Exp check updates 1510/6250 episodes, total num timesteps 4835200/20000000, FPS 1771.
+average episode rewards is -116.48346185684204
+ Scenario simple_spread Algo rmappo Exp check updates 1515/6250 episodes, total num timesteps 4851200/20000000, FPS 1771.
+average episode rewards is -115.969717502594
+ Scenario simple_spread Algo rmappo Exp check updates 1520/6250 episodes, total num timesteps 4867200/20000000, FPS 1771.
+average episode rewards is -117.35110282897949
+ Scenario simple_spread Algo rmappo Exp check updates 1525/6250 episodes, total num timesteps 4883200/20000000, FPS 1771.
+average episode rewards is -116.3864016532898
+ Scenario simple_spread Algo rmappo Exp check updates 1530/6250 episodes, total num timesteps 4899200/20000000, FPS 1772.
+average episode rewards is -115.46391248703003
+ Scenario simple_spread Algo rmappo Exp check updates 1535/6250 episodes, total num timesteps 4915200/20000000, FPS 1772.
+average episode rewards is -115.5063271522522
+ Scenario simple_spread Algo rmappo Exp check updates 1540/6250 episodes, total num timesteps 4931200/20000000, FPS 1772.
+average episode rewards is -117.47361421585083
+ Scenario simple_spread Algo rmappo Exp check updates 1545/6250 episodes, total num timesteps 4947200/20000000, FPS 1772.
+average episode rewards is -118.49035024642944
+ Scenario simple_spread Algo rmappo Exp check updates 1550/6250 episodes, total num timesteps 4963200/20000000, FPS 1772.
+average episode rewards is -116.52774810791016
+ Scenario simple_spread Algo rmappo Exp check updates 1555/6250 episodes, total num timesteps 4979200/20000000, FPS 1773.
+average episode rewards is -114.46776390075684
+ Scenario simple_spread Algo rmappo Exp check updates 1560/6250 episodes, total num timesteps 4995200/20000000, FPS 1773.
+average episode rewards is -116.10692739486694
+ Scenario simple_spread Algo rmappo Exp check updates 1565/6250 episodes, total num timesteps 5011200/20000000, FPS 1773.
+average episode rewards is -114.98459577560425
+ Scenario simple_spread Algo rmappo Exp check updates 1570/6250 episodes, total num timesteps 5027200/20000000, FPS 1773.
+average episode rewards is -116.83825254440308
+ Scenario simple_spread Algo rmappo Exp check updates 1575/6250 episodes, total num timesteps 5043200/20000000, FPS 1773.
+average episode rewards is -118.41254234313965
+ Scenario simple_spread Algo rmappo Exp check updates 1580/6250 episodes, total num timesteps 5059200/20000000, FPS 1773.
+average episode rewards is -117.3027753829956
+ Scenario simple_spread Algo rmappo Exp check updates 1585/6250 episodes, total num timesteps 5075200/20000000, FPS 1774.
+average episode rewards is -116.08457565307617
+ Scenario simple_spread Algo rmappo Exp check updates 1590/6250 episodes, total num timesteps 5091200/20000000, FPS 1774.
+average episode rewards is -115.52145481109619
+ Scenario simple_spread Algo rmappo Exp check updates 1595/6250 episodes, total num timesteps 5107200/20000000, FPS 1774.
+average episode rewards is -114.73251581192017
+ Scenario simple_spread Algo rmappo Exp check updates 1600/6250 episodes, total num timesteps 5123200/20000000, FPS 1774.
+average episode rewards is -118.43698024749756
+ Scenario simple_spread Algo rmappo Exp check updates 1605/6250 episodes, total num timesteps 5139200/20000000, FPS 1774.
+average episode rewards is -117.2313928604126
+ Scenario simple_spread Algo rmappo Exp check updates 1610/6250 episodes, total num timesteps 5155200/20000000, FPS 1775.
+average episode rewards is -116.65780544281006
+ Scenario simple_spread Algo rmappo Exp check updates 1615/6250 episodes, total num timesteps 5171200/20000000, FPS 1775.
+average episode rewards is -116.27482175827026
+ Scenario simple_spread Algo rmappo Exp check updates 1620/6250 episodes, total num timesteps 5187200/20000000, FPS 1775.
+average episode rewards is -117.8835391998291
+ Scenario simple_spread Algo rmappo Exp check updates 1625/6250 episodes, total num timesteps 5203200/20000000, FPS 1775.
+average episode rewards is -117.53944158554077
+ Scenario simple_spread Algo rmappo Exp check updates 1630/6250 episodes, total num timesteps 5219200/20000000, FPS 1775.
+average episode rewards is -116.4979100227356
+ Scenario simple_spread Algo rmappo Exp check updates 1635/6250 episodes, total num timesteps 5235200/20000000, FPS 1776.
+average episode rewards is -117.59344339370728
+ Scenario simple_spread Algo rmappo Exp check updates 1640/6250 episodes, total num timesteps 5251200/20000000, FPS 1776.
+average episode rewards is -115.35841226577759
+ Scenario simple_spread Algo rmappo Exp check updates 1645/6250 episodes, total num timesteps 5267200/20000000, FPS 1776.
+average episode rewards is -115.17345905303955
+ Scenario simple_spread Algo rmappo Exp check updates 1650/6250 episodes, total num timesteps 5283200/20000000, FPS 1776.
+average episode rewards is -117.0989990234375
+ Scenario simple_spread Algo rmappo Exp check updates 1655/6250 episodes, total num timesteps 5299200/20000000, FPS 1776.
+average episode rewards is -116.1889910697937
+ Scenario simple_spread Algo rmappo Exp check updates 1660/6250 episodes, total num timesteps 5315200/20000000, FPS 1777.
+average episode rewards is -116.79202318191528
+ Scenario simple_spread Algo rmappo Exp check updates 1665/6250 episodes, total num timesteps 5331200/20000000, FPS 1777.
+average episode rewards is -117.48526096343994
+ Scenario simple_spread Algo rmappo Exp check updates 1670/6250 episodes, total num timesteps 5347200/20000000, FPS 1777.
+average episode rewards is -120.34139633178711
+ Scenario simple_spread Algo rmappo Exp check updates 1675/6250 episodes, total num timesteps 5363200/20000000, FPS 1777.
+average episode rewards is -117.14110374450684
+ Scenario simple_spread Algo rmappo Exp check updates 1680/6250 episodes, total num timesteps 5379200/20000000, FPS 1777.
+average episode rewards is -115.38643836975098
+ Scenario simple_spread Algo rmappo Exp check updates 1685/6250 episodes, total num timesteps 5395200/20000000, FPS 1777.
+average episode rewards is -116.32199287414551
+ Scenario simple_spread Algo rmappo Exp check updates 1690/6250 episodes, total num timesteps 5411200/20000000, FPS 1778.
+average episode rewards is -116.98057651519775
+ Scenario simple_spread Algo rmappo Exp check updates 1695/6250 episodes, total num timesteps 5427200/20000000, FPS 1778.
+average episode rewards is -116.33365154266357
+ Scenario simple_spread Algo rmappo Exp check updates 1700/6250 episodes, total num timesteps 5443200/20000000, FPS 1778.
+average episode rewards is -118.06508302688599
+ Scenario simple_spread Algo rmappo Exp check updates 1705/6250 episodes, total num timesteps 5459200/20000000, FPS 1778.
+average episode rewards is -118.13254356384277
+ Scenario simple_spread Algo rmappo Exp check updates 1710/6250 episodes, total num timesteps 5475200/20000000, FPS 1778.
+average episode rewards is -117.04806089401245
+ Scenario simple_spread Algo rmappo Exp check updates 1715/6250 episodes, total num timesteps 5491200/20000000, FPS 1778.
+average episode rewards is -117.7616834640503
+ Scenario simple_spread Algo rmappo Exp check updates 1720/6250 episodes, total num timesteps 5507200/20000000, FPS 1779.
+average episode rewards is -117.59121417999268
+ Scenario simple_spread Algo rmappo Exp check updates 1725/6250 episodes, total num timesteps 5523200/20000000, FPS 1779.
+average episode rewards is -115.86798429489136
+ Scenario simple_spread Algo rmappo Exp check updates 1730/6250 episodes, total num timesteps 5539200/20000000, FPS 1779.
+average episode rewards is -116.30338430404663
+ Scenario simple_spread Algo rmappo Exp check updates 1735/6250 episodes, total num timesteps 5555200/20000000, FPS 1779.
+average episode rewards is -118.37821006774902
+ Scenario simple_spread Algo rmappo Exp check updates 1740/6250 episodes, total num timesteps 5571200/20000000, FPS 1779.
+average episode rewards is -114.69188928604126
+ Scenario simple_spread Algo rmappo Exp check updates 1745/6250 episodes, total num timesteps 5587200/20000000, FPS 1780.
+average episode rewards is -117.14897155761719
+ Scenario simple_spread Algo rmappo Exp check updates 1750/6250 episodes, total num timesteps 5603200/20000000, FPS 1780.
+average episode rewards is -119.30851936340332
+ Scenario simple_spread Algo rmappo Exp check updates 1755/6250 episodes, total num timesteps 5619200/20000000, FPS 1780.
+average episode rewards is -119.21885013580322
+ Scenario simple_spread Algo rmappo Exp check updates 1760/6250 episodes, total num timesteps 5635200/20000000, FPS 1780.
+average episode rewards is -119.11401748657227
+ Scenario simple_spread Algo rmappo Exp check updates 1765/6250 episodes, total num timesteps 5651200/20000000, FPS 1780.
+average episode rewards is -116.83497428894043
+ Scenario simple_spread Algo rmappo Exp check updates 1770/6250 episodes, total num timesteps 5667200/20000000, FPS 1780.
+average episode rewards is -118.8035249710083
+ Scenario simple_spread Algo rmappo Exp check updates 1775/6250 episodes, total num timesteps 5683200/20000000, FPS 1781.
+average episode rewards is -116.84490442276001
+ Scenario simple_spread Algo rmappo Exp check updates 1780/6250 episodes, total num timesteps 5699200/20000000, FPS 1781.
+average episode rewards is -114.97852802276611
+ Scenario simple_spread Algo rmappo Exp check updates 1785/6250 episodes, total num timesteps 5715200/20000000, FPS 1781.
+average episode rewards is -119.04544830322266
+ Scenario simple_spread Algo rmappo Exp check updates 1790/6250 episodes, total num timesteps 5731200/20000000, FPS 1781.
+average episode rewards is -115.31072854995728
+ Scenario simple_spread Algo rmappo Exp check updates 1795/6250 episodes, total num timesteps 5747200/20000000, FPS 1781.
+average episode rewards is -117.5108790397644
+ Scenario simple_spread Algo rmappo Exp check updates 1800/6250 episodes, total num timesteps 5763200/20000000, FPS 1781.
+average episode rewards is -114.3288254737854
+ Scenario simple_spread Algo rmappo Exp check updates 1805/6250 episodes, total num timesteps 5779200/20000000, FPS 1781.
+average episode rewards is -112.89547681808472
+ Scenario simple_spread Algo rmappo Exp check updates 1810/6250 episodes, total num timesteps 5795200/20000000, FPS 1781.
+average episode rewards is -117.90101528167725
+ Scenario simple_spread Algo rmappo Exp check updates 1815/6250 episodes, total num timesteps 5811200/20000000, FPS 1781.
+average episode rewards is -113.59589099884033
+ Scenario simple_spread Algo rmappo Exp check updates 1820/6250 episodes, total num timesteps 5827200/20000000, FPS 1781.
+average episode rewards is -115.63502550125122
+ Scenario simple_spread Algo rmappo Exp check updates 1825/6250 episodes, total num timesteps 5843200/20000000, FPS 1781.
+average episode rewards is -119.44522857666016
+ Scenario simple_spread Algo rmappo Exp check updates 1830/6250 episodes, total num timesteps 5859200/20000000, FPS 1782.
+average episode rewards is -116.67323112487793
+ Scenario simple_spread Algo rmappo Exp check updates 1835/6250 episodes, total num timesteps 5875200/20000000, FPS 1782.
+average episode rewards is -116.89208745956421
+ Scenario simple_spread Algo rmappo Exp check updates 1840/6250 episodes, total num timesteps 5891200/20000000, FPS 1782.
+average episode rewards is -117.61891841888428
+ Scenario simple_spread Algo rmappo Exp check updates 1845/6250 episodes, total num timesteps 5907200/20000000, FPS 1782.
+average episode rewards is -118.49764585494995
+ Scenario simple_spread Algo rmappo Exp check updates 1850/6250 episodes, total num timesteps 5923200/20000000, FPS 1782.
+average episode rewards is -119.27264928817749
+ Scenario simple_spread Algo rmappo Exp check updates 1855/6250 episodes, total num timesteps 5939200/20000000, FPS 1782.
+average episode rewards is -116.92954301834106
+ Scenario simple_spread Algo rmappo Exp check updates 1860/6250 episodes, total num timesteps 5955200/20000000, FPS 1782.
+average episode rewards is -116.80437326431274
+ Scenario simple_spread Algo rmappo Exp check updates 1865/6250 episodes, total num timesteps 5971200/20000000, FPS 1782.
+average episode rewards is -114.25173282623291
+ Scenario simple_spread Algo rmappo Exp check updates 1870/6250 episodes, total num timesteps 5987200/20000000, FPS 1783.
+average episode rewards is -116.72977209091187
+ Scenario simple_spread Algo rmappo Exp check updates 1875/6250 episodes, total num timesteps 6003200/20000000, FPS 1783.
+average episode rewards is -117.40009784698486
+ Scenario simple_spread Algo rmappo Exp check updates 1880/6250 episodes, total num timesteps 6019200/20000000, FPS 1783.
+average episode rewards is -116.17408990859985
+ Scenario simple_spread Algo rmappo Exp check updates 1885/6250 episodes, total num timesteps 6035200/20000000, FPS 1783.
+average episode rewards is -115.73126316070557
+ Scenario simple_spread Algo rmappo Exp check updates 1890/6250 episodes, total num timesteps 6051200/20000000, FPS 1783.
+average episode rewards is -115.5795693397522
+ Scenario simple_spread Algo rmappo Exp check updates 1895/6250 episodes, total num timesteps 6067200/20000000, FPS 1783.
+average episode rewards is -114.46676254272461
+ Scenario simple_spread Algo rmappo Exp check updates 1900/6250 episodes, total num timesteps 6083200/20000000, FPS 1783.
+average episode rewards is -117.19679832458496
+ Scenario simple_spread Algo rmappo Exp check updates 1905/6250 episodes, total num timesteps 6099200/20000000, FPS 1783.
+average episode rewards is -117.29507446289062
+ Scenario simple_spread Algo rmappo Exp check updates 1910/6250 episodes, total num timesteps 6115200/20000000, FPS 1784.
+average episode rewards is -118.02574396133423
+ Scenario simple_spread Algo rmappo Exp check updates 1915/6250 episodes, total num timesteps 6131200/20000000, FPS 1784.
+average episode rewards is -116.62424802780151
+ Scenario simple_spread Algo rmappo Exp check updates 1920/6250 episodes, total num timesteps 6147200/20000000, FPS 1784.
+average episode rewards is -115.85578918457031
+ Scenario simple_spread Algo rmappo Exp check updates 1925/6250 episodes, total num timesteps 6163200/20000000, FPS 1784.
+average episode rewards is -118.68119239807129
+ Scenario simple_spread Algo rmappo Exp check updates 1930/6250 episodes, total num timesteps 6179200/20000000, FPS 1784.
+average episode rewards is -114.20308351516724
+ Scenario simple_spread Algo rmappo Exp check updates 1935/6250 episodes, total num timesteps 6195200/20000000, FPS 1784.
+average episode rewards is -119.23239231109619
+ Scenario simple_spread Algo rmappo Exp check updates 1940/6250 episodes, total num timesteps 6211200/20000000, FPS 1784.
+average episode rewards is -115.23128747940063
+ Scenario simple_spread Algo rmappo Exp check updates 1945/6250 episodes, total num timesteps 6227200/20000000, FPS 1784.
+average episode rewards is -112.95188665390015
+ Scenario simple_spread Algo rmappo Exp check updates 1950/6250 episodes, total num timesteps 6243200/20000000, FPS 1784.
+average episode rewards is -114.85410928726196
+ Scenario simple_spread Algo rmappo Exp check updates 1955/6250 episodes, total num timesteps 6259200/20000000, FPS 1785.
+average episode rewards is -116.00122451782227
+ Scenario simple_spread Algo rmappo Exp check updates 1960/6250 episodes, total num timesteps 6275200/20000000, FPS 1785.
+average episode rewards is -116.30079746246338
+ Scenario simple_spread Algo rmappo Exp check updates 1965/6250 episodes, total num timesteps 6291200/20000000, FPS 1785.
+average episode rewards is -115.1368260383606
+ Scenario simple_spread Algo rmappo Exp check updates 1970/6250 episodes, total num timesteps 6307200/20000000, FPS 1785.
+average episode rewards is -115.71136713027954
+ Scenario simple_spread Algo rmappo Exp check updates 1975/6250 episodes, total num timesteps 6323200/20000000, FPS 1785.
+average episode rewards is -116.39978885650635
+ Scenario simple_spread Algo rmappo Exp check updates 1980/6250 episodes, total num timesteps 6339200/20000000, FPS 1785.
+average episode rewards is -115.68204164505005
+ Scenario simple_spread Algo rmappo Exp check updates 1985/6250 episodes, total num timesteps 6355200/20000000, FPS 1785.
+average episode rewards is -116.56124591827393
+ Scenario simple_spread Algo rmappo Exp check updates 1990/6250 episodes, total num timesteps 6371200/20000000, FPS 1785.
+average episode rewards is -116.13255739212036
+ Scenario simple_spread Algo rmappo Exp check updates 1995/6250 episodes, total num timesteps 6387200/20000000, FPS 1785.
+average episode rewards is -116.9268250465393
+ Scenario simple_spread Algo rmappo Exp check updates 2000/6250 episodes, total num timesteps 6403200/20000000, FPS 1786.
+average episode rewards is -116.57195091247559
+ Scenario simple_spread Algo rmappo Exp check updates 2005/6250 episodes, total num timesteps 6419200/20000000, FPS 1786.
+average episode rewards is -116.34050607681274
+ Scenario simple_spread Algo rmappo Exp check updates 2010/6250 episodes, total num timesteps 6435200/20000000, FPS 1786.
+average episode rewards is -113.50359916687012
+ Scenario simple_spread Algo rmappo Exp check updates 2015/6250 episodes, total num timesteps 6451200/20000000, FPS 1786.
+average episode rewards is -114.96905088424683
+ Scenario simple_spread Algo rmappo Exp check updates 2020/6250 episodes, total num timesteps 6467200/20000000, FPS 1786.
+average episode rewards is -117.057204246521
+ Scenario simple_spread Algo rmappo Exp check updates 2025/6250 episodes, total num timesteps 6483200/20000000, FPS 1786.
+average episode rewards is -118.22471618652344
+ Scenario simple_spread Algo rmappo Exp check updates 2030/6250 episodes, total num timesteps 6499200/20000000, FPS 1786.
+average episode rewards is -115.32365083694458
+ Scenario simple_spread Algo rmappo Exp check updates 2035/6250 episodes, total num timesteps 6515200/20000000, FPS 1786.
+average episode rewards is -117.09638833999634
+ Scenario simple_spread Algo rmappo Exp check updates 2040/6250 episodes, total num timesteps 6531200/20000000, FPS 1787.
+average episode rewards is -116.6506290435791
+ Scenario simple_spread Algo rmappo Exp check updates 2045/6250 episodes, total num timesteps 6547200/20000000, FPS 1787.
+average episode rewards is -118.50346326828003
+ Scenario simple_spread Algo rmappo Exp check updates 2050/6250 episodes, total num timesteps 6563200/20000000, FPS 1787.
+average episode rewards is -116.2800669670105
+ Scenario simple_spread Algo rmappo Exp check updates 2055/6250 episodes, total num timesteps 6579200/20000000, FPS 1787.
+average episode rewards is -116.94926023483276
+ Scenario simple_spread Algo rmappo Exp check updates 2060/6250 episodes, total num timesteps 6595200/20000000, FPS 1787.
+average episode rewards is -117.35122203826904
+ Scenario simple_spread Algo rmappo Exp check updates 2065/6250 episodes, total num timesteps 6611200/20000000, FPS 1787.
+average episode rewards is -113.74050378799438
+ Scenario simple_spread Algo rmappo Exp check updates 2070/6250 episodes, total num timesteps 6627200/20000000, FPS 1787.
+average episode rewards is -115.37171602249146
+ Scenario simple_spread Algo rmappo Exp check updates 2075/6250 episodes, total num timesteps 6643200/20000000, FPS 1787.
+average episode rewards is -115.90126752853394
+ Scenario simple_spread Algo rmappo Exp check updates 2080/6250 episodes, total num timesteps 6659200/20000000, FPS 1787.
+average episode rewards is -115.18526077270508
+ Scenario simple_spread Algo rmappo Exp check updates 2085/6250 episodes, total num timesteps 6675200/20000000, FPS 1787.
+average episode rewards is -117.94744729995728
+ Scenario simple_spread Algo rmappo Exp check updates 2090/6250 episodes, total num timesteps 6691200/20000000, FPS 1787.
+average episode rewards is -117.41974353790283
+ Scenario simple_spread Algo rmappo Exp check updates 2095/6250 episodes, total num timesteps 6707200/20000000, FPS 1788.
+average episode rewards is -117.3188328742981
+ Scenario simple_spread Algo rmappo Exp check updates 2100/6250 episodes, total num timesteps 6723200/20000000, FPS 1788.
+average episode rewards is -114.75632190704346
+ Scenario simple_spread Algo rmappo Exp check updates 2105/6250 episodes, total num timesteps 6739200/20000000, FPS 1788.
+average episode rewards is -117.9969310760498
+ Scenario simple_spread Algo rmappo Exp check updates 2110/6250 episodes, total num timesteps 6755200/20000000, FPS 1788.
+average episode rewards is -115.61436653137207
+ Scenario simple_spread Algo rmappo Exp check updates 2115/6250 episodes, total num timesteps 6771200/20000000, FPS 1788.
+average episode rewards is -116.36404991149902
+ Scenario simple_spread Algo rmappo Exp check updates 2120/6250 episodes, total num timesteps 6787200/20000000, FPS 1788.
+average episode rewards is -117.37923622131348
+ Scenario simple_spread Algo rmappo Exp check updates 2125/6250 episodes, total num timesteps 6803200/20000000, FPS 1788.
+average episode rewards is -116.17025136947632
+ Scenario simple_spread Algo rmappo Exp check updates 2130/6250 episodes, total num timesteps 6819200/20000000, FPS 1788.
+average episode rewards is -116.49149656295776
+ Scenario simple_spread Algo rmappo Exp check updates 2135/6250 episodes, total num timesteps 6835200/20000000, FPS 1788.
+average episode rewards is -116.4549708366394
+ Scenario simple_spread Algo rmappo Exp check updates 2140/6250 episodes, total num timesteps 6851200/20000000, FPS 1788.
+average episode rewards is -114.30834531784058
+ Scenario simple_spread Algo rmappo Exp check updates 2145/6250 episodes, total num timesteps 6867200/20000000, FPS 1788.
+average episode rewards is -118.04040670394897
+ Scenario simple_spread Algo rmappo Exp check updates 2150/6250 episodes, total num timesteps 6883200/20000000, FPS 1788.
+average episode rewards is -118.04301738739014
+ Scenario simple_spread Algo rmappo Exp check updates 2155/6250 episodes, total num timesteps 6899200/20000000, FPS 1789.
+average episode rewards is -114.72320556640625
+ Scenario simple_spread Algo rmappo Exp check updates 2160/6250 episodes, total num timesteps 6915200/20000000, FPS 1789.
+average episode rewards is -116.73669815063477
+ Scenario simple_spread Algo rmappo Exp check updates 2165/6250 episodes, total num timesteps 6931200/20000000, FPS 1789.
+average episode rewards is -114.09754753112793
+ Scenario simple_spread Algo rmappo Exp check updates 2170/6250 episodes, total num timesteps 6947200/20000000, FPS 1789.
+average episode rewards is -117.63836145401001
+ Scenario simple_spread Algo rmappo Exp check updates 2175/6250 episodes, total num timesteps 6963200/20000000, FPS 1789.
+average episode rewards is -116.59995317459106
+ Scenario simple_spread Algo rmappo Exp check updates 2180/6250 episodes, total num timesteps 6979200/20000000, FPS 1789.
+average episode rewards is -116.49863719940186
+ Scenario simple_spread Algo rmappo Exp check updates 2185/6250 episodes, total num timesteps 6995200/20000000, FPS 1789.
+average episode rewards is -116.31251573562622
+ Scenario simple_spread Algo rmappo Exp check updates 2190/6250 episodes, total num timesteps 7011200/20000000, FPS 1789.
+average episode rewards is -115.91796875
+ Scenario simple_spread Algo rmappo Exp check updates 2195/6250 episodes, total num timesteps 7027200/20000000, FPS 1789.
+average episode rewards is -116.32610559463501
+ Scenario simple_spread Algo rmappo Exp check updates 2200/6250 episodes, total num timesteps 7043200/20000000, FPS 1790.
+average episode rewards is -114.98353481292725
+ Scenario simple_spread Algo rmappo Exp check updates 2205/6250 episodes, total num timesteps 7059200/20000000, FPS 1790.
+average episode rewards is -116.90855026245117
+ Scenario simple_spread Algo rmappo Exp check updates 2210/6250 episodes, total num timesteps 7075200/20000000, FPS 1790.
+average episode rewards is -116.93964004516602
+ Scenario simple_spread Algo rmappo Exp check updates 2215/6250 episodes, total num timesteps 7091200/20000000, FPS 1790.
+average episode rewards is -117.15569496154785
+ Scenario simple_spread Algo rmappo Exp check updates 2220/6250 episodes, total num timesteps 7107200/20000000, FPS 1790.
+average episode rewards is -113.98179531097412
+ Scenario simple_spread Algo rmappo Exp check updates 2225/6250 episodes, total num timesteps 7123200/20000000, FPS 1790.
+average episode rewards is -114.2587423324585
+ Scenario simple_spread Algo rmappo Exp check updates 2230/6250 episodes, total num timesteps 7139200/20000000, FPS 1790.
+average episode rewards is -115.03515243530273
+ Scenario simple_spread Algo rmappo Exp check updates 2235/6250 episodes, total num timesteps 7155200/20000000, FPS 1790.
+average episode rewards is -118.96779537200928
+ Scenario simple_spread Algo rmappo Exp check updates 2240/6250 episodes, total num timesteps 7171200/20000000, FPS 1790.
+average episode rewards is -113.3059024810791
+ Scenario simple_spread Algo rmappo Exp check updates 2245/6250 episodes, total num timesteps 7187200/20000000, FPS 1790.
+average episode rewards is -117.72289276123047
+ Scenario simple_spread Algo rmappo Exp check updates 2250/6250 episodes, total num timesteps 7203200/20000000, FPS 1791.
+average episode rewards is -116.9806957244873
+ Scenario simple_spread Algo rmappo Exp check updates 2255/6250 episodes, total num timesteps 7219200/20000000, FPS 1791.
+average episode rewards is -117.60056018829346
+ Scenario simple_spread Algo rmappo Exp check updates 2260/6250 episodes, total num timesteps 7235200/20000000, FPS 1791.
+average episode rewards is -118.1000828742981
+ Scenario simple_spread Algo rmappo Exp check updates 2265/6250 episodes, total num timesteps 7251200/20000000, FPS 1791.
+average episode rewards is -113.03964853286743
+ Scenario simple_spread Algo rmappo Exp check updates 2270/6250 episodes, total num timesteps 7267200/20000000, FPS 1791.
+average episode rewards is -117.82011985778809
+ Scenario simple_spread Algo rmappo Exp check updates 2275/6250 episodes, total num timesteps 7283200/20000000, FPS 1791.
+average episode rewards is -114.19568061828613
+ Scenario simple_spread Algo rmappo Exp check updates 2280/6250 episodes, total num timesteps 7299200/20000000, FPS 1791.
+average episode rewards is -116.20653867721558
+ Scenario simple_spread Algo rmappo Exp check updates 2285/6250 episodes, total num timesteps 7315200/20000000, FPS 1791.
+average episode rewards is -115.33758640289307
+ Scenario simple_spread Algo rmappo Exp check updates 2290/6250 episodes, total num timesteps 7331200/20000000, FPS 1791.
+average episode rewards is -113.50322961807251
+ Scenario simple_spread Algo rmappo Exp check updates 2295/6250 episodes, total num timesteps 7347200/20000000, FPS 1792.
+average episode rewards is -114.87998962402344
+ Scenario simple_spread Algo rmappo Exp check updates 2300/6250 episodes, total num timesteps 7363200/20000000, FPS 1792.
+average episode rewards is -113.72861862182617
+ Scenario simple_spread Algo rmappo Exp check updates 2305/6250 episodes, total num timesteps 7379200/20000000, FPS 1792.
+average episode rewards is -114.92152214050293
+ Scenario simple_spread Algo rmappo Exp check updates 2310/6250 episodes, total num timesteps 7395200/20000000, FPS 1792.
+average episode rewards is -115.31622409820557
+ Scenario simple_spread Algo rmappo Exp check updates 2315/6250 episodes, total num timesteps 7411200/20000000, FPS 1792.
+average episode rewards is -118.8924789428711
+ Scenario simple_spread Algo rmappo Exp check updates 2320/6250 episodes, total num timesteps 7427200/20000000, FPS 1792.
+average episode rewards is -114.38392400741577
+ Scenario simple_spread Algo rmappo Exp check updates 2325/6250 episodes, total num timesteps 7443200/20000000, FPS 1792.
+average episode rewards is -115.62470197677612
+ Scenario simple_spread Algo rmappo Exp check updates 2330/6250 episodes, total num timesteps 7459200/20000000, FPS 1792.
+average episode rewards is -114.42514657974243
+ Scenario simple_spread Algo rmappo Exp check updates 2335/6250 episodes, total num timesteps 7475200/20000000, FPS 1792.
+average episode rewards is -115.23592472076416
+ Scenario simple_spread Algo rmappo Exp check updates 2340/6250 episodes, total num timesteps 7491200/20000000, FPS 1792.
+average episode rewards is -113.11099529266357
+ Scenario simple_spread Algo rmappo Exp check updates 2345/6250 episodes, total num timesteps 7507200/20000000, FPS 1792.
+average episode rewards is -115.45318365097046
+ Scenario simple_spread Algo rmappo Exp check updates 2350/6250 episodes, total num timesteps 7523200/20000000, FPS 1792.
+average episode rewards is -113.9503002166748
+ Scenario simple_spread Algo rmappo Exp check updates 2355/6250 episodes, total num timesteps 7539200/20000000, FPS 1792.
+average episode rewards is -114.99025821685791
+ Scenario simple_spread Algo rmappo Exp check updates 2360/6250 episodes, total num timesteps 7555200/20000000, FPS 1793.
+average episode rewards is -116.09431505203247
+ Scenario simple_spread Algo rmappo Exp check updates 2365/6250 episodes, total num timesteps 7571200/20000000, FPS 1793.
+average episode rewards is -116.88252687454224
+ Scenario simple_spread Algo rmappo Exp check updates 2370/6250 episodes, total num timesteps 7587200/20000000, FPS 1793.
+average episode rewards is -117.63192415237427
+ Scenario simple_spread Algo rmappo Exp check updates 2375/6250 episodes, total num timesteps 7603200/20000000, FPS 1793.
+average episode rewards is -115.38574695587158
+ Scenario simple_spread Algo rmappo Exp check updates 2380/6250 episodes, total num timesteps 7619200/20000000, FPS 1793.
+average episode rewards is -114.85687494277954
+ Scenario simple_spread Algo rmappo Exp check updates 2385/6250 episodes, total num timesteps 7635200/20000000, FPS 1793.
+average episode rewards is -114.54387903213501
+ Scenario simple_spread Algo rmappo Exp check updates 2390/6250 episodes, total num timesteps 7651200/20000000, FPS 1793.
+average episode rewards is -116.69553518295288
+ Scenario simple_spread Algo rmappo Exp check updates 2395/6250 episodes, total num timesteps 7667200/20000000, FPS 1793.
+average episode rewards is -116.49383306503296
+ Scenario simple_spread Algo rmappo Exp check updates 2400/6250 episodes, total num timesteps 7683200/20000000, FPS 1793.
+average episode rewards is -115.58036804199219
+ Scenario simple_spread Algo rmappo Exp check updates 2405/6250 episodes, total num timesteps 7699200/20000000, FPS 1793.
+average episode rewards is -117.53864288330078
+ Scenario simple_spread Algo rmappo Exp check updates 2410/6250 episodes, total num timesteps 7715200/20000000, FPS 1793.
+average episode rewards is -116.63471460342407
+ Scenario simple_spread Algo rmappo Exp check updates 2415/6250 episodes, total num timesteps 7731200/20000000, FPS 1793.
+average episode rewards is -115.89858531951904
+ Scenario simple_spread Algo rmappo Exp check updates 2420/6250 episodes, total num timesteps 7747200/20000000, FPS 1793.
+average episode rewards is -115.89164733886719
+ Scenario simple_spread Algo rmappo Exp check updates 2425/6250 episodes, total num timesteps 7763200/20000000, FPS 1793.
+average episode rewards is -114.56551551818848
+ Scenario simple_spread Algo rmappo Exp check updates 2430/6250 episodes, total num timesteps 7779200/20000000, FPS 1793.
+average episode rewards is -115.24182558059692
+ Scenario simple_spread Algo rmappo Exp check updates 2435/6250 episodes, total num timesteps 7795200/20000000, FPS 1793.
+average episode rewards is -115.90516567230225
+ Scenario simple_spread Algo rmappo Exp check updates 2440/6250 episodes, total num timesteps 7811200/20000000, FPS 1793.
+average episode rewards is -115.77322483062744
+ Scenario simple_spread Algo rmappo Exp check updates 2445/6250 episodes, total num timesteps 7827200/20000000, FPS 1793.
+average episode rewards is -115.7366156578064
+ Scenario simple_spread Algo rmappo Exp check updates 2450/6250 episodes, total num timesteps 7843200/20000000, FPS 1793.
+average episode rewards is -116.37412309646606
+ Scenario simple_spread Algo rmappo Exp check updates 2455/6250 episodes, total num timesteps 7859200/20000000, FPS 1793.
+average episode rewards is -114.93397951126099
+ Scenario simple_spread Algo rmappo Exp check updates 2460/6250 episodes, total num timesteps 7875200/20000000, FPS 1793.
+average episode rewards is -116.39083623886108
+ Scenario simple_spread Algo rmappo Exp check updates 2465/6250 episodes, total num timesteps 7891200/20000000, FPS 1794.
+average episode rewards is -114.39173221588135
+ Scenario simple_spread Algo rmappo Exp check updates 2470/6250 episodes, total num timesteps 7907200/20000000, FPS 1794.
+average episode rewards is -114.62312936782837
+ Scenario simple_spread Algo rmappo Exp check updates 2475/6250 episodes, total num timesteps 7923200/20000000, FPS 1794.
+average episode rewards is -114.97035026550293
+ Scenario simple_spread Algo rmappo Exp check updates 2480/6250 episodes, total num timesteps 7939200/20000000, FPS 1794.
+average episode rewards is -114.02816772460938
+ Scenario simple_spread Algo rmappo Exp check updates 2485/6250 episodes, total num timesteps 7955200/20000000, FPS 1794.
+average episode rewards is -114.91650342941284
+ Scenario simple_spread Algo rmappo Exp check updates 2490/6250 episodes, total num timesteps 7971200/20000000, FPS 1794.
+average episode rewards is -117.19716787338257
+ Scenario simple_spread Algo rmappo Exp check updates 2495/6250 episodes, total num timesteps 7987200/20000000, FPS 1794.
+average episode rewards is -116.47204160690308
+ Scenario simple_spread Algo rmappo Exp check updates 2500/6250 episodes, total num timesteps 8003200/20000000, FPS 1794.
+average episode rewards is -114.59295749664307
+ Scenario simple_spread Algo rmappo Exp check updates 2505/6250 episodes, total num timesteps 8019200/20000000, FPS 1794.
+average episode rewards is -113.46973180770874
+ Scenario simple_spread Algo rmappo Exp check updates 2510/6250 episodes, total num timesteps 8035200/20000000, FPS 1794.
+average episode rewards is -118.43621730804443
+ Scenario simple_spread Algo rmappo Exp check updates 2515/6250 episodes, total num timesteps 8051200/20000000, FPS 1794.
+average episode rewards is -116.58507585525513
+ Scenario simple_spread Algo rmappo Exp check updates 2520/6250 episodes, total num timesteps 8067200/20000000, FPS 1795.
+average episode rewards is -116.38486385345459
+ Scenario simple_spread Algo rmappo Exp check updates 2525/6250 episodes, total num timesteps 8083200/20000000, FPS 1795.
+average episode rewards is -116.03045463562012
+ Scenario simple_spread Algo rmappo Exp check updates 2530/6250 episodes, total num timesteps 8099200/20000000, FPS 1795.
+average episode rewards is -116.94998741149902
+ Scenario simple_spread Algo rmappo Exp check updates 2535/6250 episodes, total num timesteps 8115200/20000000, FPS 1795.
+average episode rewards is -115.38646221160889
+ Scenario simple_spread Algo rmappo Exp check updates 2540/6250 episodes, total num timesteps 8131200/20000000, FPS 1795.
+average episode rewards is -114.8122787475586
+ Scenario simple_spread Algo rmappo Exp check updates 2545/6250 episodes, total num timesteps 8147200/20000000, FPS 1795.
+average episode rewards is -116.89938306808472
+ Scenario simple_spread Algo rmappo Exp check updates 2550/6250 episodes, total num timesteps 8163200/20000000, FPS 1795.
+average episode rewards is -114.9316668510437
+ Scenario simple_spread Algo rmappo Exp check updates 2555/6250 episodes, total num timesteps 8179200/20000000, FPS 1795.
+average episode rewards is -114.12942409515381
+ Scenario simple_spread Algo rmappo Exp check updates 2560/6250 episodes, total num timesteps 8195200/20000000, FPS 1795.
+average episode rewards is -113.88702392578125
+ Scenario simple_spread Algo rmappo Exp check updates 2565/6250 episodes, total num timesteps 8211200/20000000, FPS 1795.
+average episode rewards is -113.96095752716064
+ Scenario simple_spread Algo rmappo Exp check updates 2570/6250 episodes, total num timesteps 8227200/20000000, FPS 1795.
+average episode rewards is -115.52734375
+ Scenario simple_spread Algo rmappo Exp check updates 2575/6250 episodes, total num timesteps 8243200/20000000, FPS 1795.
+average episode rewards is -116.4687991142273
+ Scenario simple_spread Algo rmappo Exp check updates 2580/6250 episodes, total num timesteps 8259200/20000000, FPS 1795.
+average episode rewards is -115.30197858810425
+ Scenario simple_spread Algo rmappo Exp check updates 2585/6250 episodes, total num timesteps 8275200/20000000, FPS 1796.
+average episode rewards is -115.92600345611572
+ Scenario simple_spread Algo rmappo Exp check updates 2590/6250 episodes, total num timesteps 8291200/20000000, FPS 1796.
+average episode rewards is -114.7671103477478
+ Scenario simple_spread Algo rmappo Exp check updates 2595/6250 episodes, total num timesteps 8307200/20000000, FPS 1796.
+average episode rewards is -115.24622440338135
+ Scenario simple_spread Algo rmappo Exp check updates 2600/6250 episodes, total num timesteps 8323200/20000000, FPS 1796.
+average episode rewards is -114.03441429138184
+ Scenario simple_spread Algo rmappo Exp check updates 2605/6250 episodes, total num timesteps 8339200/20000000, FPS 1796.
+average episode rewards is -118.07118654251099
+ Scenario simple_spread Algo rmappo Exp check updates 2610/6250 episodes, total num timesteps 8355200/20000000, FPS 1796.
+average episode rewards is -115.78011512756348
+ Scenario simple_spread Algo rmappo Exp check updates 2615/6250 episodes, total num timesteps 8371200/20000000, FPS 1796.
+average episode rewards is -115.11183977127075
+ Scenario simple_spread Algo rmappo Exp check updates 2620/6250 episodes, total num timesteps 8387200/20000000, FPS 1796.
+average episode rewards is -114.37697410583496
+ Scenario simple_spread Algo rmappo Exp check updates 2625/6250 episodes, total num timesteps 8403200/20000000, FPS 1796.
+average episode rewards is -114.31912183761597
+ Scenario simple_spread Algo rmappo Exp check updates 2630/6250 episodes, total num timesteps 8419200/20000000, FPS 1796.
+average episode rewards is -114.9103045463562
+ Scenario simple_spread Algo rmappo Exp check updates 2635/6250 episodes, total num timesteps 8435200/20000000, FPS 1796.
+average episode rewards is -115.34956693649292
+ Scenario simple_spread Algo rmappo Exp check updates 2640/6250 episodes, total num timesteps 8451200/20000000, FPS 1796.
+average episode rewards is -114.29424285888672
+ Scenario simple_spread Algo rmappo Exp check updates 2645/6250 episodes, total num timesteps 8467200/20000000, FPS 1797.
+average episode rewards is -113.11697959899902
+ Scenario simple_spread Algo rmappo Exp check updates 2650/6250 episodes, total num timesteps 8483200/20000000, FPS 1797.
+average episode rewards is -115.53847789764404
+ Scenario simple_spread Algo rmappo Exp check updates 2655/6250 episodes, total num timesteps 8499200/20000000, FPS 1797.
+average episode rewards is -115.41060209274292
+ Scenario simple_spread Algo rmappo Exp check updates 2660/6250 episodes, total num timesteps 8515200/20000000, FPS 1797.
+average episode rewards is -114.95295763015747
+ Scenario simple_spread Algo rmappo Exp check updates 2665/6250 episodes, total num timesteps 8531200/20000000, FPS 1797.
+average episode rewards is -114.30487632751465
+ Scenario simple_spread Algo rmappo Exp check updates 2670/6250 episodes, total num timesteps 8547200/20000000, FPS 1797.
+average episode rewards is -115.69911241531372
+ Scenario simple_spread Algo rmappo Exp check updates 2675/6250 episodes, total num timesteps 8563200/20000000, FPS 1797.
+average episode rewards is -114.6902084350586
+ Scenario simple_spread Algo rmappo Exp check updates 2680/6250 episodes, total num timesteps 8579200/20000000, FPS 1797.
+average episode rewards is -114.78878259658813
+ Scenario simple_spread Algo rmappo Exp check updates 2685/6250 episodes, total num timesteps 8595200/20000000, FPS 1797.
+average episode rewards is -116.13417863845825
+ Scenario simple_spread Algo rmappo Exp check updates 2690/6250 episodes, total num timesteps 8611200/20000000, FPS 1797.
+average episode rewards is -116.92562103271484
+ Scenario simple_spread Algo rmappo Exp check updates 2695/6250 episodes, total num timesteps 8627200/20000000, FPS 1797.
+average episode rewards is -116.51790142059326
+ Scenario simple_spread Algo rmappo Exp check updates 2700/6250 episodes, total num timesteps 8643200/20000000, FPS 1797.
+average episode rewards is -114.53063488006592
+ Scenario simple_spread Algo rmappo Exp check updates 2705/6250 episodes, total num timesteps 8659200/20000000, FPS 1797.
+average episode rewards is -117.08168983459473
+ Scenario simple_spread Algo rmappo Exp check updates 2710/6250 episodes, total num timesteps 8675200/20000000, FPS 1798.
+average episode rewards is -115.0836706161499
+ Scenario simple_spread Algo rmappo Exp check updates 2715/6250 episodes, total num timesteps 8691200/20000000, FPS 1798.
+average episode rewards is -115.29985666275024
+ Scenario simple_spread Algo rmappo Exp check updates 2720/6250 episodes, total num timesteps 8707200/20000000, FPS 1798.
+average episode rewards is -112.67645359039307
+ Scenario simple_spread Algo rmappo Exp check updates 2725/6250 episodes, total num timesteps 8723200/20000000, FPS 1798.
+average episode rewards is -113.51183652877808
+ Scenario simple_spread Algo rmappo Exp check updates 2730/6250 episodes, total num timesteps 8739200/20000000, FPS 1798.
+average episode rewards is -115.88417291641235
+ Scenario simple_spread Algo rmappo Exp check updates 2735/6250 episodes, total num timesteps 8755200/20000000, FPS 1798.
+average episode rewards is -115.26212692260742
+ Scenario simple_spread Algo rmappo Exp check updates 2740/6250 episodes, total num timesteps 8771200/20000000, FPS 1798.
+average episode rewards is -113.60287666320801
+ Scenario simple_spread Algo rmappo Exp check updates 2745/6250 episodes, total num timesteps 8787200/20000000, FPS 1798.
+average episode rewards is -115.47659635543823
+ Scenario simple_spread Algo rmappo Exp check updates 2750/6250 episodes, total num timesteps 8803200/20000000, FPS 1798.
+average episode rewards is -115.61647653579712
+ Scenario simple_spread Algo rmappo Exp check updates 2755/6250 episodes, total num timesteps 8819200/20000000, FPS 1798.
+average episode rewards is -116.04797840118408
+ Scenario simple_spread Algo rmappo Exp check updates 2760/6250 episodes, total num timesteps 8835200/20000000, FPS 1798.
+average episode rewards is -113.63892555236816
+ Scenario simple_spread Algo rmappo Exp check updates 2765/6250 episodes, total num timesteps 8851200/20000000, FPS 1798.
+average episode rewards is -115.50174951553345
+ Scenario simple_spread Algo rmappo Exp check updates 2770/6250 episodes, total num timesteps 8867200/20000000, FPS 1798.
+average episode rewards is -112.49575614929199
+ Scenario simple_spread Algo rmappo Exp check updates 2775/6250 episodes, total num timesteps 8883200/20000000, FPS 1798.
+average episode rewards is -113.94240856170654
+ Scenario simple_spread Algo rmappo Exp check updates 2780/6250 episodes, total num timesteps 8899200/20000000, FPS 1798.
+average episode rewards is -116.90936088562012
+ Scenario simple_spread Algo rmappo Exp check updates 2785/6250 episodes, total num timesteps 8915200/20000000, FPS 1798.
+average episode rewards is -112.14661598205566
+ Scenario simple_spread Algo rmappo Exp check updates 2790/6250 episodes, total num timesteps 8931200/20000000, FPS 1799.
+average episode rewards is -116.47119522094727
+ Scenario simple_spread Algo rmappo Exp check updates 2795/6250 episodes, total num timesteps 8947200/20000000, FPS 1799.
+average episode rewards is -115.87281227111816
+ Scenario simple_spread Algo rmappo Exp check updates 2800/6250 episodes, total num timesteps 8963200/20000000, FPS 1799.
+average episode rewards is -113.3886456489563
+ Scenario simple_spread Algo rmappo Exp check updates 2805/6250 episodes, total num timesteps 8979200/20000000, FPS 1799.
+average episode rewards is -114.07486200332642
+ Scenario simple_spread Algo rmappo Exp check updates 2810/6250 episodes, total num timesteps 8995200/20000000, FPS 1799.
+average episode rewards is -115.76014757156372
+ Scenario simple_spread Algo rmappo Exp check updates 2815/6250 episodes, total num timesteps 9011200/20000000, FPS 1799.
+average episode rewards is -113.59429359436035
+ Scenario simple_spread Algo rmappo Exp check updates 2820/6250 episodes, total num timesteps 9027200/20000000, FPS 1799.
+average episode rewards is -113.69472742080688
+ Scenario simple_spread Algo rmappo Exp check updates 2825/6250 episodes, total num timesteps 9043200/20000000, FPS 1799.
+average episode rewards is -115.2017593383789
+ Scenario simple_spread Algo rmappo Exp check updates 2830/6250 episodes, total num timesteps 9059200/20000000, FPS 1799.
+average episode rewards is -115.58281183242798
+ Scenario simple_spread Algo rmappo Exp check updates 2835/6250 episodes, total num timesteps 9075200/20000000, FPS 1799.
+average episode rewards is -114.91751670837402
+ Scenario simple_spread Algo rmappo Exp check updates 2840/6250 episodes, total num timesteps 9091200/20000000, FPS 1799.
+average episode rewards is -113.34213018417358
+ Scenario simple_spread Algo rmappo Exp check updates 2845/6250 episodes, total num timesteps 9107200/20000000, FPS 1799.
+average episode rewards is -115.1443362236023
+ Scenario simple_spread Algo rmappo Exp check updates 2850/6250 episodes, total num timesteps 9123200/20000000, FPS 1799.
+average episode rewards is -114.81598615646362
+ Scenario simple_spread Algo rmappo Exp check updates 2855/6250 episodes, total num timesteps 9139200/20000000, FPS 1799.
+average episode rewards is -112.51420974731445
+ Scenario simple_spread Algo rmappo Exp check updates 2860/6250 episodes, total num timesteps 9155200/20000000, FPS 1799.
+average episode rewards is -115.13935327529907
+ Scenario simple_spread Algo rmappo Exp check updates 2865/6250 episodes, total num timesteps 9171200/20000000, FPS 1799.
+average episode rewards is -113.13291788101196
+ Scenario simple_spread Algo rmappo Exp check updates 2870/6250 episodes, total num timesteps 9187200/20000000, FPS 1799.
+average episode rewards is -113.80791664123535
+ Scenario simple_spread Algo rmappo Exp check updates 2875/6250 episodes, total num timesteps 9203200/20000000, FPS 1799.
+average episode rewards is -114.72897529602051
+ Scenario simple_spread Algo rmappo Exp check updates 2880/6250 episodes, total num timesteps 9219200/20000000, FPS 1799.
+average episode rewards is -113.05826902389526
+ Scenario simple_spread Algo rmappo Exp check updates 2885/6250 episodes, total num timesteps 9235200/20000000, FPS 1799.
+average episode rewards is -113.53135108947754
+ Scenario simple_spread Algo rmappo Exp check updates 2890/6250 episodes, total num timesteps 9251200/20000000, FPS 1799.
+average episode rewards is -113.92027139663696
+ Scenario simple_spread Algo rmappo Exp check updates 2895/6250 episodes, total num timesteps 9267200/20000000, FPS 1799.
+average episode rewards is -115.87120294570923
+ Scenario simple_spread Algo rmappo Exp check updates 2900/6250 episodes, total num timesteps 9283200/20000000, FPS 1799.
+average episode rewards is -112.3278021812439
+ Scenario simple_spread Algo rmappo Exp check updates 2905/6250 episodes, total num timesteps 9299200/20000000, FPS 1799.
+average episode rewards is -113.77801895141602
+ Scenario simple_spread Algo rmappo Exp check updates 2910/6250 episodes, total num timesteps 9315200/20000000, FPS 1799.
+average episode rewards is -115.86545705795288
+ Scenario simple_spread Algo rmappo Exp check updates 2915/6250 episodes, total num timesteps 9331200/20000000, FPS 1799.
+average episode rewards is -116.80635213851929
+ Scenario simple_spread Algo rmappo Exp check updates 2920/6250 episodes, total num timesteps 9347200/20000000, FPS 1799.
+average episode rewards is -115.17537832260132
+ Scenario simple_spread Algo rmappo Exp check updates 2925/6250 episodes, total num timesteps 9363200/20000000, FPS 1800.
+average episode rewards is -112.22245693206787
+ Scenario simple_spread Algo rmappo Exp check updates 2930/6250 episodes, total num timesteps 9379200/20000000, FPS 1800.
+average episode rewards is -112.47199773788452
+ Scenario simple_spread Algo rmappo Exp check updates 2935/6250 episodes, total num timesteps 9395200/20000000, FPS 1800.
+average episode rewards is -114.34440612792969
+ Scenario simple_spread Algo rmappo Exp check updates 2940/6250 episodes, total num timesteps 9411200/20000000, FPS 1800.
+average episode rewards is -115.7241940498352
+ Scenario simple_spread Algo rmappo Exp check updates 2945/6250 episodes, total num timesteps 9427200/20000000, FPS 1800.
+average episode rewards is -112.61093616485596
+ Scenario simple_spread Algo rmappo Exp check updates 2950/6250 episodes, total num timesteps 9443200/20000000, FPS 1799.
+average episode rewards is -113.31216096878052
+ Scenario simple_spread Algo rmappo Exp check updates 2955/6250 episodes, total num timesteps 9459200/20000000, FPS 1798.
+average episode rewards is -113.75720500946045
+ Scenario simple_spread Algo rmappo Exp check updates 2960/6250 episodes, total num timesteps 9475200/20000000, FPS 1796.
+average episode rewards is -116.07531309127808
+ Scenario simple_spread Algo rmappo Exp check updates 2965/6250 episodes, total num timesteps 9491200/20000000, FPS 1795.
+average episode rewards is -113.4766697883606
+ Scenario simple_spread Algo rmappo Exp check updates 2970/6250 episodes, total num timesteps 9507200/20000000, FPS 1794.
+average episode rewards is -115.3264045715332
+ Scenario simple_spread Algo rmappo Exp check updates 2975/6250 episodes, total num timesteps 9523200/20000000, FPS 1792.
+average episode rewards is -113.59379291534424
+ Scenario simple_spread Algo rmappo Exp check updates 2980/6250 episodes, total num timesteps 9539200/20000000, FPS 1791.
+average episode rewards is -113.2279634475708
+ Scenario simple_spread Algo rmappo Exp check updates 2985/6250 episodes, total num timesteps 9555200/20000000, FPS 1790.
+average episode rewards is -114.06985521316528
+ Scenario simple_spread Algo rmappo Exp check updates 2990/6250 episodes, total num timesteps 9571200/20000000, FPS 1789.
+average episode rewards is -114.3259048461914
+ Scenario simple_spread Algo rmappo Exp check updates 2995/6250 episodes, total num timesteps 9587200/20000000, FPS 1787.
+average episode rewards is -115.53707122802734
+ Scenario simple_spread Algo rmappo Exp check updates 3000/6250 episodes, total num timesteps 9603200/20000000, FPS 1786.
+average episode rewards is -113.49151134490967
+ Scenario simple_spread Algo rmappo Exp check updates 3005/6250 episodes, total num timesteps 9619200/20000000, FPS 1785.
+average episode rewards is -114.27935361862183
+ Scenario simple_spread Algo rmappo Exp check updates 3010/6250 episodes, total num timesteps 9635200/20000000, FPS 1783.
+average episode rewards is -115.61226844787598
+ Scenario simple_spread Algo rmappo Exp check updates 3015/6250 episodes, total num timesteps 9651200/20000000, FPS 1782.
+average episode rewards is -114.48111534118652
+ Scenario simple_spread Algo rmappo Exp check updates 3020/6250 episodes, total num timesteps 9667200/20000000, FPS 1781.
+average episode rewards is -111.14393472671509
+ Scenario simple_spread Algo rmappo Exp check updates 3025/6250 episodes, total num timesteps 9683200/20000000, FPS 1780.
+average episode rewards is -113.92624378204346
+ Scenario simple_spread Algo rmappo Exp check updates 3030/6250 episodes, total num timesteps 9699200/20000000, FPS 1779.
+average episode rewards is -114.22196626663208
+ Scenario simple_spread Algo rmappo Exp check updates 3035/6250 episodes, total num timesteps 9715200/20000000, FPS 1778.
+average episode rewards is -112.54490613937378
+ Scenario simple_spread Algo rmappo Exp check updates 3040/6250 episodes, total num timesteps 9731200/20000000, FPS 1777.
+average episode rewards is -109.97446775436401
+ Scenario simple_spread Algo rmappo Exp check updates 3045/6250 episodes, total num timesteps 9747200/20000000, FPS 1776.
+average episode rewards is -113.22596073150635
+ Scenario simple_spread Algo rmappo Exp check updates 3050/6250 episodes, total num timesteps 9763200/20000000, FPS 1775.
+average episode rewards is -115.68553447723389
+ Scenario simple_spread Algo rmappo Exp check updates 3055/6250 episodes, total num timesteps 9779200/20000000, FPS 1774.
+average episode rewards is -114.74772691726685
+ Scenario simple_spread Algo rmappo Exp check updates 3060/6250 episodes, total num timesteps 9795200/20000000, FPS 1773.
+average episode rewards is -114.84227180480957
+ Scenario simple_spread Algo rmappo Exp check updates 3065/6250 episodes, total num timesteps 9811200/20000000, FPS 1772.
+average episode rewards is -114.08061981201172
+ Scenario simple_spread Algo rmappo Exp check updates 3070/6250 episodes, total num timesteps 9827200/20000000, FPS 1771.
+average episode rewards is -114.03324604034424
+ Scenario simple_spread Algo rmappo Exp check updates 3075/6250 episodes, total num timesteps 9843200/20000000, FPS 1770.
+average episode rewards is -114.68874216079712
+ Scenario simple_spread Algo rmappo Exp check updates 3080/6250 episodes, total num timesteps 9859200/20000000, FPS 1769.
+average episode rewards is -115.8852219581604
+ Scenario simple_spread Algo rmappo Exp check updates 3085/6250 episodes, total num timesteps 9875200/20000000, FPS 1768.
+average episode rewards is -113.42533826828003
+ Scenario simple_spread Algo rmappo Exp check updates 3090/6250 episodes, total num timesteps 9891200/20000000, FPS 1766.
+average episode rewards is -113.21936845779419
+ Scenario simple_spread Algo rmappo Exp check updates 3095/6250 episodes, total num timesteps 9907200/20000000, FPS 1765.
+average episode rewards is -112.20239400863647
+ Scenario simple_spread Algo rmappo Exp check updates 3100/6250 episodes, total num timesteps 9923200/20000000, FPS 1764.
+average episode rewards is -115.60771465301514
+ Scenario simple_spread Algo rmappo Exp check updates 3105/6250 episodes, total num timesteps 9939200/20000000, FPS 1763.
+average episode rewards is -113.37512731552124
+ Scenario simple_spread Algo rmappo Exp check updates 3110/6250 episodes, total num timesteps 9955200/20000000, FPS 1762.
+average episode rewards is -112.33041286468506
+ Scenario simple_spread Algo rmappo Exp check updates 3115/6250 episodes, total num timesteps 9971200/20000000, FPS 1761.
+average episode rewards is -115.87866544723511
+ Scenario simple_spread Algo rmappo Exp check updates 3120/6250 episodes, total num timesteps 9987200/20000000, FPS 1759.
+average episode rewards is -114.94582891464233
+ Scenario simple_spread Algo rmappo Exp check updates 3125/6250 episodes, total num timesteps 10003200/20000000, FPS 1759.
+average episode rewards is -115.69695472717285
+ Scenario simple_spread Algo rmappo Exp check updates 3130/6250 episodes, total num timesteps 10019200/20000000, FPS 1758.
+average episode rewards is -116.31489992141724
+ Scenario simple_spread Algo rmappo Exp check updates 3135/6250 episodes, total num timesteps 10035200/20000000, FPS 1757.
+average episode rewards is -115.71204662322998
+ Scenario simple_spread Algo rmappo Exp check updates 3140/6250 episodes, total num timesteps 10051200/20000000, FPS 1756.
+average episode rewards is -116.18657112121582
+ Scenario simple_spread Algo rmappo Exp check updates 3145/6250 episodes, total num timesteps 10067200/20000000, FPS 1755.
+average episode rewards is -116.03646278381348
+ Scenario simple_spread Algo rmappo Exp check updates 3150/6250 episodes, total num timesteps 10083200/20000000, FPS 1754.
+average episode rewards is -115.65083265304565
+ Scenario simple_spread Algo rmappo Exp check updates 3155/6250 episodes, total num timesteps 10099200/20000000, FPS 1753.
+average episode rewards is -118.30933094024658
+ Scenario simple_spread Algo rmappo Exp check updates 3160/6250 episodes, total num timesteps 10115200/20000000, FPS 1752.
+average episode rewards is -115.27307033538818
+ Scenario simple_spread Algo rmappo Exp check updates 3165/6250 episodes, total num timesteps 10131200/20000000, FPS 1751.
+average episode rewards is -115.85856676101685
+ Scenario simple_spread Algo rmappo Exp check updates 3170/6250 episodes, total num timesteps 10147200/20000000, FPS 1750.
+average episode rewards is -115.76313972473145
+ Scenario simple_spread Algo rmappo Exp check updates 3175/6250 episodes, total num timesteps 10163200/20000000, FPS 1749.
+average episode rewards is -116.85932874679565
+ Scenario simple_spread Algo rmappo Exp check updates 3180/6250 episodes, total num timesteps 10179200/20000000, FPS 1748.
+average episode rewards is -115.62021970748901
+ Scenario simple_spread Algo rmappo Exp check updates 3185/6250 episodes, total num timesteps 10195200/20000000, FPS 1748.
+average episode rewards is -115.503990650177
+ Scenario simple_spread Algo rmappo Exp check updates 3190/6250 episodes, total num timesteps 10211200/20000000, FPS 1747.
+average episode rewards is -114.50244188308716
+ Scenario simple_spread Algo rmappo Exp check updates 3195/6250 episodes, total num timesteps 10227200/20000000, FPS 1746.
+average episode rewards is -113.11516761779785
+ Scenario simple_spread Algo rmappo Exp check updates 3200/6250 episodes, total num timesteps 10243200/20000000, FPS 1745.
+average episode rewards is -116.52944087982178
+ Scenario simple_spread Algo rmappo Exp check updates 3205/6250 episodes, total num timesteps 10259200/20000000, FPS 1744.
+average episode rewards is -115.35272598266602
+ Scenario simple_spread Algo rmappo Exp check updates 3210/6250 episodes, total num timesteps 10275200/20000000, FPS 1743.
+average episode rewards is -112.90026903152466
+ Scenario simple_spread Algo rmappo Exp check updates 3215/6250 episodes, total num timesteps 10291200/20000000, FPS 1742.
+average episode rewards is -111.04544401168823
+ Scenario simple_spread Algo rmappo Exp check updates 3220/6250 episodes, total num timesteps 10307200/20000000, FPS 1741.
+average episode rewards is -114.54943418502808
+ Scenario simple_spread Algo rmappo Exp check updates 3225/6250 episodes, total num timesteps 10323200/20000000, FPS 1740.
+average episode rewards is -114.24452066421509
+ Scenario simple_spread Algo rmappo Exp check updates 3230/6250 episodes, total num timesteps 10339200/20000000, FPS 1739.
+average episode rewards is -117.27309226989746
+ Scenario simple_spread Algo rmappo Exp check updates 3235/6250 episodes, total num timesteps 10355200/20000000, FPS 1738.
+average episode rewards is -114.41936492919922
+ Scenario simple_spread Algo rmappo Exp check updates 3240/6250 episodes, total num timesteps 10371200/20000000, FPS 1737.
+average episode rewards is -113.60727548599243
+ Scenario simple_spread Algo rmappo Exp check updates 3245/6250 episodes, total num timesteps 10387200/20000000, FPS 1736.
+average episode rewards is -113.05159330368042
+ Scenario simple_spread Algo rmappo Exp check updates 3250/6250 episodes, total num timesteps 10403200/20000000, FPS 1735.
+average episode rewards is -114.10919427871704
+ Scenario simple_spread Algo rmappo Exp check updates 3255/6250 episodes, total num timesteps 10419200/20000000, FPS 1734.
+average episode rewards is -113.02448511123657
+ Scenario simple_spread Algo rmappo Exp check updates 3260/6250 episodes, total num timesteps 10435200/20000000, FPS 1733.
+average episode rewards is -113.5987639427185
+ Scenario simple_spread Algo rmappo Exp check updates 3265/6250 episodes, total num timesteps 10451200/20000000, FPS 1732.
+average episode rewards is -112.20715045928955
+ Scenario simple_spread Algo rmappo Exp check updates 3270/6250 episodes, total num timesteps 10467200/20000000, FPS 1731.
+average episode rewards is -115.16150236129761
+ Scenario simple_spread Algo rmappo Exp check updates 3275/6250 episodes, total num timesteps 10483200/20000000, FPS 1730.
+average episode rewards is -114.33870792388916
+ Scenario simple_spread Algo rmappo Exp check updates 3280/6250 episodes, total num timesteps 10499200/20000000, FPS 1729.
+average episode rewards is -114.01218175888062
+ Scenario simple_spread Algo rmappo Exp check updates 3285/6250 episodes, total num timesteps 10515200/20000000, FPS 1728.
+average episode rewards is -115.8276915550232
+ Scenario simple_spread Algo rmappo Exp check updates 3290/6250 episodes, total num timesteps 10531200/20000000, FPS 1727.
+average episode rewards is -115.94096422195435
+ Scenario simple_spread Algo rmappo Exp check updates 3295/6250 episodes, total num timesteps 10547200/20000000, FPS 1726.
+average episode rewards is -114.16844129562378
+ Scenario simple_spread Algo rmappo Exp check updates 3300/6250 episodes, total num timesteps 10563200/20000000, FPS 1725.
+average episode rewards is -114.98732566833496
+ Scenario simple_spread Algo rmappo Exp check updates 3305/6250 episodes, total num timesteps 10579200/20000000, FPS 1725.
+average episode rewards is -115.21756649017334
+ Scenario simple_spread Algo rmappo Exp check updates 3310/6250 episodes, total num timesteps 10595200/20000000, FPS 1724.
+average episode rewards is -114.71755504608154
+ Scenario simple_spread Algo rmappo Exp check updates 3315/6250 episodes, total num timesteps 10611200/20000000, FPS 1723.
+average episode rewards is -112.85113096237183
+ Scenario simple_spread Algo rmappo Exp check updates 3320/6250 episodes, total num timesteps 10627200/20000000, FPS 1722.
+average episode rewards is -112.27986812591553
+ Scenario simple_spread Algo rmappo Exp check updates 3325/6250 episodes, total num timesteps 10643200/20000000, FPS 1721.
+average episode rewards is -115.7050371170044
+ Scenario simple_spread Algo rmappo Exp check updates 3330/6250 episodes, total num timesteps 10659200/20000000, FPS 1720.
+average episode rewards is -112.2052550315857
+ Scenario simple_spread Algo rmappo Exp check updates 3335/6250 episodes, total num timesteps 10675200/20000000, FPS 1720.
+average episode rewards is -114.33428525924683
+ Scenario simple_spread Algo rmappo Exp check updates 3340/6250 episodes, total num timesteps 10691200/20000000, FPS 1719.
+average episode rewards is -114.03940916061401
+ Scenario simple_spread Algo rmappo Exp check updates 3345/6250 episodes, total num timesteps 10707200/20000000, FPS 1718.
+average episode rewards is -117.33843088150024
+ Scenario simple_spread Algo rmappo Exp check updates 3350/6250 episodes, total num timesteps 10723200/20000000, FPS 1717.
+average episode rewards is -114.27867412567139
+ Scenario simple_spread Algo rmappo Exp check updates 3355/6250 episodes, total num timesteps 10739200/20000000, FPS 1716.
+average episode rewards is -114.37650918960571
+ Scenario simple_spread Algo rmappo Exp check updates 3360/6250 episodes, total num timesteps 10755200/20000000, FPS 1715.
+average episode rewards is -114.78149890899658
+ Scenario simple_spread Algo rmappo Exp check updates 3365/6250 episodes, total num timesteps 10771200/20000000, FPS 1714.
+average episode rewards is -114.69446420669556
+ Scenario simple_spread Algo rmappo Exp check updates 3370/6250 episodes, total num timesteps 10787200/20000000, FPS 1714.
+average episode rewards is -115.2701735496521
+ Scenario simple_spread Algo rmappo Exp check updates 3375/6250 episodes, total num timesteps 10803200/20000000, FPS 1713.
+average episode rewards is -113.58755826950073
+ Scenario simple_spread Algo rmappo Exp check updates 3380/6250 episodes, total num timesteps 10819200/20000000, FPS 1712.
+average episode rewards is -114.82785940170288
+ Scenario simple_spread Algo rmappo Exp check updates 3385/6250 episodes, total num timesteps 10835200/20000000, FPS 1711.
+average episode rewards is -113.27633857727051
+ Scenario simple_spread Algo rmappo Exp check updates 3390/6250 episodes, total num timesteps 10851200/20000000, FPS 1710.
+average episode rewards is -114.7770881652832
+ Scenario simple_spread Algo rmappo Exp check updates 3395/6250 episodes, total num timesteps 10867200/20000000, FPS 1709.
+average episode rewards is -113.52640390396118
+ Scenario simple_spread Algo rmappo Exp check updates 3400/6250 episodes, total num timesteps 10883200/20000000, FPS 1708.
+average episode rewards is -113.5743260383606
+ Scenario simple_spread Algo rmappo Exp check updates 3405/6250 episodes, total num timesteps 10899200/20000000, FPS 1708.
+average episode rewards is -113.00421953201294
+ Scenario simple_spread Algo rmappo Exp check updates 3410/6250 episodes, total num timesteps 10915200/20000000, FPS 1707.
+average episode rewards is -113.93194198608398
+ Scenario simple_spread Algo rmappo Exp check updates 3415/6250 episodes, total num timesteps 10931200/20000000, FPS 1707.
+average episode rewards is -115.62498807907104
+ Scenario simple_spread Algo rmappo Exp check updates 3420/6250 episodes, total num timesteps 10947200/20000000, FPS 1706.
+average episode rewards is -115.50921201705933
+ Scenario simple_spread Algo rmappo Exp check updates 3425/6250 episodes, total num timesteps 10963200/20000000, FPS 1705.
+average episode rewards is -115.70760011672974
+ Scenario simple_spread Algo rmappo Exp check updates 3430/6250 episodes, total num timesteps 10979200/20000000, FPS 1704.
+average episode rewards is -113.43185901641846
+ Scenario simple_spread Algo rmappo Exp check updates 3435/6250 episodes, total num timesteps 10995200/20000000, FPS 1703.
+average episode rewards is -116.71596765518188
+ Scenario simple_spread Algo rmappo Exp check updates 3440/6250 episodes, total num timesteps 11011200/20000000, FPS 1702.
+average episode rewards is -113.77382278442383
+ Scenario simple_spread Algo rmappo Exp check updates 3445/6250 episodes, total num timesteps 11027200/20000000, FPS 1702.
+average episode rewards is -113.39689493179321
+ Scenario simple_spread Algo rmappo Exp check updates 3450/6250 episodes, total num timesteps 11043200/20000000, FPS 1701.
+average episode rewards is -116.021728515625
+ Scenario simple_spread Algo rmappo Exp check updates 3455/6250 episodes, total num timesteps 11059200/20000000, FPS 1700.
+average episode rewards is -113.91623020172119
+ Scenario simple_spread Algo rmappo Exp check updates 3460/6250 episodes, total num timesteps 11075200/20000000, FPS 1699.
+average episode rewards is -114.31548595428467
+ Scenario simple_spread Algo rmappo Exp check updates 3465/6250 episodes, total num timesteps 11091200/20000000, FPS 1699.
+average episode rewards is -114.50337171554565
+ Scenario simple_spread Algo rmappo Exp check updates 3470/6250 episodes, total num timesteps 11107200/20000000, FPS 1698.
+average episode rewards is -112.66136169433594
+ Scenario simple_spread Algo rmappo Exp check updates 3475/6250 episodes, total num timesteps 11123200/20000000, FPS 1697.
+average episode rewards is -114.62457180023193
+ Scenario simple_spread Algo rmappo Exp check updates 3480/6250 episodes, total num timesteps 11139200/20000000, FPS 1696.
+average episode rewards is -118.01639795303345
+ Scenario simple_spread Algo rmappo Exp check updates 3485/6250 episodes, total num timesteps 11155200/20000000, FPS 1696.
+average episode rewards is -115.1452898979187
+ Scenario simple_spread Algo rmappo Exp check updates 3490/6250 episodes, total num timesteps 11171200/20000000, FPS 1695.
+average episode rewards is -114.17053937911987
+ Scenario simple_spread Algo rmappo Exp check updates 3495/6250 episodes, total num timesteps 11187200/20000000, FPS 1694.
+average episode rewards is -113.87403011322021
+ Scenario simple_spread Algo rmappo Exp check updates 3500/6250 episodes, total num timesteps 11203200/20000000, FPS 1693.
+average episode rewards is -115.06927013397217
+ Scenario simple_spread Algo rmappo Exp check updates 3505/6250 episodes, total num timesteps 11219200/20000000, FPS 1693.
+average episode rewards is -111.08436584472656
+ Scenario simple_spread Algo rmappo Exp check updates 3510/6250 episodes, total num timesteps 11235200/20000000, FPS 1692.
+average episode rewards is -112.32393980026245
+ Scenario simple_spread Algo rmappo Exp check updates 3515/6250 episodes, total num timesteps 11251200/20000000, FPS 1691.
+average episode rewards is -117.90996789932251
+ Scenario simple_spread Algo rmappo Exp check updates 3520/6250 episodes, total num timesteps 11267200/20000000, FPS 1691.
+average episode rewards is -113.93680572509766
+ Scenario simple_spread Algo rmappo Exp check updates 3525/6250 episodes, total num timesteps 11283200/20000000, FPS 1690.
+average episode rewards is -114.17183876037598
+ Scenario simple_spread Algo rmappo Exp check updates 3530/6250 episodes, total num timesteps 11299200/20000000, FPS 1690.
+average episode rewards is -112.4265193939209
+ Scenario simple_spread Algo rmappo Exp check updates 3535/6250 episodes, total num timesteps 11315200/20000000, FPS 1689.
+average episode rewards is -113.75561952590942
+ Scenario simple_spread Algo rmappo Exp check updates 3540/6250 episodes, total num timesteps 11331200/20000000, FPS 1688.
+average episode rewards is -112.8388524055481
+ Scenario simple_spread Algo rmappo Exp check updates 3545/6250 episodes, total num timesteps 11347200/20000000, FPS 1688.
+average episode rewards is -115.0261640548706
+ Scenario simple_spread Algo rmappo Exp check updates 3550/6250 episodes, total num timesteps 11363200/20000000, FPS 1687.
+average episode rewards is -111.67480945587158
+ Scenario simple_spread Algo rmappo Exp check updates 3555/6250 episodes, total num timesteps 11379200/20000000, FPS 1686.
+average episode rewards is -117.25873947143555
+ Scenario simple_spread Algo rmappo Exp check updates 3560/6250 episodes, total num timesteps 11395200/20000000, FPS 1685.
+average episode rewards is -116.25698804855347
+ Scenario simple_spread Algo rmappo Exp check updates 3565/6250 episodes, total num timesteps 11411200/20000000, FPS 1685.
+average episode rewards is -112.1294379234314
+ Scenario simple_spread Algo rmappo Exp check updates 3570/6250 episodes, total num timesteps 11427200/20000000, FPS 1684.
+average episode rewards is -113.38920593261719
+ Scenario simple_spread Algo rmappo Exp check updates 3575/6250 episodes, total num timesteps 11443200/20000000, FPS 1683.
+average episode rewards is -113.8313889503479
+ Scenario simple_spread Algo rmappo Exp check updates 3580/6250 episodes, total num timesteps 11459200/20000000, FPS 1683.
+average episode rewards is -112.74341344833374
+ Scenario simple_spread Algo rmappo Exp check updates 3585/6250 episodes, total num timesteps 11475200/20000000, FPS 1682.
+average episode rewards is -112.62820959091187
+ Scenario simple_spread Algo rmappo Exp check updates 3590/6250 episodes, total num timesteps 11491200/20000000, FPS 1681.
+average episode rewards is -116.32778644561768
+ Scenario simple_spread Algo rmappo Exp check updates 3595/6250 episodes, total num timesteps 11507200/20000000, FPS 1681.
+average episode rewards is -114.73946571350098
+ Scenario simple_spread Algo rmappo Exp check updates 3600/6250 episodes, total num timesteps 11523200/20000000, FPS 1680.
+average episode rewards is -116.60888195037842
+ Scenario simple_spread Algo rmappo Exp check updates 3605/6250 episodes, total num timesteps 11539200/20000000, FPS 1679.
+average episode rewards is -114.95667695999146
+ Scenario simple_spread Algo rmappo Exp check updates 3610/6250 episodes, total num timesteps 11555200/20000000, FPS 1678.
+average episode rewards is -113.79401683807373
+ Scenario simple_spread Algo rmappo Exp check updates 3615/6250 episodes, total num timesteps 11571200/20000000, FPS 1678.
+average episode rewards is -113.91849517822266
+ Scenario simple_spread Algo rmappo Exp check updates 3620/6250 episodes, total num timesteps 11587200/20000000, FPS 1677.
+average episode rewards is -114.45516347885132
+ Scenario simple_spread Algo rmappo Exp check updates 3625/6250 episodes, total num timesteps 11603200/20000000, FPS 1676.
+average episode rewards is -111.91539764404297
+ Scenario simple_spread Algo rmappo Exp check updates 3630/6250 episodes, total num timesteps 11619200/20000000, FPS 1676.
+average episode rewards is -112.2819185256958
+ Scenario simple_spread Algo rmappo Exp check updates 3635/6250 episodes, total num timesteps 11635200/20000000, FPS 1675.
+average episode rewards is -112.02429533004761
+ Scenario simple_spread Algo rmappo Exp check updates 3640/6250 episodes, total num timesteps 11651200/20000000, FPS 1674.
+average episode rewards is -112.42218017578125
+ Scenario simple_spread Algo rmappo Exp check updates 3645/6250 episodes, total num timesteps 11667200/20000000, FPS 1674.
+average episode rewards is -114.86632823944092
+ Scenario simple_spread Algo rmappo Exp check updates 3650/6250 episodes, total num timesteps 11683200/20000000, FPS 1673.
+average episode rewards is -113.42810392379761
+ Scenario simple_spread Algo rmappo Exp check updates 3655/6250 episodes, total num timesteps 11699200/20000000, FPS 1673.
+average episode rewards is -112.93740272521973
+ Scenario simple_spread Algo rmappo Exp check updates 3660/6250 episodes, total num timesteps 11715200/20000000, FPS 1672.
+average episode rewards is -113.5001540184021
+ Scenario simple_spread Algo rmappo Exp check updates 3665/6250 episodes, total num timesteps 11731200/20000000, FPS 1671.
+average episode rewards is -112.65093088150024
+ Scenario simple_spread Algo rmappo Exp check updates 3670/6250 episodes, total num timesteps 11747200/20000000, FPS 1670.
+average episode rewards is -113.46728801727295
+ Scenario simple_spread Algo rmappo Exp check updates 3675/6250 episodes, total num timesteps 11763200/20000000, FPS 1670.
+average episode rewards is -113.14011812210083
+ Scenario simple_spread Algo rmappo Exp check updates 3680/6250 episodes, total num timesteps 11779200/20000000, FPS 1669.
+average episode rewards is -112.75249719619751
+ Scenario simple_spread Algo rmappo Exp check updates 3685/6250 episodes, total num timesteps 11795200/20000000, FPS 1668.
+average episode rewards is -114.97119665145874
+ Scenario simple_spread Algo rmappo Exp check updates 3690/6250 episodes, total num timesteps 11811200/20000000, FPS 1668.
+average episode rewards is -112.50487565994263
+ Scenario simple_spread Algo rmappo Exp check updates 3695/6250 episodes, total num timesteps 11827200/20000000, FPS 1667.
+average episode rewards is -112.00374364852905
+ Scenario simple_spread Algo rmappo Exp check updates 3700/6250 episodes, total num timesteps 11843200/20000000, FPS 1667.
+average episode rewards is -114.24766778945923
+ Scenario simple_spread Algo rmappo Exp check updates 3705/6250 episodes, total num timesteps 11859200/20000000, FPS 1666.
+average episode rewards is -112.97622919082642
+ Scenario simple_spread Algo rmappo Exp check updates 3710/6250 episodes, total num timesteps 11875200/20000000, FPS 1665.
+average episode rewards is -114.39616680145264
+ Scenario simple_spread Algo rmappo Exp check updates 3715/6250 episodes, total num timesteps 11891200/20000000, FPS 1665.
+average episode rewards is -115.18850326538086
+ Scenario simple_spread Algo rmappo Exp check updates 3720/6250 episodes, total num timesteps 11907200/20000000, FPS 1664.
+average episode rewards is -113.28953504562378
+ Scenario simple_spread Algo rmappo Exp check updates 3725/6250 episodes, total num timesteps 11923200/20000000, FPS 1664.
+average episode rewards is -111.91306114196777
+ Scenario simple_spread Algo rmappo Exp check updates 3730/6250 episodes, total num timesteps 11939200/20000000, FPS 1663.
+average episode rewards is -112.69237995147705
+ Scenario simple_spread Algo rmappo Exp check updates 3735/6250 episodes, total num timesteps 11955200/20000000, FPS 1662.
+average episode rewards is -113.450026512146
+ Scenario simple_spread Algo rmappo Exp check updates 3740/6250 episodes, total num timesteps 11971200/20000000, FPS 1662.
+average episode rewards is -112.80419826507568
+ Scenario simple_spread Algo rmappo Exp check updates 3745/6250 episodes, total num timesteps 11987200/20000000, FPS 1661.
+average episode rewards is -116.29650592803955
+ Scenario simple_spread Algo rmappo Exp check updates 3750/6250 episodes, total num timesteps 12003200/20000000, FPS 1661.
+average episode rewards is -111.6491436958313
+ Scenario simple_spread Algo rmappo Exp check updates 3755/6250 episodes, total num timesteps 12019200/20000000, FPS 1660.
+average episode rewards is -113.14666271209717
+ Scenario simple_spread Algo rmappo Exp check updates 3760/6250 episodes, total num timesteps 12035200/20000000, FPS 1660.
+average episode rewards is -114.37582969665527
+ Scenario simple_spread Algo rmappo Exp check updates 3765/6250 episodes, total num timesteps 12051200/20000000, FPS 1659.
+average episode rewards is -111.04767322540283
+ Scenario simple_spread Algo rmappo Exp check updates 3770/6250 episodes, total num timesteps 12067200/20000000, FPS 1659.
+average episode rewards is -113.21333646774292
+ Scenario simple_spread Algo rmappo Exp check updates 3775/6250 episodes, total num timesteps 12083200/20000000, FPS 1658.
+average episode rewards is -115.89536666870117
+ Scenario simple_spread Algo rmappo Exp check updates 3780/6250 episodes, total num timesteps 12099200/20000000, FPS 1658.
+average episode rewards is -113.48003149032593
+ Scenario simple_spread Algo rmappo Exp check updates 3785/6250 episodes, total num timesteps 12115200/20000000, FPS 1657.
+average episode rewards is -114.03086185455322
+ Scenario simple_spread Algo rmappo Exp check updates 3790/6250 episodes, total num timesteps 12131200/20000000, FPS 1657.
+average episode rewards is -112.1871829032898
+ Scenario simple_spread Algo rmappo Exp check updates 3795/6250 episodes, total num timesteps 12147200/20000000, FPS 1656.
+average episode rewards is -114.52856063842773
+ Scenario simple_spread Algo rmappo Exp check updates 3800/6250 episodes, total num timesteps 12163200/20000000, FPS 1655.
+average episode rewards is -113.84047269821167
+ Scenario simple_spread Algo rmappo Exp check updates 3805/6250 episodes, total num timesteps 12179200/20000000, FPS 1655.
+average episode rewards is -114.75290060043335
+ Scenario simple_spread Algo rmappo Exp check updates 3810/6250 episodes, total num timesteps 12195200/20000000, FPS 1654.
+average episode rewards is -112.52480745315552
+ Scenario simple_spread Algo rmappo Exp check updates 3815/6250 episodes, total num timesteps 12211200/20000000, FPS 1653.
+average episode rewards is -113.26615810394287
+ Scenario simple_spread Algo rmappo Exp check updates 3820/6250 episodes, total num timesteps 12227200/20000000, FPS 1653.
+average episode rewards is -112.59855031967163
+ Scenario simple_spread Algo rmappo Exp check updates 3825/6250 episodes, total num timesteps 12243200/20000000, FPS 1652.
+average episode rewards is -113.46383094787598
+ Scenario simple_spread Algo rmappo Exp check updates 3830/6250 episodes, total num timesteps 12259200/20000000, FPS 1651.
+average episode rewards is -113.30013275146484
+ Scenario simple_spread Algo rmappo Exp check updates 3835/6250 episodes, total num timesteps 12275200/20000000, FPS 1651.
+average episode rewards is -113.2490873336792
+ Scenario simple_spread Algo rmappo Exp check updates 3840/6250 episodes, total num timesteps 12291200/20000000, FPS 1650.
+average episode rewards is -113.6132001876831
+ Scenario simple_spread Algo rmappo Exp check updates 3845/6250 episodes, total num timesteps 12307200/20000000, FPS 1649.
+average episode rewards is -115.46339988708496
+ Scenario simple_spread Algo rmappo Exp check updates 3850/6250 episodes, total num timesteps 12323200/20000000, FPS 1648.
+average episode rewards is -114.74785804748535
+ Scenario simple_spread Algo rmappo Exp check updates 3855/6250 episodes, total num timesteps 12339200/20000000, FPS 1648.
+average episode rewards is -114.39228057861328
+ Scenario simple_spread Algo rmappo Exp check updates 3860/6250 episodes, total num timesteps 12355200/20000000, FPS 1647.
+average episode rewards is -115.87048768997192
+ Scenario simple_spread Algo rmappo Exp check updates 3865/6250 episodes, total num timesteps 12371200/20000000, FPS 1646.
+average episode rewards is -114.41690921783447
+ Scenario simple_spread Algo rmappo Exp check updates 3870/6250 episodes, total num timesteps 12387200/20000000, FPS 1646.
+average episode rewards is -112.07702159881592
+ Scenario simple_spread Algo rmappo Exp check updates 3875/6250 episodes, total num timesteps 12403200/20000000, FPS 1645.
+average episode rewards is -114.92923498153687
+ Scenario simple_spread Algo rmappo Exp check updates 3880/6250 episodes, total num timesteps 12419200/20000000, FPS 1644.
+average episode rewards is -116.33507013320923
+ Scenario simple_spread Algo rmappo Exp check updates 3885/6250 episodes, total num timesteps 12435200/20000000, FPS 1644.
+average episode rewards is -115.69918394088745
+ Scenario simple_spread Algo rmappo Exp check updates 3890/6250 episodes, total num timesteps 12451200/20000000, FPS 1643.
+average episode rewards is -114.79147672653198
+ Scenario simple_spread Algo rmappo Exp check updates 3895/6250 episodes, total num timesteps 12467200/20000000, FPS 1643.
+average episode rewards is -114.34521675109863
+ Scenario simple_spread Algo rmappo Exp check updates 3900/6250 episodes, total num timesteps 12483200/20000000, FPS 1642.
+average episode rewards is -114.69038724899292
+ Scenario simple_spread Algo rmappo Exp check updates 3905/6250 episodes, total num timesteps 12499200/20000000, FPS 1642.
+average episode rewards is -113.4492039680481
+ Scenario simple_spread Algo rmappo Exp check updates 3910/6250 episodes, total num timesteps 12515200/20000000, FPS 1641.
+average episode rewards is -114.48113918304443
+ Scenario simple_spread Algo rmappo Exp check updates 3915/6250 episodes, total num timesteps 12531200/20000000, FPS 1641.
+average episode rewards is -114.73393440246582
+ Scenario simple_spread Algo rmappo Exp check updates 3920/6250 episodes, total num timesteps 12547200/20000000, FPS 1640.
+average episode rewards is -113.50815296173096
+ Scenario simple_spread Algo rmappo Exp check updates 3925/6250 episodes, total num timesteps 12563200/20000000, FPS 1639.
+average episode rewards is -115.66978693008423
+ Scenario simple_spread Algo rmappo Exp check updates 3930/6250 episodes, total num timesteps 12579200/20000000, FPS 1639.
+average episode rewards is -114.28780555725098
+ Scenario simple_spread Algo rmappo Exp check updates 3935/6250 episodes, total num timesteps 12595200/20000000, FPS 1638.
+average episode rewards is -115.78269004821777
+ Scenario simple_spread Algo rmappo Exp check updates 3940/6250 episodes, total num timesteps 12611200/20000000, FPS 1638.
+average episode rewards is -114.27186727523804
+ Scenario simple_spread Algo rmappo Exp check updates 3945/6250 episodes, total num timesteps 12627200/20000000, FPS 1637.
+average episode rewards is -115.26401042938232
+ Scenario simple_spread Algo rmappo Exp check updates 3950/6250 episodes, total num timesteps 12643200/20000000, FPS 1636.
+average episode rewards is -110.71513891220093
+ Scenario simple_spread Algo rmappo Exp check updates 3955/6250 episodes, total num timesteps 12659200/20000000, FPS 1636.
+average episode rewards is -113.96793127059937
+ Scenario simple_spread Algo rmappo Exp check updates 3960/6250 episodes, total num timesteps 12675200/20000000, FPS 1635.
+average episode rewards is -114.47886228561401
+ Scenario simple_spread Algo rmappo Exp check updates 3965/6250 episodes, total num timesteps 12691200/20000000, FPS 1634.
+average episode rewards is -113.55760097503662
+ Scenario simple_spread Algo rmappo Exp check updates 3970/6250 episodes, total num timesteps 12707200/20000000, FPS 1634.
+average episode rewards is -113.8597846031189
+ Scenario simple_spread Algo rmappo Exp check updates 3975/6250 episodes, total num timesteps 12723200/20000000, FPS 1633.
+average episode rewards is -114.44209814071655
+ Scenario simple_spread Algo rmappo Exp check updates 3980/6250 episodes, total num timesteps 12739200/20000000, FPS 1632.
+average episode rewards is -113.8457179069519
+ Scenario simple_spread Algo rmappo Exp check updates 3985/6250 episodes, total num timesteps 12755200/20000000, FPS 1632.
+average episode rewards is -110.70315837860107
+ Scenario simple_spread Algo rmappo Exp check updates 3990/6250 episodes, total num timesteps 12771200/20000000, FPS 1631.
+average episode rewards is -113.41774463653564
+ Scenario simple_spread Algo rmappo Exp check updates 3995/6250 episodes, total num timesteps 12787200/20000000, FPS 1631.
+average episode rewards is -114.24089670181274
+ Scenario simple_spread Algo rmappo Exp check updates 4000/6250 episodes, total num timesteps 12803200/20000000, FPS 1630.
+average episode rewards is -112.39718198776245
+ Scenario simple_spread Algo rmappo Exp check updates 4005/6250 episodes, total num timesteps 12819200/20000000, FPS 1630.
+average episode rewards is -115.58258533477783
+ Scenario simple_spread Algo rmappo Exp check updates 4010/6250 episodes, total num timesteps 12835200/20000000, FPS 1629.
+average episode rewards is -112.88633346557617
+ Scenario simple_spread Algo rmappo Exp check updates 4015/6250 episodes, total num timesteps 12851200/20000000, FPS 1629.
+average episode rewards is -113.91775608062744
+ Scenario simple_spread Algo rmappo Exp check updates 4020/6250 episodes, total num timesteps 12867200/20000000, FPS 1628.
+average episode rewards is -115.41464328765869
+ Scenario simple_spread Algo rmappo Exp check updates 4025/6250 episodes, total num timesteps 12883200/20000000, FPS 1628.
+average episode rewards is -113.63829374313354
+ Scenario simple_spread Algo rmappo Exp check updates 4030/6250 episodes, total num timesteps 12899200/20000000, FPS 1627.
+average episode rewards is -112.11613416671753
+ Scenario simple_spread Algo rmappo Exp check updates 4035/6250 episodes, total num timesteps 12915200/20000000, FPS 1627.
+average episode rewards is -113.64297866821289
+ Scenario simple_spread Algo rmappo Exp check updates 4040/6250 episodes, total num timesteps 12931200/20000000, FPS 1626.
+average episode rewards is -112.70890235900879
+ Scenario simple_spread Algo rmappo Exp check updates 4045/6250 episodes, total num timesteps 12947200/20000000, FPS 1626.
+average episode rewards is -113.27754259109497
+ Scenario simple_spread Algo rmappo Exp check updates 4050/6250 episodes, total num timesteps 12963200/20000000, FPS 1625.
+average episode rewards is -113.15246820449829
+ Scenario simple_spread Algo rmappo Exp check updates 4055/6250 episodes, total num timesteps 12979200/20000000, FPS 1625.
+average episode rewards is -111.27512454986572
+ Scenario simple_spread Algo rmappo Exp check updates 4060/6250 episodes, total num timesteps 12995200/20000000, FPS 1624.
+average episode rewards is -115.57743549346924
+ Scenario simple_spread Algo rmappo Exp check updates 4065/6250 episodes, total num timesteps 13011200/20000000, FPS 1624.
+average episode rewards is -115.37976264953613
+ Scenario simple_spread Algo rmappo Exp check updates 4070/6250 episodes, total num timesteps 13027200/20000000, FPS 1623.
+average episode rewards is -113.64222764968872
+ Scenario simple_spread Algo rmappo Exp check updates 4075/6250 episodes, total num timesteps 13043200/20000000, FPS 1623.
+average episode rewards is -114.17524814605713
+ Scenario simple_spread Algo rmappo Exp check updates 4080/6250 episodes, total num timesteps 13059200/20000000, FPS 1622.
+average episode rewards is -113.17503452301025
+ Scenario simple_spread Algo rmappo Exp check updates 4085/6250 episodes, total num timesteps 13075200/20000000, FPS 1622.
+average episode rewards is -112.00348138809204
+ Scenario simple_spread Algo rmappo Exp check updates 4090/6250 episodes, total num timesteps 13091200/20000000, FPS 1621.
+average episode rewards is -114.08421993255615
+ Scenario simple_spread Algo rmappo Exp check updates 4095/6250 episodes, total num timesteps 13107200/20000000, FPS 1620.
+average episode rewards is -114.61756229400635
+ Scenario simple_spread Algo rmappo Exp check updates 4100/6250 episodes, total num timesteps 13123200/20000000, FPS 1620.
+average episode rewards is -113.3570909500122
+ Scenario simple_spread Algo rmappo Exp check updates 4105/6250 episodes, total num timesteps 13139200/20000000, FPS 1620.
+average episode rewards is -114.4670844078064
+ Scenario simple_spread Algo rmappo Exp check updates 4110/6250 episodes, total num timesteps 13155200/20000000, FPS 1619.
+average episode rewards is -114.9146556854248
+ Scenario simple_spread Algo rmappo Exp check updates 4115/6250 episodes, total num timesteps 13171200/20000000, FPS 1619.
+average episode rewards is -113.83218765258789
+ Scenario simple_spread Algo rmappo Exp check updates 4120/6250 episodes, total num timesteps 13187200/20000000, FPS 1618.
+average episode rewards is -114.2207145690918
+ Scenario simple_spread Algo rmappo Exp check updates 4125/6250 episodes, total num timesteps 13203200/20000000, FPS 1618.
+average episode rewards is -114.66498374938965
+ Scenario simple_spread Algo rmappo Exp check updates 4130/6250 episodes, total num timesteps 13219200/20000000, FPS 1617.
+average episode rewards is -113.96352052688599
+ Scenario simple_spread Algo rmappo Exp check updates 4135/6250 episodes, total num timesteps 13235200/20000000, FPS 1617.
+average episode rewards is -114.23729658126831
+ Scenario simple_spread Algo rmappo Exp check updates 4140/6250 episodes, total num timesteps 13251200/20000000, FPS 1616.
+average episode rewards is -113.74584436416626
+ Scenario simple_spread Algo rmappo Exp check updates 4145/6250 episodes, total num timesteps 13267200/20000000, FPS 1616.
+average episode rewards is -111.7735743522644
+ Scenario simple_spread Algo rmappo Exp check updates 4150/6250 episodes, total num timesteps 13283200/20000000, FPS 1615.
+average episode rewards is -114.77066278457642
+ Scenario simple_spread Algo rmappo Exp check updates 4155/6250 episodes, total num timesteps 13299200/20000000, FPS 1615.
+average episode rewards is -112.69320249557495
+ Scenario simple_spread Algo rmappo Exp check updates 4160/6250 episodes, total num timesteps 13315200/20000000, FPS 1614.
+average episode rewards is -112.09168434143066
+ Scenario simple_spread Algo rmappo Exp check updates 4165/6250 episodes, total num timesteps 13331200/20000000, FPS 1614.
+average episode rewards is -116.895592212677
+ Scenario simple_spread Algo rmappo Exp check updates 4170/6250 episodes, total num timesteps 13347200/20000000, FPS 1613.
+average episode rewards is -114.36480283737183
+ Scenario simple_spread Algo rmappo Exp check updates 4175/6250 episodes, total num timesteps 13363200/20000000, FPS 1613.
+average episode rewards is -112.01192140579224
+ Scenario simple_spread Algo rmappo Exp check updates 4180/6250 episodes, total num timesteps 13379200/20000000, FPS 1612.
+average episode rewards is -113.80550861358643
+ Scenario simple_spread Algo rmappo Exp check updates 4185/6250 episodes, total num timesteps 13395200/20000000, FPS 1612.
+average episode rewards is -111.79006099700928
+ Scenario simple_spread Algo rmappo Exp check updates 4190/6250 episodes, total num timesteps 13411200/20000000, FPS 1611.
+average episode rewards is -114.65542316436768
+ Scenario simple_spread Algo rmappo Exp check updates 4195/6250 episodes, total num timesteps 13427200/20000000, FPS 1611.
+average episode rewards is -115.49327373504639
+ Scenario simple_spread Algo rmappo Exp check updates 4200/6250 episodes, total num timesteps 13443200/20000000, FPS 1610.
+average episode rewards is -115.26656150817871
+ Scenario simple_spread Algo rmappo Exp check updates 4205/6250 episodes, total num timesteps 13459200/20000000, FPS 1610.
+average episode rewards is -114.26310539245605
+ Scenario simple_spread Algo rmappo Exp check updates 4210/6250 episodes, total num timesteps 13475200/20000000, FPS 1609.
+average episode rewards is -109.32859182357788
+ Scenario simple_spread Algo rmappo Exp check updates 4215/6250 episodes, total num timesteps 13491200/20000000, FPS 1609.
+average episode rewards is -112.47830390930176
+ Scenario simple_spread Algo rmappo Exp check updates 4220/6250 episodes, total num timesteps 13507200/20000000, FPS 1608.
+average episode rewards is -112.14585304260254
+ Scenario simple_spread Algo rmappo Exp check updates 4225/6250 episodes, total num timesteps 13523200/20000000, FPS 1608.
+average episode rewards is -113.80856037139893
+ Scenario simple_spread Algo rmappo Exp check updates 4230/6250 episodes, total num timesteps 13539200/20000000, FPS 1607.
+average episode rewards is -115.20153284072876
+ Scenario simple_spread Algo rmappo Exp check updates 4235/6250 episodes, total num timesteps 13555200/20000000, FPS 1607.
+average episode rewards is -113.83874416351318
+ Scenario simple_spread Algo rmappo Exp check updates 4240/6250 episodes, total num timesteps 13571200/20000000, FPS 1607.
+average episode rewards is -112.95682191848755
+ Scenario simple_spread Algo rmappo Exp check updates 4245/6250 episodes, total num timesteps 13587200/20000000, FPS 1606.
+average episode rewards is -113.77595663070679
+ Scenario simple_spread Algo rmappo Exp check updates 4250/6250 episodes, total num timesteps 13603200/20000000, FPS 1606.
+average episode rewards is -112.49336004257202
+ Scenario simple_spread Algo rmappo Exp check updates 4255/6250 episodes, total num timesteps 13619200/20000000, FPS 1605.
+average episode rewards is -112.48927116394043
+ Scenario simple_spread Algo rmappo Exp check updates 4260/6250 episodes, total num timesteps 13635200/20000000, FPS 1605.
+average episode rewards is -113.35334777832031
+ Scenario simple_spread Algo rmappo Exp check updates 4265/6250 episodes, total num timesteps 13651200/20000000, FPS 1604.
+average episode rewards is -114.06567096710205
+ Scenario simple_spread Algo rmappo Exp check updates 4270/6250 episodes, total num timesteps 13667200/20000000, FPS 1604.
+average episode rewards is -112.98220157623291
+ Scenario simple_spread Algo rmappo Exp check updates 4275/6250 episodes, total num timesteps 13683200/20000000, FPS 1603.
+average episode rewards is -112.77629137039185
+ Scenario simple_spread Algo rmappo Exp check updates 4280/6250 episodes, total num timesteps 13699200/20000000, FPS 1603.
+average episode rewards is -112.1518611907959
+ Scenario simple_spread Algo rmappo Exp check updates 4285/6250 episodes, total num timesteps 13715200/20000000, FPS 1603.
+average episode rewards is -112.99988031387329
+ Scenario simple_spread Algo rmappo Exp check updates 4290/6250 episodes, total num timesteps 13731200/20000000, FPS 1602.
+average episode rewards is -114.82757329940796
+ Scenario simple_spread Algo rmappo Exp check updates 4295/6250 episodes, total num timesteps 13747200/20000000, FPS 1602.
+average episode rewards is -116.01688861846924
+ Scenario simple_spread Algo rmappo Exp check updates 4300/6250 episodes, total num timesteps 13763200/20000000, FPS 1601.
+average episode rewards is -112.8973126411438
+ Scenario simple_spread Algo rmappo Exp check updates 4305/6250 episodes, total num timesteps 13779200/20000000, FPS 1601.
+average episode rewards is -112.20544576644897
+ Scenario simple_spread Algo rmappo Exp check updates 4310/6250 episodes, total num timesteps 13795200/20000000, FPS 1600.
+average episode rewards is -112.65937089920044
+ Scenario simple_spread Algo rmappo Exp check updates 4315/6250 episodes, total num timesteps 13811200/20000000, FPS 1600.
+average episode rewards is -112.33866214752197
+ Scenario simple_spread Algo rmappo Exp check updates 4320/6250 episodes, total num timesteps 13827200/20000000, FPS 1599.
+average episode rewards is -114.18060064315796
+ Scenario simple_spread Algo rmappo Exp check updates 4325/6250 episodes, total num timesteps 13843200/20000000, FPS 1599.
+average episode rewards is -112.8878116607666
+ Scenario simple_spread Algo rmappo Exp check updates 4330/6250 episodes, total num timesteps 13859200/20000000, FPS 1598.
+average episode rewards is -114.25455808639526
+ Scenario simple_spread Algo rmappo Exp check updates 4335/6250 episodes, total num timesteps 13875200/20000000, FPS 1598.
+average episode rewards is -113.94497156143188
+ Scenario simple_spread Algo rmappo Exp check updates 4340/6250 episodes, total num timesteps 13891200/20000000, FPS 1597.
+average episode rewards is -114.25471305847168
+ Scenario simple_spread Algo rmappo Exp check updates 4345/6250 episodes, total num timesteps 13907200/20000000, FPS 1597.
+average episode rewards is -113.2225513458252
+ Scenario simple_spread Algo rmappo Exp check updates 4350/6250 episodes, total num timesteps 13923200/20000000, FPS 1597.
+average episode rewards is -115.49500226974487
+ Scenario simple_spread Algo rmappo Exp check updates 4355/6250 episodes, total num timesteps 13939200/20000000, FPS 1596.
+average episode rewards is -113.13581466674805
+ Scenario simple_spread Algo rmappo Exp check updates 4360/6250 episodes, total num timesteps 13955200/20000000, FPS 1596.
+average episode rewards is -112.87956237792969
+ Scenario simple_spread Algo rmappo Exp check updates 4365/6250 episodes, total num timesteps 13971200/20000000, FPS 1596.
+average episode rewards is -115.33504724502563
+ Scenario simple_spread Algo rmappo Exp check updates 4370/6250 episodes, total num timesteps 13987200/20000000, FPS 1595.
+average episode rewards is -115.52345752716064
+ Scenario simple_spread Algo rmappo Exp check updates 4375/6250 episodes, total num timesteps 14003200/20000000, FPS 1595.
+average episode rewards is -113.66453170776367
+ Scenario simple_spread Algo rmappo Exp check updates 4380/6250 episodes, total num timesteps 14019200/20000000, FPS 1595.
+average episode rewards is -113.77758979797363
+ Scenario simple_spread Algo rmappo Exp check updates 4385/6250 episodes, total num timesteps 14035200/20000000, FPS 1594.
+average episode rewards is -114.67344760894775
+ Scenario simple_spread Algo rmappo Exp check updates 4390/6250 episodes, total num timesteps 14051200/20000000, FPS 1594.
+average episode rewards is -115.12560844421387
+ Scenario simple_spread Algo rmappo Exp check updates 4395/6250 episodes, total num timesteps 14067200/20000000, FPS 1593.
+average episode rewards is -113.95096778869629
+ Scenario simple_spread Algo rmappo Exp check updates 4400/6250 episodes, total num timesteps 14083200/20000000, FPS 1593.
+average episode rewards is -115.32150506973267
+ Scenario simple_spread Algo rmappo Exp check updates 4405/6250 episodes, total num timesteps 14099200/20000000, FPS 1592.
+average episode rewards is -112.74116039276123
+ Scenario simple_spread Algo rmappo Exp check updates 4410/6250 episodes, total num timesteps 14115200/20000000, FPS 1592.
+average episode rewards is -112.31719255447388
+ Scenario simple_spread Algo rmappo Exp check updates 4415/6250 episodes, total num timesteps 14131200/20000000, FPS 1591.
+average episode rewards is -112.24029064178467
+ Scenario simple_spread Algo rmappo Exp check updates 4420/6250 episodes, total num timesteps 14147200/20000000, FPS 1591.
+average episode rewards is -113.09140920639038
+ Scenario simple_spread Algo rmappo Exp check updates 4425/6250 episodes, total num timesteps 14163200/20000000, FPS 1590.
+average episode rewards is -111.84147596359253
+ Scenario simple_spread Algo rmappo Exp check updates 4430/6250 episodes, total num timesteps 14179200/20000000, FPS 1590.
+average episode rewards is -113.04295063018799
+ Scenario simple_spread Algo rmappo Exp check updates 4435/6250 episodes, total num timesteps 14195200/20000000, FPS 1590.
+average episode rewards is -114.3163800239563
+ Scenario simple_spread Algo rmappo Exp check updates 4440/6250 episodes, total num timesteps 14211200/20000000, FPS 1589.
+average episode rewards is -112.8889799118042
+ Scenario simple_spread Algo rmappo Exp check updates 4445/6250 episodes, total num timesteps 14227200/20000000, FPS 1589.
+average episode rewards is -117.1872615814209
+ Scenario simple_spread Algo rmappo Exp check updates 4450/6250 episodes, total num timesteps 14243200/20000000, FPS 1588.
+average episode rewards is -115.36082029342651
+ Scenario simple_spread Algo rmappo Exp check updates 4455/6250 episodes, total num timesteps 14259200/20000000, FPS 1588.
+average episode rewards is -111.34005784988403
+ Scenario simple_spread Algo rmappo Exp check updates 4460/6250 episodes, total num timesteps 14275200/20000000, FPS 1587.
+average episode rewards is -113.24660778045654
+ Scenario simple_spread Algo rmappo Exp check updates 4465/6250 episodes, total num timesteps 14291200/20000000, FPS 1587.
+average episode rewards is -112.45312690734863
+ Scenario simple_spread Algo rmappo Exp check updates 4470/6250 episodes, total num timesteps 14307200/20000000, FPS 1586.
+average episode rewards is -114.53570127487183
+ Scenario simple_spread Algo rmappo Exp check updates 4475/6250 episodes, total num timesteps 14323200/20000000, FPS 1586.
+average episode rewards is -114.88738059997559
+ Scenario simple_spread Algo rmappo Exp check updates 4480/6250 episodes, total num timesteps 14339200/20000000, FPS 1585.
+average episode rewards is -113.83229494094849
+ Scenario simple_spread Algo rmappo Exp check updates 4485/6250 episodes, total num timesteps 14355200/20000000, FPS 1585.
+average episode rewards is -116.01492166519165
+ Scenario simple_spread Algo rmappo Exp check updates 4490/6250 episodes, total num timesteps 14371200/20000000, FPS 1585.
+average episode rewards is -113.91521692276001
+ Scenario simple_spread Algo rmappo Exp check updates 4495/6250 episodes, total num timesteps 14387200/20000000, FPS 1584.
+average episode rewards is -113.20170164108276
+ Scenario simple_spread Algo rmappo Exp check updates 4500/6250 episodes, total num timesteps 14403200/20000000, FPS 1584.
+average episode rewards is -114.13232088088989
+ Scenario simple_spread Algo rmappo Exp check updates 4505/6250 episodes, total num timesteps 14419200/20000000, FPS 1583.
+average episode rewards is -114.80916738510132
+ Scenario simple_spread Algo rmappo Exp check updates 4510/6250 episodes, total num timesteps 14435200/20000000, FPS 1583.
+average episode rewards is -113.0218505859375
+ Scenario simple_spread Algo rmappo Exp check updates 4515/6250 episodes, total num timesteps 14451200/20000000, FPS 1583.
+average episode rewards is -113.3886456489563
+ Scenario simple_spread Algo rmappo Exp check updates 4520/6250 episodes, total num timesteps 14467200/20000000, FPS 1582.
+average episode rewards is -111.48034334182739
+ Scenario simple_spread Algo rmappo Exp check updates 4525/6250 episodes, total num timesteps 14483200/20000000, FPS 1582.
+average episode rewards is -112.95827627182007
+ Scenario simple_spread Algo rmappo Exp check updates 4530/6250 episodes, total num timesteps 14499200/20000000, FPS 1581.
+average episode rewards is -112.9457950592041
+ Scenario simple_spread Algo rmappo Exp check updates 4535/6250 episodes, total num timesteps 14515200/20000000, FPS 1581.
+average episode rewards is -112.61433362960815
+ Scenario simple_spread Algo rmappo Exp check updates 4540/6250 episodes, total num timesteps 14531200/20000000, FPS 1581.
+average episode rewards is -113.11044692993164
+ Scenario simple_spread Algo rmappo Exp check updates 4545/6250 episodes, total num timesteps 14547200/20000000, FPS 1580.
+average episode rewards is -113.39584589004517
+ Scenario simple_spread Algo rmappo Exp check updates 4550/6250 episodes, total num timesteps 14563200/20000000, FPS 1580.
+average episode rewards is -115.86751937866211
+ Scenario simple_spread Algo rmappo Exp check updates 4555/6250 episodes, total num timesteps 14579200/20000000, FPS 1579.
+average episode rewards is -114.51210975646973
+ Scenario simple_spread Algo rmappo Exp check updates 4560/6250 episodes, total num timesteps 14595200/20000000, FPS 1579.
+average episode rewards is -113.51022720336914
+ Scenario simple_spread Algo rmappo Exp check updates 4565/6250 episodes, total num timesteps 14611200/20000000, FPS 1579.
+average episode rewards is -114.50504064559937
+ Scenario simple_spread Algo rmappo Exp check updates 4570/6250 episodes, total num timesteps 14627200/20000000, FPS 1578.
+average episode rewards is -111.95428371429443
+ Scenario simple_spread Algo rmappo Exp check updates 4575/6250 episodes, total num timesteps 14643200/20000000, FPS 1578.
+average episode rewards is -115.11400938034058
+ Scenario simple_spread Algo rmappo Exp check updates 4580/6250 episodes, total num timesteps 14659200/20000000, FPS 1577.
+average episode rewards is -114.30461406707764
+ Scenario simple_spread Algo rmappo Exp check updates 4585/6250 episodes, total num timesteps 14675200/20000000, FPS 1577.
+average episode rewards is -112.81473636627197
+ Scenario simple_spread Algo rmappo Exp check updates 4590/6250 episodes, total num timesteps 14691200/20000000, FPS 1576.
+average episode rewards is -115.55242538452148
+ Scenario simple_spread Algo rmappo Exp check updates 4595/6250 episodes, total num timesteps 14707200/20000000, FPS 1576.
+average episode rewards is -112.94193267822266
+ Scenario simple_spread Algo rmappo Exp check updates 4600/6250 episodes, total num timesteps 14723200/20000000, FPS 1576.
+average episode rewards is -113.45596313476562
+ Scenario simple_spread Algo rmappo Exp check updates 4605/6250 episodes, total num timesteps 14739200/20000000, FPS 1575.
+average episode rewards is -113.22697401046753
+ Scenario simple_spread Algo rmappo Exp check updates 4610/6250 episodes, total num timesteps 14755200/20000000, FPS 1575.
+average episode rewards is -112.52442598342896
+ Scenario simple_spread Algo rmappo Exp check updates 4615/6250 episodes, total num timesteps 14771200/20000000, FPS 1574.
+average episode rewards is -113.32484483718872
+ Scenario simple_spread Algo rmappo Exp check updates 4620/6250 episodes, total num timesteps 14787200/20000000, FPS 1574.
+average episode rewards is -113.38932514190674
+ Scenario simple_spread Algo rmappo Exp check updates 4625/6250 episodes, total num timesteps 14803200/20000000, FPS 1573.
+average episode rewards is -115.3152585029602
+ Scenario simple_spread Algo rmappo Exp check updates 4630/6250 episodes, total num timesteps 14819200/20000000, FPS 1573.
+average episode rewards is -113.82670402526855
+ Scenario simple_spread Algo rmappo Exp check updates 4635/6250 episodes, total num timesteps 14835200/20000000, FPS 1573.
+average episode rewards is -113.27904462814331
+ Scenario simple_spread Algo rmappo Exp check updates 4640/6250 episodes, total num timesteps 14851200/20000000, FPS 1572.
+average episode rewards is -114.69331979751587
+ Scenario simple_spread Algo rmappo Exp check updates 4645/6250 episodes, total num timesteps 14867200/20000000, FPS 1572.
+average episode rewards is -115.23803472518921
+ Scenario simple_spread Algo rmappo Exp check updates 4650/6250 episodes, total num timesteps 14883200/20000000, FPS 1572.
+average episode rewards is -114.41205739974976
+ Scenario simple_spread Algo rmappo Exp check updates 4655/6250 episodes, total num timesteps 14899200/20000000, FPS 1571.
+average episode rewards is -113.64408731460571
+ Scenario simple_spread Algo rmappo Exp check updates 4660/6250 episodes, total num timesteps 14915200/20000000, FPS 1571.
+average episode rewards is -114.15116786956787
+ Scenario simple_spread Algo rmappo Exp check updates 4665/6250 episodes, total num timesteps 14931200/20000000, FPS 1571.
+average episode rewards is -116.299569606781
+ Scenario simple_spread Algo rmappo Exp check updates 4670/6250 episodes, total num timesteps 14947200/20000000, FPS 1570.
+average episode rewards is -113.7457013130188
+ Scenario simple_spread Algo rmappo Exp check updates 4675/6250 episodes, total num timesteps 14963200/20000000, FPS 1570.
+average episode rewards is -113.88304233551025
+ Scenario simple_spread Algo rmappo Exp check updates 4680/6250 episodes, total num timesteps 14979200/20000000, FPS 1569.
+average episode rewards is -113.31284046173096
+ Scenario simple_spread Algo rmappo Exp check updates 4685/6250 episodes, total num timesteps 14995200/20000000, FPS 1569.
+average episode rewards is -114.56562280654907
+ Scenario simple_spread Algo rmappo Exp check updates 4690/6250 episodes, total num timesteps 15011200/20000000, FPS 1569.
+average episode rewards is -112.4585747718811
+ Scenario simple_spread Algo rmappo Exp check updates 4695/6250 episodes, total num timesteps 15027200/20000000, FPS 1568.
+average episode rewards is -111.55407428741455
+ Scenario simple_spread Algo rmappo Exp check updates 4700/6250 episodes, total num timesteps 15043200/20000000, FPS 1568.
+average episode rewards is -114.93693590164185
+ Scenario simple_spread Algo rmappo Exp check updates 4705/6250 episodes, total num timesteps 15059200/20000000, FPS 1567.

@@ -1,0 +1,23 @@
+2024-07-25 19:24:14,789 INFO    MainThread:31040 [wandb_setup.py:_flush():71] setting env: {}
+2024-07-25 19:24:14,789 INFO    MainThread:31040 [wandb_setup.py:_flush():71] setting login settings: {}
+2024-07-25 19:24:14,789 INFO    MainThread:31040 [wandb_init.py:_log_setup():371] Logging user logs to \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\MPE\simple_spread\rmappo\check\wandb\run-20240725_192414-wo3k4py9\logs\debug.log
+2024-07-25 19:24:14,796 INFO    MainThread:31040 [wandb_init.py:_log_setup():372] Logging internal logs to \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\MPE\simple_spread\rmappo\check\wandb\run-20240725_192414-wo3k4py9\logs\debug-internal.log
+2024-07-25 19:24:14,796 INFO    MainThread:31040 [wandb_init.py:init():404] calling init triggers
+2024-07-25 19:24:14,796 INFO    MainThread:31040 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'algorithm_name': 'rmappo', 'experiment_name': 'check', 'seed': 1, 'cuda': True, 'cuda_deterministic': True, 'n_training_threads': 1, 'n_rollout_threads': 32, 'n_eval_rollout_threads': 1, 'n_render_rollout_threads': 1, 'num_env_steps': 20000000, 'user_name': 'ygalboraei-university-of-bristol', 'use_wandb': True, 'env_name': 'MPE', 'use_obs_instead_of_state': False, 'episode_length': 25, 'share_policy': True, 'use_centralized_V': True, 'stacked_frames': 1, 'use_stacked_frames': False, 'hidden_size': 64, 'layer_N': 1, 'use_ReLU': False, 'use_popart': False, 'use_valuenorm': True, 'use_feature_normalization': True, 'use_orthogonal': True, 'gain': 0.01, 'use_naive_recurrent_policy': False, 'use_recurrent_policy': True, 'recurrent_N': 1, 'data_chunk_length': 10, 'lr': 0.0007, 'critic_lr': 0.0007, 'opti_eps': 1e-05, 'weight_decay': 0, 'kl_threshold': 0.01, 'ls_step': 10, 'accept_ratio': 0.5, 'ppo_epoch': 10, 'use_clipped_value_loss': True, 'clip_param': 0.2, 'num_mini_batch': 1, 'entropy_coef': 0.01, 'value_loss_coef': 1, 'use_max_grad_norm': True, 'max_grad_norm': 10.0, 'use_gae': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'use_proper_time_limits': False, 'use_huber_loss': True, 'use_value_active_masks': True, 'use_policy_active_masks': True, 'huber_delta': 10.0, 'use_linear_lr_decay': False, 'save_interval': 1, 'log_interval': 5, 'use_eval': False, 'eval_interval': 25, 'eval_episodes': 32, 'save_gifs': False, 'use_render': False, 'render_episodes': 5, 'ifi': 0.1, 'model_dir': None, 'encode_state': False, 'n_block': 1, 'n_embd': 64, 'n_head': 1, 'dec_actor': False, 'share_actor': False, 'train_maps': None, 'eval_maps': None, 'scenario_name': 'simple_spread', 'num_landmarks': 3, 'num_agents': 3}
+2024-07-25 19:24:14,796 INFO    MainThread:31040 [wandb_init.py:init():460] starting backend
+2024-07-25 19:24:14,796 INFO    MainThread:31040 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2024-07-25 19:24:14,806 INFO    MainThread:31040 [backend.py:ensure_launched():216] starting backend process...
+2024-07-25 19:24:14,917 INFO    MainThread:31040 [backend.py:ensure_launched():222] started backend process with pid: 22820
+2024-07-25 19:24:14,917 INFO    MainThread:31040 [wandb_init.py:init():469] backend started and connected
+2024-07-25 19:24:15,080 INFO    MainThread:31040 [wandb_init.py:init():533] updated telemetry
+2024-07-25 19:24:15,080 INFO    MainThread:31040 [wandb_init.py:init():563] communicating current version
+2024-07-25 19:24:16,213 INFO    MainThread:31040 [wandb_init.py:init():568] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-25 19:24:16,213 INFO    MainThread:31040 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2024-07-25 19:24:16,647 INFO    MainThread:31040 [wandb_init.py:init():606] starting run threads in backend
+2024-07-25 19:24:20,467 INFO    MainThread:31040 [wandb_run.py:_console_start():1810] atexit reg
+2024-07-25 19:24:20,496 INFO    MainThread:31040 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2024-07-25 19:24:20,496 INFO    MainThread:31040 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2024-07-25 19:24:20,496 INFO    MainThread:31040 [wandb_run.py:_redirect():1745] Redirects installed.
+2024-07-25 19:24:20,496 INFO    MainThread:31040 [wandb_init.py:init():633] run started, returning control to user process

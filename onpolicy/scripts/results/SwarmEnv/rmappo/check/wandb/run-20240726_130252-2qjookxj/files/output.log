@@ -1,0 +1,3 @@
+obs_space:  [Box(8,), Box(8,), Box(8,), Box(8,), Box(8,), Box(8,), Box(8,), Box(8,), Box(8,), Box(8,)]
+share_obs_space:  [Box(80,)]
+act_space:  [Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15)]
