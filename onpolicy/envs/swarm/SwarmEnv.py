@@ -41,7 +41,8 @@ class SwarmEnv(gym.Env):
             marl_sim.M_type.BY_MARL_SINGLE
         )
         self.previous_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        self.previous_rb_distance = np.array(self.simulator.bb.rb_distance).reshape(self.simulator.bb.s_no_robots, self.simulator.bb.s_no_boxes)
+        # self.previous_rb_distance = np.array(self.simulator.bb.rb_distance).reshape(self.simulator.bb.s_no_robots, self.simulator.bb.s_no_boxes)
+        self.previous_nearest_box_distances = np.array(self.simulator.bb.r_nearest_box)
         self.previous_box_y_positions = np.array(self.simulator.bb.b_pos_y)
         
         # Define the observation space based on the actual observation size
@@ -73,24 +74,35 @@ class SwarmEnv(gym.Env):
         info = self._get_info()
         return observation, reward, done, truncated, info
 
+
     def _get_observation(self):
         bb = self.simulator.bb
         observations = {}
         for i, agent in enumerate(self.agents):
             agent_obs = np.array([
+                bb.r_state[i],
+                # bb.r_positioned[i],
+                # bb.r_in_team[i],
+                # bb.r_lifting[i],
+                bb.r_velocity_comp[i],
+                bb.r_nearest_box[i],
+                # bb.r_nearest_boxm[i],
+                bb.r_nearest_robot[i],
+                bb.r_nearest_wall[i],
+                bb.r_nearest_box_id[i],
+                # bb.r_nearest_boxm_id[i],
+                bb.r_nearest_robot_id[i],
+                bb.r_nearest_wall_id[i],
                 bb.r_robots_in_range[i],
                 bb.r_box_in_range[i],
+                # bb.r_boxm_in_range[i],
                 bb.r_walls_in_range[i],
-                bb.r_velocity_comp[i],
-                bb.r_state[i],
-                bb.r_nearest_robot[i],
-                bb.r_nearest_box[i],
-                bb.r_nearest_wall[i]
-            ], dtype=np.float64)
-            agent_obs = np.nan_to_num(agent_obs, nan=0.0, posinf=0.0, neginf=0.0) #TODO: check the source of nan from the simulator
+                bb.r_messages_r[i],
+                bb.r_messages_s[i],
+                bb.r_delivered[i],
+                # bb.r_delivered_m[i]
+            ], dtype=np.float32)
             observations[agent] = agent_obs
-        # print(len(observations))
-        # print(observations)
         return observations
 
     # def _get_reward(self):
@@ -105,10 +117,11 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 1#100.0
-        DISTANCE_TO_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 0.00#0.02
-        TIME_PENALTY = 0.0 #0.01
+        DELIVERY_REWARD = 100.0
+        # DISTANCE_TO_BOX_WEIGHT = 0.00
+        DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
+        DISTANCE_TO_DROP_AREA_WEIGHT = 0.05
+        TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
         num_boxes = self.simulator.bb.s_no_boxes
@@ -118,94 +131,53 @@ class SwarmEnv(gym.Env):
 
         # 1. Reward for delivered boxes (global reward, split among agents)
         current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        # print(current_delivery_rate)
 
         if hasattr(self, 'previous_delivery_rate'):
-            # print('yes1')
-            boxes_delivered = current_delivery_rate #- self.previous_delivery_rate
-            delivery_reward = DELIVERY_REWARD * boxes_delivered #/ num_robots
+            boxes_delivered = current_delivery_rate - self.previous_delivery_rate
+            delivery_reward = DELIVERY_REWARD * boxes_delivered / num_robots
             for agent in self.agents:
                 rewards[agent] += delivery_reward
         self.previous_delivery_rate = current_delivery_rate
 
-        # 2. Reward for decreasing distance to boxes (per agent)
-        rb_distance = np.array(self.simulator.bb.rb_distance).reshape(num_robots, num_boxes)
-        # print(rbm_distance)
+        # # 2. Reward for decreasing distance to boxes (per agent)
+        # rb_distance = np.array(self.simulator.bb.rb_distance).reshape(num_robots, num_boxes)
+        # exit()
 
-        if hasattr(self, 'previous_rbm_distance'):
-            # print('yes2')
+        # if hasattr(self, 'previous_rbm_distance'):
+        #     for i, agent in enumerate(self.agents):
+        #         distance_decrease = np.sum(self.previous_rb_distance[i] - rb_distance[i])
+        #         rewards[agent] += DISTANCE_TO_BOX_WEIGHT * distance_decrease
+        # self.previous_rb_distance = rb_distance.copy()
+
+        # 2. Reward for decreasing distance to nearest box
+        current_nearest_box_distances = np.array(self.simulator.bb.r_nearest_box)
+        
+        if hasattr(self, 'previous_nearest_box_distances'):
             for i, agent in enumerate(self.agents):
-                distance_decrease = np.sum(self.previous_rb_distance[i] - rb_distance[i])
-                rewards[agent] += DISTANCE_TO_BOX_WEIGHT * distance_decrease
-        self.previous_rb_distance = rb_distance.copy()
+                distance_decrease = self.previous_nearest_box_distances[i] - current_nearest_box_distances[i]
+                rewards[agent] += DISTANCE_TO_NEAREST_BOX_WEIGHT * distance_decrease
+    
+        self.previous_nearest_box_distances = current_nearest_box_distances.copy()
 
         # 3. Reward for boxes moving towards drop area
         current_box_y_positions = np.array(self.simulator.bb.b_pos_y)
-        # print(current_boxm_y_positions)
 
         if hasattr(self, 'previous_boxm_y_positions'):
-            # print('yes3')
             y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions)
             progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
             for agent in self.agents:
                 rewards[agent] += progress_reward
-        self.previous_boxm_y_positions = current_box_y_positions.copy()
+        self.previous_box_y_positions = current_box_y_positions.copy()
 
         # 4. Time penalty (per agent)
         for agent in self.agents:
             rewards[agent] -= TIME_PENALTY
 
         print(rewards)
+        import time
+        time.sleep(5)
         # exit()
         return rewards
-
-
-
-    # def _get_reward(self):
-    #     # Constants
-    #     DELIVERY_REWARD = 10.0
-    #     DISTANCE_TO_BOX_WEIGHT = 0.01
-    #     DISTANCE_TO_DROP_AREA_WEIGHT = 0.02
-    #     TIME_PENALTY = 0.1
-
-    #     num_robots = self.simulator.bb.s_no_robots
-    #     num_boxes = self.simulator.bb.s_no_boxes
-
-    #     # Initialize rewards for each agent
-    #     rewards = {agent: 0.0 for agent in self.agents}
-
-    #     # 1. Reward for delivered boxes (global reward, split among agents)
-    #     current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-    #     if hasattr(self, 'previous_delivery_rate'):
-    #         boxes_delivered = current_delivery_rate - self.previous_delivery_rate
-    #         delivery_reward = DELIVERY_REWARD * boxes_delivered / num_robots
-    #         for agent in self.agents:
-    #             rewards[agent] += delivery_reward
-    #     self.previous_delivery_rate = current_delivery_rate
-
-    #     # 2. Reward for decreasing distance to boxes (per agent)
-    #     rb_distance = np.array(self.simulator.bb.rbm_distance).reshape(num_robots, num_boxes)
-        
-    #     if hasattr(self, 'previous_rbm_distance'):
-    #         for i, agent in enumerate(self.agents):
-    #             distance_decrease = np.sum(self.previous_rbm_distance[i] - rb_distance[i])
-    #             rewards[agent] += DISTANCE_TO_BOX_WEIGHT * distance_decrease
-    #     self.previous_rbm_distance = rb_distance.copy()
-
-    #     # 3. Reward for boxes moving towards drop area
-    #     current_boxm_y_positions = np.array(self.simulator.bb.bm_pos_y)
-    #     if hasattr(self, 'previous_boxm_y_positions'):
-    #         y_progress = np.sum(current_boxm_y_positions - self.previous_boxm_y_positions)
-    #         progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
-    #         for agent in self.agents:
-    #             rewards[agent] += progress_reward
-    #     self.previous_boxm_y_positions = current_boxm_y_positions.copy()
-
-    #     # 4. Time penalty (per agent)
-    #     for agent in self.agents:
-    #         rewards[agent] -= TIME_PENALTY
-
-    #     return rewards
 
 
     def _is_done(self):
