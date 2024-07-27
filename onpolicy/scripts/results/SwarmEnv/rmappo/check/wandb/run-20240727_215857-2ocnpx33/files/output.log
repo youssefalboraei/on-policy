@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 312, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+BrokenPipeError: [WinError 109] The pipe has been ended
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py", line 177, in <module>
+    main(sys.argv[1:])
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py", line 142, in main
+    envs = make_train_env(all_args)
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py", line 31, in make_train_env
+    return ShareSubprocVecEnv([get_env_fn(i) for i in range(all_args.n_rollout_threads)])
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\windows\downloads\on-policy\onpolicy\envs\env_wrappers.py", line 379, in __init__
+    observation_space, share_observation_space, action_space = self.remotes[0].recv(
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 321, in _recv_bytes
+    raise EOFError
+EOFError

@@ -4,7 +4,7 @@ import subprocess
 env = "SwarmEnv"
 scenario = "single_transport_share_obs"
 num_agents = 10
-algo = "mappo"  # "rmappo" "ippo"
+algo = "mappo"  # "mappo" "ippo"
 exp = "check"
 seed_max = 1
 
@@ -22,7 +22,7 @@ for seed in range(1, seed_max + 1):
     # Construct the command
     command = [
         "python", train_script_path,
-        "--cuda", "False", #
+        # "--cuda", "False", #
         "--env_name", env,
         "--algorithm_name", algo,
         "--experiment_name", exp,

@@ -20,7 +20,7 @@ class SwarmRunner(Runner):
             if self.use_linear_lr_decay:
                 self.trainer.policy.lr_decay(episode, episodes)
 
-            print(self.episode_length)
+            # print(self.episode_length)
             for step in range(self.episode_length):
                 # Sample actions
                 values, actions, action_log_probs, rnn_states, rnn_states_critic = self.collect(step)

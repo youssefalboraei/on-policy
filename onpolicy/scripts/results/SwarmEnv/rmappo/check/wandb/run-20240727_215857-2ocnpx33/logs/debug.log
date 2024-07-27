@@ -1,0 +1,42 @@
+2024-07-27 21:58:58,002 INFO    MainThread:25100 [wandb_init.py:_log_setup():292] Logging user logs to \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\check\wandb\run-20240727_215857-2ocnpx33\logs\debug.log
+2024-07-27 21:58:58,003 INFO    MainThread:25100 [wandb_init.py:_log_setup():293] Logging internal logs to \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\check\wandb\run-20240727_215857-2ocnpx33\logs\debug-internal.log
+2024-07-27 21:58:58,004 INFO    MainThread:25100 [wandb_setup.py:_flush():68] setting env: {}
+2024-07-27 21:58:58,005 INFO    MainThread:25100 [wandb_setup.py:_flush():68] setting user settings: {}
+2024-07-27 21:58:58,006 INFO    MainThread:25100 [wandb_setup.py:_flush():68] multiprocessing start_methods=spawn
+2024-07-27 21:59:02,135 INFO    MainThread:25100 [wandb_run.py:_console_start():1265] atexit reg
+2024-07-27 21:59:02,185 INFO    MainThread:25100 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.WRAP
+2024-07-27 21:59:02,186 INFO    MainThread:25100 [wandb_run.py:_redirect():1166] Wrapping output streams.
+2024-07-27 21:59:02,186 INFO    MainThread:25100 [wandb_run.py:_redirect():1182] Redirects installed.
+2024-07-27 21:59:05,097 INFO    MainThread:25100 [wandb_run.py:_atexit_cleanup():1238] got exitcode: 1
+2024-07-27 21:59:05,098 INFO    MainThread:25100 [wandb_run.py:_restore():1210] restore
+2024-07-27 21:59:05,110 INFO    MainThread:25100 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "110f43ecae354dd287ca0dd88b0656e1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1553
+      total_bytes: 1553
+    }
+  }
+}
+
+2024-07-27 21:59:07,123 INFO    MainThread:25100 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "6de26288dfe94a32a44b254346954d86"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 9197
+      total_bytes: 9197
+    }
+  }
+}
+
+2024-07-27 21:59:08,211 INFO    MainThread:25100 [wandb_run.py:_show_files():1543] logging synced files
+2024-07-27 21:59:08,224 INFO    MainThread:25100 [internal.py:handle_exit():137] Internal process exited

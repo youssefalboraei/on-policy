@@ -36,8 +36,8 @@ class SwarmEnv(gym.Env):
         np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
 
-        seed = self.config.seed
-        print(seed)
+        # seed = self.config.seed
+        # print(seed)
         self.step_counter = 0
         self.simulator = marl_sim.FaultManagementSimulator(
             self.config,
@@ -219,8 +219,6 @@ class SwarmEnv(gym.Env):
         # Implement your termination condition
         # For example, you could end the episode after a fixed number of steps
         done = self.simulator.completion_check() or (self.step_counter >= 1_500)
-        if done:
-            print(done)
         return {agent: done for agent in self.agents}
 
     def _get_info(self):
