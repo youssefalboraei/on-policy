@@ -155,8 +155,9 @@ def main(args):
         "run_dir": run_dir
     }
 
-    print(all_args)
-    exit()
+    # print(all_args)
+    # exit()
+
     # run experiments
     if all_args.share_policy:
     
@@ -165,7 +166,7 @@ def main(args):
         from onpolicy.runner.separated.swarm_runner import SwarmRunner as Runner
 
     runner = SwarmRunner(config)
-    runner.eval(total_num_steps=50_000)
+    runner.eval(total_num_steps=1_000)
     
     # post process
     eval_envs.close()

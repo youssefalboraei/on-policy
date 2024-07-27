@@ -10,7 +10,7 @@ from pathlib import Path
 import torch
 from onpolicy.config import get_config
 from onpolicy.envs.swarm.swarm_env import SwarmEnvWrapper
-from onpolicy.envs.env_wrappers import SubprocVecEnv, DummyVecEnv
+from onpolicy.envs.env_wrappers import ShareSubprocVecEnv, DummyVecEnv
 
 """Train script for SwarmEnv."""
 
@@ -28,7 +28,7 @@ def make_train_env(all_args):
     if all_args.n_rollout_threads == 1:
         return DummyVecEnv([get_env_fn(0)])
     else:
-        return SubprocVecEnv([get_env_fn(i) for i in range(all_args.n_rollout_threads)])
+        return ShareSubprocVecEnv([get_env_fn(i) for i in range(all_args.n_rollout_threads)])
 
 def make_eval_env(all_args):
     def get_env_fn(rank):
@@ -44,7 +44,7 @@ def make_eval_env(all_args):
     if all_args.n_eval_rollout_threads == 1:
         return DummyVecEnv([get_env_fn(0)])
     else:
-        return SubprocVecEnv([get_env_fn(i) for i in range(all_args.n_eval_rollout_threads)])
+        return ShareSubprocVecEnv([get_env_fn(i) for i in range(all_args.n_eval_rollout_threads)])
 
 def parse_args(args, parser):
     parser.add_argument('--scenario_name', type=str,

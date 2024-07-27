@@ -20,14 +20,15 @@ class SwarmRunner(Runner):
             if self.use_linear_lr_decay:
                 self.trainer.policy.lr_decay(episode, episodes)
 
+            print(self.episode_length)
             for step in range(self.episode_length):
                 # Sample actions
                 values, actions, action_log_probs, rnn_states, rnn_states_critic = self.collect(step)
                     
                 # Observe reward and next obs
-                obs, rewards, dones, infos = self.envs.step(actions)
+                obs, share_obs, rewards, dones, infos = self.envs.step(actions)
 
-                data = obs, rewards, dones, infos, values, actions, action_log_probs, rnn_states, rnn_states_critic
+                data = obs, share_obs, rewards, dones, infos, values, actions, action_log_probs, rnn_states, rnn_states_critic
 
                 # print(infos)
                 # exit()
@@ -83,14 +84,24 @@ class SwarmRunner(Runner):
 
     def warmup(self):
         # reset env
-        obs = self.envs.reset()
+        obs, share_obs = self.envs.reset()
 
+        # print(share_obs)
+        # print("--")
         # replay buffer
         if self.use_centralized_V:
-            share_obs = obs.reshape(self.n_rollout_threads, -1)
+            share_obs = share_obs.reshape(self.n_rollout_threads, -1)
             share_obs = np.expand_dims(share_obs, 1).repeat(self.num_agents, axis=1)
-        else:
-            share_obs = obs
+            
+            # share_obsy = obs.reshape(self.n_rollout_threads, -1)
+            # share_obsy = np.expand_dims(share_obsy, 1).repeat(self.num_agents, axis=1)
+        # else:
+        #     share_obs = obs
+
+        # print(share_obs)
+        # print("--")
+        # print(share_obsy)
+        # exit()
 
         self.buffer.share_obs[0] = share_obs.copy()
         self.buffer.obs[0] = obs.copy()
@@ -114,7 +125,7 @@ class SwarmRunner(Runner):
         return values, actions, action_log_probs, rnn_states, rnn_states_critic
 
     def insert(self, data):
-        obs, rewards, dones, infos, values, actions, action_log_probs, rnn_states, rnn_states_critic = data
+        obs, share_obs, rewards, dones, infos, values, actions, action_log_probs, rnn_states, rnn_states_critic = data
 
         rnn_states[dones == True] = np.zeros(((dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
         rnn_states_critic[dones == True] = np.zeros(((dones == True).sum(), *self.buffer.rnn_states_critic.shape[3:]), dtype=np.float32)
@@ -122,17 +133,17 @@ class SwarmRunner(Runner):
         masks[dones == True] = np.zeros(((dones == True).sum(), 1), dtype=np.float32)
 
         if self.use_centralized_V:
-            share_obs = obs.reshape(self.n_rollout_threads, -1)
+            share_obs = share_obs.reshape(self.n_rollout_threads, -1)
             share_obs = np.expand_dims(share_obs, 1).repeat(self.num_agents, axis=1)
-        else:
-            share_obs = obs
+        # else:
+        #     share_obs = obs
 
         self.buffer.insert(share_obs, obs, rnn_states, rnn_states_critic, actions, action_log_probs, values, rewards, masks)
 
     @torch.no_grad()
     def eval(self, total_num_steps):
         eval_episode_rewards = []
-        eval_obs = self.eval_envs.reset()
+        eval_obs, _ = self.eval_envs.reset()
 
         eval_rnn_states = np.zeros((self.n_eval_rollout_threads, *self.buffer.rnn_states.shape[2:]), dtype=np.float32)
         eval_masks = np.ones((self.n_eval_rollout_threads, self.num_agents, 1), dtype=np.float32)
@@ -146,7 +157,7 @@ class SwarmRunner(Runner):
             eval_actions = np.array(np.split(_t2n(eval_action), self.n_eval_rollout_threads))
             eval_rnn_states = np.array(np.split(_t2n(eval_rnn_states), self.n_eval_rollout_threads))
             
-            eval_obs, eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions)
+            eval_obs, _,  eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions)
             eval_episode_rewards.append(eval_rewards)
 
             eval_rnn_states[eval_dones == True] = np.zeros(((eval_dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
@@ -167,7 +178,7 @@ class SwarmRunner(Runner):
         
         all_frames = []
         for episode in range(self.all_args.render_episodes):
-            obs = envs.reset()
+            obs, _ = envs.reset()
             if self.all_args.save_gifs:
                 image = envs.render('rgb_array')[0][0]
                 all_frames.append(image)
@@ -191,7 +202,7 @@ class SwarmRunner(Runner):
                 rnn_states = np.array(np.split(_t2n(rnn_states), self.n_rollout_threads))
 
                 # Observe reward and next obs
-                obs, rewards, dones, infos = envs.step(actions)
+                obs, share_obs, rewards, dones, infos = envs.step(actions)
                 episode_rewards.append(rewards)
 
                 rnn_states[dones == True] = np.zeros(((dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
@@ -239,7 +250,7 @@ class SwarmRunner(Runner):
     #             eval_rnn_states = np.array(np.split(_t2n(eval_rnn_states), self.n_eval_rollout_threads))
 
     #             # Observe reward and next obs
-    #             eval_obs, eval_rewards, eval_dones, eval_infos = eval_envs.step(eval_actions)
+    #             eval_obs, _, eval_rewards, eval_dones, eval_infos = eval_envs.step(eval_actions)
     #             print(eval_action)
     #             print(eval_rewards)
     #             print()

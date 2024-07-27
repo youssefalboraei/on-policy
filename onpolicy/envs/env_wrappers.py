@@ -262,15 +262,36 @@ class SubprocVecEnv(ShareVecEnv):
     def step_wait(self):
         results = [remote.recv() for remote in self.remotes]
         self.waiting = False
-        obs, rews, dones, infos = zip(*results)
-        return np.stack(obs), np.stack(rews), np.stack(dones), infos
+        obs, share_obs, rews, dones, infos = zip(*results)
+        return np.stack(obs), share_obs, np.stack(rews), np.stack(dones), infos
+
+    # def reset(self):
+    #     for remote in self.remotes:
+    #         remote.send(('reset', None))
+    #     obs, share_obs = [remote.recv() for remote in self.remotes]
+    #     return np.stack(obs), share_obs
 
     def reset(self):
         for remote in self.remotes:
             remote.send(('reset', None))
-        obs = [remote.recv() for remote in self.remotes]
-        return np.stack(obs)
-
+        results = [remote.recv() for remote in self.remotes]
+        obs, share_obs = zip(*results)
+        
+        # Check if all observations have the same shape
+        if len(set(o.shape for o in obs)) == 1:
+            obs = np.stack(obs)
+        else:
+            print("Warning: Observations have different shapes. Using np.array instead of np.stack.")
+            obs = np.array(obs, dtype=object)
+        
+        # Check if all shared observations have the same shape
+        if isinstance(share_obs[0], np.ndarray) and len(set(so.shape for so in share_obs)) == 1:
+            share_obs = np.stack(share_obs)
+        else:
+            print("Warning: Shared observations have different shapes or are not numpy arrays. Using as is.")
+            # If share_obs are not numpy arrays or have different shapes, we return them as is
+        
+        return obs, share_obs
 
     def reset_task(self):
         for remote in self.remotes:
@@ -303,18 +324,18 @@ def shareworker(remote, parent_remote, env_fn_wrapper):
     while True:
         cmd, data = remote.recv()
         if cmd == 'step':
-            ob, s_ob, reward, done, info, available_actions = env.step(data)
+            ob, s_ob, reward, done, info  = env.step(data)
             if 'bool' in done.__class__.__name__:
                 if done:
-                    ob, s_ob, available_actions = env.reset()
+                    ob, s_ob  = env.reset()
             else:
                 if np.all(done):
-                    ob, s_ob, available_actions = env.reset()
+                    ob, s_ob  = env.reset()
 
-            remote.send((ob, s_ob, reward, done, info, available_actions))
+            remote.send((ob, s_ob, reward, done, info ))
         elif cmd == 'reset':
-            ob, s_ob, available_actions = env.reset()
-            remote.send((ob, s_ob, available_actions))
+            ob, s_ob  = env.reset()
+            remote.send((ob, s_ob ))
         elif cmd == 'reset_task':
             ob = env.reset_task()
             remote.send(ob)
@@ -368,15 +389,15 @@ class ShareSubprocVecEnv(ShareVecEnv):
     def step_wait(self):
         results = [remote.recv() for remote in self.remotes]
         self.waiting = False
-        obs, share_obs, rews, dones, infos, available_actions = zip(*results)
-        return np.stack(obs), np.stack(share_obs), np.stack(rews), np.stack(dones), infos, np.stack(available_actions)
+        obs, share_obs, rews, dones, infos  = zip(*results)
+        return np.stack(obs), np.stack(share_obs), np.stack(rews), np.stack(dones), infos  
 
     def reset(self):
         for remote in self.remotes:
             remote.send(('reset', None))
         results = [remote.recv() for remote in self.remotes]
-        obs, share_obs, available_actions = zip(*results)
-        return np.stack(obs), np.stack(share_obs), np.stack(available_actions)
+        obs, share_obs  = zip(*results)
+        return np.stack(obs), np.stack(share_obs)  
 
     def reset_task(self):
         for remote in self.remotes:
@@ -496,11 +517,11 @@ def chooseworker(remote, parent_remote, env_fn_wrapper):
     while True:
         cmd, data = remote.recv()
         if cmd == 'step':
-            ob, s_ob, reward, done, info, available_actions = env.step(data)
-            remote.send((ob, s_ob, reward, done, info, available_actions))
+            ob, s_ob, reward, done, info  = env.step(data)
+            remote.send((ob, s_ob, reward, done, info ))
         elif cmd == 'reset':
-            ob, s_ob, available_actions = env.reset(data)
-            remote.send((ob, s_ob, available_actions))
+            ob, s_ob  = env.reset(data)
+            remote.send((ob, s_ob ))
         elif cmd == 'reset_task':
             ob = env.reset_task()
             remote.send(ob)
@@ -547,15 +568,15 @@ class ChooseSubprocVecEnv(ShareVecEnv):
     def step_wait(self):
         results = [remote.recv() for remote in self.remotes]
         self.waiting = False
-        obs, share_obs, rews, dones, infos, available_actions = zip(*results)
-        return np.stack(obs), np.stack(share_obs), np.stack(rews), np.stack(dones), infos, np.stack(available_actions)
+        obs, share_obs, rews, dones, infos  = zip(*results)
+        return np.stack(obs), np.stack(share_obs), np.stack(rews), np.stack(dones), infos  
 
     def reset(self, reset_choose):
         for remote, choose in zip(self.remotes, reset_choose):
             remote.send(('reset', choose))
         results = [remote.recv() for remote in self.remotes]
-        obs, share_obs, available_actions = zip(*results)
-        return np.stack(obs), np.stack(share_obs), np.stack(available_actions)
+        obs, share_obs  = zip(*results)
+        return np.stack(obs), np.stack(share_obs)  
 
     def reset_task(self):
         for remote in self.remotes:
@@ -716,24 +737,24 @@ class ShareDummyVecEnv(ShareVecEnv):
 
     def step_wait(self):
         results = [env.step(a) for (a, env) in zip(self.actions, self.envs)]
-        obs, share_obs, rews, dones, infos, available_actions = map(
+        obs, share_obs, rews, dones, infos  = map(
             np.array, zip(*results))
 
         for (i, done) in enumerate(dones):
             if 'bool' in done.__class__.__name__:
                 if done:
-                    obs[i], share_obs[i], available_actions[i] = self.envs[i].reset()
+                    obs[i], share_obs[i] [i] = self.envs[i].reset()
             else:
                 if np.all(done):
-                    obs[i], share_obs[i], available_actions[i] = self.envs[i].reset()
+                    obs[i], share_obs[i] [i] = self.envs[i].reset()
         self.actions = None
 
-        return obs, share_obs, rews, dones, infos, available_actions
+        return obs, share_obs, rews, dones, infos 
 
     def reset(self):
         results = [env.reset() for env in self.envs]
-        obs, share_obs, available_actions = map(np.array, zip(*results))
-        return obs, share_obs, available_actions
+        obs, share_obs  = map(np.array, zip(*results))
+        return obs, share_obs 
 
     def close(self):
         for env in self.envs:
@@ -762,16 +783,16 @@ class ChooseDummyVecEnv(ShareVecEnv):
 
     def step_wait(self):
         results = [env.step(a) for (a, env) in zip(self.actions, self.envs)]
-        obs, share_obs, rews, dones, infos, available_actions = map(
+        obs, share_obs, rews, dones, infos  = map(
             np.array, zip(*results))
         self.actions = None
-        return obs, share_obs, rews, dones, infos, available_actions
+        return obs, share_obs, rews, dones, infos 
 
     def reset(self, reset_choose):
         results = [env.reset(choose)
                    for (env, choose) in zip(self.envs, reset_choose)]
-        obs, share_obs, available_actions = map(np.array, zip(*results))
-        return obs, share_obs, available_actions
+        obs, share_obs  = map(np.array, zip(*results))
+        return obs, share_obs 
 
     def close(self):
         for env in self.envs:

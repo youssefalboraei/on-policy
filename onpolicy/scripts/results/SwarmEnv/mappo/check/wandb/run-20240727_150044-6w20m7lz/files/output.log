@@ -1,0 +1,12 @@
+obs_space:  [Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64)]
+share_obs_space:  [Box(-inf, inf, (140,), float32)]
+act_space:  [Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15)]
+ Env SwarmEnv Algo mappo Exp check updates 0/66666 episodes, total num timesteps 3000/200000000, FPS 422.
+average episode rewards is -14.999999664723873
+ Env SwarmEnv Algo mappo Exp check updates 5/66666 episodes, total num timesteps 18000/200000000, FPS 422.
+average episode rewards is -14.999999664723873
+ Env SwarmEnv Algo mappo Exp check updates 10/66666 episodes, total num timesteps 33000/200000000, FPS 369.
+average episode rewards is -14.999999664723873
+ Env SwarmEnv Algo mappo Exp check updates 15/66666 episodes, total num timesteps 48000/200000000, FPS 351.
+average episode rewards is -14.999999664723873
+ Env SwarmEnv Algo mappo Exp check updates 20/66666 episodes, total num timesteps 63000/200000000, FPS 344.

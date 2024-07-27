@@ -14,8 +14,11 @@ class SwarmEnv(gym.Env):
         self.config.predict_fault = False
         self.simulator = None
         self.num_agents = self.config.number_of_agents
+        self.num_boxes = self.config.number_of_boxes
         self.agents = [f'agent_{i}' for i in range(self.num_agents)]
         self.max_num_agents = self.num_agents
+
+        self.step_counter = 0
 
         # Define discrete action space for each agent
         self.action_space = {
@@ -29,8 +32,13 @@ class SwarmEnv(gym.Env):
     def reset(self, seed=None):
         if seed is not None:
             self.config.seed = seed
+        
+        np.random.seed(self.config.seed)
+        self.config.seed = np.random.randint(0, 999999)
+
         seed = self.config.seed
         print(seed)
+        self.step_counter = 0
         self.simulator = marl_sim.FaultManagementSimulator(
             self.config,
             self.config.number_of_faults,
@@ -47,14 +55,23 @@ class SwarmEnv(gym.Env):
         
         # Define the observation space based on the actual observation size
         sample_obs = self._get_observation()
+        sample_share_obs = self._get_share_observation()
+
         self.observation_space = {
             agent: spaces.Box(low=-np.inf, high=np.inf, shape=sample_obs[agent].shape, dtype=np.float64)
             for agent in self.agents
         }
+
+        # global_state_dim = (sample_obs[agent].shape * self.num_agents) + (2 * self.num_agents) + (2 * self.num_boxes) # 2 is for  x and y
+        # self.share_observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=global_state_dim , dtype=np.float64)
+        self.share_observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=sample_share_obs.shape , dtype=np.float64)
+        
+
         # print(sample_obs)
-        return sample_obs, {}
+        return sample_obs, sample_share_obs, {}
 
     def step(self, actions):
+        self.step_counter += 1
         # Apply actions by writing them directly to bb.r_mitigation_action
         mitigation_actions = [0.0] * self.num_agents  # Initialize with zeros
         for agent, action in actions.items():
@@ -68,11 +85,13 @@ class SwarmEnv(gym.Env):
         self.simulator.step()  # Run the simulation step
         # print("simulation done")
         observation = self._get_observation()
+        share_observation = self._get_share_observation()
         reward = self._get_reward()
         done = self._is_done()
         truncated = {agent: False for agent in self.agents}  # Assuming no truncation
-        info = self._get_info()
-        return observation, reward, done, truncated, info
+        info = self._get_info()            
+        
+        return observation, share_observation, reward, done, truncated, info
 
 
     def _get_observation(self):
@@ -104,6 +123,25 @@ class SwarmEnv(gym.Env):
             ], dtype=np.float32)
             observations[agent] = agent_obs
         return observations
+
+    def _get_share_observation(self):
+        bb = self.simulator.bb
+        observations = self._get_observation()
+        
+        # Flatten individual observations into a single array
+        flattened_obs = np.concatenate([obs for obs in observations.values()])
+        
+        # Add global state information
+        global_state = np.concatenate([
+            bb.r_pos_x,
+            bb.r_pos_y,
+            bb.b_pos_x,
+            bb.b_pos_y
+        ])
+        
+        # Combine flattened observations and global state
+        share_observations = np.concatenate([flattened_obs, global_state])
+        return share_observations
 
     # def _get_reward(self):
     #     # Implement reward calculation for each agent
@@ -173,17 +211,16 @@ class SwarmEnv(gym.Env):
         for agent in self.agents:
             rewards[agent] -= TIME_PENALTY
 
-        print(rewards)
-        import time
-        time.sleep(5)
-        # exit()
+        # print(rewards)
         return rewards
 
 
     def _is_done(self):
         # Implement your termination condition
         # For example, you could end the episode after a fixed number of steps
-        done = self.simulator.completion_check()
+        done = self.simulator.completion_check() or (self.step_counter >= 1_500)
+        if done:
+            print(done)
         return {agent: done for agent in self.agents}
 
     def _get_info(self):
@@ -210,6 +247,9 @@ class SwarmEnv(gym.Env):
 
     def observation_space(self, agent):
         return self.observation_space[agent]
+
+    def share_observation_space(self):
+        return self.share_observation_space
 
     def action_space(self, agent):
         return self.action_space[agent]

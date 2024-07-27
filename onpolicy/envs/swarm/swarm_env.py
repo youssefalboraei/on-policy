@@ -30,33 +30,36 @@ class SwarmEnvWrapper(gym.Env):
         
         self.action_space = []
         self.observation_space = []
-        self.share_observation_space = []
+        # self.share_observation_space = []
         
         for agent in self.agents:
             self.action_space.append(self.env.action_space[agent])
             self.observation_space.append(self.env.observation_space[agent])
+            
+        # self.share_observation_space.append(self.env.share_observation_space)
+        self.share_observation_space = self.env.share_observation_space
         
         # Assuming global state is the concatenation of all observations
-        global_state_dim = sum([obs_space.shape[0] for obs_space in self.observation_space])
-        self.share_observation_space = [spaces.Box(low=-np.inf, high=+np.inf, shape=(global_state_dim,), dtype=np.float32)]# for _ in range(self.n_agents)]
+        # global_state_dim = sum([obs_space.shape[0] for obs_space in self.observation_space]) * 8 * 10
+        # self.share_observation_space = [spaces.Box(low=-np.inf, high=+np.inf, shape=(global_state_dim,), dtype=np.float32)]# for _ in range(self.n_agents)]
+        
+        # Assuming global state was added in share_obs_state        
 
-        self.current_step = 0
 
     def step(self, actions):
         actions_dict = {agent: action for agent, action in zip(self.agents, actions)}
-        obs, rew, done, truncated, info = self.env.step(actions_dict)
+        obs, share_obs, rew, done, truncated, info = self.env.step(actions_dict)
         
         obs_list = [obs[agent] for agent in self.agents]
+        share_obs_list = share_obs
         rew_list = [rew[agent] for agent in self.agents]
         done_list = [done[agent] for agent in self.agents]
         info_list = [{agent: info[agent]} for agent in self.agents]
-        
-        return np.array(obs_list), np.array(rew_list), np.array(done_list), info_list
+        return np.array(obs_list), share_obs_list, np.array(rew_list), np.array(done_list), info_list
 
     def reset(self):
-        obs, _ = self.env.reset()
-        self.current_step = 0
-        return np.array([obs[agent] for agent in self.agents])
+        obs, share_obs, _ = self.env.reset()
+        return np.array([obs[agent] for agent in self.agents]), share_obs
 
     def render(self, mode='human'):
         return self.env.render(mode)
@@ -83,5 +86,6 @@ class SwarmEnvWrapper(gym.Env):
             "n_agents": self.n_agents,
             "state_shape": self.get_state().shape[0],
             "obs_shape": self.observation_space[0].shape[0],
-            "episode_limit": 10_000  # Set an appropriate episode limit
+            "share_obs_shape": self.share_observation_space[0].shape[0],
+            "episode_limit": 10_000
         }

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py", line 177, in <module>
+    main(sys.argv[1:])
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py", line 162, in main
+    runner = Runner(config)
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\windows\downloads\on-policy\onpolicy\runner\shared\swarm_runner.py", line 11, in __init__
+    super(SwarmRunner, self).__init__(config)
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\windows\downloads\on-policy\onpolicy\runner\shared\base_runner.py", line 73, in __init__
+    share_observation_space = self.envs.share_observation_space[0] if self.use_centralized_V else self.envs.observation_space[0]
+TypeError: 'Box' object does not support indexing
