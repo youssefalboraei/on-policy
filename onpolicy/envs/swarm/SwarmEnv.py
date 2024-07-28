@@ -30,7 +30,8 @@ class SwarmEnv(gym.Env):
         if seed is not None:
             self.config.seed = seed
         seed = self.config.seed
-        print(seed)
+        # np.random.seed(self.config.seed)
+        # self.config.seed = np.random.randint(0, 999999)
         self.simulator = marl_sim.FaultManagementSimulator(
             self.config,
             self.config.number_of_faults,
@@ -117,7 +118,7 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 100.0
+        DELIVERY_REWARD = 500.0
         # DISTANCE_TO_BOX_WEIGHT = 0.00
         DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
         DISTANCE_TO_DROP_AREA_WEIGHT = 0.05
@@ -173,10 +174,6 @@ class SwarmEnv(gym.Env):
         for agent in self.agents:
             rewards[agent] -= TIME_PENALTY
 
-        print(rewards)
-        import time
-        time.sleep(5)
-        # exit()
         return rewards
 
 
