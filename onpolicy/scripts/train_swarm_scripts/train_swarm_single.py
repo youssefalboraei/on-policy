@@ -11,7 +11,7 @@ seed_max = 1
 print(f"env is {env}, scenario is {scenario}, algo is {algo}, exp is {exp}, max seed is {seed_max}")
 
 # Specify the full path to train_mpe.py
-train_script_path = r"\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py"
+train_script_path = r"D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py"
     
 for seed in range(1, seed_max + 1):
     print(f"seed is {seed}:")
