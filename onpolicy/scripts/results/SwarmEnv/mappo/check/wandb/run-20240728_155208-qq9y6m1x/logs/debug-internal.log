@@ -1,0 +1,89 @@
+2024-07-28 15:52:09,998 INFO    MainThread:7892 [internal.py:wandb_internal():90] W&B internal server running at pid: 7892, started at: 2024-07-28 15:52:09.973907
+2024-07-28 15:52:10,002 INFO    WriterThread:7892 [datastore.py:open_for_write():77] open: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\run-qq9y6m1x.wandb
+2024-07-28 15:52:10,002 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: check_version
+2024-07-28 15:52:10,007 DEBUG   SenderThread:7892 [sender.py:send():234] send: header
+2024-07-28 15:52:10,008 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: check_version
+2024-07-28 15:52:10,371 DEBUG   SenderThread:7892 [sender.py:send():234] send: run
+2024-07-28 15:52:10,613 INFO    SenderThread:7892 [dir_watcher.py:__init__():169] watching files in: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files
+2024-07-28 15:52:10,617 INFO    SenderThread:7892 [sender.py:_start_run_threads():807] run started: qq9y6m1x with start time 1722178328
+2024-07-28 15:52:10,791 DEBUG   SenderThread:7892 [sender.py:send():234] send: summary
+2024-07-28 15:52:10,794 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: run_start
+2024-07-28 15:52:10,821 DEBUG   HandlerThread:7892 [meta.py:__init__():40] meta init
+2024-07-28 15:52:10,821 DEBUG   HandlerThread:7892 [meta.py:__init__():54] meta init done
+2024-07-28 15:52:10,821 DEBUG   HandlerThread:7892 [meta.py:probe():214] probe
+2024-07-28 15:52:10,831 INFO    SenderThread:7892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 15:52:10,838 DEBUG   HandlerThread:7892 [meta.py:_save_pip():58] save pip
+2024-07-28 15:52:10,877 DEBUG   HandlerThread:7892 [meta.py:_save_pip():72] save pip done
+2024-07-28 15:52:10,877 DEBUG   HandlerThread:7892 [meta.py:_save_conda():79] save conda
+2024-07-28 15:52:11,621 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_created():217] file/dir created: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\requirements.txt
+2024-07-28 15:52:11,621 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_created():217] file/dir created: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\wandb-summary.json
+2024-07-28 15:52:11,621 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_created():217] file/dir created: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\conda-environment.yaml
+2024-07-28 15:52:14,807 DEBUG   HandlerThread:7892 [meta.py:_save_conda():89] save conda done
+2024-07-28 15:52:14,807 DEBUG   HandlerThread:7892 [meta.py:probe():252] probe done
+2024-07-28 15:52:14,844 DEBUG   SenderThread:7892 [sender.py:send():234] send: files
+2024-07-28 15:52:14,845 INFO    SenderThread:7892 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2024-07-28 15:52:14,859 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:52:14,860 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:52:15,331 INFO    Thread-11 :7892 [upload_job.py:push():137] Uploaded file C:\Users\Y2-ALB~1\AppData\Local\Temp\tmpmaxz8mp2wandb\5swq0uo7-wandb-metadata.json
+2024-07-28 15:52:15,651 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\conda-environment.yaml
+2024-07-28 15:52:15,654 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_created():217] file/dir created: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\output.log
+2024-07-28 15:52:15,654 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_created():217] file/dir created: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\wandb-metadata.json
+2024-07-28 15:52:19,662 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\output.log
+2024-07-28 15:52:29,724 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_created():217] file/dir created: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:52:29,724 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_created():217] file/dir created: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:52:30,054 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:52:30,054 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:52:31,734 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\output.log
+2024-07-28 15:52:40,777 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:52:40,777 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:52:41,048 DEBUG   SenderThread:7892 [sender.py:send():234] send: stats
+2024-07-28 15:52:45,217 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:52:45,218 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:52:51,852 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:52:51,853 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:53:00,400 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:53:00,400 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:53:02,960 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:53:03,960 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:53:13,428 DEBUG   SenderThread:7892 [sender.py:send():234] send: stats
+2024-07-28 15:53:15,063 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:53:15,063 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:53:15,563 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:53:15,563 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:53:25,137 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:53:25,184 DEBUG   SenderThread:7892 [sender.py:send():234] send: history
+2024-07-28 15:53:25,184 DEBUG   SenderThread:7892 [sender.py:send():234] send: summary
+2024-07-28 15:53:25,234 INFO    SenderThread:7892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 15:53:26,154 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\wandb-summary.json
+2024-07-28 15:53:26,154 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:53:27,165 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\output.log
+2024-07-28 15:53:30,746 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:53:30,747 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:53:37,236 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:53:37,236 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:53:45,558 DEBUG   SenderThread:7892 [sender.py:send():234] send: stats
+2024-07-28 15:53:45,938 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:53:45,938 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:53:48,299 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:53:48,299 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:53:59,371 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:53:59,373 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:54:01,190 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:54:01,190 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:54:11,472 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:54:11,472 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:54:16,435 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:54:16,435 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:54:17,595 DEBUG   SenderThread:7892 [sender.py:send():234] send: stats
+2024-07-28 15:54:30,917 DEBUG   SenderThread:7892 [sender.py:send():234] send: history
+2024-07-28 15:54:30,917 DEBUG   SenderThread:7892 [sender.py:send():234] send: summary
+2024-07-28 15:54:30,967 INFO    SenderThread:7892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 15:54:31,607 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\output.log
+2024-07-28 15:54:31,607 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\actor.pt
+2024-07-28 15:54:31,607 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\wandb-summary.json
+2024-07-28 15:54:31,616 INFO    Thread-8  :7892 [dir_watcher.py:_on_file_modified():230] file/dir modified: \\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_155208-qq9y6m1x\files\critic.pt
+2024-07-28 15:54:31,677 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:54:31,677 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:54:46,930 DEBUG   HandlerThread:7892 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 15:54:46,930 DEBUG   SenderThread:7892 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 15:54:49,839 DEBUG   SenderThread:7892 [sender.py:send():234] send: stats

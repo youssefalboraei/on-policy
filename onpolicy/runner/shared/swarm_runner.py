@@ -27,7 +27,6 @@ class SwarmRunner(Runner):
                     
                 # Observe reward and next obs
                 obs, share_obs, rewards, dones, infos = self.envs.step(actions)
-
                 data = obs, share_obs, rewards, dones, infos, values, actions, action_log_probs, rnn_states, rnn_states_critic
 
                 # print(infos)

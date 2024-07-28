@@ -1,0 +1,11 @@
+obs_space:  [Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64)]
+share_obs_space:  Box(-inf, inf, (180,), float64)
+act_space:  [Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15)]
+Traceback (most recent call last):
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py", line 177, in <module>
+    main(sys.argv[1:])
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\train\train_swarm.py", line 163, in main
+    runner.run()
+  File "\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\windows\downloads\on-policy\onpolicy\runner\shared\swarm_runner.py", line 30, in run
+    print(share_obs.shape())
+TypeError: 'tuple' object is not callable
