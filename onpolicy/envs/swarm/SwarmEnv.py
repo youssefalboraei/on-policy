@@ -155,10 +155,10 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 100.0
+        DELIVERY_REWARD = 500.0
         # DISTANCE_TO_BOX_WEIGHT = 0.00
         DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 0.05
+        DISTANCE_TO_DROP_AREA_WEIGHT = 0.1
         TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
@@ -172,7 +172,7 @@ class SwarmEnv(gym.Env):
 
         if hasattr(self, 'previous_delivery_rate'):
             boxes_delivered = current_delivery_rate - self.previous_delivery_rate
-            delivery_reward = DELIVERY_REWARD * boxes_delivered / num_robots
+            delivery_reward = DELIVERY_REWARD * boxes_delivered #/ num_robots
             for agent in self.agents:
                 rewards[agent] += delivery_reward
         self.previous_delivery_rate = current_delivery_rate

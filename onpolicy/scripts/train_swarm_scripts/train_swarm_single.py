@@ -4,7 +4,7 @@ import subprocess
 env = "SwarmEnv"
 scenario = "single_transport_share_obs"
 num_agents = 10
-algo = "mappo"  # "rmappo" "ippo"
+algo = "rmappo"  # "rmappo" "ippo"
 exp = "check"
 seed_max = 1
 
@@ -22,7 +22,7 @@ for seed in range(1, seed_max + 1):
     # Construct the command
     command = [
         "python", train_script_path,
-        # "--cuda", "False", #
+        "--cuda", "False", #
         "--env_name", env,
         "--algorithm_name", algo,
         "--experiment_name", exp,
@@ -39,14 +39,16 @@ for seed in range(1, seed_max + 1):
         "--use_ReLU",
         "--gain", "0.01",
         "--lr", "7e-4",
-        "--critic_lr", "1e-3", # 7e-4
+        "--critic_lr", "7e-4", #"1e-3", 
         "--wandb_name", "xxx",
         "--user_name", "ygalboraei-university-of-bristol",
+
         "--clip_param", "0.1",
-        # "--stacked_frames", "4",
-        # "--use_stacked_frames",
+        "--stacked_frames", "4",
+        "--use_stacked_frames",
         "--hidden_size", "512",
-        "--layer_N", "2"
+        "--layer_N", "2",
+        "--entropy_coef", "0.015"
     ]
 
     #      echo "seed is ${seed}:"
