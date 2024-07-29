@@ -1,0 +1,15 @@
+obs_space:  [Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,)]
+share_obs_space:  [Box(140,)]
+act_space:  [Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13)]
+
+ Env SwarmEnv Algo mappo Exp check updates 0/16666 episodes, total num timesteps 12000/200000000, FPS 495.
+
+average episode rewards is 514762.75634765625
+
+ Env SwarmEnv Algo mappo Exp check updates 5/16666 episodes, total num timesteps 72000/200000000, FPS 497.
+
+average episode rewards is 542303.7414550781
+
+ Env SwarmEnv Algo mappo Exp check updates 10/16666 episodes, total num timesteps 132000/200000000, FPS 501.
+
+average episode rewards is 534904.541015625

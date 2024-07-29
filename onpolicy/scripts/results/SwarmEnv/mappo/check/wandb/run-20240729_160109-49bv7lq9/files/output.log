@@ -1,0 +1,28 @@
+obs_space:  [Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,)]
+share_obs_space:  [Box(140,)]
+act_space:  [Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13)]
+Traceback (most recent call last):
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 312, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+BrokenPipeError: [WinError 109] The pipe has been ended
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 177, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 163, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 28, in run
+    obs, rewards, dones, infos = self.envs.step(actions)
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 107, in step
+    return self.step_wait()
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 263, in step_wait
+    results = [remote.recv() for remote in self.remotes]
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 263, in <listcomp>
+    results = [remote.recv() for remote in self.remotes]
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 321, in _recv_bytes
+    raise EOFError
+EOFError

@@ -1,0 +1,7 @@
+obs_space:  [Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,)]
+share_obs_space:  [Box(140,)]
+act_space:  [Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13)]
+
+ Env SwarmEnv Algo mappo Exp check updates 0/66666 episodes, total num timesteps 3000/200000000, FPS 277.
+
+average episode rewards is 380742.4850463867
