@@ -43,6 +43,8 @@ class SwarmEnv(gym.Env):
             # marl_sim.M_type.BY_MARL_SINGLE
             marl_sim.M_type.BY_MARL_SINGLE
         )
+        # print(self.config.number_of_faults, self.config.fault_type)
+        # exit()
 
         self.previous_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
         self.previous_rb_distance = np.array(self.simulator.bb.rb_distance).reshape(self.simulator.bb.s_no_robots, self.simulator.bb.s_no_boxes)
@@ -190,9 +192,10 @@ class SwarmEnv(gym.Env):
 
     def _is_done(self):
 
-        done = self.simulator.completion_check() or (self.step_counter >= 1_500)
-        if done:
-            self.step_counter = 0
+        done = self.simulator.completion_check()
+        # or (self.step_counter >= 1_500)
+        # if done:
+        #     self.step_counter = 0
         return {agent: done for agent in self.agents}
 
     def _get_info(self):
