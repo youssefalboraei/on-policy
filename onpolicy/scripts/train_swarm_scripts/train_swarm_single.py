@@ -41,7 +41,16 @@ for seed in range(1, seed_max + 1):
         "--lr", "7e-4",
         "--critic_lr", "7e-4",
         "--wandb_name", "xxx",
-        "--user_name", "ygalboraei-university-of-bristol"
+        "--user_name", "ygalboraei-university-of-bristol",
+        "--hidden_size", "128",
+        "--layer_N", "2",
+        "--use_stacked_frames",
+        "--stacked_frames", "2",
+
+        "--fault_type", "5",
+        "--num_faults", "1"
+
+
     ]
     
     # Run the command
