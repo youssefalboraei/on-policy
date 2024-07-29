@@ -63,11 +63,7 @@ def parse_args(args, parser):
     all_args = parser.parse_known_args(args)[0]
 
     return all_args
-    # Add any other SwarmEnv-specific arguments here
 
-    all_args = parser.parse_known_args(args)[0]
-
-    return all_args
 
 def main(args):
     parser = get_config()
@@ -155,8 +151,8 @@ def main(args):
         "run_dir": run_dir
     }
 
-    print(all_args)
-    exit()
+    # print(all_args)
+    # exit()
     # run experiments
     if all_args.share_policy:
     
@@ -165,7 +161,7 @@ def main(args):
         from onpolicy.runner.separated.swarm_runner import SwarmRunner as Runner
 
     runner = SwarmRunner(config)
-    runner.eval(total_num_steps=50_000)
+    runner.eval(total_num_steps=45_000)
     
     # post process
     eval_envs.close()
