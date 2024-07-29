@@ -2,7 +2,7 @@ import subprocess
 import os
 
 def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
-    train_script_path = r"\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\eval\eval_swarm.py"
+    train_script_path = r"D:\youssef\on-policy\onpolicy\scripts\eval\eval_swarm.py"
 
     cmd = [
         "python", train_script_path,
@@ -29,7 +29,11 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--user_name", "ygalboraei-university-of-bristol",
         "--use_eval",
         "--use_wandb",
-        "--model_dir", r"\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\tests"
+        "--model_dir", r"D:\youssef\on-policy\onpolicy\tests",
+        "--hidden_size", "128",
+        "--layer_N", "2",
+        "--use_stacked_frames",
+        "--stacked_frames", "2"
     ]
 
     env_vars = os.environ.copy()
