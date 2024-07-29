@@ -15,7 +15,7 @@ class SwarmEnvWrapper(gym.Env):
             "bm": all_args.num_mboxes,
             "s": all_args.seed,
             "ft": all_args.fault_type,
-            "fn": all_args.fault_number,
+            "fn": all_args.num_faults,
             "dbias": all_args.delivery_bias,
             "aw": 500,
             "ah": 500,
