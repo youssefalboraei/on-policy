@@ -2,6 +2,7 @@ import time
 import numpy as np
 import torch
 from onpolicy.runner.shared.base_runner import Runner
+from onpolicy.utils.data_collector import DataCollector
 
 def _t2n(x):
     return x.detach().cpu().numpy()
@@ -9,6 +10,7 @@ def _t2n(x):
 class SwarmRunner(Runner):
     def __init__(self, config):
         super(SwarmRunner, self).__init__(config)
+        # self.data_collector = DataCollector() ####################
 
     def run(self):
         self.warmup()   
@@ -145,14 +147,24 @@ class SwarmRunner(Runner):
                                                 deterministic=True)
             eval_actions = np.array(np.split(_t2n(eval_action), self.n_eval_rollout_threads))
             eval_rnn_states = np.array(np.split(_t2n(eval_rnn_states), self.n_eval_rollout_threads))
+
+            eval_actions_env = np.squeeze(np.eye(self.eval_envs.action_space[0].n)[eval_actions], 2)
+
             
-            eval_obs, eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions)
+            eval_obs, eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions_env)
             eval_episode_rewards.append(eval_rewards)
 
+            # self.data_collector.add_actions(eval_actions_env) ####################
+            # self.data_collector.add_delivery_rates(eval_infos) ####################
+            # print(eval_infos)
+            
             eval_rnn_states[eval_dones == True] = np.zeros(((eval_dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
             eval_masks = np.ones((self.n_eval_rollout_threads, self.num_agents, 1), dtype=np.float32)
             eval_masks[eval_dones == True] = np.zeros(((eval_dones == True).sum(), 1), dtype=np.float32)
-
+        
+        # self.data_collector.save_data('eval_data\eval_action_data.csv', 'eval_data\eval_delivery_rate_data.csv') ####################
+        # print("actions saved successfully") ####################
+        
         eval_episode_rewards = np.array(eval_episode_rewards)
         eval_env_infos = {}
         eval_env_infos['eval_average_episode_rewards'] = np.sum(np.array(eval_episode_rewards), axis=0)
