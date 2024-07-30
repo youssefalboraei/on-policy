@@ -2280,3 +2280,306 @@
 2024-07-28 20:44:21,951 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
 2024-07-28 20:44:29,904 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
 2024-07-28 20:44:29,905 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:44:35,535 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:44:35,535 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:44:48,006 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:44:48,006 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:44:50,729 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:44:50,729 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:44:54,866 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:45:05,910 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:05,910 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:06,072 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:45:06,072 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:45:21,147 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:21,147 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:23,763 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:45:23,763 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:45:23,773 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:45:24,167 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:45:24,167 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:45:24,167 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:45:26,089 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:45:26,179 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:45:36,329 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:36,329 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:42,261 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:45:42,261 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:45:51,565 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:51,565 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:57,348 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:46:01,363 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:46:01,363 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:46:06,794 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:06,794 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:19,465 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:46:19,465 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:46:22,044 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:22,044 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:28,536 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:46:37,208 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:37,208 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:37,581 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:46:37,581 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:46:52,403 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:52,403 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:54,809 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:46:54,809 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:46:54,809 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:46:55,675 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:46:55,675 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:46:55,675 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:46:56,681 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:46:59,754 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:47:07,656 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:07,656 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:47:13,785 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:47:13,785 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:47:22,866 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:22,866 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:47:30,871 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:47:30,871 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:47:30,871 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:47:38,098 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:38,098 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:47:48,958 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:47:48,958 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:47:53,245 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:53,245 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:02,130 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:48:07,058 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:48:07,058 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:48:08,444 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:08,444 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:23,696 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:23,696 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:25,890 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:48:25,890 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:48:25,890 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:48:26,164 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:48:26,164 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:48:26,164 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:48:28,178 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:48:33,335 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:48:38,954 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:38,954 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:44,269 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:48:44,269 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:48:54,204 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:54,204 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:02,406 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:49:02,406 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:49:05,983 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:49:09,428 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:09,428 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:20,571 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:49:20,572 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:49:24,599 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:24,599 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:38,703 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:49:38,703 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:49:39,036 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:49:39,808 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:39,808 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:54,994 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:54,994 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:55,693 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:49:55,693 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:49:55,695 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:49:55,831 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:49:55,832 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:49:55,832 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:49:56,838 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:50:10,212 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:10,212 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:50:12,329 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:50:14,960 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:50:14,961 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:50:25,414 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:25,414 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:50:34,121 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:50:34,121 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:50:40,664 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:40,664 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:50:45,575 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:50:53,303 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:50:53,303 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:50:55,898 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:55,898 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:10,482 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:51:10,483 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:51:11,130 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:11,130 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:18,788 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:51:26,386 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:26,386 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:28,262 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:51:28,263 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:51:28,263 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:51:28,633 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:51:28,633 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:51:28,633 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:51:31,663 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:51:41,646 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:41,646 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:46,791 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:51:46,792 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:51:52,149 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:51:56,823 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:56,823 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:03,940 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:52:03,940 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:52:12,017 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:12,017 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:22,119 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:52:22,119 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:52:25,443 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:52:27,282 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:27,282 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:40,258 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:52:40,258 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:52:42,502 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:42,502 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:56,015 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:52:56,016 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:52:56,019 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:52:56,387 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:52:56,387 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:52:56,387 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:52:57,397 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:52:57,727 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:57,727 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:58,621 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:53:12,947 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:53:12,947 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:53:13,534 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:53:13,535 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:53:28,189 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:53:28,190 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:53:28,658 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:53:28,659 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:53:31,557 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:53:43,446 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:53:43,447 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:53:48,831 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:53:48,832 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:53:58,611 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:53:58,611 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:54:04,331 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:54:07,961 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:54:07,961 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:54:13,801 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:54:13,801 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:54:23,291 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:54:23,291 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:54:23,291 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:54:24,062 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:54:24,062 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:54:24,062 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:54:26,077 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:54:29,031 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:54:29,031 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:54:37,080 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:54:39,167 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:54:39,168 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:54:44,306 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:54:44,306 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:54:59,329 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:54:59,329 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:54:59,502 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:54:59,502 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:55:10,170 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:55:14,744 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:55:14,744 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:55:15,455 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:55:15,455 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:55:29,986 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:55:29,987 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:55:35,612 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:55:35,612 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:55:43,396 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:55:45,201 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:55:45,201 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:55:54,784 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:55:54,784 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:55:54,785 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:55:54,803 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:55:54,804 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:55:54,804 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:55:56,816 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:56:00,448 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:56:00,448 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:56:15,701 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:56:15,701 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:56:16,004 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:56:16,005 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:56:16,607 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:56:30,913 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:56:30,913 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:56:36,180 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:56:36,181 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:56:46,129 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:56:46,130 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:56:49,690 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:56:57,319 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:56:57,319 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:57:01,296 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:57:01,297 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:57:16,665 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:57:16,665 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:57:18,487 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:57:18,487 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:57:22,796 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:57:31,870 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:57:31,870 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:57:37,763 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:57:37,763 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:57:37,764 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:57:38,661 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:57:38,661 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:57:38,662 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:57:38,662 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:57:47,068 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:57:47,068 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:57:55,996 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:57:58,866 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:57:58,867 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:58:02,349 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:58:02,349 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:58:17,655 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:58:17,655 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:58:20,090 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:58:20,090 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:58:29,224 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:58:32,896 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:58:32,897 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:58:40,285 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:58:40,285 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:58:48,152 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:58:48,152 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:59:01,504 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:59:01,504 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:59:02,357 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:59:03,340 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:59:03,340 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:59:15,522 DEBUG   SenderThread:12336 [sender.py:send():234] send: history
+2024-07-28 20:59:15,522 DEBUG   SenderThread:12336 [sender.py:send():234] send: summary
+2024-07-28 20:59:15,522 INFO    SenderThread:12336 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:59:15,642 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\wandb-summary.json
+2024-07-28 20:59:15,642 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:59:15,642 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:59:17,651 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\output.log
+2024-07-28 20:59:18,560 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:59:18,560 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:59:33,741 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:59:33,741 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:59:34,761 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:59:34,761 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 20:59:35,381 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats
+2024-07-28 20:59:48,907 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:59:48,907 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:59:49,866 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\actor.pt
+2024-07-28 20:59:49,866 INFO    Thread-8  :12336 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_184615-pavxsib2\files\critic.pt
+2024-07-28 21:00:04,173 DEBUG   HandlerThread:12336 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 21:00:04,173 DEBUG   SenderThread:12336 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 21:00:08,415 DEBUG   SenderThread:12336 [sender.py:send():234] send: stats

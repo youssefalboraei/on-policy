@@ -642,3 +642,102 @@
 2024-07-28 20:44:22,221 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
 2024-07-28 20:44:22,221 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
 2024-07-28 20:44:30,594 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:44:37,426 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:44:37,426 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:44:52,686 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:44:52,686 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:03,137 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:45:07,921 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:07,921 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:23,126 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:23,126 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:34,357 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:45:38,365 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:38,365 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:45:38,840 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\critic.pt
+2024-07-28 20:45:38,840 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\actor.pt
+2024-07-28 20:45:53,604 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:45:53,604 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:05,623 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:46:08,775 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:08,775 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:24,027 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:24,027 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:36,885 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:46:39,272 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:39,272 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:46:54,516 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:46:54,516 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:47:08,052 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:47:09,757 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:09,757 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:47:24,993 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:24,993 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:47:39,214 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:47:40,248 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:40,248 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:47:55,476 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:47:55,476 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:05,657 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\critic.pt
+2024-07-28 20:48:05,657 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\actor.pt
+2024-07-28 20:48:10,483 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:48:10,734 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:10,734 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:25,921 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:25,921 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:41,087 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:41,087 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:48:41,662 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:48:56,318 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:48:56,319 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:11,508 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:11,508 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:14,799 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:49:26,742 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:26,743 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:41,916 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:41,916 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:49:47,946 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:49:57,178 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:49:57,179 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:50:12,446 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:12,446 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:50:21,191 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:50:27,661 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:27,661 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:50:36,812 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\critic.pt
+2024-07-28 20:50:36,812 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\actor.pt
+2024-07-28 20:50:42,825 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:42,825 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:50:54,402 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:50:58,078 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:50:58,078 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:13,286 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:13,286 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:27,647 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:51:28,524 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:28,524 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:43,770 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:43,770 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:51:58,973 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:51:58,973 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:00,963 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:52:14,183 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:14,183 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:29,402 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:29,402 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:34,305 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:52:44,650 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:44,650 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:52:57,991 DEBUG   SenderThread:8172 [sender.py:send():234] send: history
+2024-07-28 20:52:57,991 DEBUG   SenderThread:8172 [sender.py:send():234] send: summary
+2024-07-28 20:52:57,992 INFO    SenderThread:8172 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-28 20:52:58,054 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\critic.pt
+2024-07-28 20:52:58,055 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\wandb-summary.json
+2024-07-28 20:52:58,055 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\actor.pt
+2024-07-28 20:52:59,836 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:52:59,836 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status
+2024-07-28 20:53:00,083 INFO    Thread-8  :8172 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240728_194813-eac5lnyq\files\output.log
+2024-07-28 20:53:07,514 DEBUG   SenderThread:8172 [sender.py:send():234] send: stats
+2024-07-28 20:53:15,044 DEBUG   HandlerThread:8172 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-28 20:53:15,044 DEBUG   SenderThread:8172 [sender.py:send_request():248] send_request: stop_status

@@ -2,7 +2,7 @@ import subprocess
 import os
 
 def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
-    train_script_path = r"\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\scripts\eval\eval_swarm.py"
+    train_script_path = r"D:\youssef\on-policy\onpolicy\scripts\eval\eval_swarm.py"
 
     cmd = [
         "python", train_script_path,
@@ -19,7 +19,7 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--n_eval_rollout_threads", "1",  # Consider increasing this if you have more computational resources
         "--num_mini_batch", "1",
         "--episode_length", "30_000",
-        "--num_env_steps", "150000",
+        "--num_env_steps", "15_000",
         "--ppo_epoch", "10",
         "--use_ReLU",
         "--gain", "0.01",
@@ -29,7 +29,11 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--user_name", "ygalboraei-university-of-bristol",
         "--use_eval",
         "--use_wandb",
-        "--model_dir", r"\\nstu-nas01.uwe.ac.uk\users4$\y2-alboraei\Windows\Downloads\on-policy\onpolicy\tests"
+        "--stacked_frames", "2", # 4 
+        "--use_stacked_frames",
+        "--hidden_size", "128", # 512
+        "--layer_N", "2",
+        "--model_dir", r"D:\youssef\on-policy\onpolicy\tests"
     ]
 
     env_vars = os.environ.copy()

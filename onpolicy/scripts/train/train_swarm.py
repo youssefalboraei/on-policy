@@ -49,7 +49,7 @@ def make_eval_env(all_args):
 def parse_args(args, parser):
     parser.add_argument('--scenario_name', type=str,
                         default='single_transport', help="Which scenario to run on")
-    parser.add_argument("--num_fualts", type=int, default=0, 
+    parser.add_argument("--num_faults", type=int, default=0, 
                         help="number of faults")
     parser.add_argument('--fault_type', type=int,
                         default=0, help="type of fault")
