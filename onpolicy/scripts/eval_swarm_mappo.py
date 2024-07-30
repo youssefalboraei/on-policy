@@ -18,8 +18,8 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--n_rollout_threads", "1",
         "--n_eval_rollout_threads", "1",  # Consider increasing this if you have more computational resources
         "--num_mini_batch", "1",
-        "--episode_length", "30_000",
-        "--num_env_steps", "150000",
+        "--episode_length", "1_500",
+        "--num_env_steps", "1_500",
         "--ppo_epoch", "10",
         "--use_ReLU",
         "--gain", "0.01",
@@ -49,14 +49,14 @@ def main():
     num_agents = 10
     num_boxes = 10
     algo = "mappo"
-    exp = "check"
+    exp = "test"
     scenario = "single_transport"
     seed_max = 1
 
     print(f"env is {env}, algo is {algo}, exp is {exp}, scenario is {scenario}, max seed is {seed_max}")
 
     for seed in range(1, seed_max + 1):
-        print(f"seed is {seed+5}:")
+        print(f"seed is {seed+1}:")
         run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed+5)
         print("evaluation is done!")
 

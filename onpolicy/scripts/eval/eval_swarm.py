@@ -45,7 +45,7 @@ def make_eval_env(all_args):
 def parse_args(args, parser):
     parser.add_argument('--scenario_name', type=str,
                         default='single_transport', help="Which scenario to run on")
-    parser.add_argument("--num_fualts", type=int, default=0, 
+    parser.add_argument("--num_faults", type=int, default=0, 
                         help="number of faults")
     parser.add_argument('--fault_type', type=int,
                         default=0, help="type of fault")
@@ -55,8 +55,6 @@ def parse_args(args, parser):
                         default=10, help="number of boxes")
     parser.add_argument('--num_mboxes', type=int,
                         default=0, help="number of mboxes")
-    parser.add_argument('--fault_number', type=int,
-                        default=0, help="number of faulty agents")
     parser.add_argument('--delivery_bias', type=int,
                         default=1, help="delivery bias")
 
@@ -141,12 +139,14 @@ def main(args):
     envs = make_train_env(all_args)
     eval_envs = make_eval_env(all_args)
     num_agents = all_args.num_agents
+    num_faults = all_args.num_faults
 
     config = {
         "all_args": all_args,
         "envs": envs,
         "eval_envs": eval_envs,
         "num_agents": num_agents,
+        "num_faults": num_faults,
         "device": device,
         "run_dir": run_dir
     }
@@ -161,7 +161,7 @@ def main(args):
         from onpolicy.runner.separated.swarm_runner import SwarmRunner as Runner
 
     runner = SwarmRunner(config)
-    runner.eval(total_num_steps=45_000)
+    runner.eval(total_num_steps=1_500)
     
     # post process
     eval_envs.close()
