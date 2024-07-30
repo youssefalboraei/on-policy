@@ -1,0 +1,1835 @@
+obs_space:  [Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,)]
+share_obs_space:  [Box(140,)]
+act_space:  [Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13)]
+
+ Env SwarmEnv Algo mappo Exp check updates 0/16666 episodes, total num timesteps 12000/200000000, FPS 244.
+
+average episode rewards is 9569.780588150024
+
+ Env SwarmEnv Algo mappo Exp check updates 5/16666 episodes, total num timesteps 72000/200000000, FPS 703.
+
+average episode rewards is 53468.48487854004
+
+ Env SwarmEnv Algo mappo Exp check updates 10/16666 episodes, total num timesteps 132000/200000000, FPS 875.
+
+average episode rewards is 98797.32513427734
+
+ Env SwarmEnv Algo mappo Exp check updates 15/16666 episodes, total num timesteps 192000/200000000, FPS 963.
+
+average episode rewards is 129101.58920288086
+
+ Env SwarmEnv Algo mappo Exp check updates 20/16666 episodes, total num timesteps 252000/200000000, FPS 1017.
+
+average episode rewards is 165763.80157470703
+
+ Env SwarmEnv Algo mappo Exp check updates 25/16666 episodes, total num timesteps 312000/200000000, FPS 1053.
+
+average episode rewards is 181466.59469604492
+
+ Env SwarmEnv Algo mappo Exp check updates 30/16666 episodes, total num timesteps 372000/200000000, FPS 1080.
+
+average episode rewards is 202998.3901977539
+
+ Env SwarmEnv Algo mappo Exp check updates 35/16666 episodes, total num timesteps 432000/200000000, FPS 1015.
+
+average episode rewards is 203501.70135498047
+
+ Env SwarmEnv Algo mappo Exp check updates 40/16666 episodes, total num timesteps 492000/200000000, FPS 940.
+
+average episode rewards is 201088.76037597656
+
+ Env SwarmEnv Algo mappo Exp check updates 45/16666 episodes, total num timesteps 552000/200000000, FPS 898.
+
+average episode rewards is 203580.48248291016
+
+ Env SwarmEnv Algo mappo Exp check updates 50/16666 episodes, total num timesteps 612000/200000000, FPS 865.
+
+average episode rewards is 210990.6463623047
+
+ Env SwarmEnv Algo mappo Exp check updates 55/16666 episodes, total num timesteps 672000/200000000, FPS 840.
+
+average episode rewards is 245390.19012451172
+
+ Env SwarmEnv Algo mappo Exp check updates 60/16666 episodes, total num timesteps 732000/200000000, FPS 823.
+
+average episode rewards is 237903.3966064453
+
+ Env SwarmEnv Algo mappo Exp check updates 65/16666 episodes, total num timesteps 792000/200000000, FPS 812.
+
+average episode rewards is 255446.044921875
+
+ Env SwarmEnv Algo mappo Exp check updates 70/16666 episodes, total num timesteps 852000/200000000, FPS 798.
+
+average episode rewards is 256717.64373779297
+
+ Env SwarmEnv Algo mappo Exp check updates 75/16666 episodes, total num timesteps 912000/200000000, FPS 793.
+
+average episode rewards is 260059.1812133789
+
+ Env SwarmEnv Algo mappo Exp check updates 80/16666 episodes, total num timesteps 972000/200000000, FPS 792.
+
+average episode rewards is 261448.2421875
+
+ Env SwarmEnv Algo mappo Exp check updates 85/16666 episodes, total num timesteps 1032000/200000000, FPS 782.
+
+average episode rewards is 256444.6563720703
+
+ Env SwarmEnv Algo mappo Exp check updates 90/16666 episodes, total num timesteps 1092000/200000000, FPS 776.
+
+average episode rewards is 247385.21575927734
+
+ Env SwarmEnv Algo mappo Exp check updates 95/16666 episodes, total num timesteps 1152000/200000000, FPS 769.
+
+average episode rewards is 245624.03869628906
+
+ Env SwarmEnv Algo mappo Exp check updates 100/16666 episodes, total num timesteps 1212000/200000000, FPS 762.
+
+average episode rewards is 246467.39959716797
+
+ Env SwarmEnv Algo mappo Exp check updates 105/16666 episodes, total num timesteps 1272000/200000000, FPS 754.
+
+average episode rewards is 245094.20013427734
+
+ Env SwarmEnv Algo mappo Exp check updates 110/16666 episodes, total num timesteps 1332000/200000000, FPS 751.
+
+average episode rewards is 246290.17639160156
+
+ Env SwarmEnv Algo mappo Exp check updates 115/16666 episodes, total num timesteps 1392000/200000000, FPS 747.
+
+average episode rewards is 239883.61358642578
+
+ Env SwarmEnv Algo mappo Exp check updates 120/16666 episodes, total num timesteps 1452000/200000000, FPS 742.
+
+average episode rewards is 240663.6199951172
+
+ Env SwarmEnv Algo mappo Exp check updates 125/16666 episodes, total num timesteps 1512000/200000000, FPS 737.
+
+average episode rewards is 241608.7646484375
+
+ Env SwarmEnv Algo mappo Exp check updates 130/16666 episodes, total num timesteps 1572000/200000000, FPS 733.
+
+average episode rewards is 239190.10162353516
+
+ Env SwarmEnv Algo mappo Exp check updates 135/16666 episodes, total num timesteps 1632000/200000000, FPS 731.
+
+average episode rewards is 240421.62322998047
+
+ Env SwarmEnv Algo mappo Exp check updates 140/16666 episodes, total num timesteps 1692000/200000000, FPS 727.
+
+average episode rewards is 246233.09326171875
+
+ Env SwarmEnv Algo mappo Exp check updates 145/16666 episodes, total num timesteps 1752000/200000000, FPS 729.
+
+average episode rewards is 247543.85375976562
+
+ Env SwarmEnv Algo mappo Exp check updates 150/16666 episodes, total num timesteps 1812000/200000000, FPS 726.
+
+average episode rewards is 248898.01025390625
+
+ Env SwarmEnv Algo mappo Exp check updates 155/16666 episodes, total num timesteps 1872000/200000000, FPS 725.
+
+average episode rewards is 244701.64489746094
+
+ Env SwarmEnv Algo mappo Exp check updates 160/16666 episodes, total num timesteps 1932000/200000000, FPS 722.
+
+average episode rewards is 250809.70001220703
+
+ Env SwarmEnv Algo mappo Exp check updates 165/16666 episodes, total num timesteps 1992000/200000000, FPS 718.
+
+average episode rewards is 256819.81658935547
+
+ Env SwarmEnv Algo mappo Exp check updates 170/16666 episodes, total num timesteps 2052000/200000000, FPS 727.
+
+average episode rewards is 236131.09588623047
+
+ Env SwarmEnv Algo mappo Exp check updates 175/16666 episodes, total num timesteps 2112000/200000000, FPS 736.
+
+average episode rewards is 246283.14971923828
+
+ Env SwarmEnv Algo mappo Exp check updates 180/16666 episodes, total num timesteps 2172000/200000000, FPS 745.
+
+average episode rewards is 239517.17376708984
+
+ Env SwarmEnv Algo mappo Exp check updates 185/16666 episodes, total num timesteps 2232000/200000000, FPS 752.
+
+average episode rewards is 249339.59197998047
+
+ Env SwarmEnv Algo mappo Exp check updates 190/16666 episodes, total num timesteps 2292000/200000000, FPS 760.
+
+average episode rewards is 247321.9985961914
+
+ Env SwarmEnv Algo mappo Exp check updates 195/16666 episodes, total num timesteps 2352000/200000000, FPS 768.
+
+average episode rewards is 246261.97814941406
+
+ Env SwarmEnv Algo mappo Exp check updates 200/16666 episodes, total num timesteps 2412000/200000000, FPS 776.
+
+average episode rewards is 253753.55529785156
+
+ Env SwarmEnv Algo mappo Exp check updates 205/16666 episodes, total num timesteps 2472000/200000000, FPS 783.
+
+average episode rewards is 258220.59631347656
+
+ Env SwarmEnv Algo mappo Exp check updates 210/16666 episodes, total num timesteps 2532000/200000000, FPS 790.
+
+average episode rewards is 271658.1344604492
+
+ Env SwarmEnv Algo mappo Exp check updates 215/16666 episodes, total num timesteps 2592000/200000000, FPS 796.
+
+average episode rewards is 265659.3475341797
+
+ Env SwarmEnv Algo mappo Exp check updates 220/16666 episodes, total num timesteps 2652000/200000000, FPS 803.
+
+average episode rewards is 283553.60412597656
+
+ Env SwarmEnv Algo mappo Exp check updates 225/16666 episodes, total num timesteps 2712000/200000000, FPS 809.
+
+average episode rewards is 277618.03436279297
+
+ Env SwarmEnv Algo mappo Exp check updates 230/16666 episodes, total num timesteps 2772000/200000000, FPS 816.
+
+average episode rewards is 288684.70001220703
+
+ Env SwarmEnv Algo mappo Exp check updates 235/16666 episodes, total num timesteps 2832000/200000000, FPS 821.
+
+average episode rewards is 304812.4694824219
+
+ Env SwarmEnv Algo mappo Exp check updates 240/16666 episodes, total num timesteps 2892000/200000000, FPS 827.
+
+average episode rewards is 310135.3225708008
+
+ Env SwarmEnv Algo mappo Exp check updates 245/16666 episodes, total num timesteps 2952000/200000000, FPS 833.
+
+average episode rewards is 319488.0065917969
+
+ Env SwarmEnv Algo mappo Exp check updates 250/16666 episodes, total num timesteps 3012000/200000000, FPS 839.
+
+average episode rewards is 322787.26959228516
+
+ Env SwarmEnv Algo mappo Exp check updates 255/16666 episodes, total num timesteps 3072000/200000000, FPS 845.
+
+average episode rewards is 304133.8577270508
+
+ Env SwarmEnv Algo mappo Exp check updates 260/16666 episodes, total num timesteps 3132000/200000000, FPS 850.
+
+average episode rewards is 309714.95819091797
+
+ Env SwarmEnv Algo mappo Exp check updates 265/16666 episodes, total num timesteps 3192000/200000000, FPS 855.
+
+average episode rewards is 324281.3186645508
+
+ Env SwarmEnv Algo mappo Exp check updates 270/16666 episodes, total num timesteps 3252000/200000000, FPS 860.
+
+average episode rewards is 326990.9362792969
+
+ Env SwarmEnv Algo mappo Exp check updates 275/16666 episodes, total num timesteps 3312000/200000000, FPS 865.
+
+average episode rewards is 333205.0094604492
+
+ Env SwarmEnv Algo mappo Exp check updates 280/16666 episodes, total num timesteps 3372000/200000000, FPS 870.
+
+average episode rewards is 339574.5391845703
+
+ Env SwarmEnv Algo mappo Exp check updates 285/16666 episodes, total num timesteps 3432000/200000000, FPS 875.
+
+average episode rewards is 333576.96533203125
+
+ Env SwarmEnv Algo mappo Exp check updates 290/16666 episodes, total num timesteps 3492000/200000000, FPS 880.
+
+average episode rewards is 330451.72119140625
+
+ Env SwarmEnv Algo mappo Exp check updates 295/16666 episodes, total num timesteps 3552000/200000000, FPS 884.
+
+average episode rewards is 336614.7994995117
+
+ Env SwarmEnv Algo mappo Exp check updates 300/16666 episodes, total num timesteps 3612000/200000000, FPS 888.
+
+average episode rewards is 337737.2817993164
+
+ Env SwarmEnv Algo mappo Exp check updates 305/16666 episodes, total num timesteps 3672000/200000000, FPS 893.
+
+average episode rewards is 341249.42779541016
+
+ Env SwarmEnv Algo mappo Exp check updates 310/16666 episodes, total num timesteps 3732000/200000000, FPS 897.
+
+average episode rewards is 332185.5926513672
+
+ Env SwarmEnv Algo mappo Exp check updates 315/16666 episodes, total num timesteps 3792000/200000000, FPS 901.
+
+average episode rewards is 329955.07049560547
+
+ Env SwarmEnv Algo mappo Exp check updates 320/16666 episodes, total num timesteps 3852000/200000000, FPS 904.
+
+average episode rewards is 325276.2680053711
+
+ Env SwarmEnv Algo mappo Exp check updates 325/16666 episodes, total num timesteps 3912000/200000000, FPS 908.
+
+average episode rewards is 322888.9389038086
+
+ Env SwarmEnv Algo mappo Exp check updates 330/16666 episodes, total num timesteps 3972000/200000000, FPS 912.
+
+average episode rewards is 325181.99157714844
+
+ Env SwarmEnv Algo mappo Exp check updates 335/16666 episodes, total num timesteps 4032000/200000000, FPS 916.
+
+average episode rewards is 329324.47814941406
+
+ Env SwarmEnv Algo mappo Exp check updates 340/16666 episodes, total num timesteps 4092000/200000000, FPS 920.
+
+average episode rewards is 325017.12799072266
+
+ Env SwarmEnv Algo mappo Exp check updates 345/16666 episodes, total num timesteps 4152000/200000000, FPS 923.
+
+average episode rewards is 326770.1110839844
+
+ Env SwarmEnv Algo mappo Exp check updates 350/16666 episodes, total num timesteps 4212000/200000000, FPS 927.
+
+average episode rewards is 321413.7954711914
+
+ Env SwarmEnv Algo mappo Exp check updates 355/16666 episodes, total num timesteps 4272000/200000000, FPS 930.
+
+average episode rewards is 322948.6770629883
+
+ Env SwarmEnv Algo mappo Exp check updates 360/16666 episodes, total num timesteps 4332000/200000000, FPS 934.
+
+average episode rewards is 325498.5809326172
+
+ Env SwarmEnv Algo mappo Exp check updates 365/16666 episodes, total num timesteps 4392000/200000000, FPS 937.
+
+average episode rewards is 327177.81829833984
+
+ Env SwarmEnv Algo mappo Exp check updates 370/16666 episodes, total num timesteps 4452000/200000000, FPS 940.
+
+average episode rewards is 336462.8677368164
+
+ Env SwarmEnv Algo mappo Exp check updates 375/16666 episodes, total num timesteps 4512000/200000000, FPS 943.
+
+average episode rewards is 332109.48944091797
+
+ Env SwarmEnv Algo mappo Exp check updates 380/16666 episodes, total num timesteps 4572000/200000000, FPS 946.
+
+average episode rewards is 328114.15100097656
+
+ Env SwarmEnv Algo mappo Exp check updates 385/16666 episodes, total num timesteps 4632000/200000000, FPS 949.
+
+average episode rewards is 331660.90393066406
+
+ Env SwarmEnv Algo mappo Exp check updates 390/16666 episodes, total num timesteps 4692000/200000000, FPS 952.
+
+average episode rewards is 330458.4045410156
+
+ Env SwarmEnv Algo mappo Exp check updates 395/16666 episodes, total num timesteps 4752000/200000000, FPS 955.
+
+average episode rewards is 330586.669921875
+
+ Env SwarmEnv Algo mappo Exp check updates 400/16666 episodes, total num timesteps 4812000/200000000, FPS 958.
+
+average episode rewards is 333033.53118896484
+
+ Env SwarmEnv Algo mappo Exp check updates 405/16666 episodes, total num timesteps 4872000/200000000, FPS 961.
+
+average episode rewards is 328168.6248779297
+
+ Env SwarmEnv Algo mappo Exp check updates 410/16666 episodes, total num timesteps 4932000/200000000, FPS 963.
+
+average episode rewards is 331196.7544555664
+
+ Env SwarmEnv Algo mappo Exp check updates 415/16666 episodes, total num timesteps 4992000/200000000, FPS 966.
+
+average episode rewards is 327619.2169189453
+
+ Env SwarmEnv Algo mappo Exp check updates 420/16666 episodes, total num timesteps 5052000/200000000, FPS 969.
+
+average episode rewards is 328913.93280029297
+
+ Env SwarmEnv Algo mappo Exp check updates 425/16666 episodes, total num timesteps 5112000/200000000, FPS 972.
+
+average episode rewards is 333023.0026245117
+
+ Env SwarmEnv Algo mappo Exp check updates 430/16666 episodes, total num timesteps 5172000/200000000, FPS 974.
+
+average episode rewards is 331385.92529296875
+
+ Env SwarmEnv Algo mappo Exp check updates 435/16666 episodes, total num timesteps 5232000/200000000, FPS 977.
+
+average episode rewards is 330504.50134277344
+
+ Env SwarmEnv Algo mappo Exp check updates 440/16666 episodes, total num timesteps 5292000/200000000, FPS 979.
+
+average episode rewards is 339133.48388671875
+
+ Env SwarmEnv Algo mappo Exp check updates 445/16666 episodes, total num timesteps 5352000/200000000, FPS 981.
+
+average episode rewards is 335531.41021728516
+
+ Env SwarmEnv Algo mappo Exp check updates 450/16666 episodes, total num timesteps 5412000/200000000, FPS 984.
+
+average episode rewards is 337481.0485839844
+
+ Env SwarmEnv Algo mappo Exp check updates 455/16666 episodes, total num timesteps 5472000/200000000, FPS 986.
+
+average episode rewards is 341626.25885009766
+
+ Env SwarmEnv Algo mappo Exp check updates 460/16666 episodes, total num timesteps 5532000/200000000, FPS 988.
+
+average episode rewards is 321987.6480102539
+
+ Env SwarmEnv Algo mappo Exp check updates 465/16666 episodes, total num timesteps 5592000/200000000, FPS 991.
+
+average episode rewards is 320717.5598144531
+
+ Env SwarmEnv Algo mappo Exp check updates 470/16666 episodes, total num timesteps 5652000/200000000, FPS 993.
+
+average episode rewards is 324090.70587158203
+
+ Env SwarmEnv Algo mappo Exp check updates 475/16666 episodes, total num timesteps 5712000/200000000, FPS 995.
+
+average episode rewards is 330607.2692871094
+
+ Env SwarmEnv Algo mappo Exp check updates 480/16666 episodes, total num timesteps 5772000/200000000, FPS 998.
+
+average episode rewards is 328644.03533935547
+
+ Env SwarmEnv Algo mappo Exp check updates 485/16666 episodes, total num timesteps 5832000/200000000, FPS 1000.
+
+average episode rewards is 322367.5003051758
+
+ Env SwarmEnv Algo mappo Exp check updates 490/16666 episodes, total num timesteps 5892000/200000000, FPS 1002.
+
+average episode rewards is 327543.27392578125
+
+ Env SwarmEnv Algo mappo Exp check updates 495/16666 episodes, total num timesteps 5952000/200000000, FPS 1004.
+
+average episode rewards is 326362.4038696289
+
+ Env SwarmEnv Algo mappo Exp check updates 500/16666 episodes, total num timesteps 6012000/200000000, FPS 1006.
+
+average episode rewards is 325134.5901489258
+
+ Env SwarmEnv Algo mappo Exp check updates 505/16666 episodes, total num timesteps 6072000/200000000, FPS 1008.
+
+average episode rewards is 329621.47521972656
+
+ Env SwarmEnv Algo mappo Exp check updates 510/16666 episodes, total num timesteps 6132000/200000000, FPS 1010.
+
+average episode rewards is 336250.1678466797
+
+ Env SwarmEnv Algo mappo Exp check updates 515/16666 episodes, total num timesteps 6192000/200000000, FPS 1012.
+
+average episode rewards is 336362.4572753906
+
+ Env SwarmEnv Algo mappo Exp check updates 520/16666 episodes, total num timesteps 6252000/200000000, FPS 1014.
+
+average episode rewards is 336555.8395385742
+
+ Env SwarmEnv Algo mappo Exp check updates 525/16666 episodes, total num timesteps 6312000/200000000, FPS 1016.
+
+average episode rewards is 336719.6502685547
+
+ Env SwarmEnv Algo mappo Exp check updates 530/16666 episodes, total num timesteps 6372000/200000000, FPS 1018.
+
+average episode rewards is 342563.34686279297
+
+ Env SwarmEnv Algo mappo Exp check updates 535/16666 episodes, total num timesteps 6432000/200000000, FPS 1020.
+
+average episode rewards is 353100.44860839844
+
+ Env SwarmEnv Algo mappo Exp check updates 540/16666 episodes, total num timesteps 6492000/200000000, FPS 1022.
+
+average episode rewards is 350818.7255859375
+
+ Env SwarmEnv Algo mappo Exp check updates 545/16666 episodes, total num timesteps 6552000/200000000, FPS 1024.
+
+average episode rewards is 355916.0614013672
+
+ Env SwarmEnv Algo mappo Exp check updates 550/16666 episodes, total num timesteps 6612000/200000000, FPS 1025.
+
+average episode rewards is 356954.1778564453
+
+ Env SwarmEnv Algo mappo Exp check updates 555/16666 episodes, total num timesteps 6672000/200000000, FPS 1027.
+
+average episode rewards is 354369.0948486328
+
+ Env SwarmEnv Algo mappo Exp check updates 560/16666 episodes, total num timesteps 6732000/200000000, FPS 1029.
+
+average episode rewards is 351932.53326416016
+
+ Env SwarmEnv Algo mappo Exp check updates 565/16666 episodes, total num timesteps 6792000/200000000, FPS 1031.
+
+average episode rewards is 355817.00134277344
+
+ Env SwarmEnv Algo mappo Exp check updates 570/16666 episodes, total num timesteps 6852000/200000000, FPS 1032.
+
+average episode rewards is 351097.4578857422
+
+ Env SwarmEnv Algo mappo Exp check updates 575/16666 episodes, total num timesteps 6912000/200000000, FPS 1034.
+
+average episode rewards is 351473.876953125
+
+ Env SwarmEnv Algo mappo Exp check updates 580/16666 episodes, total num timesteps 6972000/200000000, FPS 1036.
+
+average episode rewards is 353174.07989501953
+
+ Env SwarmEnv Algo mappo Exp check updates 585/16666 episodes, total num timesteps 7032000/200000000, FPS 1037.
+
+average episode rewards is 343174.7817993164
+
+ Env SwarmEnv Algo mappo Exp check updates 590/16666 episodes, total num timesteps 7092000/200000000, FPS 1039.
+
+average episode rewards is 348122.5891113281
+
+ Env SwarmEnv Algo mappo Exp check updates 595/16666 episodes, total num timesteps 7152000/200000000, FPS 1041.
+
+average episode rewards is 352878.2958984375
+
+ Env SwarmEnv Algo mappo Exp check updates 600/16666 episodes, total num timesteps 7212000/200000000, FPS 1042.
+
+average episode rewards is 350770.751953125
+
+ Env SwarmEnv Algo mappo Exp check updates 605/16666 episodes, total num timesteps 7272000/200000000, FPS 1044.
+
+average episode rewards is 344322.1893310547
+
+ Env SwarmEnv Algo mappo Exp check updates 610/16666 episodes, total num timesteps 7332000/200000000, FPS 1045.
+
+average episode rewards is 347629.28009033203
+
+ Env SwarmEnv Algo mappo Exp check updates 615/16666 episodes, total num timesteps 7392000/200000000, FPS 1046.
+
+average episode rewards is 352992.05017089844
+
+ Env SwarmEnv Algo mappo Exp check updates 620/16666 episodes, total num timesteps 7452000/200000000, FPS 1048.
+
+average episode rewards is 347041.3284301758
+
+ Env SwarmEnv Algo mappo Exp check updates 625/16666 episodes, total num timesteps 7512000/200000000, FPS 1050.
+
+average episode rewards is 359203.9031982422
+
+ Env SwarmEnv Algo mappo Exp check updates 630/16666 episodes, total num timesteps 7572000/200000000, FPS 1051.
+
+average episode rewards is 344311.5234375
+
+ Env SwarmEnv Algo mappo Exp check updates 635/16666 episodes, total num timesteps 7632000/200000000, FPS 1053.
+
+average episode rewards is 348090.0421142578
+
+ Env SwarmEnv Algo mappo Exp check updates 640/16666 episodes, total num timesteps 7692000/200000000, FPS 1054.
+
+average episode rewards is 349491.5771484375
+
+ Env SwarmEnv Algo mappo Exp check updates 645/16666 episodes, total num timesteps 7752000/200000000, FPS 1055.
+
+average episode rewards is 352268.30291748047
+
+ Env SwarmEnv Algo mappo Exp check updates 650/16666 episodes, total num timesteps 7812000/200000000, FPS 1056.
+
+average episode rewards is 347418.5485839844
+
+ Env SwarmEnv Algo mappo Exp check updates 655/16666 episodes, total num timesteps 7872000/200000000, FPS 1058.
+
+average episode rewards is 352429.7103881836
+
+ Env SwarmEnv Algo mappo Exp check updates 660/16666 episodes, total num timesteps 7932000/200000000, FPS 1059.
+
+average episode rewards is 349138.29803466797
+
+ Env SwarmEnv Algo mappo Exp check updates 665/16666 episodes, total num timesteps 7992000/200000000, FPS 1060.
+
+average episode rewards is 348723.9532470703
+
+ Env SwarmEnv Algo mappo Exp check updates 670/16666 episodes, total num timesteps 8052000/200000000, FPS 1062.
+
+average episode rewards is 343282.470703125
+
+ Env SwarmEnv Algo mappo Exp check updates 675/16666 episodes, total num timesteps 8112000/200000000, FPS 1063.
+
+average episode rewards is 343353.1494140625
+
+ Env SwarmEnv Algo mappo Exp check updates 680/16666 episodes, total num timesteps 8172000/200000000, FPS 1064.
+
+average episode rewards is 340808.89892578125
+
+ Env SwarmEnv Algo mappo Exp check updates 685/16666 episodes, total num timesteps 8232000/200000000, FPS 1065.
+
+average episode rewards is 333843.4524536133
+
+ Env SwarmEnv Algo mappo Exp check updates 690/16666 episodes, total num timesteps 8292000/200000000, FPS 1066.
+
+average episode rewards is 328256.60705566406
+
+ Env SwarmEnv Algo mappo Exp check updates 695/16666 episodes, total num timesteps 8352000/200000000, FPS 1068.
+
+average episode rewards is 332011.5051269531
+
+ Env SwarmEnv Algo mappo Exp check updates 700/16666 episodes, total num timesteps 8412000/200000000, FPS 1069.
+
+average episode rewards is 340801.0940551758
+
+ Env SwarmEnv Algo mappo Exp check updates 705/16666 episodes, total num timesteps 8472000/200000000, FPS 1070.
+
+average episode rewards is 346786.3082885742
+
+ Env SwarmEnv Algo mappo Exp check updates 710/16666 episodes, total num timesteps 8532000/200000000, FPS 1071.
+
+average episode rewards is 352271.2097167969
+
+ Env SwarmEnv Algo mappo Exp check updates 715/16666 episodes, total num timesteps 8592000/200000000, FPS 1072.
+
+average episode rewards is 350726.3717651367
+
+ Env SwarmEnv Algo mappo Exp check updates 720/16666 episodes, total num timesteps 8652000/200000000, FPS 1073.
+
+average episode rewards is 354422.3327636719
+
+ Env SwarmEnv Algo mappo Exp check updates 725/16666 episodes, total num timesteps 8712000/200000000, FPS 1074.
+
+average episode rewards is 362023.0407714844
+
+ Env SwarmEnv Algo mappo Exp check updates 730/16666 episodes, total num timesteps 8772000/200000000, FPS 1075.
+
+average episode rewards is 358836.29608154297
+
+ Env SwarmEnv Algo mappo Exp check updates 735/16666 episodes, total num timesteps 8832000/200000000, FPS 1076.
+
+average episode rewards is 363401.0696411133
+
+ Env SwarmEnv Algo mappo Exp check updates 740/16666 episodes, total num timesteps 8892000/200000000, FPS 1077.
+
+average episode rewards is 355431.5643310547
+
+ Env SwarmEnv Algo mappo Exp check updates 745/16666 episodes, total num timesteps 8952000/200000000, FPS 1079.
+
+average episode rewards is 359759.6969604492
+
+ Env SwarmEnv Algo mappo Exp check updates 750/16666 episodes, total num timesteps 9012000/200000000, FPS 1080.
+
+average episode rewards is 360583.25958251953
+
+ Env SwarmEnv Algo mappo Exp check updates 755/16666 episodes, total num timesteps 9072000/200000000, FPS 1081.
+
+average episode rewards is 357317.8253173828
+
+ Env SwarmEnv Algo mappo Exp check updates 760/16666 episodes, total num timesteps 9132000/200000000, FPS 1082.
+
+average episode rewards is 357844.73419189453
+
+ Env SwarmEnv Algo mappo Exp check updates 765/16666 episodes, total num timesteps 9192000/200000000, FPS 1083.
+
+average episode rewards is 362675.30822753906
+
+ Env SwarmEnv Algo mappo Exp check updates 770/16666 episodes, total num timesteps 9252000/200000000, FPS 1084.
+
+average episode rewards is 365130.45501708984
+
+ Env SwarmEnv Algo mappo Exp check updates 775/16666 episodes, total num timesteps 9312000/200000000, FPS 1085.
+
+average episode rewards is 359945.4345703125
+
+ Env SwarmEnv Algo mappo Exp check updates 780/16666 episodes, total num timesteps 9372000/200000000, FPS 1086.
+
+average episode rewards is 354977.89764404297
+
+ Env SwarmEnv Algo mappo Exp check updates 785/16666 episodes, total num timesteps 9432000/200000000, FPS 1087.
+
+average episode rewards is 361762.80212402344
+
+ Env SwarmEnv Algo mappo Exp check updates 790/16666 episodes, total num timesteps 9492000/200000000, FPS 1088.
+
+average episode rewards is 358427.69622802734
+
+ Env SwarmEnv Algo mappo Exp check updates 795/16666 episodes, total num timesteps 9552000/200000000, FPS 1088.
+
+average episode rewards is 355232.46002197266
+
+ Env SwarmEnv Algo mappo Exp check updates 800/16666 episodes, total num timesteps 9612000/200000000, FPS 1089.
+
+average episode rewards is 363453.87268066406
+
+ Env SwarmEnv Algo mappo Exp check updates 805/16666 episodes, total num timesteps 9672000/200000000, FPS 1090.
+
+average episode rewards is 359544.25048828125
+
+ Env SwarmEnv Algo mappo Exp check updates 810/16666 episodes, total num timesteps 9732000/200000000, FPS 1091.
+
+average episode rewards is 359399.7344970703
+
+ Env SwarmEnv Algo mappo Exp check updates 815/16666 episodes, total num timesteps 9792000/200000000, FPS 1092.
+
+average episode rewards is 357675.81939697266
+
+ Env SwarmEnv Algo mappo Exp check updates 820/16666 episodes, total num timesteps 9852000/200000000, FPS 1093.
+
+average episode rewards is 361367.5231933594
+
+ Env SwarmEnv Algo mappo Exp check updates 825/16666 episodes, total num timesteps 9912000/200000000, FPS 1094.
+
+average episode rewards is 366019.24896240234
+
+ Env SwarmEnv Algo mappo Exp check updates 830/16666 episodes, total num timesteps 9972000/200000000, FPS 1094.
+
+average episode rewards is 355262.14599609375
+
+ Env SwarmEnv Algo mappo Exp check updates 835/16666 episodes, total num timesteps 10032000/200000000, FPS 1095.
+
+average episode rewards is 352135.6430053711
+
+ Env SwarmEnv Algo mappo Exp check updates 840/16666 episodes, total num timesteps 10092000/200000000, FPS 1096.
+
+average episode rewards is 363718.73474121094
+
+ Env SwarmEnv Algo mappo Exp check updates 845/16666 episodes, total num timesteps 10152000/200000000, FPS 1097.
+
+average episode rewards is 364190.8950805664
+
+ Env SwarmEnv Algo mappo Exp check updates 850/16666 episodes, total num timesteps 10212000/200000000, FPS 1098.
+
+average episode rewards is 361028.0456542969
+
+ Env SwarmEnv Algo mappo Exp check updates 855/16666 episodes, total num timesteps 10272000/200000000, FPS 1099.
+
+average episode rewards is 362651.0238647461
+
+ Env SwarmEnv Algo mappo Exp check updates 860/16666 episodes, total num timesteps 10332000/200000000, FPS 1099.
+
+average episode rewards is 363019.5007324219
+
+ Env SwarmEnv Algo mappo Exp check updates 865/16666 episodes, total num timesteps 10392000/200000000, FPS 1100.
+
+average episode rewards is 364524.2156982422
+
+ Env SwarmEnv Algo mappo Exp check updates 870/16666 episodes, total num timesteps 10452000/200000000, FPS 1101.
+
+average episode rewards is 366682.3196411133
+
+ Env SwarmEnv Algo mappo Exp check updates 875/16666 episodes, total num timesteps 10512000/200000000, FPS 1102.
+
+average episode rewards is 358648.6587524414
+
+ Env SwarmEnv Algo mappo Exp check updates 880/16666 episodes, total num timesteps 10572000/200000000, FPS 1102.
+
+average episode rewards is 364263.67950439453
+
+ Env SwarmEnv Algo mappo Exp check updates 885/16666 episodes, total num timesteps 10632000/200000000, FPS 1103.
+
+average episode rewards is 363842.05627441406
+
+ Env SwarmEnv Algo mappo Exp check updates 890/16666 episodes, total num timesteps 10692000/200000000, FPS 1104.
+
+average episode rewards is 358693.54248046875
+
+ Env SwarmEnv Algo mappo Exp check updates 895/16666 episodes, total num timesteps 10752000/200000000, FPS 1104.
+
+average episode rewards is 366153.92303466797
+
+ Env SwarmEnv Algo mappo Exp check updates 900/16666 episodes, total num timesteps 10812000/200000000, FPS 1105.
+
+average episode rewards is 361260.5895996094
+
+ Env SwarmEnv Algo mappo Exp check updates 905/16666 episodes, total num timesteps 10872000/200000000, FPS 1106.
+
+average episode rewards is 367062.6525878906
+
+ Env SwarmEnv Algo mappo Exp check updates 910/16666 episodes, total num timesteps 10932000/200000000, FPS 1106.
+
+average episode rewards is 372718.36853027344
+
+ Env SwarmEnv Algo mappo Exp check updates 915/16666 episodes, total num timesteps 10992000/200000000, FPS 1107.
+
+average episode rewards is 367963.48571777344
+
+ Env SwarmEnv Algo mappo Exp check updates 920/16666 episodes, total num timesteps 11052000/200000000, FPS 1108.
+
+average episode rewards is 366289.7186279297
+
+ Env SwarmEnv Algo mappo Exp check updates 925/16666 episodes, total num timesteps 11112000/200000000, FPS 1108.
+
+average episode rewards is 373810.75286865234
+
+ Env SwarmEnv Algo mappo Exp check updates 930/16666 episodes, total num timesteps 11172000/200000000, FPS 1109.
+
+average episode rewards is 361887.93182373047
+
+ Env SwarmEnv Algo mappo Exp check updates 935/16666 episodes, total num timesteps 11232000/200000000, FPS 1110.
+
+average episode rewards is 368369.8196411133
+
+ Env SwarmEnv Algo mappo Exp check updates 940/16666 episodes, total num timesteps 11292000/200000000, FPS 1110.
+
+average episode rewards is 367652.3666381836
+
+ Env SwarmEnv Algo mappo Exp check updates 945/16666 episodes, total num timesteps 11352000/200000000, FPS 1111.
+
+average episode rewards is 359168.51806640625
+
+ Env SwarmEnv Algo mappo Exp check updates 950/16666 episodes, total num timesteps 11412000/200000000, FPS 1112.
+
+average episode rewards is 367866.9662475586
+
+ Env SwarmEnv Algo mappo Exp check updates 955/16666 episodes, total num timesteps 11472000/200000000, FPS 1112.
+
+average episode rewards is 368077.1026611328
+
+ Env SwarmEnv Algo mappo Exp check updates 960/16666 episodes, total num timesteps 11532000/200000000, FPS 1113.
+
+average episode rewards is 368842.5979614258
+
+ Env SwarmEnv Algo mappo Exp check updates 965/16666 episodes, total num timesteps 11592000/200000000, FPS 1114.
+
+average episode rewards is 364461.8225097656
+
+ Env SwarmEnv Algo mappo Exp check updates 970/16666 episodes, total num timesteps 11652000/200000000, FPS 1114.
+
+average episode rewards is 361555.9387207031
+
+ Env SwarmEnv Algo mappo Exp check updates 975/16666 episodes, total num timesteps 11712000/200000000, FPS 1115.
+
+average episode rewards is 362182.9147338867
+
+ Env SwarmEnv Algo mappo Exp check updates 980/16666 episodes, total num timesteps 11772000/200000000, FPS 1115.
+
+average episode rewards is 364594.8028564453
+
+ Env SwarmEnv Algo mappo Exp check updates 985/16666 episodes, total num timesteps 11832000/200000000, FPS 1116.
+
+average episode rewards is 355949.3637084961
+
+ Env SwarmEnv Algo mappo Exp check updates 990/16666 episodes, total num timesteps 11892000/200000000, FPS 1117.
+
+average episode rewards is 356452.8350830078
+
+ Env SwarmEnv Algo mappo Exp check updates 995/16666 episodes, total num timesteps 11952000/200000000, FPS 1117.
+
+average episode rewards is 352534.6984863281
+
+ Env SwarmEnv Algo mappo Exp check updates 1000/16666 episodes, total num timesteps 12012000/200000000, FPS 1118.
+
+average episode rewards is 351862.3809814453
+
+ Env SwarmEnv Algo mappo Exp check updates 1005/16666 episodes, total num timesteps 12072000/200000000, FPS 1119.
+
+average episode rewards is 357028.81622314453
+
+ Env SwarmEnv Algo mappo Exp check updates 1010/16666 episodes, total num timesteps 12132000/200000000, FPS 1119.
+
+average episode rewards is 368058.58612060547
+
+ Env SwarmEnv Algo mappo Exp check updates 1015/16666 episodes, total num timesteps 12192000/200000000, FPS 1120.
+
+average episode rewards is 363359.1613769531
+
+ Env SwarmEnv Algo mappo Exp check updates 1020/16666 episodes, total num timesteps 12252000/200000000, FPS 1120.
+
+average episode rewards is 357672.50061035156
+
+ Env SwarmEnv Algo mappo Exp check updates 1025/16666 episodes, total num timesteps 12312000/200000000, FPS 1121.
+
+average episode rewards is 353943.42041015625
+
+ Env SwarmEnv Algo mappo Exp check updates 1030/16666 episodes, total num timesteps 12372000/200000000, FPS 1121.
+
+average episode rewards is 359308.47930908203
+
+ Env SwarmEnv Algo mappo Exp check updates 1035/16666 episodes, total num timesteps 12432000/200000000, FPS 1122.
+
+average episode rewards is 355625.1754760742
+
+ Env SwarmEnv Algo mappo Exp check updates 1040/16666 episodes, total num timesteps 12492000/200000000, FPS 1122.
+
+average episode rewards is 364011.4974975586
+
+ Env SwarmEnv Algo mappo Exp check updates 1045/16666 episodes, total num timesteps 12552000/200000000, FPS 1123.
+
+average episode rewards is 366310.75286865234
+
+ Env SwarmEnv Algo mappo Exp check updates 1050/16666 episodes, total num timesteps 12612000/200000000, FPS 1123.
+
+average episode rewards is 355969.1848754883
+
+ Env SwarmEnv Algo mappo Exp check updates 1055/16666 episodes, total num timesteps 12672000/200000000, FPS 1124.
+
+average episode rewards is 364668.34259033203
+
+ Env SwarmEnv Algo mappo Exp check updates 1060/16666 episodes, total num timesteps 12732000/200000000, FPS 1124.
+
+average episode rewards is 361373.1994628906
+
+ Env SwarmEnv Algo mappo Exp check updates 1065/16666 episodes, total num timesteps 12792000/200000000, FPS 1125.
+
+average episode rewards is 364188.3544921875
+
+ Env SwarmEnv Algo mappo Exp check updates 1070/16666 episodes, total num timesteps 12852000/200000000, FPS 1126.
+
+average episode rewards is 355395.85876464844
+
+ Env SwarmEnv Algo mappo Exp check updates 1075/16666 episodes, total num timesteps 12912000/200000000, FPS 1126.
+
+average episode rewards is 361724.4415283203
+
+ Env SwarmEnv Algo mappo Exp check updates 1080/16666 episodes, total num timesteps 12972000/200000000, FPS 1127.
+
+average episode rewards is 357347.00775146484
+
+ Env SwarmEnv Algo mappo Exp check updates 1085/16666 episodes, total num timesteps 13032000/200000000, FPS 1127.
+
+average episode rewards is 366216.0186767578
+
+ Env SwarmEnv Algo mappo Exp check updates 1090/16666 episodes, total num timesteps 13092000/200000000, FPS 1127.
+
+average episode rewards is 348784.7671508789
+
+ Env SwarmEnv Algo mappo Exp check updates 1095/16666 episodes, total num timesteps 13152000/200000000, FPS 1128.
+
+average episode rewards is 357577.74353027344
+
+ Env SwarmEnv Algo mappo Exp check updates 1100/16666 episodes, total num timesteps 13212000/200000000, FPS 1129.
+
+average episode rewards is 357816.9479370117
+
+ Env SwarmEnv Algo mappo Exp check updates 1105/16666 episodes, total num timesteps 13272000/200000000, FPS 1129.
+
+average episode rewards is 358729.6829223633
+
+ Env SwarmEnv Algo mappo Exp check updates 1110/16666 episodes, total num timesteps 13332000/200000000, FPS 1129.
+
+average episode rewards is 361598.8998413086
+
+ Env SwarmEnv Algo mappo Exp check updates 1115/16666 episodes, total num timesteps 13392000/200000000, FPS 1130.
+
+average episode rewards is 379095.45135498047
+
+ Env SwarmEnv Algo mappo Exp check updates 1120/16666 episodes, total num timesteps 13452000/200000000, FPS 1130.
+
+average episode rewards is 370695.73974609375
+
+ Env SwarmEnv Algo mappo Exp check updates 1125/16666 episodes, total num timesteps 13512000/200000000, FPS 1131.
+
+average episode rewards is 379990.7684326172
+
+ Env SwarmEnv Algo mappo Exp check updates 1130/16666 episodes, total num timesteps 13572000/200000000, FPS 1131.
+
+average episode rewards is 377735.2523803711
+
+ Env SwarmEnv Algo mappo Exp check updates 1135/16666 episodes, total num timesteps 13632000/200000000, FPS 1132.
+
+average episode rewards is 383142.49420166016
+
+ Env SwarmEnv Algo mappo Exp check updates 1140/16666 episodes, total num timesteps 13692000/200000000, FPS 1132.
+
+average episode rewards is 368468.9254760742
+
+ Env SwarmEnv Algo mappo Exp check updates 1145/16666 episodes, total num timesteps 13752000/200000000, FPS 1133.
+
+average episode rewards is 375903.60260009766
+
+ Env SwarmEnv Algo mappo Exp check updates 1150/16666 episodes, total num timesteps 13812000/200000000, FPS 1133.
+
+average episode rewards is 373785.5758666992
+
+ Env SwarmEnv Algo mappo Exp check updates 1155/16666 episodes, total num timesteps 13872000/200000000, FPS 1133.
+
+average episode rewards is 368563.4536743164
+
+ Env SwarmEnv Algo mappo Exp check updates 1160/16666 episodes, total num timesteps 13932000/200000000, FPS 1134.
+
+average episode rewards is 372824.54681396484
+
+ Env SwarmEnv Algo mappo Exp check updates 1165/16666 episodes, total num timesteps 13992000/200000000, FPS 1134.
+
+average episode rewards is 385100.32653808594
+
+ Env SwarmEnv Algo mappo Exp check updates 1170/16666 episodes, total num timesteps 14052000/200000000, FPS 1135.
+
+average episode rewards is 371703.84979248047
+
+ Env SwarmEnv Algo mappo Exp check updates 1175/16666 episodes, total num timesteps 14112000/200000000, FPS 1135.
+
+average episode rewards is 380151.4892578125
+
+ Env SwarmEnv Algo mappo Exp check updates 1180/16666 episodes, total num timesteps 14172000/200000000, FPS 1135.
+
+average episode rewards is 372178.82537841797
+
+ Env SwarmEnv Algo mappo Exp check updates 1185/16666 episodes, total num timesteps 14232000/200000000, FPS 1136.
+
+average episode rewards is 381627.15911865234
+
+ Env SwarmEnv Algo mappo Exp check updates 1190/16666 episodes, total num timesteps 14292000/200000000, FPS 1136.
+
+average episode rewards is 378103.50036621094
+
+ Env SwarmEnv Algo mappo Exp check updates 1195/16666 episodes, total num timesteps 14352000/200000000, FPS 1137.
+
+average episode rewards is 390648.33068847656
+
+ Env SwarmEnv Algo mappo Exp check updates 1200/16666 episodes, total num timesteps 14412000/200000000, FPS 1137.
+
+average episode rewards is 382353.8589477539
+
+ Env SwarmEnv Algo mappo Exp check updates 1205/16666 episodes, total num timesteps 14472000/200000000, FPS 1137.
+
+average episode rewards is 387056.1218261719
+
+ Env SwarmEnv Algo mappo Exp check updates 1210/16666 episodes, total num timesteps 14532000/200000000, FPS 1137.
+
+average episode rewards is 375940.1550292969
+
+ Env SwarmEnv Algo mappo Exp check updates 1215/16666 episodes, total num timesteps 14592000/200000000, FPS 1138.
+
+average episode rewards is 376134.1552734375
+
+ Env SwarmEnv Algo mappo Exp check updates 1220/16666 episodes, total num timesteps 14652000/200000000, FPS 1138.
+
+average episode rewards is 384556.45751953125
+
+ Env SwarmEnv Algo mappo Exp check updates 1225/16666 episodes, total num timesteps 14712000/200000000, FPS 1139.
+
+average episode rewards is 381397.2702026367
+
+ Env SwarmEnv Algo mappo Exp check updates 1230/16666 episodes, total num timesteps 14772000/200000000, FPS 1139.
+
+average episode rewards is 377038.12408447266
+
+ Env SwarmEnv Algo mappo Exp check updates 1235/16666 episodes, total num timesteps 14832000/200000000, FPS 1139.
+
+average episode rewards is 375570.6481933594
+
+ Env SwarmEnv Algo mappo Exp check updates 1240/16666 episodes, total num timesteps 14892000/200000000, FPS 1139.
+
+average episode rewards is 378052.8259277344
+
+ Env SwarmEnv Algo mappo Exp check updates 1245/16666 episodes, total num timesteps 14952000/200000000, FPS 1140.
+
+average episode rewards is 378150.5355834961
+
+ Env SwarmEnv Algo mappo Exp check updates 1250/16666 episodes, total num timesteps 15012000/200000000, FPS 1140.
+
+average episode rewards is 377494.9035644531
+
+ Env SwarmEnv Algo mappo Exp check updates 1255/16666 episodes, total num timesteps 15072000/200000000, FPS 1140.
+
+average episode rewards is 379019.8059082031
+
+ Env SwarmEnv Algo mappo Exp check updates 1260/16666 episodes, total num timesteps 15132000/200000000, FPS 1140.
+
+average episode rewards is 374769.47021484375
+
+ Env SwarmEnv Algo mappo Exp check updates 1265/16666 episodes, total num timesteps 15192000/200000000, FPS 1140.
+
+average episode rewards is 369345.9777832031
+
+ Env SwarmEnv Algo mappo Exp check updates 1270/16666 episodes, total num timesteps 15252000/200000000, FPS 1141.
+
+average episode rewards is 373832.7941894531
+
+ Env SwarmEnv Algo mappo Exp check updates 1275/16666 episodes, total num timesteps 15312000/200000000, FPS 1141.
+
+average episode rewards is 366596.4889526367
+
+ Env SwarmEnv Algo mappo Exp check updates 1280/16666 episodes, total num timesteps 15372000/200000000, FPS 1141.
+
+average episode rewards is 367705.810546875
+
+ Env SwarmEnv Algo mappo Exp check updates 1285/16666 episodes, total num timesteps 15432000/200000000, FPS 1142.
+
+average episode rewards is 370373.79455566406
+
+ Env SwarmEnv Algo mappo Exp check updates 1290/16666 episodes, total num timesteps 15492000/200000000, FPS 1142.
+
+average episode rewards is 360655.8609008789
+
+ Env SwarmEnv Algo mappo Exp check updates 1295/16666 episodes, total num timesteps 15552000/200000000, FPS 1142.
+
+average episode rewards is 364612.1520996094
+
+ Env SwarmEnv Algo mappo Exp check updates 1300/16666 episodes, total num timesteps 15612000/200000000, FPS 1142.
+
+average episode rewards is 385159.8815917969
+
+ Env SwarmEnv Algo mappo Exp check updates 1305/16666 episodes, total num timesteps 15672000/200000000, FPS 1143.
+
+average episode rewards is 379084.96856689453
+
+ Env SwarmEnv Algo mappo Exp check updates 1310/16666 episodes, total num timesteps 15732000/200000000, FPS 1143.
+
+average episode rewards is 371573.7075805664
+
+ Env SwarmEnv Algo mappo Exp check updates 1315/16666 episodes, total num timesteps 15792000/200000000, FPS 1143.
+
+average episode rewards is 376239.37225341797
+
+ Env SwarmEnv Algo mappo Exp check updates 1320/16666 episodes, total num timesteps 15852000/200000000, FPS 1143.
+
+average episode rewards is 373612.4954223633
+
+ Env SwarmEnv Algo mappo Exp check updates 1325/16666 episodes, total num timesteps 15912000/200000000, FPS 1143.
+
+average episode rewards is 383833.14514160156
+
+ Env SwarmEnv Algo mappo Exp check updates 1330/16666 episodes, total num timesteps 15972000/200000000, FPS 1144.
+
+average episode rewards is 392117.3858642578
+
+ Env SwarmEnv Algo mappo Exp check updates 1335/16666 episodes, total num timesteps 16032000/200000000, FPS 1144.
+
+average episode rewards is 386890.2282714844
+
+ Env SwarmEnv Algo mappo Exp check updates 1340/16666 episodes, total num timesteps 16092000/200000000, FPS 1144.
+
+average episode rewards is 387529.35791015625
+
+ Env SwarmEnv Algo mappo Exp check updates 1345/16666 episodes, total num timesteps 16152000/200000000, FPS 1145.
+
+average episode rewards is 384316.54357910156
+
+ Env SwarmEnv Algo mappo Exp check updates 1350/16666 episodes, total num timesteps 16212000/200000000, FPS 1145.
+
+average episode rewards is 375233.41369628906
+
+ Env SwarmEnv Algo mappo Exp check updates 1355/16666 episodes, total num timesteps 16272000/200000000, FPS 1145.
+
+average episode rewards is 390397.0642089844
+
+ Env SwarmEnv Algo mappo Exp check updates 1360/16666 episodes, total num timesteps 16332000/200000000, FPS 1146.
+
+average episode rewards is 386187.3779296875
+
+ Env SwarmEnv Algo mappo Exp check updates 1365/16666 episodes, total num timesteps 16392000/200000000, FPS 1146.
+
+average episode rewards is 389966.85791015625
+
+ Env SwarmEnv Algo mappo Exp check updates 1370/16666 episodes, total num timesteps 16452000/200000000, FPS 1146.
+
+average episode rewards is 387101.4404296875
+
+ Env SwarmEnv Algo mappo Exp check updates 1375/16666 episodes, total num timesteps 16512000/200000000, FPS 1147.
+
+average episode rewards is 391193.29833984375
+
+ Env SwarmEnv Algo mappo Exp check updates 1380/16666 episodes, total num timesteps 16572000/200000000, FPS 1147.
+
+average episode rewards is 393490.58532714844
+
+ Env SwarmEnv Algo mappo Exp check updates 1385/16666 episodes, total num timesteps 16632000/200000000, FPS 1147.
+
+average episode rewards is 393928.2531738281
+
+ Env SwarmEnv Algo mappo Exp check updates 1390/16666 episodes, total num timesteps 16692000/200000000, FPS 1148.
+
+average episode rewards is 395700.25634765625
+
+ Env SwarmEnv Algo mappo Exp check updates 1395/16666 episodes, total num timesteps 16752000/200000000, FPS 1148.
+
+average episode rewards is 389855.712890625
+
+ Env SwarmEnv Algo mappo Exp check updates 1400/16666 episodes, total num timesteps 16812000/200000000, FPS 1148.
+
+average episode rewards is 389628.11279296875
+
+ Env SwarmEnv Algo mappo Exp check updates 1405/16666 episodes, total num timesteps 16872000/200000000, FPS 1149.
+
+average episode rewards is 388767.47131347656
+
+ Env SwarmEnv Algo mappo Exp check updates 1410/16666 episodes, total num timesteps 16932000/200000000, FPS 1149.
+
+average episode rewards is 383765.3045654297
+
+ Env SwarmEnv Algo mappo Exp check updates 1415/16666 episodes, total num timesteps 16992000/200000000, FPS 1149.
+
+average episode rewards is 378555.35888671875
+
+ Env SwarmEnv Algo mappo Exp check updates 1420/16666 episodes, total num timesteps 17052000/200000000, FPS 1150.
+
+average episode rewards is 376649.66583251953
+
+ Env SwarmEnv Algo mappo Exp check updates 1425/16666 episodes, total num timesteps 17112000/200000000, FPS 1150.
+
+average episode rewards is 371088.1805419922
+
+ Env SwarmEnv Algo mappo Exp check updates 1430/16666 episodes, total num timesteps 17172000/200000000, FPS 1150.
+
+average episode rewards is 385626.9836425781
+
+ Env SwarmEnv Algo mappo Exp check updates 1435/16666 episodes, total num timesteps 17232000/200000000, FPS 1151.
+
+average episode rewards is 368602.50091552734
+
+ Env SwarmEnv Algo mappo Exp check updates 1440/16666 episodes, total num timesteps 17292000/200000000, FPS 1151.
+
+average episode rewards is 372178.18450927734
+
+ Env SwarmEnv Algo mappo Exp check updates 1445/16666 episodes, total num timesteps 17352000/200000000, FPS 1151.
+
+average episode rewards is 372576.0498046875
+
+ Env SwarmEnv Algo mappo Exp check updates 1450/16666 episodes, total num timesteps 17412000/200000000, FPS 1151.
+
+average episode rewards is 380181.65588378906
+
+ Env SwarmEnv Algo mappo Exp check updates 1455/16666 episodes, total num timesteps 17472000/200000000, FPS 1152.
+
+average episode rewards is 377506.59942626953
+
+ Env SwarmEnv Algo mappo Exp check updates 1460/16666 episodes, total num timesteps 17532000/200000000, FPS 1152.
+
+average episode rewards is 384307.43408203125
+
+ Env SwarmEnv Algo mappo Exp check updates 1465/16666 episodes, total num timesteps 17592000/200000000, FPS 1152.
+
+average episode rewards is 378283.7905883789
+
+ Env SwarmEnv Algo mappo Exp check updates 1470/16666 episodes, total num timesteps 17652000/200000000, FPS 1153.
+
+average episode rewards is 376198.1964111328
+
+ Env SwarmEnv Algo mappo Exp check updates 1475/16666 episodes, total num timesteps 17712000/200000000, FPS 1153.
+
+average episode rewards is 387667.46520996094
+
+ Env SwarmEnv Algo mappo Exp check updates 1480/16666 episodes, total num timesteps 17772000/200000000, FPS 1153.
+
+average episode rewards is 384747.8942871094
+
+ Env SwarmEnv Algo mappo Exp check updates 1485/16666 episodes, total num timesteps 17832000/200000000, FPS 1153.
+
+average episode rewards is 375745.6512451172
+
+ Env SwarmEnv Algo mappo Exp check updates 1490/16666 episodes, total num timesteps 17892000/200000000, FPS 1154.
+
+average episode rewards is 374620.60546875
+
+ Env SwarmEnv Algo mappo Exp check updates 1495/16666 episodes, total num timesteps 17952000/200000000, FPS 1154.
+
+average episode rewards is 378988.4033203125
+
+ Env SwarmEnv Algo mappo Exp check updates 1500/16666 episodes, total num timesteps 18012000/200000000, FPS 1154.
+
+average episode rewards is 375512.2833251953
+
+ Env SwarmEnv Algo mappo Exp check updates 1505/16666 episodes, total num timesteps 18072000/200000000, FPS 1154.
+
+average episode rewards is 380899.86419677734
+
+ Env SwarmEnv Algo mappo Exp check updates 1510/16666 episodes, total num timesteps 18132000/200000000, FPS 1155.
+
+average episode rewards is 372186.97357177734
+
+ Env SwarmEnv Algo mappo Exp check updates 1515/16666 episodes, total num timesteps 18192000/200000000, FPS 1155.
+
+average episode rewards is 379005.06591796875
+
+ Env SwarmEnv Algo mappo Exp check updates 1520/16666 episodes, total num timesteps 18252000/200000000, FPS 1155.
+
+average episode rewards is 369496.5362548828
+
+ Env SwarmEnv Algo mappo Exp check updates 1525/16666 episodes, total num timesteps 18312000/200000000, FPS 1156.
+
+average episode rewards is 373036.97204589844
+
+ Env SwarmEnv Algo mappo Exp check updates 1530/16666 episodes, total num timesteps 18372000/200000000, FPS 1156.
+
+average episode rewards is 377895.83587646484
+
+ Env SwarmEnv Algo mappo Exp check updates 1535/16666 episodes, total num timesteps 18432000/200000000, FPS 1156.
+
+average episode rewards is 369890.39611816406
+
+ Env SwarmEnv Algo mappo Exp check updates 1540/16666 episodes, total num timesteps 18492000/200000000, FPS 1156.
+
+average episode rewards is 377164.05487060547
+
+ Env SwarmEnv Algo mappo Exp check updates 1545/16666 episodes, total num timesteps 18552000/200000000, FPS 1157.
+
+average episode rewards is 378590.9729003906
+
+ Env SwarmEnv Algo mappo Exp check updates 1550/16666 episodes, total num timesteps 18612000/200000000, FPS 1157.
+
+average episode rewards is 373235.04638671875
+
+ Env SwarmEnv Algo mappo Exp check updates 1555/16666 episodes, total num timesteps 18672000/200000000, FPS 1157.
+
+average episode rewards is 392272.0184326172
+
+ Env SwarmEnv Algo mappo Exp check updates 1560/16666 episodes, total num timesteps 18732000/200000000, FPS 1157.
+
+average episode rewards is 393049.30114746094
+
+ Env SwarmEnv Algo mappo Exp check updates 1565/16666 episodes, total num timesteps 18792000/200000000, FPS 1158.
+
+average episode rewards is 403200.0274658203
+
+ Env SwarmEnv Algo mappo Exp check updates 1570/16666 episodes, total num timesteps 18852000/200000000, FPS 1158.
+
+average episode rewards is 413925.6591796875
+
+ Env SwarmEnv Algo mappo Exp check updates 1575/16666 episodes, total num timesteps 18912000/200000000, FPS 1158.
+
+average episode rewards is 436778.45764160156
+
+ Env SwarmEnv Algo mappo Exp check updates 1580/16666 episodes, total num timesteps 18972000/200000000, FPS 1158.
+
+average episode rewards is 428931.4727783203
+
+ Env SwarmEnv Algo mappo Exp check updates 1585/16666 episodes, total num timesteps 19032000/200000000, FPS 1159.
+
+average episode rewards is 435016.8914794922
+
+ Env SwarmEnv Algo mappo Exp check updates 1590/16666 episodes, total num timesteps 19092000/200000000, FPS 1159.
+
+average episode rewards is 434743.65234375
+
+ Env SwarmEnv Algo mappo Exp check updates 1595/16666 episodes, total num timesteps 19152000/200000000, FPS 1159.
+
+average episode rewards is 431929.09240722656
+
+ Env SwarmEnv Algo mappo Exp check updates 1600/16666 episodes, total num timesteps 19212000/200000000, FPS 1160.
+
+average episode rewards is 430936.01989746094
+
+ Env SwarmEnv Algo mappo Exp check updates 1605/16666 episodes, total num timesteps 19272000/200000000, FPS 1160.
+
+average episode rewards is 437376.48010253906
+
+ Env SwarmEnv Algo mappo Exp check updates 1610/16666 episodes, total num timesteps 19332000/200000000, FPS 1160.
+
+average episode rewards is 444678.35998535156
+
+ Env SwarmEnv Algo mappo Exp check updates 1615/16666 episodes, total num timesteps 19392000/200000000, FPS 1160.
+
+average episode rewards is 458182.2052001953
+
+ Env SwarmEnv Algo mappo Exp check updates 1620/16666 episodes, total num timesteps 19452000/200000000, FPS 1160.
+
+average episode rewards is 454460.26611328125
+
+ Env SwarmEnv Algo mappo Exp check updates 1625/16666 episodes, total num timesteps 19512000/200000000, FPS 1161.
+
+average episode rewards is 453480.0567626953
+
+ Env SwarmEnv Algo mappo Exp check updates 1630/16666 episodes, total num timesteps 19572000/200000000, FPS 1161.
+
+average episode rewards is 461121.5057373047
+
+ Env SwarmEnv Algo mappo Exp check updates 1635/16666 episodes, total num timesteps 19632000/200000000, FPS 1161.
+
+average episode rewards is 471039.4592285156
+
+ Env SwarmEnv Algo mappo Exp check updates 1640/16666 episodes, total num timesteps 19692000/200000000, FPS 1161.
+
+average episode rewards is 466124.13024902344
+
+ Env SwarmEnv Algo mappo Exp check updates 1645/16666 episodes, total num timesteps 19752000/200000000, FPS 1162.
+
+average episode rewards is 463969.9401855469
+
+ Env SwarmEnv Algo mappo Exp check updates 1650/16666 episodes, total num timesteps 19812000/200000000, FPS 1162.
+
+average episode rewards is 479873.7030029297
+
+ Env SwarmEnv Algo mappo Exp check updates 1655/16666 episodes, total num timesteps 19872000/200000000, FPS 1162.
+
+average episode rewards is 488512.2528076172
+
+ Env SwarmEnv Algo mappo Exp check updates 1660/16666 episodes, total num timesteps 19932000/200000000, FPS 1162.
+
+average episode rewards is 483679.6875
+
+ Env SwarmEnv Algo mappo Exp check updates 1665/16666 episodes, total num timesteps 19992000/200000000, FPS 1163.
+
+average episode rewards is 491651.6876220703
+
+ Env SwarmEnv Algo mappo Exp check updates 1670/16666 episodes, total num timesteps 20052000/200000000, FPS 1163.
+
+average episode rewards is 486526.38244628906
+
+ Env SwarmEnv Algo mappo Exp check updates 1675/16666 episodes, total num timesteps 20112000/200000000, FPS 1163.
+
+average episode rewards is 492069.39697265625
+
+ Env SwarmEnv Algo mappo Exp check updates 1680/16666 episodes, total num timesteps 20172000/200000000, FPS 1163.
+
+average episode rewards is 484779.92248535156
+
+ Env SwarmEnv Algo mappo Exp check updates 1685/16666 episodes, total num timesteps 20232000/200000000, FPS 1164.
+
+average episode rewards is 486788.9099121094
+
+ Env SwarmEnv Algo mappo Exp check updates 1690/16666 episodes, total num timesteps 20292000/200000000, FPS 1164.
+
+average episode rewards is 489488.4338378906
+
+ Env SwarmEnv Algo mappo Exp check updates 1695/16666 episodes, total num timesteps 20352000/200000000, FPS 1164.
+
+average episode rewards is 495496.58203125
+
+ Env SwarmEnv Algo mappo Exp check updates 1700/16666 episodes, total num timesteps 20412000/200000000, FPS 1164.
+
+average episode rewards is 495409.19494628906
+
+ Env SwarmEnv Algo mappo Exp check updates 1705/16666 episodes, total num timesteps 20472000/200000000, FPS 1164.
+
+average episode rewards is 508023.5137939453
+
+ Env SwarmEnv Algo mappo Exp check updates 1710/16666 episodes, total num timesteps 20532000/200000000, FPS 1165.
+
+average episode rewards is 506181.1981201172
+
+ Env SwarmEnv Algo mappo Exp check updates 1715/16666 episodes, total num timesteps 20592000/200000000, FPS 1165.
+
+average episode rewards is 509287.7197265625
+
+ Env SwarmEnv Algo mappo Exp check updates 1720/16666 episodes, total num timesteps 20652000/200000000, FPS 1165.
+
+average episode rewards is 531019.6838378906
+
+ Env SwarmEnv Algo mappo Exp check updates 1725/16666 episodes, total num timesteps 20712000/200000000, FPS 1165.
+
+average episode rewards is 542713.4399414062
+
+ Env SwarmEnv Algo mappo Exp check updates 1730/16666 episodes, total num timesteps 20772000/200000000, FPS 1166.
+
+average episode rewards is 541984.9548339844
+
+ Env SwarmEnv Algo mappo Exp check updates 1735/16666 episodes, total num timesteps 20832000/200000000, FPS 1166.
+
+average episode rewards is 539769.2413330078
+
+ Env SwarmEnv Algo mappo Exp check updates 1740/16666 episodes, total num timesteps 20892000/200000000, FPS 1166.
+
+average episode rewards is 559123.8098144531
+
+ Env SwarmEnv Algo mappo Exp check updates 1745/16666 episodes, total num timesteps 20952000/200000000, FPS 1166.
+
+average episode rewards is 559084.3505859375
+
+ Env SwarmEnv Algo mappo Exp check updates 1750/16666 episodes, total num timesteps 21012000/200000000, FPS 1167.
+
+average episode rewards is 562354.9346923828
+
+ Env SwarmEnv Algo mappo Exp check updates 1755/16666 episodes, total num timesteps 21072000/200000000, FPS 1167.
+
+average episode rewards is 567452.8198242188
+
+ Env SwarmEnv Algo mappo Exp check updates 1760/16666 episodes, total num timesteps 21132000/200000000, FPS 1167.
+
+average episode rewards is 588821.5942382812
+
+ Env SwarmEnv Algo mappo Exp check updates 1765/16666 episodes, total num timesteps 21192000/200000000, FPS 1167.
+
+average episode rewards is 594734.619140625
+
+ Env SwarmEnv Algo mappo Exp check updates 1770/16666 episodes, total num timesteps 21252000/200000000, FPS 1168.
+
+average episode rewards is 588161.4990234375
+
+ Env SwarmEnv Algo mappo Exp check updates 1775/16666 episodes, total num timesteps 21312000/200000000, FPS 1168.
+
+average episode rewards is 607193.1610107422
+
+ Env SwarmEnv Algo mappo Exp check updates 1780/16666 episodes, total num timesteps 21372000/200000000, FPS 1168.
+
+average episode rewards is 602627.9296875
+
+ Env SwarmEnv Algo mappo Exp check updates 1785/16666 episodes, total num timesteps 21432000/200000000, FPS 1168.
+
+average episode rewards is 605423.0346679688
+
+ Env SwarmEnv Algo mappo Exp check updates 1790/16666 episodes, total num timesteps 21492000/200000000, FPS 1169.
+
+average episode rewards is 601234.2224121094
+
+ Env SwarmEnv Algo mappo Exp check updates 1795/16666 episodes, total num timesteps 21552000/200000000, FPS 1169.
+
+average episode rewards is 611209.6710205078
+
+ Env SwarmEnv Algo mappo Exp check updates 1800/16666 episodes, total num timesteps 21612000/200000000, FPS 1169.
+
+average episode rewards is 609499.6490478516
+
+ Env SwarmEnv Algo mappo Exp check updates 1805/16666 episodes, total num timesteps 21672000/200000000, FPS 1169.
+
+average episode rewards is 607912.6281738281
+
+ Env SwarmEnv Algo mappo Exp check updates 1810/16666 episodes, total num timesteps 21732000/200000000, FPS 1170.
+
+average episode rewards is 601387.8479003906
+
+ Env SwarmEnv Algo mappo Exp check updates 1815/16666 episodes, total num timesteps 21792000/200000000, FPS 1170.
+
+average episode rewards is 609339.111328125
+
+ Env SwarmEnv Algo mappo Exp check updates 1820/16666 episodes, total num timesteps 21852000/200000000, FPS 1170.
+
+average episode rewards is 610633.4381103516
+
+ Env SwarmEnv Algo mappo Exp check updates 1825/16666 episodes, total num timesteps 21912000/200000000, FPS 1170.
+
+average episode rewards is 605005.6457519531
+
+ Env SwarmEnv Algo mappo Exp check updates 1830/16666 episodes, total num timesteps 21972000/200000000, FPS 1170.
+
+average episode rewards is 609477.5848388672
+
+ Env SwarmEnv Algo mappo Exp check updates 1835/16666 episodes, total num timesteps 22032000/200000000, FPS 1171.
+
+average episode rewards is 611037.3687744141
+
+ Env SwarmEnv Algo mappo Exp check updates 1840/16666 episodes, total num timesteps 22092000/200000000, FPS 1171.
+
+average episode rewards is 609274.2462158203
+
+ Env SwarmEnv Algo mappo Exp check updates 1845/16666 episodes, total num timesteps 22152000/200000000, FPS 1171.
+
+average episode rewards is 609361.2670898438
+
+ Env SwarmEnv Algo mappo Exp check updates 1850/16666 episodes, total num timesteps 22212000/200000000, FPS 1171.
+
+average episode rewards is 602988.4643554688
+
+ Env SwarmEnv Algo mappo Exp check updates 1855/16666 episodes, total num timesteps 22272000/200000000, FPS 1171.
+
+average episode rewards is 609304.3670654297
+
+ Env SwarmEnv Algo mappo Exp check updates 1860/16666 episodes, total num timesteps 22332000/200000000, FPS 1172.
+
+average episode rewards is 612464.9505615234
+
+ Env SwarmEnv Algo mappo Exp check updates 1865/16666 episodes, total num timesteps 22392000/200000000, FPS 1172.
+
+average episode rewards is 613193.84765625
+
+ Env SwarmEnv Algo mappo Exp check updates 1870/16666 episodes, total num timesteps 22452000/200000000, FPS 1172.
+
+average episode rewards is 608018.9208984375
+
+ Env SwarmEnv Algo mappo Exp check updates 1875/16666 episodes, total num timesteps 22512000/200000000, FPS 1172.
+
+average episode rewards is 608671.9665527344
+
+ Env SwarmEnv Algo mappo Exp check updates 1880/16666 episodes, total num timesteps 22572000/200000000, FPS 1173.
+
+average episode rewards is 600893.5546875
+
+ Env SwarmEnv Algo mappo Exp check updates 1885/16666 episodes, total num timesteps 22632000/200000000, FPS 1173.
+
+average episode rewards is 600247.1466064453
+
+ Env SwarmEnv Algo mappo Exp check updates 1890/16666 episodes, total num timesteps 22692000/200000000, FPS 1173.
+
+average episode rewards is 602655.029296875
+
+ Env SwarmEnv Algo mappo Exp check updates 1895/16666 episodes, total num timesteps 22752000/200000000, FPS 1173.
+
+average episode rewards is 602073.1201171875
+
+ Env SwarmEnv Algo mappo Exp check updates 1900/16666 episodes, total num timesteps 22812000/200000000, FPS 1174.
+
+average episode rewards is 615039.7796630859
+
+ Env SwarmEnv Algo mappo Exp check updates 1905/16666 episodes, total num timesteps 22872000/200000000, FPS 1174.
+
+average episode rewards is 594181.0913085938
+
+ Env SwarmEnv Algo mappo Exp check updates 1910/16666 episodes, total num timesteps 22932000/200000000, FPS 1174.
+
+average episode rewards is 604733.642578125
+
+ Env SwarmEnv Algo mappo Exp check updates 1915/16666 episodes, total num timesteps 22992000/200000000, FPS 1174.
+
+average episode rewards is 606934.7991943359
+
+ Env SwarmEnv Algo mappo Exp check updates 1920/16666 episodes, total num timesteps 23052000/200000000, FPS 1175.
+
+average episode rewards is 602891.1895751953
+
+ Env SwarmEnv Algo mappo Exp check updates 1925/16666 episodes, total num timesteps 23112000/200000000, FPS 1175.
+
+average episode rewards is 601417.6025390625
+
+ Env SwarmEnv Algo mappo Exp check updates 1930/16666 episodes, total num timesteps 23172000/200000000, FPS 1175.
+
+average episode rewards is 600111.6943359375
+
+ Env SwarmEnv Algo mappo Exp check updates 1935/16666 episodes, total num timesteps 23232000/200000000, FPS 1175.
+
+average episode rewards is 602083.1909179688
+
+ Env SwarmEnv Algo mappo Exp check updates 1940/16666 episodes, total num timesteps 23292000/200000000, FPS 1175.
+
+average episode rewards is 603666.5954589844
+
+ Env SwarmEnv Algo mappo Exp check updates 1945/16666 episodes, total num timesteps 23352000/200000000, FPS 1176.
+
+average episode rewards is 602272.0642089844
+
+ Env SwarmEnv Algo mappo Exp check updates 1950/16666 episodes, total num timesteps 23412000/200000000, FPS 1176.
+
+average episode rewards is 605096.4202880859
+
+ Env SwarmEnv Algo mappo Exp check updates 1955/16666 episodes, total num timesteps 23472000/200000000, FPS 1176.
+
+average episode rewards is 597743.4997558594
+
+ Env SwarmEnv Algo mappo Exp check updates 1960/16666 episodes, total num timesteps 23532000/200000000, FPS 1176.
+
+average episode rewards is 601846.3439941406
+
+ Env SwarmEnv Algo mappo Exp check updates 1965/16666 episodes, total num timesteps 23592000/200000000, FPS 1177.
+
+average episode rewards is 597617.1112060547
+
+ Env SwarmEnv Algo mappo Exp check updates 1970/16666 episodes, total num timesteps 23652000/200000000, FPS 1177.
+
+average episode rewards is 599569.2443847656
+
+ Env SwarmEnv Algo mappo Exp check updates 1975/16666 episodes, total num timesteps 23712000/200000000, FPS 1177.
+
+average episode rewards is 599847.3815917969
+
+ Env SwarmEnv Algo mappo Exp check updates 1980/16666 episodes, total num timesteps 23772000/200000000, FPS 1177.
+
+average episode rewards is 605230.8654785156
+
+ Env SwarmEnv Algo mappo Exp check updates 1985/16666 episodes, total num timesteps 23832000/200000000, FPS 1177.
+
+average episode rewards is 602747.314453125
+
+ Env SwarmEnv Algo mappo Exp check updates 1990/16666 episodes, total num timesteps 23892000/200000000, FPS 1178.
+
+average episode rewards is 600556.1370849609
+
+ Env SwarmEnv Algo mappo Exp check updates 1995/16666 episodes, total num timesteps 23952000/200000000, FPS 1178.
+
+average episode rewards is 607910.2935791016
+
+ Env SwarmEnv Algo mappo Exp check updates 2000/16666 episodes, total num timesteps 24012000/200000000, FPS 1178.
+
+average episode rewards is 600347.2137451172
+
+ Env SwarmEnv Algo mappo Exp check updates 2005/16666 episodes, total num timesteps 24072000/200000000, FPS 1178.
+
+average episode rewards is 604508.5144042969
+
+ Env SwarmEnv Algo mappo Exp check updates 2010/16666 episodes, total num timesteps 24132000/200000000, FPS 1178.
+
+average episode rewards is 605506.8054199219
+
+ Env SwarmEnv Algo mappo Exp check updates 2015/16666 episodes, total num timesteps 24192000/200000000, FPS 1178.
+
+average episode rewards is 600985.9313964844
+
+ Env SwarmEnv Algo mappo Exp check updates 2020/16666 episodes, total num timesteps 24252000/200000000, FPS 1178.
+
+average episode rewards is 598497.802734375
+
+ Env SwarmEnv Algo mappo Exp check updates 2025/16666 episodes, total num timesteps 24312000/200000000, FPS 1179.
+
+average episode rewards is 602123.291015625
+
+ Env SwarmEnv Algo mappo Exp check updates 2030/16666 episodes, total num timesteps 24372000/200000000, FPS 1179.
+
+average episode rewards is 609496.2158203125
+
+ Env SwarmEnv Algo mappo Exp check updates 2035/16666 episodes, total num timesteps 24432000/200000000, FPS 1179.
+
+average episode rewards is 599893.1121826172
+
+ Env SwarmEnv Algo mappo Exp check updates 2040/16666 episodes, total num timesteps 24492000/200000000, FPS 1179.
+
+average episode rewards is 602223.4039306641
+
+ Env SwarmEnv Algo mappo Exp check updates 2045/16666 episodes, total num timesteps 24552000/200000000, FPS 1179.
+
+average episode rewards is 603606.0333251953
+
+ Env SwarmEnv Algo mappo Exp check updates 2050/16666 episodes, total num timesteps 24612000/200000000, FPS 1180.
+
+average episode rewards is 599351.3946533203
+
+ Env SwarmEnv Algo mappo Exp check updates 2055/16666 episodes, total num timesteps 24672000/200000000, FPS 1180.
+
+average episode rewards is 602691.2841796875
+
+ Env SwarmEnv Algo mappo Exp check updates 2060/16666 episodes, total num timesteps 24732000/200000000, FPS 1180.
+
+average episode rewards is 606605.8502197266
+
+ Env SwarmEnv Algo mappo Exp check updates 2065/16666 episodes, total num timesteps 24792000/200000000, FPS 1180.
+
+average episode rewards is 618106.1096191406
+
+ Env SwarmEnv Algo mappo Exp check updates 2070/16666 episodes, total num timesteps 24852000/200000000, FPS 1180.
+
+average episode rewards is 607884.8419189453
+
+ Env SwarmEnv Algo mappo Exp check updates 2075/16666 episodes, total num timesteps 24912000/200000000, FPS 1180.
+
+average episode rewards is 609331.4208984375
+
+ Env SwarmEnv Algo mappo Exp check updates 2080/16666 episodes, total num timesteps 24972000/200000000, FPS 1181.
+
+average episode rewards is 619461.9140625
+
+ Env SwarmEnv Algo mappo Exp check updates 2085/16666 episodes, total num timesteps 25032000/200000000, FPS 1181.
+
+average episode rewards is 608732.2082519531
+
+ Env SwarmEnv Algo mappo Exp check updates 2090/16666 episodes, total num timesteps 25092000/200000000, FPS 1181.
+
+average episode rewards is 608446.5179443359
+
+ Env SwarmEnv Algo mappo Exp check updates 2095/16666 episodes, total num timesteps 25152000/200000000, FPS 1181.
+
+average episode rewards is 619931.396484375
+
+ Env SwarmEnv Algo mappo Exp check updates 2100/16666 episodes, total num timesteps 25212000/200000000, FPS 1181.
+
+average episode rewards is 608265.1977539062
+
+ Env SwarmEnv Algo mappo Exp check updates 2105/16666 episodes, total num timesteps 25272000/200000000, FPS 1181.
+
+average episode rewards is 615204.2541503906
+
+ Env SwarmEnv Algo mappo Exp check updates 2110/16666 episodes, total num timesteps 25332000/200000000, FPS 1181.
+
+average episode rewards is 605681.9915771484
+
+ Env SwarmEnv Algo mappo Exp check updates 2115/16666 episodes, total num timesteps 25392000/200000000, FPS 1182.
+
+average episode rewards is 619022.7355957031
+
+ Env SwarmEnv Algo mappo Exp check updates 2120/16666 episodes, total num timesteps 25452000/200000000, FPS 1182.
+
+average episode rewards is 616595.7641601562
+
+ Env SwarmEnv Algo mappo Exp check updates 2125/16666 episodes, total num timesteps 25512000/200000000, FPS 1182.
+
+average episode rewards is 612116.9586181641
+
+ Env SwarmEnv Algo mappo Exp check updates 2130/16666 episodes, total num timesteps 25572000/200000000, FPS 1182.
+
+average episode rewards is 620028.9916992188
+
+ Env SwarmEnv Algo mappo Exp check updates 2135/16666 episodes, total num timesteps 25632000/200000000, FPS 1182.
+
+average episode rewards is 625299.4079589844
+
+ Env SwarmEnv Algo mappo Exp check updates 2140/16666 episodes, total num timesteps 25692000/200000000, FPS 1182.
+
+average episode rewards is 622300.6896972656
+
+ Env SwarmEnv Algo mappo Exp check updates 2145/16666 episodes, total num timesteps 25752000/200000000, FPS 1183.
+
+average episode rewards is 627674.1943359375
+
+ Env SwarmEnv Algo mappo Exp check updates 2150/16666 episodes, total num timesteps 25812000/200000000, FPS 1183.
+
+average episode rewards is 622811.0961914062
+
+ Env SwarmEnv Algo mappo Exp check updates 2155/16666 episodes, total num timesteps 25872000/200000000, FPS 1183.
+
+average episode rewards is 629643.1274414062
+
+ Env SwarmEnv Algo mappo Exp check updates 2160/16666 episodes, total num timesteps 25932000/200000000, FPS 1183.
+
+average episode rewards is 628977.8137207031
+
+ Env SwarmEnv Algo mappo Exp check updates 2165/16666 episodes, total num timesteps 25992000/200000000, FPS 1183.
+
+average episode rewards is 618832.9010009766
+
+ Env SwarmEnv Algo mappo Exp check updates 2170/16666 episodes, total num timesteps 26052000/200000000, FPS 1183.
+
+average episode rewards is 623736.6027832031
+
+ Env SwarmEnv Algo mappo Exp check updates 2175/16666 episodes, total num timesteps 26112000/200000000, FPS 1183.
+
+average episode rewards is 617528.5034179688
+
+ Env SwarmEnv Algo mappo Exp check updates 2180/16666 episodes, total num timesteps 26172000/200000000, FPS 1184.
+
+average episode rewards is 622230.2398681641
+
+ Env SwarmEnv Algo mappo Exp check updates 2185/16666 episodes, total num timesteps 26232000/200000000, FPS 1184.
+
+average episode rewards is 634877.8381347656
+
+ Env SwarmEnv Algo mappo Exp check updates 2190/16666 episodes, total num timesteps 26292000/200000000, FPS 1184.
+
+average episode rewards is 622527.1911621094
+
+ Env SwarmEnv Algo mappo Exp check updates 2195/16666 episodes, total num timesteps 26352000/200000000, FPS 1184.
+
+average episode rewards is 629757.8430175781
+
+ Env SwarmEnv Algo mappo Exp check updates 2200/16666 episodes, total num timesteps 26412000/200000000, FPS 1184.
+
+average episode rewards is 628965.087890625
+
+ Env SwarmEnv Algo mappo Exp check updates 2205/16666 episodes, total num timesteps 26472000/200000000, FPS 1184.
+
+average episode rewards is 629181.1065673828
+
+ Env SwarmEnv Algo mappo Exp check updates 2210/16666 episodes, total num timesteps 26532000/200000000, FPS 1184.
+
+average episode rewards is 636388.916015625
+
+ Env SwarmEnv Algo mappo Exp check updates 2215/16666 episodes, total num timesteps 26592000/200000000, FPS 1185.
+
+average episode rewards is 627381.6833496094
+
+ Env SwarmEnv Algo mappo Exp check updates 2220/16666 episodes, total num timesteps 26652000/200000000, FPS 1185.
+
+average episode rewards is 630391.2506103516
+
+ Env SwarmEnv Algo mappo Exp check updates 2225/16666 episodes, total num timesteps 26712000/200000000, FPS 1185.
+
+average episode rewards is 632142.9290771484
+
+ Env SwarmEnv Algo mappo Exp check updates 2230/16666 episodes, total num timesteps 26772000/200000000, FPS 1184.
+
+average episode rewards is 626360.7788085938
+
+ Env SwarmEnv Algo mappo Exp check updates 2235/16666 episodes, total num timesteps 26832000/200000000, FPS 1182.
+
+average episode rewards is 621249.4354248047
+
+ Env SwarmEnv Algo mappo Exp check updates 2240/16666 episodes, total num timesteps 26892000/200000000, FPS 1180.
+
+average episode rewards is 630959.0606689453
+
+ Env SwarmEnv Algo mappo Exp check updates 2245/16666 episodes, total num timesteps 26952000/200000000, FPS 1178.
+
+average episode rewards is 628760.5590820312
+
+ Env SwarmEnv Algo mappo Exp check updates 2250/16666 episodes, total num timesteps 27012000/200000000, FPS 1176.
+
+average episode rewards is 627047.0123291016
+
+ Env SwarmEnv Algo mappo Exp check updates 2255/16666 episodes, total num timesteps 27072000/200000000, FPS 1174.
+
+average episode rewards is 638075.1800537109
+
+ Env SwarmEnv Algo mappo Exp check updates 2260/16666 episodes, total num timesteps 27132000/200000000, FPS 1172.
+
+average episode rewards is 625784.3170166016
+
+ Env SwarmEnv Algo mappo Exp check updates 2265/16666 episodes, total num timesteps 27192000/200000000, FPS 1170.
+
+average episode rewards is 631713.6840820312
+
+ Env SwarmEnv Algo mappo Exp check updates 2270/16666 episodes, total num timesteps 27252000/200000000, FPS 1168.
+
+average episode rewards is 631796.0357666016
+
+ Env SwarmEnv Algo mappo Exp check updates 2275/16666 episodes, total num timesteps 27312000/200000000, FPS 1166.
+
+average episode rewards is 633345.3826904297
+
+ Env SwarmEnv Algo mappo Exp check updates 2280/16666 episodes, total num timesteps 27372000/200000000, FPS 1164.
+
+average episode rewards is 630622.9705810547
+
+ Env SwarmEnv Algo mappo Exp check updates 2285/16666 episodes, total num timesteps 27432000/200000000, FPS 1162.
+
+average episode rewards is 622655.8227539062

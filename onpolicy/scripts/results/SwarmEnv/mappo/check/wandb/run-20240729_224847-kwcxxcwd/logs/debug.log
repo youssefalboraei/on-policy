@@ -1,0 +1,42 @@
+2024-07-29 22:48:47,489 INFO    MainThread:18344 [wandb_init.py:_log_setup():292] Logging user logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\logs\debug.log
+2024-07-29 22:48:47,489 INFO    MainThread:18344 [wandb_init.py:_log_setup():293] Logging internal logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\logs\debug-internal.log
+2024-07-29 22:48:47,489 INFO    MainThread:18344 [wandb_setup.py:_flush():68] setting env: {}
+2024-07-29 22:48:47,489 INFO    MainThread:18344 [wandb_setup.py:_flush():68] setting user settings: {}
+2024-07-29 22:48:47,489 INFO    MainThread:18344 [wandb_setup.py:_flush():68] multiprocessing start_methods=spawn
+2024-07-29 22:48:49,940 INFO    MainThread:18344 [wandb_run.py:_console_start():1265] atexit reg
+2024-07-29 22:48:49,942 INFO    MainThread:18344 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.WRAP
+2024-07-29 22:48:49,942 INFO    MainThread:18344 [wandb_run.py:_redirect():1166] Wrapping output streams.
+2024-07-29 22:48:49,942 INFO    MainThread:18344 [wandb_run.py:_redirect():1182] Redirects installed.
+2024-07-29 22:48:52,877 INFO    MainThread:18344 [wandb_run.py:_atexit_cleanup():1238] got exitcode: 1
+2024-07-29 22:48:52,877 INFO    MainThread:18344 [wandb_run.py:_restore():1210] restore
+2024-07-29 22:48:52,880 INFO    MainThread:18344 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "0c8b60c8b5274b06b65917d000d0aa07"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1715
+      total_bytes: 1715
+    }
+  }
+}
+
+2024-07-29 22:48:54,887 INFO    MainThread:18344 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "9c77889ddb1d41719cbaa6c2ab45fda2"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 9145
+      total_bytes: 9145
+    }
+  }
+}
+
+2024-07-29 22:48:55,944 INFO    MainThread:18344 [wandb_run.py:_show_files():1543] logging synced files
+2024-07-29 22:48:55,947 INFO    MainThread:18344 [internal.py:handle_exit():137] Internal process exited

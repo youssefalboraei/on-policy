@@ -1,0 +1,143 @@
+2024-07-29 22:48:48,927 INFO    MainThread:17012 [internal.py:wandb_internal():62] W&B internal server running at pid: 17012
+2024-07-29 22:48:48,931 INFO    WriterThread:17012 [datastore.py:open_for_write():76] open: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\run-kwcxxcwd.wandb
+2024-07-29 22:48:48,931 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: check_version
+2024-07-29 22:48:48,932 DEBUG   SenderThread:17012 [sender.py:send():88] send: header
+2024-07-29 22:48:48,932 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:48,933 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: check_version
+2024-07-29 22:48:48,937 DEBUG   Thread-4  :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): pypi.org:443
+2024-07-29 22:48:49,442 DEBUG   Thread-4  :17012 [connectionpool.py:_make_request():393] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 91343
+2024-07-29 22:48:49,555 DEBUG   SenderThread:17012 [sender.py:send():88] send: run
+2024-07-29 22:48:49,569 DEBUG   SenderThread:17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:49,804 DEBUG   SenderThread:17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-07-29 22:48:49,835 INFO    SenderThread:17012 [dir_watcher.py:__init__():167] watching files in: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files
+2024-07-29 22:48:49,835 INFO    SenderThread:17012 [sender.py:_start_run_threads():464] run started: kwcxxcwd with start time 1722289727
+2024-07-29 22:48:49,835 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: run_start
+2024-07-29 22:48:49,835 DEBUG   SenderThread:17012 [sender.py:send():88] send: summary
+2024-07-29 22:48:49,845 INFO    SenderThread:17012 [sender.py:_save_file():542] saving file wandb-summary.json with policy end
+2024-07-29 22:48:49,937 DEBUG   SenderThread:17012 [sender.py:send():88] send: files
+2024-07-29 22:48:49,938 INFO    SenderThread:17012 [sender.py:_save_file():542] saving file wandb-metadata.json with policy now
+2024-07-29 22:48:49,941 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: status
+2024-07-29 22:48:49,941 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:49,941 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: status
+2024-07-29 22:48:49,942 DEBUG   SenderThread:17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:49,944 DEBUG   Thread-11 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:50,098 DEBUG   Thread-11 :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-07-29 22:48:50,111 DEBUG   Thread-11 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-07-29 22:48:50,112 DEBUG   SenderThread:17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-07-29 22:48:50,361 DEBUG   Thread-11 :17012 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/wandb-metadata.json?Expires=1722376130&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=EEtD4fEbiCgi0rR6Kin7XeFnWOad4F88Yzxy3tpaNdZ5%2BQ1t05%2F70ld0IcaKxbyg61m4AfDzFqvg%2BgR3VRBbH%2Bga1Fw4z6P8dHURpJZqoUUkx8Ab%2Bf3fpQnwmSE6eb7GOooeUgAtzksFQA99aAIz1RrIjWUmGZ7Ph%2F44%2FFRG3NYEdSuOrHSlOb14XIR19YWv%2F9i5DpDttbPW3iPR6McQdyl7e4YvVmK7uXZRareOrkr5O76t0NPSmo9Wo3TETqN4K0JElwTkXiwxEvVtSut5EtXsCJfTfiSY%2FyiNxaaEKtdLDOmSRl0fWHusqehsc56E8W8gffOKc47ob1m6ncR%2BiA%3D%3D HTTP/1.1" 200 0
+2024-07-29 22:48:50,362 INFO    Thread-11 :17012 [upload_job.py:push():112] Uploaded file C:\Users\Y2-ALB~1\AppData\Local\Temp\tmpwe8efuwewandb\2we4a2q5-wandb-metadata.json
+2024-07-29 22:48:50,838 INFO    Thread-8  :17012 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\wandb-summary.json
+2024-07-29 22:48:50,838 INFO    Thread-8  :17012 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\wandb-metadata.json
+2024-07-29 22:48:50,838 INFO    Thread-8  :17012 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\requirements.txt
+2024-07-29 22:48:50,838 INFO    Thread-8  :17012 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\output.log
+2024-07-29 22:48:51,848 DEBUG   Thread-5  :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:52,014 DEBUG   Thread-5  :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/file_stream HTTP/1.1" 200 None
+2024-07-29 22:48:52,878 DEBUG   SenderThread:17012 [sender.py:send():88] send: exit
+2024-07-29 22:48:52,879 INFO    SenderThread:17012 [sender.py:send_exit():156] handling exit code: 1
+2024-07-29 22:48:52,879 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: poll_exit
+2024-07-29 22:48:52,879 INFO    SenderThread:17012 [sender.py:send_exit():164] send defer
+2024-07-29 22:48:52,879 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:52,879 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: poll_exit
+2024-07-29 22:48:52,879 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:52,880 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 0
+2024-07-29 22:48:52,880 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:52,880 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:52,880 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 0
+2024-07-29 22:48:52,880 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 1
+2024-07-29 22:48:52,880 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:52,880 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 1
+2024-07-29 22:48:52,996 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:52,996 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:52,996 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 1
+2024-07-29 22:48:52,996 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 2
+2024-07-29 22:48:52,997 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:52,997 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 2
+2024-07-29 22:48:52,997 DEBUG   SenderThread:17012 [sender.py:send():88] send: stats
+2024-07-29 22:48:52,997 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:52,997 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:52,997 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 2
+2024-07-29 22:48:52,997 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 3
+2024-07-29 22:48:52,997 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:52,998 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 3
+2024-07-29 22:48:52,998 DEBUG   SenderThread:17012 [sender.py:send():88] send: summary
+2024-07-29 22:48:53,038 INFO    SenderThread:17012 [sender.py:_save_file():542] saving file wandb-summary.json with policy end
+2024-07-29 22:48:53,038 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:53,038 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:53,038 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 3
+2024-07-29 22:48:53,038 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 4
+2024-07-29 22:48:53,039 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:53,039 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 4
+2024-07-29 22:48:53,039 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:53,039 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:53,039 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 4
+2024-07-29 22:48:53,039 INFO    SenderThread:17012 [dir_watcher.py:finish():280] shutting down directory watcher
+2024-07-29 22:48:53,846 INFO    SenderThread:17012 [dir_watcher.py:_on_file_modified():228] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\wandb-summary.json
+2024-07-29 22:48:53,846 INFO    SenderThread:17012 [dir_watcher.py:_on_file_modified():228] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\output.log
+2024-07-29 22:48:53,846 INFO    SenderThread:17012 [dir_watcher.py:finish():309] scan: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files
+2024-07-29 22:48:53,848 INFO    SenderThread:17012 [dir_watcher.py:finish():315] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\config.yaml config.yaml
+2024-07-29 22:48:53,849 INFO    SenderThread:17012 [dir_watcher.py:finish():315] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\output.log output.log
+2024-07-29 22:48:53,849 INFO    SenderThread:17012 [dir_watcher.py:finish():315] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\requirements.txt requirements.txt
+2024-07-29 22:48:53,849 INFO    SenderThread:17012 [dir_watcher.py:finish():315] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\wandb-metadata.json wandb-metadata.json
+2024-07-29 22:48:53,849 INFO    SenderThread:17012 [dir_watcher.py:finish():315] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\wandb-summary.json wandb-summary.json
+2024-07-29 22:48:53,849 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 5
+2024-07-29 22:48:53,849 DEBUG   Thread-12 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:53,849 DEBUG   Thread-13 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:53,849 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:53,849 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 5
+2024-07-29 22:48:53,859 DEBUG   Thread-14 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:53,859 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:53,859 DEBUG   Thread-15 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-07-29 22:48:53,859 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:53,859 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 5
+2024-07-29 22:48:53,859 INFO    SenderThread:17012 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-29 22:48:53,859 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 6
+2024-07-29 22:48:53,860 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:53,860 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 6
+2024-07-29 22:48:53,860 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:53,860 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:53,860 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 6
+2024-07-29 22:48:54,020 DEBUG   Thread-5  :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/file_stream HTTP/1.1" 200 None
+2024-07-29 22:48:54,030 DEBUG   Thread-15 :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-07-29 22:48:54,072 DEBUG   Thread-14 :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-07-29 22:48:54,081 DEBUG   Thread-14 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-07-29 22:48:54,081 DEBUG   Thread-15 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-07-29 22:48:54,084 DEBUG   Thread-13 :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-07-29 22:48:54,098 DEBUG   Thread-13 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-07-29 22:48:54,112 DEBUG   Thread-12 :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-07-29 22:48:54,112 DEBUG   Thread-12 :17012 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-07-29 22:48:54,143 DEBUG   Thread-5  :17012 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/file_stream HTTP/1.1" 200 None
+2024-07-29 22:48:54,143 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 7
+2024-07-29 22:48:54,143 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:54,143 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 7
+2024-07-29 22:48:54,143 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:54,143 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:54,143 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 7
+2024-07-29 22:48:54,143 INFO    SenderThread:17012 [sender.py:send_request_defer():209] send defer: 8
+2024-07-29 22:48:54,143 DEBUG   SenderThread:17012 [sender.py:send():88] send: final
+2024-07-29 22:48:54,143 DEBUG   SenderThread:17012 [sender.py:send():88] send: footer
+2024-07-29 22:48:54,143 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: defer
+2024-07-29 22:48:54,143 INFO    HandlerThread:17012 [handler.py:handle_request_defer():68] handle defer: 8
+2024-07-29 22:48:54,143 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:54,143 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: defer
+2024-07-29 22:48:54,143 INFO    SenderThread:17012 [sender.py:send_request_defer():173] handle sender defer: 8
+2024-07-29 22:48:54,328 DEBUG   Thread-15 :17012 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/wandb-summary.json?Expires=1722376134&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=NKUrh3fzlRYA0EL0pXeViVn3O49nUtT08blDM5%2F%2BGwI47%2BUZiZKnysg7EjSGJvOsXZWMeY7jUqOAYiT2JUnnxLKKRDzZu4C8zSCL%2BSU4eIGftaHUGzJChb2J9hk8S6sFLU2vOwGHNlmbwGZeC7HBEx6MD1nO84Cu2JW%2FoLaaNwkChSrBS5uBFV1RmeoQq2JVMntWSXUHwOear23NFcVk94Sts1nhJzWZ4TF%2Fjv1y2SDST0%2Fg4FHIpEczh3OhNy0uu7pZsbUZvM2CuInEMqCz5ZtQb5jBGnvOPyRwwn9D2GJe5SPYFtDT%2FFGVkB%2FHt8lxVxL8BoO%2Feo6tkkj%2BJpKAEw%3D%3D HTTP/1.1" 200 0
+2024-07-29 22:48:54,328 INFO    Thread-15 :17012 [upload_job.py:push():112] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\wandb-summary.json
+2024-07-29 22:48:54,348 DEBUG   Thread-13 :17012 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/output.log?Expires=1722376134&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=rqUkuj8BrjUeX0c1uPM8CIX5fHjTypCyJNTJ9hkyupNp%2B1e0xMnaZHObaTLyH4A8sMy2Twmy6Uj8nBG9vNXkjB2ozDpPVcuPczuxi4Onu7fKXgT4OhsrjU3a4%2FkY%2FuJlg08ci72x4E6nchL1EskfV9lolFQ9v5%2BDVObBIbK6d7syL46Trd2MdCiFwgpoyklBS6COPeiwm4y1Ik0RN6YUTwmdlXwrmyDxZQI2c1Emu%2FOqMSV%2BZw%2FvHiX6S%2B39Dhjuacdi7vOKACi9kZtUYFUcq9H9VUMDDEoKkSiXnG0EMGaIpmzCO6DAb22c5T3QFiBtfXY262HvdSUgO0pVE7QQZw%3D%3D HTTP/1.1" 200 0
+2024-07-29 22:48:54,348 INFO    Thread-13 :17012 [upload_job.py:push():112] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\output.log
+2024-07-29 22:48:54,358 DEBUG   Thread-14 :17012 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/requirements.txt?Expires=1722376134&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=n802dKGlxGV74hQaxcuOtGSw0oDq5so0FlPJoFkGC4QIrm0JIO1eq7dH%2Bp54WTdalJ0p2rJ1U7eBK2HpDzV0U20aaJD1FRFY6S%2FYux6ZJbrHnyZofB6CE96PIG1XTr6QSfYSR%2BzP6%2FrocG8%2BnYLnyQlbzFu6YjleIwHMEjPLQ92uxeKs%2BEouVKsbzvTdarsATKjdd49jJkKeVxb2OQDURKRgcDqeoIemKM8dlxqdiQOjKPmALlKc0oeJibpejfiBR%2FN4%2Fl76kWRSArpkQGheNzRaqokEDBtWebcA4kR4WA8oICRHKSV%2FOYQF95yqpjbWGgfKwnpfcLYHSr6oA8vx6w%3D%3D HTTP/1.1" 200 0
+2024-07-29 22:48:54,358 INFO    Thread-14 :17012 [upload_job.py:push():112] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\requirements.txt
+2024-07-29 22:48:54,368 DEBUG   Thread-12 :17012 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ygalboraei-university-of-bristol/SwarmEnv/kwcxxcwd/config.yaml?Expires=1722376134&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=KVPD%2BsPiGcRI9H1B005N4EGuitB7YBwxvg5fYIIbmOe2H7Vkkd1XH%2F5zwsN251Wxw%2FUi0B3lgYDEYAGnd1V6IetpEg3g6wQiCYSr6%2B8K8UfqThjXNwFswmD%2BgZjmMsYmbhkfw0kAu1COZi89%2BfKsFMmFchsVzAWO11t7OFvSDSiZsfMP9KzmLWntsir7009GoeENWGtexUqovq3l7LGRsHq2iiNX8seU6N5rn%2BSRY6cRHLtim7c%2F8qI%2FAPJYb3HpvfoJTlC2iWdyPYKs%2BlOi%2BXH3YRDr0Ef%2FFL4Vub1w4fOw8bl5KetbWCJtg0coTyr6kdkr3%2BrE9lIxYIizEew2dg%3D%3D HTTP/1.1" 200 0
+2024-07-29 22:48:54,368 INFO    Thread-12 :17012 [upload_job.py:push():112] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\files\config.yaml
+2024-07-29 22:48:54,887 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: poll_exit
+2024-07-29 22:48:54,887 DEBUG   SenderThread:17012 [sender.py:send():88] send: request
+2024-07-29 22:48:54,887 DEBUG   SenderThread:17012 [sender.py:send_request():97] send_request: poll_exit
+2024-07-29 22:48:54,887 INFO    SenderThread:17012 [file_pusher.py:join():174] waiting for file pusher
+2024-07-29 22:48:54,887 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: get_summary
+2024-07-29 22:48:54,887 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: sampled_history
+2024-07-29 22:48:54,887 DEBUG   HandlerThread:17012 [handler.py:handle_request():54] handle_request: shutdown
+2024-07-29 22:48:54,887 INFO    HandlerThread:17012 [handler.py:finish():267] shutting down handler
+2024-07-29 22:48:55,149 INFO    WriterThread:17012 [datastore.py:close():257] close: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_224847-kwcxxcwd\run-kwcxxcwd.wandb
+2024-07-29 22:48:55,894 INFO    SenderThread:17012 [sender.py:finish():583] shutting down sender
+2024-07-29 22:48:55,894 INFO    SenderThread:17012 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-29 22:48:55,894 INFO    SenderThread:17012 [file_pusher.py:join():174] waiting for file pusher
+2024-07-29 22:48:55,894 INFO    MainThread:17012 [internal.py:handle_exit():137] Internal process exited
