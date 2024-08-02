@@ -25215,3 +25215,45 @@
 2024-07-30 22:48:40,165 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\critic.pt
 2024-07-30 22:48:41,732 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
 2024-07-30 22:48:41,733 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:48:56,906 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:48:56,906 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:49:01,915 DEBUG   SenderThread:18760 [sender.py:send():234] send: stats
+2024-07-30 22:49:05,317 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\actor.pt
+2024-07-30 22:49:05,317 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\critic.pt
+2024-07-30 22:49:16,920 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:49:16,920 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:49:32,128 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:49:32,128 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:49:32,492 DEBUG   SenderThread:18760 [sender.py:send():234] send: stats
+2024-07-30 22:49:34,558 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\actor.pt
+2024-07-30 22:49:34,559 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\critic.pt
+2024-07-30 22:49:47,366 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:49:47,366 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:02,610 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:02,610 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:04,705 DEBUG   SenderThread:18760 [sender.py:send():234] send: history
+2024-07-30 22:50:04,705 DEBUG   SenderThread:18760 [sender.py:send():234] send: summary
+2024-07-30 22:50:04,708 INFO    SenderThread:18760 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-30 22:50:04,754 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\wandb-summary.json
+2024-07-30 22:50:04,754 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\actor.pt
+2024-07-30 22:50:04,754 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\critic.pt
+2024-07-30 22:50:05,249 DEBUG   SenderThread:18760 [sender.py:send():234] send: stats
+2024-07-30 22:50:05,760 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\output.log
+2024-07-30 22:50:17,840 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:17,840 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:33,024 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:33,024 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:34,926 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\actor.pt
+2024-07-30 22:50:34,926 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\critic.pt
+2024-07-30 22:50:37,734 DEBUG   SenderThread:18760 [sender.py:send():234] send: stats
+2024-07-30 22:50:48,226 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:48,226 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:51:03,379 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:51:03,379 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:51:05,136 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\actor.pt
+2024-07-30 22:51:05,137 INFO    Thread-8  :18760 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_223252-jdsodax4\files\critic.pt
+2024-07-30 22:51:10,361 DEBUG   SenderThread:18760 [sender.py:send():234] send: stats
+2024-07-30 22:51:18,569 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:51:18,570 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:51:33,746 DEBUG   HandlerThread:18760 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:51:33,746 DEBUG   SenderThread:18760 [sender.py:send_request():248] send_request: stop_status

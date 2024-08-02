@@ -1,0 +1,15 @@
+obs_space:  [Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64)]
+share_obs_space:  Box(-inf, inf, (180,), float64)
+act_space:  [Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15)]
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 175, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 161, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 35, in run
+    self.insert(data)
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 140, in insert
+    self.buffer.insert(share_obs, obs, rnn_states, rnn_states_critic, actions, action_log_probs, values, rewards, masks)
+  File "d:\youssef\on-policy\onpolicy\utils\shared_buffer.py", line 115, in insert
+    self.rewards[self.step] = rewards.copy()
+ValueError: could not broadcast input array from shape (16,10,1,10) into shape (16,10,1)

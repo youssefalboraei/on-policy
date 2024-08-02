@@ -1,0 +1,28 @@
+obs_space:  [Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64)]
+share_obs_space:  Box(-inf, inf, (180,), float64)
+act_space:  [Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15)]
+ Env SwarmEnv Algo mappo Exp check updates 0/1250 episodes, total num timesteps 160000/200000000, FPS 272.
+average episode rewards is 21304.004192352295
+Traceback (most recent call last):
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 312, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+BrokenPipeError: [WinError 109] The pipe has been ended
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 175, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 161, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 29, in run
+    obs, share_obs, rewards, dones, infos = self.envs.step(actions)
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 107, in step
+    return self.step_wait()
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 390, in step_wait
+    results = [remote.recv() for remote in self.remotes]
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 390, in <listcomp>
+    results = [remote.recv() for remote in self.remotes]
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 321, in _recv_bytes
+    raise EOFError
+EOFError

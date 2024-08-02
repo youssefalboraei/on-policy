@@ -59,8 +59,6 @@ def parse_args(args, parser):
                         default=10, help="number of boxes")
     parser.add_argument('--num_mboxes', type=int,
                         default=0, help="number of mboxes")
-    parser.add_argument('--fault_number', type=int,
-                        default=0, help="number of faulty agents")
     parser.add_argument('--delivery_bias', type=int,
                         default=1, help="delivery bias")
 
@@ -71,7 +69,7 @@ def parse_args(args, parser):
 def main(args):
     parser = get_config()
     all_args = parse_args(args, parser)
-
+    
     if all_args.algorithm_name == "rmappo":
         print("u are choosing to use rmappo, we set use_recurrent_policy to be True")
         all_args.use_recurrent_policy = True

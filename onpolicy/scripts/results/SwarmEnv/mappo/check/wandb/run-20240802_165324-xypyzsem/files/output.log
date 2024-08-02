@@ -1,0 +1,33 @@
+obs_space:  [Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64), Box(-inf, inf, (14,), float64)]
+share_obs_space:  Box(-inf, inf, (180,), float64)
+act_space:  [Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15)]
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 175, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 161, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 39, in run
+    train_infos = self.train()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\base_runner.py", line 139, in train
+    train_infos = self.trainer.train(self.buffer)
+  File "d:\youssef\on-policy\onpolicy\algorithms\r_mappo\r_mappo.py", line 210, in train
+    = self.ppo_update(sample, update_actor)
+  File "d:\youssef\on-policy\onpolicy\algorithms\r_mappo\r_mappo.py", line 127, in ppo_update
+    active_masks_batch)
+  File "d:\youssef\on-policy\onpolicy\algorithms\r_mappo\algorithm\rMAPPOPolicy.py", line 113, in evaluate_actions
+    values, _ = self.critic(cent_obs, rnn_states_critic, masks)
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\nn\modules\module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "d:\youssef\on-policy\onpolicy\algorithms\r_mappo\algorithm\r_actor_critic.py", line 170, in forward
+    critic_features = self.base(cent_obs)
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\nn\modules\module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "d:\youssef\on-policy\onpolicy\algorithms\utils\mlp.py", line 54, in forward
+    x = self.feature_norm(x)
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\nn\modules\module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\nn\modules\normalization.py", line 153, in forward
+    input, self.normalized_shape, self.weight, self.bias, self.eps)
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\nn\functional.py", line 1956, in layer_norm
+    torch.backends.cudnn.enabled)
+RuntimeError: CUDA out of memory. Tried to allocate 1.07 GiB (GPU 0; 8.00 GiB total capacity; 6.99 GiB already allocated; 0 bytes free; 7.16 GiB reserved in total by PyTorch)

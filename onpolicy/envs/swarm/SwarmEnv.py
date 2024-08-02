@@ -8,7 +8,6 @@ class SwarmEnv(gym.Env):
     def __init__(self, config_args):
         super(SwarmEnv, self).__init__()
         self.config = marl_sim.Config(self.dict_to_config_list(config_args))
-        
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
@@ -18,7 +17,7 @@ class SwarmEnv(gym.Env):
         self.agents = [f'agent_{i}' for i in range(self.num_agents)]
         self.max_num_agents = self.num_agents
 
-        # self.step_counter = 0
+        self.step_counter = 0
 
         # Define discrete action space for each agent
         self.action_space = {
@@ -38,7 +37,7 @@ class SwarmEnv(gym.Env):
 
         # seed = self.config.seed
         # print(seed)
-        # self.step_counter = 0
+        self.step_counter = 0
         self.simulator = marl_sim.FaultManagementSimulator(
             self.config,
             self.config.number_of_faults,
@@ -51,6 +50,7 @@ class SwarmEnv(gym.Env):
         self.previous_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
         # self.previous_rb_distance = np.array(self.simulator.bb.rb_distance).reshape(self.simulator.bb.s_no_robots, self.simulator.bb.s_no_boxes)
         self.previous_nearest_box_distances = np.array(self.simulator.bb.r_nearest_box)
+        self.base_box_y_positions = np.array(self.simulator.bb.b_pos_y)
         self.previous_box_y_positions = np.array(self.simulator.bb.b_pos_y)
         
         # Define the observation space based on the actual observation size
@@ -71,7 +71,7 @@ class SwarmEnv(gym.Env):
         return sample_obs, sample_share_obs, {}
 
     def step(self, actions):
-        # self.step_counter += 1
+        self.step_counter += 1
         # Apply actions by writing them directly to bb.r_mitigation_action
         mitigation_actions = [0.0] * self.num_agents  # Initialize with zeros
         for agent, action in actions.items():
@@ -155,10 +155,10 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 500.0
-        DISTANCE_TO_BOX_WEIGHT = 0.01
+        DELIVERY_REWARD = 0
+        DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 0.5
+        DISTANCE_TO_DROP_AREA_WEIGHT = 1
         TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
@@ -173,7 +173,7 @@ class SwarmEnv(gym.Env):
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')
-            boxes_delivered = current_delivery_rate #- self.previous_delivery_rate
+            boxes_delivered = current_delivery_rate - self.previous_delivery_rate
             delivery_reward = DELIVERY_REWARD * boxes_delivered / num_robots
             for agent in self.agents:
                 rewards[agent] += delivery_reward
@@ -196,7 +196,7 @@ class SwarmEnv(gym.Env):
 
         if hasattr(self, 'previous_boxm_y_positions'):
             # print('yes3')
-            y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions)
+            y_progress = np.sum((current_box_y_positions - self.previous_box_y_positions) / (500.0 - self.base_box_y_positions)) # <---- standarise the y progress across envs
             progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
             for agent in self.agents:
                 rewards[agent] += progress_reward
@@ -210,8 +210,9 @@ class SwarmEnv(gym.Env):
 
 
     def _is_done(self):
-        done = self.simulator.completion_check()
-        # or (self.step_counter >= 1_500)
+        done = self.simulator.completion_check() or (self.step_counter >= 10_000)
+        if done:
+            self.step_counter = 0
         return {agent: done for agent in self.agents}
 
     def _get_info(self):

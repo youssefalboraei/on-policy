@@ -24731,3 +24731,43 @@
 2024-07-30 22:48:47,049 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\critic.pt
 2024-07-30 22:48:47,980 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
 2024-07-30 22:48:47,980 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:49:02,106 DEBUG   SenderThread:3084 [sender.py:send():234] send: stats
+2024-07-30 22:49:03,248 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:49:03,248 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:49:10,982 DEBUG   SenderThread:3084 [sender.py:send():234] send: history
+2024-07-30 22:49:10,982 DEBUG   SenderThread:3084 [sender.py:send():234] send: summary
+2024-07-30 22:49:10,982 INFO    SenderThread:3084 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-07-30 22:49:11,206 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\actor.pt
+2024-07-30 22:49:11,206 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\critic.pt
+2024-07-30 22:49:11,206 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\wandb-summary.json
+2024-07-30 22:49:14,235 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\output.log
+2024-07-30 22:49:18,500 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:49:18,500 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:49:33,753 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:49:33,753 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:49:34,680 DEBUG   SenderThread:3084 [sender.py:send():234] send: stats
+2024-07-30 22:49:41,465 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\actor.pt
+2024-07-30 22:49:41,465 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\critic.pt
+2024-07-30 22:49:48,969 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:49:48,969 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:04,139 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:04,139 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:07,330 DEBUG   SenderThread:3084 [sender.py:send():234] send: stats
+2024-07-30 22:50:11,687 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\actor.pt
+2024-07-30 22:50:11,687 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\critic.pt
+2024-07-30 22:50:19,382 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:19,382 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:34,585 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:34,585 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:50:39,829 DEBUG   SenderThread:3084 [sender.py:send():234] send: stats
+2024-07-30 22:50:41,875 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\actor.pt
+2024-07-30 22:50:41,875 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\critic.pt
+2024-07-30 22:50:49,787 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:50:49,787 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:51:04,979 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:51:04,979 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status
+2024-07-30 22:51:12,151 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\actor.pt
+2024-07-30 22:51:12,151 INFO    Thread-8  :3084 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240729_230446-88btqtt4\files\critic.pt
+2024-07-30 22:51:12,372 DEBUG   SenderThread:3084 [sender.py:send():234] send: stats
+2024-07-30 22:51:20,204 DEBUG   HandlerThread:3084 [handler.py:handle_request():130] handle_request: stop_status
+2024-07-30 22:51:20,204 DEBUG   SenderThread:3084 [sender.py:send_request():248] send_request: stop_status

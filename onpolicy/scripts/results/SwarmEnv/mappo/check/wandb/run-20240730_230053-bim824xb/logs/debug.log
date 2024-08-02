@@ -1,0 +1,119 @@
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [wandb_setup.py:_flush():71] setting env: {}
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [wandb_setup.py:_flush():71] setting login settings: {}
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [wandb_init.py:_log_setup():371] Logging user logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240730_230053-bim824xb\logs\debug.log
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [wandb_init.py:_log_setup():372] Logging internal logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240730_230053-bim824xb\logs\debug-internal.log
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [wandb_init.py:init():404] calling init triggers
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'algorithm_name': 'mappo', 'experiment_name': 'check', 'seed': 1, 'cuda': False, 'cuda_deterministic': True, 'n_training_threads': 1, 'n_rollout_threads': 8, 'n_eval_rollout_threads': 1, 'n_render_rollout_threads': 1, 'num_env_steps': 200000000, 'user_name': 'ygalboraei-university-of-bristol', 'use_wandb': True, 'env_name': 'SwarmEnv', 'use_obs_instead_of_state': False, 'episode_length': 2000, 'share_policy': True, 'use_centralized_V': True, 'stacked_frames': 2, 'use_stacked_frames': True, 'hidden_size': 128, 'layer_N': 2, 'use_ReLU': False, 'use_popart': False, 'use_valuenorm': True, 'use_feature_normalization': True, 'use_orthogonal': True, 'gain': 0.01, 'use_naive_recurrent_policy': False, 'use_recurrent_policy': False, 'recurrent_N': 1, 'data_chunk_length': 10, 'lr': 0.0007, 'critic_lr': 0.0007, 'opti_eps': 1e-05, 'weight_decay': 0, 'kl_threshold': 0.01, 'ls_step': 10, 'accept_ratio': 0.5, 'ppo_epoch': 10, 'use_clipped_value_loss': True, 'clip_param': 0.2, 'num_mini_batch': 1, 'entropy_coef': 0.015, 'value_loss_coef': 1, 'use_max_grad_norm': True, 'max_grad_norm': 10.0, 'use_gae': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'use_proper_time_limits': False, 'use_huber_loss': True, 'use_value_active_masks': True, 'use_policy_active_masks': True, 'huber_delta': 10.0, 'use_linear_lr_decay': False, 'save_interval': 1, 'log_interval': 5, 'use_eval': False, 'eval_interval': 25, 'eval_episodes': 32, 'save_gifs': False, 'use_render': False, 'render_episodes': 5, 'ifi': 0.1, 'model_dir': None, 'encode_state': False, 'n_block': 1, 'n_embd': 64, 'n_head': 1, 'dec_actor': False, 'share_actor': False, 'train_maps': None, 'eval_maps': None, 'scenario_name': 'single_transport_share_obs', 'num_faults': 1, 'fault_type': 0, 'num_agents': 10, 'num_boxes': 10, 'num_mboxes': 0, 'delivery_bias': 1}
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [wandb_init.py:init():460] starting backend
+2024-07-30 23:00:53,327 INFO    MainThread:25604 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2024-07-30 23:00:53,337 INFO    MainThread:25604 [backend.py:ensure_launched():216] starting backend process...
+2024-07-30 23:00:53,458 INFO    MainThread:25604 [backend.py:ensure_launched():222] started backend process with pid: 28640
+2024-07-30 23:00:53,458 INFO    MainThread:25604 [wandb_init.py:init():469] backend started and connected
+2024-07-30 23:00:53,478 INFO    MainThread:25604 [wandb_init.py:init():533] updated telemetry
+2024-07-30 23:00:53,478 INFO    MainThread:25604 [wandb_init.py:init():563] communicating current version
+2024-07-30 23:00:54,770 INFO    MainThread:25604 [wandb_init.py:init():568] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-30 23:00:54,770 INFO    MainThread:25604 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2024-07-30 23:00:54,995 INFO    MainThread:25604 [wandb_init.py:init():606] starting run threads in backend
+2024-07-30 23:00:59,389 INFO    MainThread:25604 [wandb_run.py:_console_start():1810] atexit reg
+2024-07-30 23:00:59,389 INFO    MainThread:25604 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2024-07-30 23:00:59,391 INFO    MainThread:25604 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2024-07-30 23:00:59,392 INFO    MainThread:25604 [wandb_run.py:_redirect():1745] Redirects installed.
+2024-07-30 23:00:59,392 INFO    MainThread:25604 [wandb_init.py:init():633] run started, returning control to user process
+2024-07-30 23:01:01,598 INFO    MainThread:25604 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 1
+2024-07-30 23:01:01,598 INFO    MainThread:25604 [wandb_run.py:_restore():1752] restore
+2024-07-30 23:01:02,440 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1771
+  total_bytes: 1771
+}
+
+2024-07-30 23:01:02,691 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1771
+  total_bytes: 1771
+}
+
+2024-07-30 23:01:03,031 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1771
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:03,146 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1771
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:03,259 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 8442
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:03,365 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 10717
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:03,476 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 10717
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:03,586 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 10717
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:03,698 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 10717
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:04,089 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 10717
+  total_bytes: 10717
+}
+
+2024-07-30 23:01:04,466 INFO    MainThread:25604 [wandb_run.py:_wait_for_finish():1912] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 10717
+  total_bytes: 10717
+}
+local_info {
+}
+
+2024-07-30 23:01:05,516 INFO    MainThread:25604 [wandb_run.py:_append_files():2180] logging synced files

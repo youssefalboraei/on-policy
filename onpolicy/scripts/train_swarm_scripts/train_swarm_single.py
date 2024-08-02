@@ -33,7 +33,7 @@ for seed in range(1, seed_max + 1):
         "--n_eval_rollout_threads", "1",
         "--n_rollout_threads", "8", #
         "--num_mini_batch", "1",
-        "--episode_length", "1_500",
+        "--episode_length", "10_000",
         "--num_env_steps", "200_000_000", #
         "--ppo_epoch", "10", # 10
         "--use_ReLU",
@@ -43,15 +43,15 @@ for seed in range(1, seed_max + 1):
         "--wandb_name", "xxx",
         "--user_name", "ygalboraei-university-of-bristol",
 
-        # "--clip_param", "0.1",
-        "--stacked_frames", "2", # 4 
+        "--clip_param", "0.2",
+        "--stacked_frames", "4", # 4 
         "--use_stacked_frames",
         "--hidden_size", "128", # 512
         "--layer_N", "2",
-        # "--entropy_coef", "0.015"
+        "--entropy_coef", "0.015",
 
-        "--num_faults", "2",
-        "--fault_type,", "5", 
+        "--num_faults", "1",
+        "--fault_type", "5", 
     ]
 
     #      echo "seed is ${seed}:"
