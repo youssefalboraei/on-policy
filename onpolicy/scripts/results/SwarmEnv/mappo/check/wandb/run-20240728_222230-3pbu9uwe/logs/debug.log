@@ -7,3 +7,4 @@
 2024-07-28 22:22:32,996 INFO    MainThread:19032 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.WRAP
 2024-07-28 22:22:32,996 INFO    MainThread:19032 [wandb_run.py:_redirect():1166] Wrapping output streams.
 2024-07-28 22:22:32,996 INFO    MainThread:19032 [wandb_run.py:_redirect():1182] Redirects installed.
+2024-07-30 23:37:54,459 INFO    MainThread:19032 [wandb_run.py:finish():972] finishing run ygalboraei-university-of-bristol/SwarmEnv/3pbu9uwe

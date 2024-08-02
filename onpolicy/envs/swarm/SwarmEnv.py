@@ -43,6 +43,7 @@ class SwarmEnv(gym.Env):
             # marl_sim.M_type.BY_MARL_SINGLE
             marl_sim.M_type.BY_MARL_SINGLE
         )
+        # print("RESET------------")
         # print(self.config.number_of_faults, self.config.fault_type)
         # exit()
 
@@ -135,11 +136,11 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 500.0
-        DISTANCE_TO_BOX_WEIGHT = 0.01
+        DELIVERY_REWARD = 000.0
+        DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 0.5
-        TIME_PENALTY = 0.01
+        DISTANCE_TO_DROP_AREA_WEIGHT = 1
+        TIME_PENALTY = 0.1
 
         num_robots = self.simulator.bb.s_no_robots
         num_boxes = self.simulator.bb.s_no_boxes
@@ -153,7 +154,7 @@ class SwarmEnv(gym.Env):
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')
-            boxes_delivered = current_delivery_rate #- self.previous_delivery_rate
+            boxes_delivered = current_delivery_rate - self.previous_delivery_rate
             delivery_reward = DELIVERY_REWARD * boxes_delivered / num_robots
             for agent in self.agents:
                 rewards[agent] += delivery_reward
@@ -192,10 +193,9 @@ class SwarmEnv(gym.Env):
 
     def _is_done(self):
 
-        done = self.simulator.completion_check()
-        # or (self.step_counter >= 1_500)
-        # if done:
-        #     self.step_counter = 0
+        done = self.simulator.completion_check() or (self.step_counter >= 10_000)
+        if done:
+            self.step_counter = 0
         return {agent: done for agent in self.agents}
 
     def _get_info(self):

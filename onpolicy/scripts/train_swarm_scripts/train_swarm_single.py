@@ -31,9 +31,9 @@ for seed in range(1, seed_max + 1):
         "--seed", str(seed),
         "--n_training_threads", "1",
         "--n_eval_rollout_threads", "1",
-        "--n_rollout_threads", "8", #
+        "--n_rollout_threads", "16", #
         "--num_mini_batch", "1",
-        "--episode_length", "1_500",
+        "--episode_length", "10_000",
         "--num_env_steps", "200_000_000", #
         "--ppo_epoch", "10",
         "--use_ReLU",
@@ -46,9 +46,10 @@ for seed in range(1, seed_max + 1):
         "--layer_N", "2",
         "--use_stacked_frames",
         "--stacked_frames", "2",
+        "--entropy_coef",  "0.015 "
 
-        "--fault_type", "5",
-        "--num_faults", "1"
+        # "--fault_type", "8",
+        # "--num_faults", "2"
 
 
     ]
