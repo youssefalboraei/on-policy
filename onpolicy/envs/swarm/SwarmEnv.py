@@ -18,7 +18,7 @@ class SwarmEnv(gym.Env):
         self.max_num_agents = self.num_agents
 
         self.step_counter = 0
-
+        np.random.seed(self.config.seed)
         # Define discrete action space for each agent
         self.action_space = {
             agent: spaces.Discrete(13)  # 21 discrete actions
@@ -28,12 +28,19 @@ class SwarmEnv(gym.Env):
         # We'll define the observation space in reset() after creating the simulator
         self.reset()
 
-    def reset(self, seed=None):
+    def reset(self, seed=None, fault_type=None, num_faults=None):
         if seed is not None:
             self.config.seed = seed
         seed = self.config.seed
-        np.random.seed(self.config.seed)
+        # np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
+
+        if fault_type is not None:
+            self.config.fault_type = fault_type
+
+        if num_faults is not None:
+            self.config.number_of_faults = number_of_faults
+
         self.simulator = marl_sim.FaultManagementSimulator(
             self.config,
             self.config.number_of_faults,

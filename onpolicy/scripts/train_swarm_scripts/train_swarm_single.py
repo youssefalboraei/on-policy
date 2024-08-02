@@ -47,8 +47,8 @@ for seed in range(1, seed_max + 1):
         "--use_stacked_frames",
         "--stacked_frames", "2",
 
-        "--fault_type", "5",
-        "--num_faults", "1"
+        # "--fault_type", "9",
+        # "--num_faults", "2"
 
 
     ]
