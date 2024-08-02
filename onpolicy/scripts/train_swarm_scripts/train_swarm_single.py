@@ -4,7 +4,7 @@ import subprocess
 env = "SwarmEnv"
 scenario = "single_transport"
 num_agents = 10
-algo = "mappo"  # "rmappo" "ippo"
+algo = "rmappo"  # "rmappo" "ippo"
 exp = "check"
 seed_max = 1
 
@@ -31,9 +31,9 @@ for seed in range(1, seed_max + 1):
         "--seed", str(seed),
         "--n_training_threads", "1",
         "--n_eval_rollout_threads", "1",
-        "--n_rollout_threads", "16", #
+        "--n_rollout_threads", "8", #
         "--num_mini_batch", "1",
-        "--episode_length", "10_000",
+        "--episode_length", "2_000",
         "--num_env_steps", "200_000_000", #
         "--ppo_epoch", "10",
         "--use_ReLU",
@@ -45,8 +45,9 @@ for seed in range(1, seed_max + 1):
         "--hidden_size", "128",
         "--layer_N", "2",
         "--use_stacked_frames",
-        "--stacked_frames", "2",
-        "--entropy_coef",  "0.015 "
+        "--stacked_frames", "4",
+        "--entropy_coef",  "0.015",
+        "--use_naive_recurrent_policy"
 
         # "--fault_type", "8",
         # "--num_faults", "2"

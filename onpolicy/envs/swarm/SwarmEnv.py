@@ -57,6 +57,7 @@ class SwarmEnv(gym.Env):
         self.previous_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
         self.previous_rb_distance = np.array(self.simulator.bb.rb_distance).reshape(self.simulator.bb.s_no_robots, self.simulator.bb.s_no_boxes)
         self.previous_box_y_positions = np.array(self.simulator.bb.b_pos_y)
+        self.base_box_y_positions = np.array(self.simulator.bb.b_pos_y)
         
         # Define the observation space based on the actual observation size
         sample_obs = self._get_observation()
@@ -143,10 +144,10 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 000.0
+        DELIVERY_REWARD = 10
         DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 1
+        DISTANCE_TO_DROP_AREA_WEIGHT = 10
         TIME_PENALTY = 0.1
 
         num_robots = self.simulator.bb.s_no_robots
@@ -184,7 +185,7 @@ class SwarmEnv(gym.Env):
 
         if hasattr(self, 'previous_boxm_y_positions'):
             # print('yes3')
-            y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions)
+            y_progress = np.sum((current_box_y_positions - self.previous_box_y_positions) / (500.0 - self.base_box_y_positions))
             progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
             for agent in self.agents:
                 rewards[agent] += progress_reward
@@ -200,7 +201,7 @@ class SwarmEnv(gym.Env):
 
     def _is_done(self):
 
-        done = self.simulator.completion_check() or (self.step_counter >= 10_000)
+        done = self.simulator.completion_check() or (self.step_counter >= 2_000)
         if done:
             self.step_counter = 0
         return {agent: done for agent in self.agents}
