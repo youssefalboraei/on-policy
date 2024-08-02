@@ -161,7 +161,7 @@ def main(args):
         from onpolicy.runner.separated.swarm_runner import SwarmRunner as Runner
 
     runner = SwarmRunner(config)
-    runner.eval(total_num_steps=1_500)
+    runner.eval(total_num_steps=1_5000)
     
     # post process
     eval_envs.close()

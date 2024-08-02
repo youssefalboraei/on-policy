@@ -1,0 +1,45 @@
+obs_space:  [Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,)]
+share_obs_space:  [Box(140,)]
+act_space:  [Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13)]
+
+ Env SwarmEnv Algo mappo Exp check updates 0/12500 episodes, total num timesteps 16000/200000000, FPS 561.
+
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+[1, 0, 0, 1, 0, 0, 0, 0]
+average episode rewards is -2003.8275718688965
+
+ Env SwarmEnv Algo mappo Exp check updates 5/12500 episodes, total num timesteps 96000/200000000, FPS 307.
+
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+[0, 0, 1, 0, 0, 1, 0, 2]
+average episode rewards is 8268.588066101074
+
+ Env SwarmEnv Algo mappo Exp check updates 10/12500 episodes, total num timesteps 176000/200000000, FPS 246.
+
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+[1, 0, 0, 0, 0, 0, 1, 0]
+average episode rewards is 8078.486442565918

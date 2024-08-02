@@ -19,7 +19,7 @@ class SwarmEnvWrapper(gym.Env):
             "dbias": all_args.delivery_bias,
             "aw": 500,
             "ah": 500,
-            "i": 1_000_000
+            "i": 20_000
         }
 
         # print(config_args)
@@ -83,5 +83,5 @@ class SwarmEnvWrapper(gym.Env):
             "n_agents": self.n_agents,
             "state_shape": self.get_state().shape[0],
             "obs_shape": self.observation_space[0].shape[0],
-            "episode_limit": 10_000  # Set an appropriate episode limit
+            "episode_limit": 10_000  
         }

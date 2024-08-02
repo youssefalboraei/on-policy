@@ -18,8 +18,8 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--n_rollout_threads", "1",
         "--n_eval_rollout_threads", "1",  # Consider increasing this if you have more computational resources
         "--num_mini_batch", "1",
-        "--episode_length", "1_500",
-        "--num_env_steps", "1_500",
+        "--episode_length", "1_5000",
+        "--num_env_steps", "1_5000",
         "--ppo_epoch", "10",
         "--use_ReLU",
         "--gain", "0.01",

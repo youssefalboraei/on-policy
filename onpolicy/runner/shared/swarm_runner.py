@@ -10,7 +10,7 @@ def _t2n(x):
 class SwarmRunner(Runner):
     def __init__(self, config):
         super(SwarmRunner, self).__init__(config)
-        # self.data_collector = DataCollector() ####################
+        self.data_collector = DataCollector() ####################
 
     def run(self):
         self.warmup()   
@@ -72,6 +72,7 @@ class SwarmRunner(Runner):
                         agent_k = f'agent{agent_id}/delivery_rate'
                         # Store the list of delivery rates, or a list with the mean if delivery_rates is empty
                         env_infos[agent_k] = delivery_rates if delivery_rates else [0]
+                        print(delivery_rates)
                     # for agent_id in range(self.num_agents):
                     #     env_infos[f'agent{agent_id}/delivery_rate'] = np.mean([info[f'agent{agent_id}']['delivery_rate'] for info in infos])
                 train_infos["average_episode_rewards"] = np.mean(self.buffer.rewards) * self.episode_length
@@ -151,19 +152,19 @@ class SwarmRunner(Runner):
             eval_actions_env = np.squeeze(np.eye(self.eval_envs.action_space[0].n)[eval_actions], 2)
 
             
-            eval_obs, eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions_env)
+            eval_obs, eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions)
             eval_episode_rewards.append(eval_rewards)
 
-            # self.data_collector.add_actions(eval_actions_env) ####################
-            # self.data_collector.add_delivery_rates(eval_infos) ####################
-            # print(eval_infos)
+            self.data_collector.add_actions(eval_actions_env) ####################
+            self.data_collector.add_delivery_rates(eval_infos) ####################
+            print(eval_actions)
             
             eval_rnn_states[eval_dones == True] = np.zeros(((eval_dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
             eval_masks = np.ones((self.n_eval_rollout_threads, self.num_agents, 1), dtype=np.float32)
             eval_masks[eval_dones == True] = np.zeros(((eval_dones == True).sum(), 1), dtype=np.float32)
         
-        # self.data_collector.save_data('eval_data\eval_action_data.csv', 'eval_data\eval_delivery_rate_data.csv') ####################
-        # print("actions saved successfully") ####################
+        self.data_collector.save_data('eval_data\eval_action_data.csv', 'eval_data\eval_delivery_rate_data.csv') ####################
+        print("actions saved successfully") ####################
         
         eval_episode_rewards = np.array(eval_episode_rewards)
         eval_env_infos = {}
