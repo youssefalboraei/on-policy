@@ -61,6 +61,10 @@ def parse_args(args, parser):
                         default=0, help="number of mboxes")
     parser.add_argument('--delivery_bias', type=int,
                         default=1, help="delivery bias")
+    parser.add_argument('--arena_width', type=int,
+                        default=500, help="arena width")
+    parser.add_argument('--arena_height', type=int,
+                        default=500, help="arena height")
 
     all_args = parser.parse_known_args(args)[0]
 
@@ -140,7 +144,6 @@ def main(args):
     envs = make_train_env(all_args)
     eval_envs = make_eval_env(all_args) if all_args.use_eval else None
     num_agents = all_args.num_agents
-    # print("HHHHHHHHHHI", num_agents)
 
     config = {
         "all_args": all_args,

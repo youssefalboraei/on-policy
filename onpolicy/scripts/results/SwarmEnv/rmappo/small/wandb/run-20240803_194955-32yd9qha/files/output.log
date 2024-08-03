@@ -1,0 +1,10 @@
+obs_space:  [Box(14,), Box(14,), Box(14,)]
+share_obs_space:  Box(54,)
+act_space:  [Discrete(13), Discrete(13), Discrete(13)]
+[[[ 7]
+  [12]
+  [ 3]]
+
+ [[ 4]
+  [ 1]
+  [ 8]]]

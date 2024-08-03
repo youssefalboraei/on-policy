@@ -10,7 +10,7 @@ import torch
 
 from onpolicy.config import get_config
 from onpolicy.envs.swarm.swarm_env import SwarmEnvWrapper
-from onpolicy.envs.env_wrappers import SubprocVecEnv, DummyVecEnv
+from onpolicy.envs.env_wrappers import ShareSubprocVecEnv, ShareDummyVecEnv
 
 from onpolicy.runner.shared.swarm_runner import SwarmRunner
 
@@ -26,9 +26,9 @@ def make_train_env(all_args):
             return env
         return init_env
     if all_args.n_rollout_threads == 1:
-        return DummyVecEnv([get_env_fn(0)])
+        return ShareDummyVecEnv([get_env_fn(0)])
     else:
-        return SubprocVecEnv([get_env_fn(i) for i in range(all_args.n_rollout_threads)])
+        return ShareSubprocVecEnv([get_env_fn(i) for i in range(all_args.n_rollout_threads)])
         
 def make_eval_env(all_args):
     def get_env_fn(rank):
@@ -38,9 +38,9 @@ def make_eval_env(all_args):
             return env
         return init_env
     if all_args.n_eval_rollout_threads == 1:
-        return DummyVecEnv([get_env_fn(0)])
+        return ShareDummyVecEnv([get_env_fn(0)])
     else:
-        return SubprocVecEnv([get_env_fn(i) for i in range(all_args.n_eval_rollout_threads)])
+        return ShareSubprocVecEnv([get_env_fn(i) for i in range(all_args.n_eval_rollout_threads)])
 
 def parse_args(args, parser):
     parser.add_argument('--scenario_name', type=str,
@@ -59,6 +59,14 @@ def parse_args(args, parser):
                         default=0, help="number of faulty agents")
     parser.add_argument('--delivery_bias', type=int,
                         default=1, help="delivery bias")
+    parser.add_argument('--arena_width', type=int,
+                        default=500, help="arena width")
+    parser.add_argument('--arena_height', type=int,
+                        default=500, help="arena height")
+    # parser.add_argument('--model_dir', type=str,
+    #                     default=None, help="model directory")
+
+                        
 
     all_args = parser.parse_known_args(args)[0]
 
@@ -88,6 +96,7 @@ def main(args):
         raise NotImplementedError
 
     assert all_args.use_eval, ("u need to set use_eval to be True")
+    print(all_args.model_dir)
     assert not (all_args.model_dir == None or all_args.model_dir == ""), ("set model_dir first")
     
     # cuda
@@ -166,7 +175,7 @@ def main(args):
         from onpolicy.runner.separated.swarm_runner import SwarmRunner as Runner
 
     runner = SwarmRunner(config)
-    runner.eval(total_num_steps=1_000)
+    runner.eval(total_num_steps=10_000)
     
     # post process
     eval_envs.close()

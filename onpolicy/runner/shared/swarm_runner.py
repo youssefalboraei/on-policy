@@ -29,7 +29,7 @@ class SwarmRunner(Runner):
                 obs, share_obs, rewards, dones, infos = self.envs.step(actions)
                 data = obs, share_obs, rewards, dones, infos, values, actions, action_log_probs, rnn_states, rnn_states_critic
 
-                # print(infos)
+                # print(rewards)
                 # exit()
                 # insert data into buffer
                 self.insert(data)
@@ -76,7 +76,7 @@ class SwarmRunner(Runner):
                 print("average episode rewards is {}".format(train_infos["average_episode_rewards"]))
                 self.log_train(train_infos, total_num_steps)
                 self.log_env(env_infos, total_num_steps)
-
+                print(env_infos)
             # eval
             if episode % self.eval_interval == 0 and self.use_eval:
                 self.eval(total_num_steps)
@@ -158,7 +158,8 @@ class SwarmRunner(Runner):
 
             eval_actions_env = np.squeeze(np.eye(self.eval_envs.action_space[0].n)[eval_actions], 2)
             
-            eval_obs, _,  eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions_env)
+            print(eval_actions)
+            eval_obs, _,  eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions)
             eval_episode_rewards.append(eval_rewards)
 
             eval_rnn_states[eval_dones == True] = np.zeros(((eval_dones == True).sum(), self.recurrent_N, self.hidden_size), dtype=np.float32)
