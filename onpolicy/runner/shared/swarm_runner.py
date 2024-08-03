@@ -158,7 +158,7 @@ class SwarmRunner(Runner):
 
             eval_actions_env = np.squeeze(np.eye(self.eval_envs.action_space[0].n)[eval_actions], 2)
             
-            print(eval_actions)
+            # print(eval_actions)
             eval_obs, _,  eval_rewards, eval_dones, eval_infos = self.eval_envs.step(eval_actions)
             eval_episode_rewards.append(eval_rewards)
 
