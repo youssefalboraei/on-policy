@@ -7,3 +7,18 @@
 2024-07-30 15:11:13,350 INFO    MainThread:23420 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.WRAP
 2024-07-30 15:11:13,350 INFO    MainThread:23420 [wandb_run.py:_redirect():1166] Wrapping output streams.
 2024-07-30 15:11:13,350 INFO    MainThread:23420 [wandb_run.py:_redirect():1182] Redirects installed.
+2024-08-02 17:01:31,284 INFO    MainThread:23420 [wandb_run.py:_atexit_cleanup():1238] got exitcode: 1
+2024-08-02 17:01:31,284 INFO    MainThread:23420 [wandb_run.py:_restore():1210] restore
+2024-08-02 17:01:31,288 INFO    MainThread:23420 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "fe984b7284ee4e729bdd90b21e1a9bb9"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1715
+      total_bytes: 1715
+    }
+  }
+}
+

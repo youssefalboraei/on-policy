@@ -1,0 +1,83 @@
+2024-08-02 18:39:42,071 INFO    MainThread:21412 [internal.py:wandb_internal():62] W&B internal server running at pid: 21412
+2024-08-02 18:39:42,075 INFO    WriterThread:21412 [datastore.py:open_for_write():76] open: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240802_183941-q2tvscej\run-q2tvscej.wandb
+2024-08-02 18:39:42,075 DEBUG   HandlerThread:21412 [handler.py:handle_request():54] handle_request: check_version
+2024-08-02 18:39:42,077 DEBUG   SenderThread:21412 [sender.py:send():88] send: header
+2024-08-02 18:39:42,077 DEBUG   SenderThread:21412 [sender.py:send():88] send: request
+2024-08-02 18:39:42,077 DEBUG   SenderThread:21412 [sender.py:send_request():97] send_request: check_version
+2024-08-02 18:39:42,082 DEBUG   Thread-4  :21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): pypi.org:443
+2024-08-02 18:39:42,557 DEBUG   Thread-4  :21412 [connectionpool.py:_make_request():393] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 91343
+2024-08-02 18:39:42,665 DEBUG   SenderThread:21412 [sender.py:send():88] send: run
+2024-08-02 18:39:42,675 DEBUG   SenderThread:21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:39:42,868 DEBUG   SenderThread:21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-08-02 18:39:42,873 INFO    SenderThread:21412 [dir_watcher.py:__init__():167] watching files in: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240802_183941-q2tvscej\files
+2024-08-02 18:39:42,873 INFO    SenderThread:21412 [sender.py:_start_run_threads():464] run started: q2tvscej with start time 1722620381
+2024-08-02 18:39:42,894 DEBUG   SenderThread:21412 [sender.py:send():88] send: summary
+2024-08-02 18:39:42,894 DEBUG   HandlerThread:21412 [handler.py:handle_request():54] handle_request: run_start
+2024-08-02 18:39:42,894 INFO    SenderThread:21412 [sender.py:_save_file():542] saving file wandb-summary.json with policy end
+2024-08-02 18:39:42,926 DEBUG   SenderThread:21412 [sender.py:send():88] send: files
+2024-08-02 18:39:42,926 INFO    SenderThread:21412 [sender.py:_save_file():542] saving file wandb-metadata.json with policy now
+2024-08-02 18:39:42,945 DEBUG   HandlerThread:21412 [handler.py:handle_request():54] handle_request: status
+2024-08-02 18:39:42,953 DEBUG   SenderThread:21412 [sender.py:send():88] send: request
+2024-08-02 18:39:42,953 DEBUG   SenderThread:21412 [sender.py:send_request():97] send_request: status
+2024-08-02 18:39:42,954 DEBUG   SenderThread:21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:39:42,958 DEBUG   Thread-11 :21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:39:43,165 DEBUG   SenderThread:21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-08-02 18:39:43,178 DEBUG   Thread-11 :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-08-02 18:39:43,189 DEBUG   Thread-11 :21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-08-02 18:39:43,438 DEBUG   Thread-11 :21412 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/wandb-metadata.json?Expires=1722706783&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pPuMYdaORbvtYLeFSbqlS97DqfAmPAVPrm22Aj1tQF9LkL5CY%2FpXLctqFxM4RtSB6B0ghs4N9JIyY25l8JDPrhGRgx8j60F9hVp7KIttl%2Bu1nvWRjHfyp8yaIF%2Fp8bIan%2B5xy9S9VvxdgrPd71%2FfNabs3R88w3l%2BUERMGgwsE9yrXTLG5%2BBNuL5Z0nQcDoC%2BQd413LmpYniOw%2FvHaOUaF3TuBActZpmuW1FttKLJQo1TE1vmBiL8LiWAjnsdF3Hf532unAyqMwKmL%2FXQoIdIsXp6nY4n0jra5%2Fv0x1x%2BpPT%2FWRansnq9GXvDle%2FzO5XLhnCfjrBfChIADpnBCKKAGw%3D%3D HTTP/1.1" 200 0
+2024-08-02 18:39:43,439 INFO    Thread-11 :21412 [upload_job.py:push():112] Uploaded file C:\Users\Y2-ALB~1\AppData\Local\Temp\tmphlcqahqqwandb\1d4y6xyu-wandb-metadata.json
+2024-08-02 18:39:43,878 INFO    Thread-8  :21412 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240802_183941-q2tvscej\files\wandb-metadata.json
+2024-08-02 18:39:43,878 INFO    Thread-8  :21412 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240802_183941-q2tvscej\files\wandb-summary.json
+2024-08-02 18:39:43,878 INFO    Thread-8  :21412 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240802_183941-q2tvscej\files\requirements.txt
+2024-08-02 18:39:43,878 INFO    Thread-8  :21412 [dir_watcher.py:_on_file_created():215] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240802_183941-q2tvscej\files\output.log
+2024-08-02 18:39:44,903 DEBUG   Thread-5  :21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:39:45,044 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:39:46,640 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:39:48,780 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:39:51,591 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:39:51,741 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:39:56,550 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:39:56,616 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:39:57,170 INFO    Thread-8  :21412 [dir_watcher.py:_on_file_modified():228] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\mappo\check\wandb\run-20240802_183941-q2tvscej\files\output.log
+2024-08-02 18:39:58,251 DEBUG   HandlerThread:21412 [handler.py:handle_request():54] handle_request: status
+2024-08-02 18:39:58,251 DEBUG   SenderThread:21412 [sender.py:send():88] send: request
+2024-08-02 18:39:58,251 DEBUG   SenderThread:21412 [sender.py:send_request():97] send_request: status
+2024-08-02 18:39:58,253 DEBUG   SenderThread:21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:39:58,417 DEBUG   SenderThread:21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-08-02 18:39:58,759 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:02,423 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:02,596 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:08,275 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:08,542 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:13,303 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:13,433 DEBUG   HandlerThread:21412 [handler.py:handle_request():54] handle_request: status
+2024-08-02 18:40:13,433 DEBUG   SenderThread:21412 [sender.py:send():88] send: request
+2024-08-02 18:40:13,433 DEBUG   SenderThread:21412 [sender.py:send_request():97] send_request: status
+2024-08-02 18:40:13,433 DEBUG   SenderThread:21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:40:13,433 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:13,653 DEBUG   SenderThread:21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-08-02 18:40:18,475 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:18,707 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:23,656 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:23,907 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:28,657 DEBUG   HandlerThread:21412 [handler.py:handle_request():54] handle_request: status
+2024-08-02 18:40:28,657 DEBUG   SenderThread:21412 [sender.py:send():88] send: request
+2024-08-02 18:40:28,657 DEBUG   SenderThread:21412 [sender.py:send_request():97] send_request: status
+2024-08-02 18:40:28,657 DEBUG   SenderThread:21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:40:28,848 DEBUG   SenderThread:21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-08-02 18:40:28,848 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:29,012 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:34,023 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:34,166 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:38,862 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:39,000 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:43,670 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:43,868 DEBUG   HandlerThread:21412 [handler.py:handle_request():54] handle_request: status
+2024-08-02 18:40:43,868 DEBUG   SenderThread:21412 [sender.py:send():88] send: request
+2024-08-02 18:40:43,868 DEBUG   SenderThread:21412 [sender.py:send_request():97] send_request: status
+2024-08-02 18:40:43,870 DEBUG   SenderThread:21412 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2024-08-02 18:40:44,058 DEBUG   SenderThread:21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2024-08-02 18:40:48,495 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:53,293 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
+2024-08-02 18:40:53,443 DEBUG   Thread-5  :21412 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ygalboraei-university-of-bristol/SwarmEnv/q2tvscej/file_stream HTTP/1.1" 200 None
+2024-08-02 18:40:58,100 DEBUG   SenderThread:21412 [sender.py:send():88] send: stats
