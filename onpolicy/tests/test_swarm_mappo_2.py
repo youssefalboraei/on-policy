@@ -48,7 +48,7 @@ def main(args):
     # Load the trained model
     model_path = f"/actor.pt"
     try:
-        actor.load_state_dict(torch.load(model_path))
+        actor.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
         print(f"Loaded model from {model_path}")
     except FileNotFoundError:
         print(f"Error: Model file not found at {model_path}")

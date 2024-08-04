@@ -69,7 +69,7 @@ def main(args):
     
     # Load the trained model
     model_path = f"tests\actor.pt"
-    actor.load_state_dict(torch.load(model_path))
+    actor.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     actor.eval()
     
     # Run test episodes

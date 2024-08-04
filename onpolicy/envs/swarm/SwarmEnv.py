@@ -8,6 +8,8 @@ class SwarmEnv(gym.Env):
     def __init__(self, config_args):
         super(SwarmEnv, self).__init__()
         self.config = marl_sim.Config(self.dict_to_config_list(config_args))
+        # print((config_args))
+        # print(self.dict_to_config_list(config_args))
         
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
@@ -43,6 +45,8 @@ class SwarmEnv(gym.Env):
             # marl_sim.M_type.BY_MARL_SINGLE
             marl_sim.M_type.BY_MARL_SINGLE
         )
+        # print(self.config.seed)
+        # exit()
         # print(self.config.number_of_faults, self.config.fault_type)
         # exit()
 
@@ -149,7 +153,7 @@ class SwarmEnv(gym.Env):
 
         # 1. Reward for delivered boxes (global reward, split among agents)
         current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        # print(current_delivery_rate)
+        print(current_delivery_rate)
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')

@@ -2,12 +2,12 @@ import subprocess
 import os
 
 def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
-    train_script_path = r"D:\youssef\on-policy\onpolicy\scripts\eval\eval_swarm.py"
+    train_script_path = "/home/yga/MSc_Robotics/Dissertation/on-policy/onpolicy/scripts/eval/eval_swarm.py"
 
     cmd = [
         "python", train_script_path,
         "--env_name", env,
-        "--cuda", "False",
+        # "--cuda", "False",
         "--algorithm_name", algo,
         "--experiment_name", exp,
         "--scenario_name", scenario,
@@ -16,7 +16,7 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--seed", str(seed),
         "--n_training_threads", "1",
         "--n_rollout_threads", "1",
-        "--n_eval_rollout_threads", "1",  # Consider increasing this if you have more computational resources
+        "--n_eval_rollout_threads", "1",  
         "--num_mini_batch", "1",
         "--episode_length", "1_500",
         "--num_env_steps", "1_500",
@@ -29,7 +29,7 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--user_name", "ygalboraei-university-of-bristol",
         "--use_eval",
         "--use_wandb",
-        "--model_dir", r"D:\youssef\on-policy\onpolicy\tests",
+        "--model_dir", "/home/yga/MSc_Robotics/Dissertation/on-policy/onpolicy/tests",
         "--hidden_size", "128",
         "--layer_N", "2",
         "--use_stacked_frames",
