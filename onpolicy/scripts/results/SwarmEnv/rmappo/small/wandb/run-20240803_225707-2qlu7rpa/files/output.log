@@ -1,0 +1,16 @@
+obs_space:  [Box(11,), Box(11,), Box(11,)]
+share_obs_space:  Box(45,)
+act_space:  [Discrete(13), Discrete(13), Discrete(13)]
+
+ Env SwarmEnv Algo rmappo Exp small updates 0/12500 episodes, total num timesteps 16000/200000000, FPS 628.
+
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 178, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 164, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 74, in run
+    env_infos[f'agent{agent_id}/delivery_rate'] = np.mean([info[f'agent{agent_id}']['delivery_rate'] for info in infos])
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 74, in <listcomp>
+    env_infos[f'agent{agent_id}/delivery_rate'] = np.mean([info[f'agent{agent_id}']['delivery_rate'] for info in infos])
+TypeError: list indices must be integers or slices, not str
