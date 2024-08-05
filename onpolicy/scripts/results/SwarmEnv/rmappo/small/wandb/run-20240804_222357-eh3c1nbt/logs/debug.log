@@ -1,0 +1,9 @@
+2024-08-04 22:23:57,536 INFO    MainThread:20960 [wandb_init.py:_log_setup():292] Logging user logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240804_222357-eh3c1nbt\logs\debug.log
+2024-08-04 22:23:57,536 INFO    MainThread:20960 [wandb_init.py:_log_setup():293] Logging internal logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240804_222357-eh3c1nbt\logs\debug-internal.log
+2024-08-04 22:23:57,536 INFO    MainThread:20960 [wandb_setup.py:_flush():68] setting env: {}
+2024-08-04 22:23:57,536 INFO    MainThread:20960 [wandb_setup.py:_flush():68] setting user settings: {}
+2024-08-04 22:23:57,536 INFO    MainThread:20960 [wandb_setup.py:_flush():68] multiprocessing start_methods=spawn
+2024-08-04 22:23:59,509 INFO    MainThread:20960 [wandb_run.py:_console_start():1265] atexit reg
+2024-08-04 22:23:59,509 INFO    MainThread:20960 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.WRAP
+2024-08-04 22:23:59,509 INFO    MainThread:20960 [wandb_run.py:_redirect():1166] Wrapping output streams.
+2024-08-04 22:23:59,509 INFO    MainThread:20960 [wandb_run.py:_redirect():1182] Redirects installed.
