@@ -1,4 +1,4 @@
-import marl_sim
+import marl_sim_2 as marl_sim
 import numpy as np
 import gym
 from gym import spaces
@@ -17,11 +17,14 @@ class SwarmEnv(gym.Env):
         self.agents = [f'agent_{i}' for i in range(self.num_agents)]
         self.max_num_agents = self.num_agents
 
+        # print(self.config.arena_width, self.config.arena_height, self.config.number_of_agents, self.config.number_of_boxes, self.config.number_of_faults, self.config.fault_type, self.config.delivery_bias)
+        # exit()
+
         self.step_counter = 0
 
         # Define discrete action space for each agent
         self.action_space = {
-            agent: spaces.Discrete(15)  # 21 discrete actions
+            agent: spaces.Discrete(13)  # 21 discrete actions
             for agent in self.agents
         }
         
@@ -66,22 +69,24 @@ class SwarmEnv(gym.Env):
         # self.share_observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=global_state_dim , dtype=np.float64)
         self.share_observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=sample_share_obs.shape , dtype=np.float64)
         
-
+        # print("reset")
         # print(sample_obs)
         return sample_obs, sample_share_obs, {}
 
     def step(self, actions):
+        # print(actions)
         self.step_counter += 1
+        # print(self.step_counter)
         # Apply actions by writing them directly to bb.r_mitigation_action
         mitigation_actions = [0.0] * self.num_agents  # Initialize with zeros
         for agent, action in actions.items():
             agent_index = int(agent.split('_')[1])
-            # print(action)
-            mitigation_actions[agent_index] = action[0] 
-            # mitigation_actions[agent_index] = 0
+            # print(action[0])
+            # mitigation_actions[agent_index] = action[0] 
+            mitigation_actions[agent_index] = 0
 
         self.simulator.bb.r_mitigation_action = mitigation_actions
-        
+        print(self.simulator.bb.r_mitigation_action)
         self.simulator.step()  # Run the simulation step
         # print("simulation done")
         observation = self._get_observation()
@@ -92,7 +97,6 @@ class SwarmEnv(gym.Env):
         info = self._get_info()            
         
         return observation, share_observation, reward, done, truncated, info
-
 
     def _get_observation(self):
         bb = self.simulator.bb
@@ -116,9 +120,9 @@ class SwarmEnv(gym.Env):
                 bb.r_box_in_range[i],
                 # bb.r_boxm_in_range[i],
                 bb.r_walls_in_range[i],
-                bb.r_messages_r[i],
-                bb.r_messages_s[i],
-                bb.r_delivered[i],
+                # bb.r_messages_r[i],       #
+                # bb.r_messages_s[i],       #
+                # bb.r_delivered[i],        #
                 # bb.r_delivered_m[i]
             ], dtype=np.float32)
             observations[agent] = agent_obs
@@ -143,22 +147,12 @@ class SwarmEnv(gym.Env):
         share_observations = np.concatenate([flattened_obs, global_state])
         return share_observations
 
-    # def _get_reward(self):
-    #     # Implement reward calculation for each agent
-    #     # This is a placeholder and should be replaced with your actual reward logic
-    #     self.reward = self.simulator.bb.s_delivery_rate_m[-1]
-    #     if self.reward > self.prev_reward:
-    #         return {agent: self.reward for agent in self.agents}
-    #     else:
-    #         return {agent: 0 for agent in self.agents}
-
-
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 0
+        DELIVERY_REWARD = 3
         DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 1
+        DISTANCE_TO_DROP_AREA_WEIGHT = 3
         TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
@@ -169,7 +163,7 @@ class SwarmEnv(gym.Env):
 
         # 1. Reward for delivered boxes (global reward, split among agents)
         current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        # print(current_delivery_rate)
+        print(self.step_counter, current_delivery_rate)
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')
@@ -196,7 +190,7 @@ class SwarmEnv(gym.Env):
 
         if hasattr(self, 'previous_boxm_y_positions'):
             # print('yes3')
-            y_progress = np.sum((current_box_y_positions - self.previous_box_y_positions) / (500.0 - self.base_box_y_positions)) # <---- standarise the y progress across envs
+            y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions) / np.sum(500.0 - self.base_box_y_positions) # <---- standarise the y progress across envs
             progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
             for agent in self.agents:
                 rewards[agent] += progress_reward
@@ -205,14 +199,18 @@ class SwarmEnv(gym.Env):
         # 4. Time penalty (per agent)
         for agent in self.agents:
             rewards[agent] -= TIME_PENALTY
-
+        # print(rewards)
         return rewards
-
 
     def _is_done(self):
         done = self.simulator.completion_check() or (self.step_counter >= 10_000)
         if done:
+            # print(self.simulator.completion_check())
+            # print(self.step_counter)
+            # print(self.previous_delivery_rate)
+            # print("done")
             self.step_counter = 0
+            
         return {agent: done for agent in self.agents}
 
     def _get_info(self):
