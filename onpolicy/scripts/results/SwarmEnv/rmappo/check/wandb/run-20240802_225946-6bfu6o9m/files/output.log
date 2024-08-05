@@ -1,0 +1,15 @@
+obs_space:  [Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,), Box(14,)]
+share_obs_space:  Box(180,)
+act_space:  [Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15), Discrete(15)]
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 175, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 160, in main
+    runner = Runner(config)
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 11, in __init__
+    super(SwarmRunner, self).__init__(config)
+  File "d:\youssef\on-policy\onpolicy\runner\shared\base_runner.py", line 92, in __init__
+    self.trainer = TrainAlgo(self.all_args, self.policy, device = self.device)
+  File "d:\youssef\on-policy\onpolicy\algorithms\r_mappo\r_mappo.py", line 43, in __init__
+    assert (self._use_popart and self._use_valuenorm) == False, ("self._use_popart and self._use_valuenorm can not be set True simultaneously")
+AssertionError: self._use_popart and self._use_valuenorm can not be set True simultaneously
