@@ -977,3 +977,7 @@ average episode rewards is 12.675770558416843
  Env SwarmEnv Algo rmappo Exp check updates 1215/12500 episodes, total num timesteps 19456000/200000000, FPS 76.
 
 average episode rewards is -0.3726486174855381
+
+ Env SwarmEnv Algo rmappo Exp check updates 1220/12500 episodes, total num timesteps 19536000/200000000, FPS 76.
+
+average episode rewards is -0.965943792834878
