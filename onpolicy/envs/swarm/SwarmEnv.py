@@ -38,6 +38,11 @@ class SwarmEnv(gym.Env):
         np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
 
+        # Set faults dynamically
+        self.config.number_of_faults = np.random.randint(0,3) # Max 2 faults
+        fault_set = [1, 5, 8]
+        self.config.fault_type = fault_set[np.random.randint(0,3)]
+
         # seed = self.config.seed
         # print(seed)
         self.step_counter = 0
@@ -83,10 +88,10 @@ class SwarmEnv(gym.Env):
             agent_index = int(agent.split('_')[1])
             # print(action[0])
             mitigation_actions[agent_index] = action[0] 
-            mitigation_actions[agent_index] = 0
+            # mitigation_actions[agent_index] = 0
 
         self.simulator.bb.r_mitigation_action = mitigation_actions
-        print("\t\t", self.simulator.bb.r_mitigation_action)
+        # print("\t\t", self.simulator.bb.r_mitigation_action)
 
         self.simulator.step()  # Run the simulation step
         # print("simulation done")
@@ -150,10 +155,10 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 3
+        DELIVERY_REWARD = 20
         DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 3
+        DISTANCE_TO_DROP_AREA_WEIGHT = 10
         TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
@@ -164,7 +169,7 @@ class SwarmEnv(gym.Env):
 
         # 1. Reward for delivered boxes (global reward, split among agents)
         current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        print(self.step_counter, current_delivery_rate)
+        # print(self.step_counter, current_delivery_rate)
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')
@@ -204,7 +209,7 @@ class SwarmEnv(gym.Env):
         return rewards
 
     def _is_done(self):
-        done = self.simulator.completion_check() or (self.step_counter >= 10_000)
+        done = self.simulator.completion_check() or (self.step_counter >= 1_000)
         if done:
             # print(self.simulator.completion_check())
             # print(self.step_counter)
