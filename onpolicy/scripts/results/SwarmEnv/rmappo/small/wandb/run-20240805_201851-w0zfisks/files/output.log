@@ -1,0 +1,11 @@
+obs_space:  [Box(-inf, inf, (11,), float64), Box(-inf, inf, (11,), float64), Box(-inf, inf, (11,), float64)]
+share_obs_space:  Box(-inf, inf, (45,), float64)
+act_space:  [Discrete(13), Discrete(13), Discrete(13)]
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 178, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 164, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\base_runner.py", line 103, in run
+    raise NotImplementedError
+NotImplementedError

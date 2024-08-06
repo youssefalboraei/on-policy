@@ -1,0 +1,15 @@
+obs_space:  [Box(-inf, inf, (11,), float64), Box(-inf, inf, (11,), float64), Box(-inf, inf, (11,), float64)]
+share_obs_space:  Box(-inf, inf, (45,), float64)
+act_space:  [Discrete(13), Discrete(13), Discrete(13)]
+ Env SwarmEnv Algo rmappo Exp small updates 0/12500 episodes, total num timesteps 16000/200000000, FPS 311.
+average episode rewards is 1.5977969160303473
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 178, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 164, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 75, in run
+    self.log_env(env_infos, total_num_steps)
+  File "d:\youssef\on-policy\onpolicy\runner\shared\base_runner.py", line 183, in log_env
+    if len(v)>0:
+TypeError: object of type 'numpy.float64' has no len()
