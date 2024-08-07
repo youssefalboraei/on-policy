@@ -1,8 +1,10 @@
-import marl_sim_2 as marl_sim
+import marl_sim
 import numpy as np
 import gym
 from gym import spaces
 import argparse
+from onpolicy.utils.data_collector_2 import DataCollector2
+
 
 class SwarmEnv(gym.Env):
     def __init__(self, config_args):
@@ -11,6 +13,7 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
+        # self.config.write_viz = True
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
@@ -28,6 +31,13 @@ class SwarmEnv(gym.Env):
             for agent in self.agents
         }
         
+        # Data writer
+        self.data_collector = DataCollector2()
+        self.data_collector.set_run_info(self.config.number_of_faults, 
+                                         self.config.fault_type)
+        self.data_collector.set_seed(self.config.seed)
+
+        
         # We'll define the observation space in reset() after creating the simulator
         self.reset()
 
@@ -37,7 +47,6 @@ class SwarmEnv(gym.Env):
         
         np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
-
         # seed = self.config.seed
         # print(seed)
         self.step_counter = 0
@@ -83,10 +92,10 @@ class SwarmEnv(gym.Env):
             agent_index = int(agent.split('_')[1])
             # print(action[0])
             mitigation_actions[agent_index] = action[0] 
-            mitigation_actions[agent_index] = 0
+            # mitigation_actions[agent_index] = 0
 
         self.simulator.bb.r_mitigation_action = mitigation_actions
-        print("\t\t", self.simulator.bb.r_mitigation_action)
+        # print("\t\t", self.simulator.bb.r_mitigation_action)
 
         self.simulator.step()  # Run the simulation step
         # print("simulation done")
@@ -95,7 +104,10 @@ class SwarmEnv(gym.Env):
         reward = self._get_reward()
         done = self._is_done()
         truncated = {agent: False for agent in self.agents}  # Assuming no truncation
-        info = self._get_info()            
+        info = self._get_info()    
+
+        self.data_collector.add_step_data(mitigation_actions,
+                                          self.previous_delivery_rate)        
         
         return observation, share_observation, reward, done, truncated, info
 
@@ -164,7 +176,7 @@ class SwarmEnv(gym.Env):
 
         # 1. Reward for delivered boxes (global reward, split among agents)
         current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        print(self.step_counter, current_delivery_rate)
+        # print(self.step_counter, current_delivery_rate)
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')
@@ -204,13 +216,16 @@ class SwarmEnv(gym.Env):
         return rewards
 
     def _is_done(self):
-        done = self.simulator.completion_check() or (self.step_counter >= 10_000)
+        # done = self.simulator.completion_check() or (self.step_counter >= 10_000)
+        done = (self.step_counter > 100)
         if done:
             # print(self.simulator.completion_check())
             # print(self.step_counter)
             # print(self.previous_delivery_rate)
             # print("done")
+            self.data_collector.save_data()
             self.step_counter = 0
+            exit()
             
         return {agent: done for agent in self.agents}
 

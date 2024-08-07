@@ -59,7 +59,7 @@ def main():
 
     for seed in range(1, seed_max + 1):
         seed = randint(1, 9999)
-        seed = 8366
+        # seed = 8366
         print(f"seed is {seed}:")
         run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, str(seed))
         print("evaluation is done!")
