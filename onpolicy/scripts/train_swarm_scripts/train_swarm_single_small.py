@@ -59,7 +59,7 @@ for seed in range(1, seed_max + 1):
         "--data_chunk_length", "20",
 
         "--num_faults", "1",
-        "--fault_type", "5", 
+        "--fault_type", "8", 
     ]
 
     #      echo "seed is ${seed}:"

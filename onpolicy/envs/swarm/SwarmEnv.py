@@ -83,10 +83,10 @@ class SwarmEnv(gym.Env):
             agent_index = int(agent.split('_')[1])
             # print(action[0])
             mitigation_actions[agent_index] = action[0] 
-            mitigation_actions[agent_index] = 0
+            # mitigation_actions[agent_index] = 0
 
         self.simulator.bb.r_mitigation_action = mitigation_actions
-        print("\t\t", self.simulator.bb.r_mitigation_action)
+        # print("\t\t", self.simulator.bb.r_mitigation_action)
 
         self.simulator.step()  # Run the simulation step
         # print("simulation done")
@@ -164,7 +164,7 @@ class SwarmEnv(gym.Env):
 
         # 1. Reward for delivered boxes (global reward, split among agents)
         current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        print(self.step_counter, current_delivery_rate)
+        # print(self.step_counter, current_delivery_rate)
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')
