@@ -1241,3 +1241,323 @@ average episode rewards is 173.16262423992157
 
 average episode rewards is 246.82578444480896
 {'agent0/delivery_rate': [2, 1, 1, 2, 2, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 2, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 2, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1240/12500 episodes, total num timesteps 19856000/200000000, FPS 115.
+
+average episode rewards is 234.81543362140656
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 0], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 0], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1245/12500 episodes, total num timesteps 19936000/200000000, FPS 115.
+
+average episode rewards is 214.45783972740173
+{'agent0/delivery_rate': [0, 2, 2, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 2], 'agent1/delivery_rate': [0, 2, 2, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 2], 'agent2/delivery_rate': [0, 2, 2, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1250/12500 episodes, total num timesteps 20016000/200000000, FPS 115.
+
+average episode rewards is 256.2634348869324
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 0, 2, 1, 2, 2, 2, 2, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 0, 2, 1, 2, 2, 2, 2, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 0, 2, 1, 2, 2, 2, 2, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1255/12500 episodes, total num timesteps 20096000/200000000, FPS 115.
+
+average episode rewards is 155.22971749305725
+{'agent0/delivery_rate': [2, 2, 0, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 0, 1], 'agent1/delivery_rate': [2, 2, 0, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 0, 1], 'agent2/delivery_rate': [2, 2, 0, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1260/12500 episodes, total num timesteps 20176000/200000000, FPS 115.
+
+average episode rewards is 173.3580082654953
+{'agent0/delivery_rate': [2, 2, 0, 1, 1, 0, 1, 2, 1, 1, 2, 1, 0, 2, 2, 0], 'agent1/delivery_rate': [2, 2, 0, 1, 1, 0, 1, 2, 1, 1, 2, 1, 0, 2, 2, 0], 'agent2/delivery_rate': [2, 2, 0, 1, 1, 0, 1, 2, 1, 1, 2, 1, 0, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1265/12500 episodes, total num timesteps 20256000/200000000, FPS 115.
+
+average episode rewards is 190.6922161579132
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 2, 0, 2, 1, 2, 1, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 2, 0, 2, 1, 2, 1, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 2, 0, 2, 1, 2, 1, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1270/12500 episodes, total num timesteps 20336000/200000000, FPS 115.
+
+average episode rewards is 180.59204518795013
+{'agent0/delivery_rate': [1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 0, 0, 1, 0], 'agent1/delivery_rate': [1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 0, 0, 1, 0], 'agent2/delivery_rate': [1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 0, 0, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1275/12500 episodes, total num timesteps 20416000/200000000, FPS 115.
+
+average episode rewards is 138.4953260421753
+{'agent0/delivery_rate': [1, 2, 1, 1, 2, 1, 0, 1, 1, 1, 1, 2, 0, 1, 0, 0], 'agent1/delivery_rate': [1, 2, 1, 1, 2, 1, 0, 1, 1, 1, 1, 2, 0, 1, 0, 0], 'agent2/delivery_rate': [1, 2, 1, 1, 2, 1, 0, 1, 1, 1, 1, 2, 0, 1, 0, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1280/12500 episodes, total num timesteps 20496000/200000000, FPS 115.
+
+average episode rewards is 196.38411700725555
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 1, 0, 1, 2, 2, 1, 1, 2, 1, 0, 1], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 1, 0, 1, 2, 2, 1, 1, 2, 1, 0, 1], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 1, 0, 1, 2, 2, 1, 1, 2, 1, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1285/12500 episodes, total num timesteps 20576000/200000000, FPS 115.
+
+average episode rewards is 180.12280762195587
+{'agent0/delivery_rate': [1, 2, 2, 0, 2, 2, 1, 2, 0, 2, 0, 1, 2, 1, 0, 1], 'agent1/delivery_rate': [1, 2, 2, 0, 2, 2, 1, 2, 0, 2, 0, 1, 2, 1, 0, 1], 'agent2/delivery_rate': [1, 2, 2, 0, 2, 2, 1, 2, 0, 2, 0, 1, 2, 1, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1290/12500 episodes, total num timesteps 20656000/200000000, FPS 115.
+
+average episode rewards is 182.68200755119324
+{'agent0/delivery_rate': [1, 1, 1, 1, 0, 1, 1, 2, 1, 2, 2, 0, 2, 2, 0, 1], 'agent1/delivery_rate': [1, 1, 1, 1, 0, 1, 1, 2, 1, 2, 2, 0, 2, 2, 0, 1], 'agent2/delivery_rate': [1, 1, 1, 1, 0, 1, 1, 2, 1, 2, 2, 0, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1295/12500 episodes, total num timesteps 20736000/200000000, FPS 115.
+
+average episode rewards is 222.86252677440643
+{'agent0/delivery_rate': [0, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 1, 2, 0, 1], 'agent1/delivery_rate': [0, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 1, 2, 0, 1], 'agent2/delivery_rate': [0, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 1, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1300/12500 episodes, total num timesteps 20816000/200000000, FPS 115.
+
+average episode rewards is 213.37845921516418
+{'agent0/delivery_rate': [2, 2, 2, 1, 0, 1, 2, 2, 0, 2, 2, 1, 2, 2, 2, 0], 'agent1/delivery_rate': [2, 2, 2, 1, 0, 1, 2, 2, 0, 2, 2, 1, 2, 2, 2, 0], 'agent2/delivery_rate': [2, 2, 2, 1, 0, 1, 2, 2, 0, 2, 2, 1, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1305/12500 episodes, total num timesteps 20896000/200000000, FPS 115.
+
+average episode rewards is 225.5854457616806
+{'agent0/delivery_rate': [1, 2, 0, 1, 2, 1, 0, 2, 1, 2, 2, 1, 2, 1, 0, 1], 'agent1/delivery_rate': [1, 2, 0, 1, 2, 1, 0, 2, 1, 2, 2, 1, 2, 1, 0, 1], 'agent2/delivery_rate': [1, 2, 0, 1, 2, 1, 0, 2, 1, 2, 2, 1, 2, 1, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1310/12500 episodes, total num timesteps 20976000/200000000, FPS 115.
+
+average episode rewards is 187.80210614204407
+{'agent0/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 2, 0, 2, 1, 0, 2, 1, 1, 0], 'agent1/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 2, 0, 2, 1, 0, 2, 1, 1, 0], 'agent2/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 2, 0, 2, 1, 0, 2, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1315/12500 episodes, total num timesteps 21056000/200000000, FPS 115.
+
+average episode rewards is 170.95428705215454
+{'agent0/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 0, 0, 2, 1, 0, 2, 1, 0, 2], 'agent1/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 0, 0, 2, 1, 0, 2, 1, 0, 2], 'agent2/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 0, 0, 2, 1, 0, 2, 1, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1320/12500 episodes, total num timesteps 21136000/200000000, FPS 115.
+
+average episode rewards is 208.15344154834747
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 1, 0, 1, 1, 2, 2, 1, 2, 2, 0, 1], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 1, 0, 1, 1, 2, 2, 1, 2, 2, 0, 1], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 1, 0, 1, 1, 2, 2, 1, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1325/12500 episodes, total num timesteps 21216000/200000000, FPS 115.
+
+average episode rewards is 227.93333232402802
+{'agent0/delivery_rate': [2, 1, 2, 1, 1, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2], 'agent1/delivery_rate': [2, 1, 2, 1, 1, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2], 'agent2/delivery_rate': [2, 1, 2, 1, 1, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1330/12500 episodes, total num timesteps 21296000/200000000, FPS 115.
+
+average episode rewards is 213.51301670074463
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 2, 2, 2, 1, 0, 0, 2, 1, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 2, 2, 2, 1, 0, 0, 2, 1, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 2, 2, 2, 1, 0, 0, 2, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1335/12500 episodes, total num timesteps 21376000/200000000, FPS 115.
+
+average episode rewards is 213.32818269729614
+{'agent0/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 0, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 0, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 0, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1340/12500 episodes, total num timesteps 21456000/200000000, FPS 115.
+
+average episode rewards is 218.88743340969086
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 1, 1, 2, 1, 0, 1, 1, 2, 0, 2, 1], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 1, 1, 2, 1, 0, 1, 1, 2, 0, 2, 1], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 1, 1, 2, 1, 0, 1, 1, 2, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1345/12500 episodes, total num timesteps 21536000/200000000, FPS 115.
+
+average episode rewards is 214.67462182044983
+{'agent0/delivery_rate': [1, 1, 2, 2, 2, 1, 1, 2, 1, 1, 2, 0, 0, 1, 1, 2], 'agent1/delivery_rate': [1, 1, 2, 2, 2, 1, 1, 2, 1, 1, 2, 0, 0, 1, 1, 2], 'agent2/delivery_rate': [1, 1, 2, 2, 2, 1, 1, 2, 1, 1, 2, 0, 0, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1350/12500 episodes, total num timesteps 21616000/200000000, FPS 115.
+
+average episode rewards is 243.2134747505188
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 0, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 0, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 0, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1355/12500 episodes, total num timesteps 21696000/200000000, FPS 115.
+
+average episode rewards is 235.5722188949585
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 1, 2, 2, 0, 1, 2, 2, 0], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 1, 2, 2, 0, 1, 2, 2, 0], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 1, 2, 2, 0, 1, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1360/12500 episodes, total num timesteps 21776000/200000000, FPS 115.
+
+average episode rewards is 186.24934554100037
+{'agent0/delivery_rate': [2, 2, 2, 1, 0, 2, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 0, 2, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 0, 2, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1365/12500 episodes, total num timesteps 21856000/200000000, FPS 115.
+
+average episode rewards is 229.7193557024002
+{'agent0/delivery_rate': [2, 0, 2, 2, 0, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 0, 2, 2, 0, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 0, 2, 2, 0, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1370/12500 episodes, total num timesteps 21936000/200000000, FPS 115.
+
+average episode rewards is 221.6455489397049
+{'agent0/delivery_rate': [1, 2, 1, 1, 2, 1, 2, 1, 1, 0, 0, 2, 2, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 2, 1, 2, 1, 1, 0, 0, 2, 2, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 2, 1, 2, 1, 1, 0, 0, 2, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1375/12500 episodes, total num timesteps 22016000/200000000, FPS 115.
+
+average episode rewards is 232.88804292678833
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 2, 2, 2, 2, 2, 0], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 2, 2, 2, 2, 2, 0], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 2, 2, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1380/12500 episodes, total num timesteps 22096000/200000000, FPS 115.
+
+average episode rewards is 214.42300081253052
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 0, 2, 2, 2, 0, 2, 2, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 0, 2, 2, 2, 0, 2, 2, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 0, 2, 2, 2, 0, 2, 2, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1385/12500 episodes, total num timesteps 22176000/200000000, FPS 115.
+
+average episode rewards is 232.09920525550842
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 2, 0, 1, 2, 1, 1, 2, 2, 0], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 2, 0, 1, 2, 1, 1, 2, 2, 0], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 2, 0, 1, 2, 1, 1, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1390/12500 episodes, total num timesteps 22256000/200000000, FPS 115.
+
+average episode rewards is 207.60495960712433
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 0, 2, 2, 1, 1, 0, 2, 1, 1, 1, 0], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 0, 2, 2, 1, 1, 0, 2, 1, 1, 1, 0], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 0, 2, 2, 1, 1, 0, 2, 1, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1395/12500 episodes, total num timesteps 22336000/200000000, FPS 115.
+
+average episode rewards is 214.35068547725677
+{'agent0/delivery_rate': [2, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 0], 'agent1/delivery_rate': [2, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 0], 'agent2/delivery_rate': [2, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1400/12500 episodes, total num timesteps 22416000/200000000, FPS 115.
+
+average episode rewards is 240.794837474823
+{'agent0/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 1, 2, 2, 1, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 1, 2, 2, 1, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 1, 2, 2, 1, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1405/12500 episodes, total num timesteps 22496000/200000000, FPS 115.
+
+average episode rewards is 213.62826228141785
+{'agent0/delivery_rate': [1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 0, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 0, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 0, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1410/12500 episodes, total num timesteps 22576000/200000000, FPS 115.
+
+average episode rewards is 208.0024778842926
+{'agent0/delivery_rate': [2, 0, 2, 2, 1, 1, 1, 1, 0, 1, 1, 0, 2, 2, 1, 2], 'agent1/delivery_rate': [2, 0, 2, 2, 1, 1, 1, 1, 0, 1, 1, 0, 2, 2, 1, 2], 'agent2/delivery_rate': [2, 0, 2, 2, 1, 1, 1, 1, 0, 1, 1, 0, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1415/12500 episodes, total num timesteps 22656000/200000000, FPS 115.
+
+average episode rewards is 195.05704939365387
+{'agent0/delivery_rate': [1, 0, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2, 2, 2, 1, 0], 'agent1/delivery_rate': [1, 0, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2, 2, 2, 1, 0], 'agent2/delivery_rate': [1, 0, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2, 2, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1420/12500 episodes, total num timesteps 22736000/200000000, FPS 115.
+
+average episode rewards is 213.1710797548294
+{'agent0/delivery_rate': [1, 1, 2, 2, 2, 2, 1, 0, 1, 1, 0, 2, 2, 1, 2, 0], 'agent1/delivery_rate': [1, 1, 2, 2, 2, 2, 1, 0, 1, 1, 0, 2, 2, 1, 2, 0], 'agent2/delivery_rate': [1, 1, 2, 2, 2, 2, 1, 0, 1, 1, 0, 2, 2, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1425/12500 episodes, total num timesteps 22816000/200000000, FPS 115.
+
+average episode rewards is 195.32088935375214
+{'agent0/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 0, 1, 1, 1, 2, 1, 1, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 0, 1, 1, 1, 2, 1, 1, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 1, 1, 1, 2, 0, 1, 1, 1, 2, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1430/12500 episodes, total num timesteps 22896000/200000000, FPS 115.
+
+average episode rewards is 193.63418221473694
+{'agent0/delivery_rate': [2, 1, 1, 1, 2, 2, 1, 1, 1, 0, 2, 2, 2, 0, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 2, 2, 1, 1, 1, 0, 2, 2, 2, 0, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 2, 2, 1, 1, 1, 0, 2, 2, 2, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1435/12500 episodes, total num timesteps 22976000/200000000, FPS 115.
+
+average episode rewards is 173.64414036273956
+{'agent0/delivery_rate': [1, 0, 0, 2, 2, 2, 1, 0, 1, 1, 1, 2, 2, 2, 0, 2], 'agent1/delivery_rate': [1, 0, 0, 2, 2, 2, 1, 0, 1, 1, 1, 2, 2, 2, 0, 2], 'agent2/delivery_rate': [1, 0, 0, 2, 2, 2, 1, 0, 1, 1, 1, 2, 2, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1440/12500 episodes, total num timesteps 23056000/200000000, FPS 115.
+
+average episode rewards is 199.05370473861694
+{'agent0/delivery_rate': [1, 0, 1, 2, 1, 2, 0, 1, 2, 2, 1, 1, 2, 2, 2, 2], 'agent1/delivery_rate': [1, 0, 1, 2, 1, 2, 0, 1, 2, 2, 1, 1, 2, 2, 2, 2], 'agent2/delivery_rate': [1, 0, 1, 2, 1, 2, 0, 1, 2, 2, 1, 1, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1445/12500 episodes, total num timesteps 23136000/200000000, FPS 115.
+
+average episode rewards is 166.20105504989624
+{'agent0/delivery_rate': [0, 2, 0, 2, 1, 2, 0, 2, 2, 2, 2, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [0, 2, 0, 2, 1, 2, 0, 2, 2, 2, 2, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [0, 2, 0, 2, 1, 2, 0, 2, 2, 2, 2, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1450/12500 episodes, total num timesteps 23216000/200000000, FPS 115.
+
+average episode rewards is 172.67096042633057
+{'agent0/delivery_rate': [0, 2, 1, 1, 1, 2, 0, 1, 0, 1, 2, 0, 0, 2, 2, 1], 'agent1/delivery_rate': [0, 2, 1, 1, 1, 2, 0, 1, 0, 1, 2, 0, 0, 2, 2, 1], 'agent2/delivery_rate': [0, 2, 1, 1, 1, 2, 0, 1, 0, 1, 2, 0, 0, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1455/12500 episodes, total num timesteps 23296000/200000000, FPS 115.
+
+average episode rewards is 185.77535450458527
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 2, 0, 1, 0, 2, 2, 0, 1, 1, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 2, 0, 1, 0, 2, 2, 0, 1, 1, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 2, 0, 1, 0, 2, 2, 0, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1460/12500 episodes, total num timesteps 23376000/200000000, FPS 115.
+
+average episode rewards is 209.0630829334259
+{'agent0/delivery_rate': [1, 2, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1465/12500 episodes, total num timesteps 23456000/200000000, FPS 115.
+
+average episode rewards is 226.41731798648834
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 0, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 0, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1470/12500 episodes, total num timesteps 23536000/200000000, FPS 115.
+
+average episode rewards is 219.23352777957916
+{'agent0/delivery_rate': [2, 2, 2, 0, 2, 1, 0, 1, 1, 1, 1, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 2, 2, 0, 2, 1, 0, 1, 1, 1, 1, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 2, 2, 0, 2, 1, 0, 1, 1, 1, 1, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1475/12500 episodes, total num timesteps 23616000/200000000, FPS 115.
+
+average episode rewards is 214.04577791690826
+{'agent0/delivery_rate': [2, 2, 2, 0, 1, 0, 1, 1, 2, 1, 2, 2, 1, 0, 1, 2], 'agent1/delivery_rate': [2, 2, 2, 0, 1, 0, 1, 1, 2, 1, 2, 2, 1, 0, 1, 2], 'agent2/delivery_rate': [2, 2, 2, 0, 1, 0, 1, 1, 2, 1, 2, 2, 1, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1480/12500 episodes, total num timesteps 23696000/200000000, FPS 115.
+
+average episode rewards is 233.94280672073364
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2, 1, 1, 2, 1], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2, 1, 1, 2, 1], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1485/12500 episodes, total num timesteps 23776000/200000000, FPS 115.
+
+average episode rewards is 243.22794377803802
+{'agent0/delivery_rate': [2, 2, 2, 2, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 2, 2, 2, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 2, 2, 2, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1490/12500 episodes, total num timesteps 23856000/200000000, FPS 115.
+
+average episode rewards is 214.49409425258636
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1495/12500 episodes, total num timesteps 23936000/200000000, FPS 115.
+
+average episode rewards is 195.1972395181656
+{'agent0/delivery_rate': [1, 2, 1, 1, 0, 0, 1, 2, 1, 2, 2, 1, 0, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 0, 0, 1, 2, 1, 2, 2, 1, 0, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 0, 0, 1, 2, 1, 2, 2, 1, 0, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1500/12500 episodes, total num timesteps 24016000/200000000, FPS 115.
+
+average episode rewards is 153.8262665271759
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 0, 0, 2, 0, 0, 2, 2, 2, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 0, 0, 2, 0, 0, 2, 2, 2, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 0, 0, 2, 0, 0, 2, 2, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1505/12500 episodes, total num timesteps 24096000/200000000, FPS 115.
+
+average episode rewards is 189.1985684633255
+{'agent0/delivery_rate': [2, 2, 2, 0, 2, 1, 2, 1, 1, 0, 2, 1, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 0, 2, 1, 2, 1, 1, 0, 2, 1, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 0, 2, 1, 2, 1, 1, 0, 2, 1, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1510/12500 episodes, total num timesteps 24176000/200000000, FPS 115.
+
+average episode rewards is 175.06831884384155
+{'agent0/delivery_rate': [2, 2, 0, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 0, 1, 0], 'agent1/delivery_rate': [2, 2, 0, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 0, 1, 0], 'agent2/delivery_rate': [2, 2, 0, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 0, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1515/12500 episodes, total num timesteps 24256000/200000000, FPS 115.
+
+average episode rewards is 215.46456217765808
+{'agent0/delivery_rate': [2, 1, 2, 0, 1, 1, 2, 2, 1, 2, 1, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 1, 2, 0, 1, 1, 2, 2, 1, 2, 1, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 1, 2, 0, 1, 1, 2, 2, 1, 2, 1, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1520/12500 episodes, total num timesteps 24336000/200000000, FPS 115.
+
+average episode rewards is 161.69685125350952
+{'agent0/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1], 'agent1/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1], 'agent2/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1525/12500 episodes, total num timesteps 24416000/200000000, FPS 115.
+
+average episode rewards is 171.36070132255554
+{'agent0/delivery_rate': [2, 1, 0, 2, 0, 1, 2, 1, 0, 2, 1, 2, 2, 2, 2, 0], 'agent1/delivery_rate': [2, 1, 0, 2, 0, 1, 2, 1, 0, 2, 1, 2, 2, 2, 2, 0], 'agent2/delivery_rate': [2, 1, 0, 2, 0, 1, 2, 1, 0, 2, 1, 2, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small-dynamic-fault updates 1530/12500 episodes, total num timesteps 24496000/200000000, FPS 115.
+
+average episode rewards is 175.72471499443054
+{'agent0/delivery_rate': [0, 2, 1, 2, 1, 2, 1, 0, 0, 2, 2, 2, 0, 0, 2, 1], 'agent1/delivery_rate': [0, 2, 1, 2, 1, 2, 1, 0, 0, 2, 2, 2, 0, 0, 2, 1], 'agent2/delivery_rate': [0, 2, 1, 2, 1, 2, 1, 0, 0, 2, 2, 2, 0, 0, 2, 1]}
+Traceback (most recent call last):
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 312, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+BrokenPipeError: [WinError 109] The pipe has been ended
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 178, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 164, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 29, in run
+    obs, share_obs, rewards, dones, infos = self.envs.step(actions)
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 107, in step
+    return self.step_wait()
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 390, in step_wait
+    results = [remote.recv() for remote in self.remotes]
+  File "d:\youssef\on-policy\onpolicy\envs\env_wrappers.py", line 390, in <listcomp>
+    results = [remote.recv() for remote in self.remotes]
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\multiprocessing\connection.py", line 321, in _recv_bytes
+    raise EOFError
+EOFError
