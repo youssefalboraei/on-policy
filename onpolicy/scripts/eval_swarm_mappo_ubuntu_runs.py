@@ -6,7 +6,6 @@ import numpy as np
 def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed, fault_type, num_faults):
     # train_script_path = "/home/yga/MSc_Robotics/Dissertation/on-policy/onpolicy/scripts/eval/eval_swarm.py"
     train_script_path = r"D:\youssef\on-policy\onpolicy\scripts\eval\eval_swarm.py"
-
     cmd = [
         "python", train_script_path,
         "--env_name", env,
@@ -83,6 +82,8 @@ def main():
             np.random.seed(0)
             for run in range(33):
                 seed = np.random.randint(0, 999)
+                if ft < 6:
+                    continue
                 run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, str(seed), 
                             ft, fn)
         print(f"Done executing for fault no. {ft}.")
