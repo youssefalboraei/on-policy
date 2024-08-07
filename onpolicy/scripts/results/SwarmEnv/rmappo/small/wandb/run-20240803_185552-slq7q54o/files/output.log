@@ -6281,3 +6281,1639 @@ average episode rewards is 173.9836037158966
 
 average episode rewards is 155.20337224006653
 {'agent0/delivery_rate': [1, 2, 2, 1, 0, 2, 0, 1, 1, 0, 2, 2, 1, 2, 2, 0], 'agent1/delivery_rate': [1, 2, 2, 1, 0, 2, 0, 1, 1, 0, 2, 2, 1, 2, 2, 0], 'agent2/delivery_rate': [1, 2, 2, 1, 0, 2, 0, 1, 1, 0, 2, 2, 1, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6280/12500 episodes, total num timesteps 100496000/200000000, FPS 546.
+
+average episode rewards is 186.66031956672668
+{'agent0/delivery_rate': [0, 1, 2, 1, 2, 2, 1, 2, 1, 1, 0, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [0, 1, 2, 1, 2, 2, 1, 2, 1, 1, 0, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [0, 1, 2, 1, 2, 2, 1, 2, 1, 1, 0, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6285/12500 episodes, total num timesteps 100576000/200000000, FPS 546.
+
+average episode rewards is 167.6231324672699
+{'agent0/delivery_rate': [1, 1, 1, 1, 1, 2, 2, 1, 2, 0, 1, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 1, 1, 2, 2, 1, 2, 0, 1, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 1, 1, 2, 2, 1, 2, 0, 1, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6290/12500 episodes, total num timesteps 100656000/200000000, FPS 546.
+
+average episode rewards is 188.46654891967773
+{'agent0/delivery_rate': [2, 2, 1, 2, 2, 1, 1, 0, 2, 1, 1, 2, 2, 1, 1, 0], 'agent1/delivery_rate': [2, 2, 1, 2, 2, 1, 1, 0, 2, 1, 1, 2, 2, 1, 1, 0], 'agent2/delivery_rate': [2, 2, 1, 2, 2, 1, 1, 0, 2, 1, 1, 2, 2, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6295/12500 episodes, total num timesteps 100736000/200000000, FPS 546.
+
+average episode rewards is 158.74101221561432
+{'agent0/delivery_rate': [2, 2, 0, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 0, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 0, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6300/12500 episodes, total num timesteps 100816000/200000000, FPS 546.
+
+average episode rewards is 186.18468940258026
+{'agent0/delivery_rate': [1, 2, 0, 2, 2, 2, 0, 2, 1, 1, 0, 0, 0, 1, 1, 2], 'agent1/delivery_rate': [1, 2, 0, 2, 2, 2, 0, 2, 1, 1, 0, 0, 0, 1, 1, 2], 'agent2/delivery_rate': [1, 2, 0, 2, 2, 2, 0, 2, 1, 1, 0, 0, 0, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6305/12500 episodes, total num timesteps 100896000/200000000, FPS 546.
+
+average episode rewards is 162.05620765686035
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 2, 2, 2, 2, 1, 1, 2, 1, 0, 2, 0], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 2, 2, 2, 2, 1, 1, 2, 1, 0, 2, 0], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 2, 2, 2, 2, 1, 1, 2, 1, 0, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6310/12500 episodes, total num timesteps 100976000/200000000, FPS 546.
+
+average episode rewards is 142.73972809314728
+{'agent0/delivery_rate': [0, 2, 2, 2, 2, 2, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0], 'agent1/delivery_rate': [0, 2, 2, 2, 2, 2, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0], 'agent2/delivery_rate': [0, 2, 2, 2, 2, 2, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6315/12500 episodes, total num timesteps 101056000/200000000, FPS 546.
+
+average episode rewards is 162.62181103229523
+{'agent0/delivery_rate': [0, 0, 0, 1, 2, 1, 0, 1, 1, 0, 2, 2, 2, 2, 0, 1], 'agent1/delivery_rate': [0, 0, 0, 1, 2, 1, 0, 1, 1, 0, 2, 2, 2, 2, 0, 1], 'agent2/delivery_rate': [0, 0, 0, 1, 2, 1, 0, 1, 1, 0, 2, 2, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6320/12500 episodes, total num timesteps 101136000/200000000, FPS 546.
+
+average episode rewards is 138.56551051139832
+{'agent0/delivery_rate': [1, 1, 2, 1, 2, 2, 2, 1, 1, 0, 2, 2, 1, 0, 1, 0], 'agent1/delivery_rate': [1, 1, 2, 1, 2, 2, 2, 1, 1, 0, 2, 2, 1, 0, 1, 0], 'agent2/delivery_rate': [1, 1, 2, 1, 2, 2, 2, 1, 1, 0, 2, 2, 1, 0, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6325/12500 episodes, total num timesteps 101216000/200000000, FPS 546.
+
+average episode rewards is 163.95524144172668
+{'agent0/delivery_rate': [2, 2, 1, 2, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 0], 'agent1/delivery_rate': [2, 2, 1, 2, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 0], 'agent2/delivery_rate': [2, 2, 1, 2, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6330/12500 episodes, total num timesteps 101296000/200000000, FPS 546.
+
+average episode rewards is 178.10989916324615
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 2, 0, 2, 0, 1, 0, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 2, 0, 2, 0, 1, 0, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 2, 0, 2, 0, 1, 0, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6335/12500 episodes, total num timesteps 101376000/200000000, FPS 546.
+
+average episode rewards is 149.30960536003113
+{'agent0/delivery_rate': [0, 0, 1, 1, 2, 2, 1, 2, 0, 1, 0, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [0, 0, 1, 1, 2, 2, 1, 2, 0, 1, 0, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [0, 0, 1, 1, 2, 2, 1, 2, 0, 1, 0, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6340/12500 episodes, total num timesteps 101456000/200000000, FPS 546.
+
+average episode rewards is 207.9535722732544
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 0, 2, 2, 1, 2, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 0, 2, 2, 1, 2, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 0, 2, 2, 1, 2, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6345/12500 episodes, total num timesteps 101536000/200000000, FPS 546.
+
+average episode rewards is 157.22055733203888
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 0, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 0, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 0, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6350/12500 episodes, total num timesteps 101616000/200000000, FPS 546.
+
+average episode rewards is 145.01672983169556
+{'agent0/delivery_rate': [1, 1, 2, 2, 0, 2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 1], 'agent1/delivery_rate': [1, 1, 2, 2, 0, 2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 1], 'agent2/delivery_rate': [1, 1, 2, 2, 0, 2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6355/12500 episodes, total num timesteps 101696000/200000000, FPS 546.
+
+average episode rewards is 166.09731316566467
+{'agent0/delivery_rate': [0, 2, 2, 1, 1, 0, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1], 'agent1/delivery_rate': [0, 2, 2, 1, 1, 0, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1], 'agent2/delivery_rate': [0, 2, 2, 1, 1, 0, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6360/12500 episodes, total num timesteps 101776000/200000000, FPS 546.
+
+average episode rewards is 198.2773095369339
+{'agent0/delivery_rate': [1, 2, 0, 2, 1, 2, 2, 0, 1, 1, 0, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 0, 2, 1, 2, 2, 0, 1, 1, 0, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 0, 2, 1, 2, 2, 0, 1, 1, 0, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6365/12500 episodes, total num timesteps 101856000/200000000, FPS 546.
+
+average episode rewards is 217.95961260795593
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 0, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 0, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 0, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6370/12500 episodes, total num timesteps 101936000/200000000, FPS 546.
+
+average episode rewards is 174.48510229587555
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 1, 2, 1, 1, 1, 0, 2, 2, 2, 0, 0], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 1, 2, 1, 1, 1, 0, 2, 2, 2, 0, 0], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 1, 2, 1, 1, 1, 0, 2, 2, 2, 0, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6375/12500 episodes, total num timesteps 102016000/200000000, FPS 546.
+
+average episode rewards is 186.7029219865799
+{'agent0/delivery_rate': [2, 0, 2, 1, 0, 1, 0, 2, 2, 2, 2, 0, 2, 2, 0, 2], 'agent1/delivery_rate': [2, 0, 2, 1, 0, 1, 0, 2, 2, 2, 2, 0, 2, 2, 0, 2], 'agent2/delivery_rate': [2, 0, 2, 1, 0, 1, 0, 2, 2, 2, 2, 0, 2, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6380/12500 episodes, total num timesteps 102096000/200000000, FPS 546.
+
+average episode rewards is 165.59961438179016
+{'agent0/delivery_rate': [1, 0, 2, 1, 1, 0, 2, 1, 0, 1, 2, 0, 1, 2, 2, 1], 'agent1/delivery_rate': [1, 0, 2, 1, 1, 0, 2, 1, 0, 1, 2, 0, 1, 2, 2, 1], 'agent2/delivery_rate': [1, 0, 2, 1, 1, 0, 2, 1, 0, 1, 2, 0, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6385/12500 episodes, total num timesteps 102176000/200000000, FPS 546.
+
+average episode rewards is 205.9289515018463
+{'agent0/delivery_rate': [2, 1, 1, 0, 1, 1, 2, 2, 2, 1, 1, 0, 1, 1, 2, 2], 'agent1/delivery_rate': [2, 1, 1, 0, 1, 1, 2, 2, 2, 1, 1, 0, 1, 1, 2, 2], 'agent2/delivery_rate': [2, 1, 1, 0, 1, 1, 2, 2, 2, 1, 1, 0, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6390/12500 episodes, total num timesteps 102256000/200000000, FPS 546.
+
+average episode rewards is 177.22326517105103
+{'agent0/delivery_rate': [0, 2, 1, 1, 0, 1, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1], 'agent1/delivery_rate': [0, 2, 1, 1, 0, 1, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1], 'agent2/delivery_rate': [0, 2, 1, 1, 0, 1, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6395/12500 episodes, total num timesteps 102336000/200000000, FPS 546.
+
+average episode rewards is 214.5652323961258
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6400/12500 episodes, total num timesteps 102416000/200000000, FPS 546.
+
+average episode rewards is 167.55524277687073
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 0, 0, 1, 0, 1, 0, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 0, 0, 1, 0, 1, 0, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 0, 0, 1, 0, 1, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6405/12500 episodes, total num timesteps 102496000/200000000, FPS 546.
+
+average episode rewards is 174.60179328918457
+{'agent0/delivery_rate': [2, 2, 2, 2, 1, 1, 2, 0, 0, 2, 2, 1, 1, 0, 1, 2], 'agent1/delivery_rate': [2, 2, 2, 2, 1, 1, 2, 0, 0, 2, 2, 1, 1, 0, 1, 2], 'agent2/delivery_rate': [2, 2, 2, 2, 1, 1, 2, 0, 0, 2, 2, 1, 1, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6410/12500 episodes, total num timesteps 102576000/200000000, FPS 546.
+
+average episode rewards is 163.57922554016113
+{'agent0/delivery_rate': [2, 1, 2, 1, 0, 1, 1, 2, 1, 1, 1, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 1, 0, 1, 1, 2, 1, 1, 1, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 1, 0, 1, 1, 2, 1, 1, 1, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6415/12500 episodes, total num timesteps 102656000/200000000, FPS 546.
+
+average episode rewards is 166.1771982908249
+{'agent0/delivery_rate': [2, 2, 2, 0, 1, 0, 0, 2, 2, 2, 0, 1, 2, 0, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 0, 1, 0, 0, 2, 2, 2, 0, 1, 2, 0, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 0, 1, 0, 0, 2, 2, 2, 0, 1, 2, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6420/12500 episodes, total num timesteps 102736000/200000000, FPS 546.
+
+average episode rewards is 173.25274646282196
+{'agent0/delivery_rate': [2, 1, 1, 1, 0, 2, 2, 0, 1, 1, 2, 1, 1, 0, 2, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 0, 2, 2, 0, 1, 1, 2, 1, 1, 0, 2, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 0, 2, 2, 0, 1, 1, 2, 1, 1, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6425/12500 episodes, total num timesteps 102816000/200000000, FPS 546.
+
+average episode rewards is 196.9500482082367
+{'agent0/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 2, 1, 2, 2, 1, 1, 1, 0, 0], 'agent1/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 2, 1, 2, 2, 1, 1, 1, 0, 0], 'agent2/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 2, 1, 2, 2, 1, 1, 1, 0, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6430/12500 episodes, total num timesteps 102896000/200000000, FPS 546.
+
+average episode rewards is 176.49637162685394
+{'agent0/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6435/12500 episodes, total num timesteps 102976000/200000000, FPS 546.
+
+average episode rewards is 163.9631688594818
+{'agent0/delivery_rate': [2, 2, 1, 1, 2, 0, 2, 0, 1, 1, 2, 1, 1, 1, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 1, 2, 0, 2, 0, 1, 1, 2, 1, 1, 1, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 1, 2, 0, 2, 0, 1, 1, 2, 1, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6440/12500 episodes, total num timesteps 103056000/200000000, FPS 546.
+
+average episode rewards is 161.95836663246155
+{'agent0/delivery_rate': [0, 1, 0, 2, 0, 0, 2, 1, 1, 2, 2, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [0, 1, 0, 2, 0, 0, 2, 1, 1, 2, 2, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [0, 1, 0, 2, 0, 0, 2, 1, 1, 2, 2, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6445/12500 episodes, total num timesteps 103136000/200000000, FPS 546.
+
+average episode rewards is 182.9374134540558
+{'agent0/delivery_rate': [2, 1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 2, 0, 0, 2, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 2, 0, 0, 2, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 2, 0, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6450/12500 episodes, total num timesteps 103216000/200000000, FPS 546.
+
+average episode rewards is 175.10658502578735
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 2, 1, 0, 1, 1, 1, 2, 2, 2, 2, 1], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 2, 1, 0, 1, 1, 1, 2, 2, 2, 2, 1], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 2, 1, 0, 1, 1, 1, 2, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6455/12500 episodes, total num timesteps 103296000/200000000, FPS 546.
+
+average episode rewards is 173.9766001701355
+{'agent0/delivery_rate': [2, 0, 1, 2, 0, 1, 0, 1, 1, 2, 1, 2, 1, 1, 2, 2], 'agent1/delivery_rate': [2, 0, 1, 2, 0, 1, 0, 1, 1, 2, 1, 2, 1, 1, 2, 2], 'agent2/delivery_rate': [2, 0, 1, 2, 0, 1, 0, 1, 1, 2, 1, 2, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6460/12500 episodes, total num timesteps 103376000/200000000, FPS 546.
+
+average episode rewards is 187.51610815525055
+{'agent0/delivery_rate': [0, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 0, 0, 1, 2, 0], 'agent1/delivery_rate': [0, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 0, 0, 1, 2, 0], 'agent2/delivery_rate': [0, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 0, 0, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6465/12500 episodes, total num timesteps 103456000/200000000, FPS 546.
+
+average episode rewards is 201.31132006645203
+{'agent0/delivery_rate': [2, 2, 1, 2, 2, 1, 0, 1, 2, 2, 2, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 2, 1, 2, 2, 1, 0, 1, 2, 2, 2, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 2, 1, 2, 2, 1, 0, 1, 2, 2, 2, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6470/12500 episodes, total num timesteps 103536000/200000000, FPS 546.
+
+average episode rewards is 204.3648064136505
+{'agent0/delivery_rate': [1, 0, 1, 2, 2, 0, 2, 2, 2, 1, 0, 2, 1, 2, 1, 2], 'agent1/delivery_rate': [1, 0, 1, 2, 2, 0, 2, 2, 2, 1, 0, 2, 1, 2, 1, 2], 'agent2/delivery_rate': [1, 0, 1, 2, 2, 0, 2, 2, 2, 1, 0, 2, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6475/12500 episodes, total num timesteps 103616000/200000000, FPS 546.
+
+average episode rewards is 200.79682767391205
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6480/12500 episodes, total num timesteps 103696000/200000000, FPS 546.
+
+average episode rewards is 206.3785195350647
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 1, 0, 2, 1, 1, 2, 0, 2, 0, 1, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 1, 0, 2, 1, 1, 2, 0, 2, 0, 1, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 1, 0, 2, 1, 1, 2, 0, 2, 0, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6485/12500 episodes, total num timesteps 103776000/200000000, FPS 546.
+
+average episode rewards is 187.16993927955627
+{'agent0/delivery_rate': [1, 2, 1, 0, 1, 1, 0, 2, 2, 2, 1, 1, 2, 0, 1, 2], 'agent1/delivery_rate': [1, 2, 1, 0, 1, 1, 0, 2, 2, 2, 1, 1, 2, 0, 1, 2], 'agent2/delivery_rate': [1, 2, 1, 0, 1, 1, 0, 2, 2, 2, 1, 1, 2, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6490/12500 episodes, total num timesteps 103856000/200000000, FPS 546.
+
+average episode rewards is 202.74053514003754
+{'agent0/delivery_rate': [1, 2, 2, 2, 1, 0, 1, 2, 0, 1, 2, 0, 2, 0, 2, 1], 'agent1/delivery_rate': [1, 2, 2, 2, 1, 0, 1, 2, 0, 1, 2, 0, 2, 0, 2, 1], 'agent2/delivery_rate': [1, 2, 2, 2, 1, 0, 1, 2, 0, 1, 2, 0, 2, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6495/12500 episodes, total num timesteps 103936000/200000000, FPS 546.
+
+average episode rewards is 196.036696434021
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6500/12500 episodes, total num timesteps 104016000/200000000, FPS 546.
+
+average episode rewards is 183.2311451435089
+{'agent0/delivery_rate': [1, 2, 1, 0, 2, 2, 2, 2, 2, 0, 1, 2, 2, 2, 1, 0], 'agent1/delivery_rate': [1, 2, 1, 0, 2, 2, 2, 2, 2, 0, 1, 2, 2, 2, 1, 0], 'agent2/delivery_rate': [1, 2, 1, 0, 2, 2, 2, 2, 2, 0, 1, 2, 2, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6505/12500 episodes, total num timesteps 104096000/200000000, FPS 546.
+
+average episode rewards is 176.86104774475098
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6510/12500 episodes, total num timesteps 104176000/200000000, FPS 546.
+
+average episode rewards is 159.433975815773
+{'agent0/delivery_rate': [1, 1, 0, 2, 1, 2, 1, 1, 2, 1, 1, 0, 1, 2, 1, 1], 'agent1/delivery_rate': [1, 1, 0, 2, 1, 2, 1, 1, 2, 1, 1, 0, 1, 2, 1, 1], 'agent2/delivery_rate': [1, 1, 0, 2, 1, 2, 1, 1, 2, 1, 1, 0, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6515/12500 episodes, total num timesteps 104256000/200000000, FPS 546.
+
+average episode rewards is 213.9238715171814
+{'agent0/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 1, 1, 1, 0, 2, 1, 1, 2, 2], 'agent1/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 1, 1, 1, 0, 2, 1, 1, 2, 2], 'agent2/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 1, 1, 1, 0, 2, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6520/12500 episodes, total num timesteps 104336000/200000000, FPS 546.
+
+average episode rewards is 191.8381303548813
+{'agent0/delivery_rate': [2, 0, 2, 2, 1, 2, 1, 1, 2, 2, 0, 1, 1, 1, 2, 2], 'agent1/delivery_rate': [2, 0, 2, 2, 1, 2, 1, 1, 2, 2, 0, 1, 1, 1, 2, 2], 'agent2/delivery_rate': [2, 0, 2, 2, 1, 2, 1, 1, 2, 2, 0, 1, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6525/12500 episodes, total num timesteps 104416000/200000000, FPS 546.
+
+average episode rewards is 180.2203804254532
+{'agent0/delivery_rate': [1, 1, 2, 2, 1, 2, 2, 2, 2, 0, 1, 0, 1, 1, 2, 1], 'agent1/delivery_rate': [1, 1, 2, 2, 1, 2, 2, 2, 2, 0, 1, 0, 1, 1, 2, 1], 'agent2/delivery_rate': [1, 1, 2, 2, 1, 2, 2, 2, 2, 0, 1, 0, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6530/12500 episodes, total num timesteps 104496000/200000000, FPS 546.
+
+average episode rewards is 180.2120804786682
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 1, 0, 0, 2, 1, 1, 1, 2, 0], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 1, 0, 0, 2, 1, 1, 1, 2, 0], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 1, 0, 0, 2, 1, 1, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6535/12500 episodes, total num timesteps 104576000/200000000, FPS 546.
+
+average episode rewards is 185.42663753032684
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 2, 1, 2, 1, 2, 0, 0, 1], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 2, 1, 2, 1, 2, 0, 0, 1], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 2, 1, 2, 1, 2, 0, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6540/12500 episodes, total num timesteps 104656000/200000000, FPS 546.
+
+average episode rewards is 199.8898983001709
+{'agent0/delivery_rate': [0, 2, 2, 2, 1, 2, 2, 0, 0, 1, 0, 2, 1, 2, 1, 1], 'agent1/delivery_rate': [0, 2, 2, 2, 1, 2, 2, 0, 0, 1, 0, 2, 1, 2, 1, 1], 'agent2/delivery_rate': [0, 2, 2, 2, 1, 2, 2, 0, 0, 1, 0, 2, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6545/12500 episodes, total num timesteps 104736000/200000000, FPS 546.
+
+average episode rewards is 199.82671737670898
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1, 2, 1, 1, 0], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1, 2, 1, 1, 0], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1, 2, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6550/12500 episodes, total num timesteps 104816000/200000000, FPS 546.
+
+average episode rewards is 199.35375452041626
+{'agent0/delivery_rate': [1, 1, 0, 1, 0, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 0, 1, 0, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 0, 1, 0, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6555/12500 episodes, total num timesteps 104896000/200000000, FPS 546.
+
+average episode rewards is 183.16039443016052
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6560/12500 episodes, total num timesteps 104976000/200000000, FPS 546.
+
+average episode rewards is 158.10176730155945
+{'agent0/delivery_rate': [0, 2, 2, 2, 1, 1, 0, 1, 1, 0, 2, 2, 2, 1, 2, 2], 'agent1/delivery_rate': [0, 2, 2, 2, 1, 1, 0, 1, 1, 0, 2, 2, 2, 1, 2, 2], 'agent2/delivery_rate': [0, 2, 2, 2, 1, 1, 0, 1, 1, 0, 2, 2, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6565/12500 episodes, total num timesteps 105056000/200000000, FPS 546.
+
+average episode rewards is 177.21040546894073
+{'agent0/delivery_rate': [1, 1, 1, 2, 1, 1, 2, 1, 2, 1, 0, 1, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 1, 1, 2, 1, 2, 1, 0, 1, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 1, 1, 2, 1, 2, 1, 0, 1, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6570/12500 episodes, total num timesteps 105136000/200000000, FPS 546.
+
+average episode rewards is 202.00008153915405
+{'agent0/delivery_rate': [0, 2, 1, 2, 1, 1, 0, 1, 1, 2, 2, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [0, 2, 1, 2, 1, 1, 0, 1, 1, 2, 2, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [0, 2, 1, 2, 1, 1, 0, 1, 1, 2, 2, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6575/12500 episodes, total num timesteps 105216000/200000000, FPS 546.
+
+average episode rewards is 150.08164942264557
+{'agent0/delivery_rate': [1, 2, 1, 0, 2, 0, 1, 1, 1, 2, 0, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 0, 2, 0, 1, 1, 1, 2, 0, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 0, 2, 0, 1, 1, 1, 2, 0, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6580/12500 episodes, total num timesteps 105296000/200000000, FPS 546.
+
+average episode rewards is 176.2135773897171
+{'agent0/delivery_rate': [1, 1, 1, 1, 2, 2, 2, 0, 0, 1, 1, 0, 2, 1, 1, 0], 'agent1/delivery_rate': [1, 1, 1, 1, 2, 2, 2, 0, 0, 1, 1, 0, 2, 1, 1, 0], 'agent2/delivery_rate': [1, 1, 1, 1, 2, 2, 2, 0, 0, 1, 1, 0, 2, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6585/12500 episodes, total num timesteps 105376000/200000000, FPS 546.
+
+average episode rewards is 214.12576735019684
+{'agent0/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 1, 2, 1, 2, 1, 2, 2, 2, 0], 'agent1/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 1, 2, 1, 2, 1, 2, 2, 2, 0], 'agent2/delivery_rate': [2, 1, 1, 0, 2, 2, 2, 1, 2, 1, 2, 1, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6590/12500 episodes, total num timesteps 105456000/200000000, FPS 546.
+
+average episode rewards is 209.66050028800964
+{'agent0/delivery_rate': [2, 2, 1, 1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 1, 1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 1, 1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6595/12500 episodes, total num timesteps 105536000/200000000, FPS 546.
+
+average episode rewards is 223.1336534023285
+{'agent0/delivery_rate': [1, 1, 0, 1, 2, 0, 2, 2, 2, 1, 2, 1, 2, 2, 1, 1], 'agent1/delivery_rate': [1, 1, 0, 1, 2, 0, 2, 2, 2, 1, 2, 1, 2, 2, 1, 1], 'agent2/delivery_rate': [1, 1, 0, 1, 2, 0, 2, 2, 2, 1, 2, 1, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6600/12500 episodes, total num timesteps 105616000/200000000, FPS 546.
+
+average episode rewards is 208.8364213705063
+{'agent0/delivery_rate': [2, 2, 1, 1, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 1, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 1, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6605/12500 episodes, total num timesteps 105696000/200000000, FPS 546.
+
+average episode rewards is 186.24337017536163
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 0, 2, 2, 2, 2, 2, 1, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 0, 2, 2, 2, 2, 2, 1, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 0, 2, 2, 2, 2, 2, 1, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6610/12500 episodes, total num timesteps 105776000/200000000, FPS 546.
+
+average episode rewards is 192.107692360878
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 0, 0, 1, 1, 0, 2, 0, 1, 0], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 0, 0, 1, 1, 0, 2, 0, 1, 0], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 0, 0, 1, 1, 0, 2, 0, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6615/12500 episodes, total num timesteps 105856000/200000000, FPS 546.
+
+average episode rewards is 161.40307486057281
+{'agent0/delivery_rate': [2, 1, 2, 1, 2, 1, 2, 1, 0, 1, 0, 2, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 1, 2, 1, 2, 1, 2, 1, 0, 1, 0, 2, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 1, 2, 1, 2, 1, 2, 1, 0, 1, 0, 2, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6620/12500 episodes, total num timesteps 105936000/200000000, FPS 546.
+
+average episode rewards is 220.34092247486115
+{'agent0/delivery_rate': [0, 2, 2, 0, 2, 2, 1, 2, 2, 0, 2, 1, 1, 0, 0, 2], 'agent1/delivery_rate': [0, 2, 2, 0, 2, 2, 1, 2, 2, 0, 2, 1, 1, 0, 0, 2], 'agent2/delivery_rate': [0, 2, 2, 0, 2, 2, 1, 2, 2, 0, 2, 1, 1, 0, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6625/12500 episodes, total num timesteps 106016000/200000000, FPS 546.
+
+average episode rewards is 174.84378814697266
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 0, 2, 1], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 0, 2, 1], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6630/12500 episodes, total num timesteps 106096000/200000000, FPS 546.
+
+average episode rewards is 196.3547319173813
+{'agent0/delivery_rate': [1, 1, 0, 2, 2, 1, 1, 2, 2, 2, 2, 2, 0, 2, 1, 2], 'agent1/delivery_rate': [1, 1, 0, 2, 2, 1, 1, 2, 2, 2, 2, 2, 0, 2, 1, 2], 'agent2/delivery_rate': [1, 1, 0, 2, 2, 1, 1, 2, 2, 2, 2, 2, 0, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6635/12500 episodes, total num timesteps 106176000/200000000, FPS 546.
+
+average episode rewards is 181.77209794521332
+{'agent0/delivery_rate': [1, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6640/12500 episodes, total num timesteps 106256000/200000000, FPS 546.
+
+average episode rewards is 188.87516856193542
+{'agent0/delivery_rate': [0, 2, 2, 2, 1, 2, 2, 0, 1, 2, 1, 0, 1, 1, 2, 1], 'agent1/delivery_rate': [0, 2, 2, 2, 1, 2, 2, 0, 1, 2, 1, 0, 1, 1, 2, 1], 'agent2/delivery_rate': [0, 2, 2, 2, 1, 2, 2, 0, 1, 2, 1, 0, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6645/12500 episodes, total num timesteps 106336000/200000000, FPS 546.
+
+average episode rewards is 198.7176537513733
+{'agent0/delivery_rate': [1, 2, 1, 2, 0, 2, 2, 2, 1, 2, 2, 2, 1, 0, 1, 2], 'agent1/delivery_rate': [1, 2, 1, 2, 0, 2, 2, 2, 1, 2, 2, 2, 1, 0, 1, 2], 'agent2/delivery_rate': [1, 2, 1, 2, 0, 2, 2, 2, 1, 2, 2, 2, 1, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6650/12500 episodes, total num timesteps 106416000/200000000, FPS 546.
+
+average episode rewards is 156.81597590446472
+{'agent0/delivery_rate': [0, 2, 2, 2, 1, 2, 1, 1, 0, 2, 0, 2, 1, 2, 1, 1], 'agent1/delivery_rate': [0, 2, 2, 2, 1, 2, 1, 1, 0, 2, 0, 2, 1, 2, 1, 1], 'agent2/delivery_rate': [0, 2, 2, 2, 1, 2, 1, 1, 0, 2, 0, 2, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6655/12500 episodes, total num timesteps 106496000/200000000, FPS 546.
+
+average episode rewards is 170.88502645492554
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 1, 1, 2, 1, 0, 1, 1, 0, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 1, 1, 2, 1, 0, 1, 1, 0, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 1, 1, 2, 1, 0, 1, 1, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6660/12500 episodes, total num timesteps 106576000/200000000, FPS 546.
+
+average episode rewards is 200.8410394191742
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 0, 1, 2, 2], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 0, 1, 2, 2], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 0, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6665/12500 episodes, total num timesteps 106656000/200000000, FPS 546.
+
+average episode rewards is 205.7095170021057
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 2], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 2], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6670/12500 episodes, total num timesteps 106736000/200000000, FPS 546.
+
+average episode rewards is 182.32692778110504
+{'agent0/delivery_rate': [2, 1, 0, 1, 2, 1, 2, 0, 1, 2, 1, 1, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 1, 0, 1, 2, 1, 2, 0, 1, 2, 1, 1, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 1, 0, 1, 2, 1, 2, 0, 1, 2, 1, 1, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6675/12500 episodes, total num timesteps 106816000/200000000, FPS 546.
+
+average episode rewards is 178.7852793931961
+{'agent0/delivery_rate': [0, 1, 1, 2, 2, 1, 1, 2, 1, 1, 0, 2, 1, 1, 0, 2], 'agent1/delivery_rate': [0, 1, 1, 2, 2, 1, 1, 2, 1, 1, 0, 2, 1, 1, 0, 2], 'agent2/delivery_rate': [0, 1, 1, 2, 2, 1, 1, 2, 1, 1, 0, 2, 1, 1, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6680/12500 episodes, total num timesteps 106896000/200000000, FPS 546.
+
+average episode rewards is 172.56593704223633
+{'agent0/delivery_rate': [1, 2, 0, 2, 2, 1, 2, 1, 2, 1, 2, 2, 0, 1, 0, 0], 'agent1/delivery_rate': [1, 2, 0, 2, 2, 1, 2, 1, 2, 1, 2, 2, 0, 1, 0, 0], 'agent2/delivery_rate': [1, 2, 0, 2, 2, 1, 2, 1, 2, 1, 2, 2, 0, 1, 0, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6685/12500 episodes, total num timesteps 106976000/200000000, FPS 546.
+
+average episode rewards is 183.13229084014893
+{'agent0/delivery_rate': [2, 0, 2, 0, 2, 2, 1, 1, 2, 0, 1, 1, 2, 2, 1, 0], 'agent1/delivery_rate': [2, 0, 2, 0, 2, 2, 1, 1, 2, 0, 1, 1, 2, 2, 1, 0], 'agent2/delivery_rate': [2, 0, 2, 0, 2, 2, 1, 1, 2, 0, 1, 1, 2, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6690/12500 episodes, total num timesteps 107056000/200000000, FPS 546.
+
+average episode rewards is 218.0904746055603
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 0, 1, 2, 2, 2, 2, 1, 0, 1, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 0, 1, 2, 2, 2, 2, 1, 0, 1, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 0, 1, 2, 2, 2, 2, 1, 0, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6695/12500 episodes, total num timesteps 107136000/200000000, FPS 546.
+
+average episode rewards is 169.32500898838043
+{'agent0/delivery_rate': [2, 2, 0, 0, 2, 2, 0, 2, 2, 2, 0, 2, 2, 0, 2, 2], 'agent1/delivery_rate': [2, 2, 0, 0, 2, 2, 0, 2, 2, 2, 0, 2, 2, 0, 2, 2], 'agent2/delivery_rate': [2, 2, 0, 0, 2, 2, 0, 2, 2, 2, 0, 2, 2, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6700/12500 episodes, total num timesteps 107216000/200000000, FPS 546.
+
+average episode rewards is 166.60965979099274
+{'agent0/delivery_rate': [2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 1, 0, 2, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 1, 0, 2, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 1, 0, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6705/12500 episodes, total num timesteps 107296000/200000000, FPS 546.
+
+average episode rewards is 160.3793203830719
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 1, 2, 2, 0], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 1, 2, 2, 0], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 1, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6710/12500 episodes, total num timesteps 107376000/200000000, FPS 546.
+
+average episode rewards is 192.27348268032074
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 2, 2, 2, 2, 1, 0, 2, 2, 2, 2, 1], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 2, 2, 2, 2, 1, 0, 2, 2, 2, 2, 1], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 2, 2, 2, 2, 1, 0, 2, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6715/12500 episodes, total num timesteps 107456000/200000000, FPS 546.
+
+average episode rewards is 177.78971791267395
+{'agent0/delivery_rate': [1, 0, 1, 0, 2, 1, 1, 1, 1, 2, 2, 1, 0, 0, 2, 2], 'agent1/delivery_rate': [1, 0, 1, 0, 2, 1, 1, 1, 1, 2, 2, 1, 0, 0, 2, 2], 'agent2/delivery_rate': [1, 0, 1, 0, 2, 1, 1, 1, 1, 2, 2, 1, 0, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6720/12500 episodes, total num timesteps 107536000/200000000, FPS 546.
+
+average episode rewards is 181.81443214416504
+{'agent0/delivery_rate': [1, 2, 0, 1, 2, 1, 2, 2, 1, 2, 2, 1, 0, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 0, 1, 2, 1, 2, 2, 1, 2, 2, 1, 0, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 0, 1, 2, 1, 2, 2, 1, 2, 2, 1, 0, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6725/12500 episodes, total num timesteps 107616000/200000000, FPS 546.
+
+average episode rewards is 173.38456213474274
+{'agent0/delivery_rate': [1, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1, 1, 2, 0], 'agent1/delivery_rate': [1, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1, 1, 2, 0], 'agent2/delivery_rate': [1, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6730/12500 episodes, total num timesteps 107696000/200000000, FPS 546.
+
+average episode rewards is 188.17384541034698
+{'agent0/delivery_rate': [0, 0, 2, 1, 2, 1, 2, 2, 1, 1, 2, 2, 0, 2, 1, 1], 'agent1/delivery_rate': [0, 0, 2, 1, 2, 1, 2, 2, 1, 1, 2, 2, 0, 2, 1, 1], 'agent2/delivery_rate': [0, 0, 2, 1, 2, 1, 2, 2, 1, 1, 2, 2, 0, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6735/12500 episodes, total num timesteps 107776000/200000000, FPS 546.
+
+average episode rewards is 188.51041793823242
+{'agent0/delivery_rate': [1, 2, 1, 1, 2, 0, 2, 2, 1, 2, 1, 2, 1, 2, 1, 1], 'agent1/delivery_rate': [1, 2, 1, 1, 2, 0, 2, 2, 1, 2, 1, 2, 1, 2, 1, 1], 'agent2/delivery_rate': [1, 2, 1, 1, 2, 0, 2, 2, 1, 2, 1, 2, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6740/12500 episodes, total num timesteps 107856000/200000000, FPS 546.
+
+average episode rewards is 156.83558583259583
+{'agent0/delivery_rate': [2, 1, 2, 0, 1, 0, 1, 0, 2, 1, 1, 2, 2, 2, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 0, 1, 0, 1, 0, 2, 1, 1, 2, 2, 2, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 0, 1, 0, 1, 0, 2, 1, 1, 2, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6745/12500 episodes, total num timesteps 107936000/200000000, FPS 546.
+
+average episode rewards is 192.2653466463089
+{'agent0/delivery_rate': [2, 1, 1, 2, 1, 0, 2, 2, 1, 1, 2, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 1, 0, 2, 2, 1, 1, 2, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 1, 0, 2, 2, 1, 1, 2, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6750/12500 episodes, total num timesteps 108016000/200000000, FPS 546.
+
+average episode rewards is 191.43643975257874
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 1, 1, 2, 2, 0, 2, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 1, 1, 2, 2, 0, 2, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 1, 1, 2, 2, 0, 2, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6755/12500 episodes, total num timesteps 108096000/200000000, FPS 546.
+
+average episode rewards is 204.74453270435333
+{'agent0/delivery_rate': [1, 2, 2, 2, 1, 2, 0, 2, 1, 2, 2, 2, 1, 1, 1, 1], 'agent1/delivery_rate': [1, 2, 2, 2, 1, 2, 0, 2, 1, 2, 2, 2, 1, 1, 1, 1], 'agent2/delivery_rate': [1, 2, 2, 2, 1, 2, 0, 2, 1, 2, 2, 2, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6760/12500 episodes, total num timesteps 108176000/200000000, FPS 546.
+
+average episode rewards is 169.6317046880722
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 2, 0, 1, 2, 0, 1, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 2, 0, 1, 2, 0, 1, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 2, 0, 1, 2, 0, 1, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6765/12500 episodes, total num timesteps 108256000/200000000, FPS 546.
+
+average episode rewards is 190.15592336654663
+{'agent0/delivery_rate': [2, 1, 1, 1, 1, 0, 0, 2, 1, 0, 2, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 1, 0, 0, 2, 1, 0, 2, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 1, 0, 0, 2, 1, 0, 2, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6770/12500 episodes, total num timesteps 108336000/200000000, FPS 546.
+
+average episode rewards is 169.43329572677612
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 2, 1, 0, 0, 1, 2, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 2, 1, 0, 0, 1, 2, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 2, 1, 0, 0, 1, 2, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6775/12500 episodes, total num timesteps 108416000/200000000, FPS 546.
+
+average episode rewards is 185.63716113567352
+{'agent0/delivery_rate': [2, 2, 2, 1, 1, 2, 0, 1, 0, 0, 1, 2, 2, 2, 1, 0], 'agent1/delivery_rate': [2, 2, 2, 1, 1, 2, 0, 1, 0, 0, 1, 2, 2, 2, 1, 0], 'agent2/delivery_rate': [2, 2, 2, 1, 1, 2, 0, 1, 0, 0, 1, 2, 2, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6780/12500 episodes, total num timesteps 108496000/200000000, FPS 546.
+
+average episode rewards is 200.88458061218262
+{'agent0/delivery_rate': [2, 1, 1, 2, 2, 2, 1, 0, 2, 2, 2, 0, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 2, 2, 1, 0, 2, 2, 2, 0, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 2, 2, 1, 0, 2, 2, 2, 0, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6785/12500 episodes, total num timesteps 108576000/200000000, FPS 546.
+
+average episode rewards is 185.07301807403564
+{'agent0/delivery_rate': [2, 0, 0, 0, 2, 1, 2, 2, 1, 1, 1, 0, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 0, 0, 0, 2, 1, 2, 2, 1, 1, 1, 0, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 0, 0, 0, 2, 1, 2, 2, 1, 1, 1, 0, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6790/12500 episodes, total num timesteps 108656000/200000000, FPS 546.
+
+average episode rewards is 209.96449887752533
+{'agent0/delivery_rate': [2, 1, 2, 2, 1, 2, 1, 1, 1, 2, 1, 0, 2, 0, 2, 2], 'agent1/delivery_rate': [2, 1, 2, 2, 1, 2, 1, 1, 1, 2, 1, 0, 2, 0, 2, 2], 'agent2/delivery_rate': [2, 1, 2, 2, 1, 2, 1, 1, 1, 2, 1, 0, 2, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6795/12500 episodes, total num timesteps 108736000/200000000, FPS 546.
+
+average episode rewards is 190.20527601242065
+{'agent0/delivery_rate': [2, 0, 2, 1, 2, 1, 1, 1, 2, 0, 0, 0, 0, 1, 1, 0], 'agent1/delivery_rate': [2, 0, 2, 1, 2, 1, 1, 1, 2, 0, 0, 0, 0, 1, 1, 0], 'agent2/delivery_rate': [2, 0, 2, 1, 2, 1, 1, 1, 2, 0, 0, 0, 0, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6800/12500 episodes, total num timesteps 108816000/200000000, FPS 546.
+
+average episode rewards is 176.98486149311066
+{'agent0/delivery_rate': [1, 1, 0, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [1, 1, 0, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [1, 1, 0, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6805/12500 episodes, total num timesteps 108896000/200000000, FPS 546.
+
+average episode rewards is 187.17627227306366
+{'agent0/delivery_rate': [1, 0, 1, 0, 2, 2, 2, 1, 2, 0, 2, 2, 0, 0, 2, 2], 'agent1/delivery_rate': [1, 0, 1, 0, 2, 2, 2, 1, 2, 0, 2, 2, 0, 0, 2, 2], 'agent2/delivery_rate': [1, 0, 1, 0, 2, 2, 2, 1, 2, 0, 2, 2, 0, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6810/12500 episodes, total num timesteps 108976000/200000000, FPS 546.
+
+average episode rewards is 172.42483794689178
+{'agent0/delivery_rate': [2, 0, 2, 1, 2, 2, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1], 'agent1/delivery_rate': [2, 0, 2, 1, 2, 2, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1], 'agent2/delivery_rate': [2, 0, 2, 1, 2, 2, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6815/12500 episodes, total num timesteps 109056000/200000000, FPS 546.
+
+average episode rewards is 176.33619904518127
+{'agent0/delivery_rate': [1, 0, 2, 0, 2, 0, 1, 1, 2, 1, 2, 2, 2, 2, 1, 0], 'agent1/delivery_rate': [1, 0, 2, 0, 2, 0, 1, 1, 2, 1, 2, 2, 2, 2, 1, 0], 'agent2/delivery_rate': [1, 0, 2, 0, 2, 0, 1, 1, 2, 1, 2, 2, 2, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6820/12500 episodes, total num timesteps 109136000/200000000, FPS 546.
+
+average episode rewards is 183.09767544269562
+{'agent0/delivery_rate': [2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6825/12500 episodes, total num timesteps 109216000/200000000, FPS 546.
+
+average episode rewards is 185.4524463415146
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6830/12500 episodes, total num timesteps 109296000/200000000, FPS 546.
+
+average episode rewards is 188.25699388980865
+{'agent0/delivery_rate': [0, 1, 1, 1, 2, 2, 2, 2, 0, 2, 2, 2, 0, 1, 1, 1], 'agent1/delivery_rate': [0, 1, 1, 1, 2, 2, 2, 2, 0, 2, 2, 2, 0, 1, 1, 1], 'agent2/delivery_rate': [0, 1, 1, 1, 2, 2, 2, 2, 0, 2, 2, 2, 0, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6835/12500 episodes, total num timesteps 109376000/200000000, FPS 546.
+
+average episode rewards is 185.34767627716064
+{'agent0/delivery_rate': [0, 2, 0, 0, 2, 2, 1, 2, 2, 2, 1, 0, 2, 0, 1, 2], 'agent1/delivery_rate': [0, 2, 0, 0, 2, 2, 1, 2, 2, 2, 1, 0, 2, 0, 1, 2], 'agent2/delivery_rate': [0, 2, 0, 0, 2, 2, 1, 2, 2, 2, 1, 0, 2, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6840/12500 episodes, total num timesteps 109456000/200000000, FPS 546.
+
+average episode rewards is 198.30574095249176
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 1, 1, 0, 1, 0, 2, 1, 2, 2, 1, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 1, 1, 0, 1, 0, 2, 1, 2, 2, 1, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 1, 1, 0, 1, 0, 2, 1, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6845/12500 episodes, total num timesteps 109536000/200000000, FPS 546.
+
+average episode rewards is 217.1955704689026
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 2, 2, 2, 0, 1, 0, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 2, 2, 2, 0, 1, 0, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 2, 2, 2, 0, 1, 0, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6850/12500 episodes, total num timesteps 109616000/200000000, FPS 546.
+
+average episode rewards is 193.24372708797455
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 2], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 2], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6855/12500 episodes, total num timesteps 109696000/200000000, FPS 546.
+
+average episode rewards is 186.19965016841888
+{'agent0/delivery_rate': [1, 2, 1, 0, 2, 2, 2, 1, 1, 2, 0, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 0, 2, 2, 2, 1, 1, 2, 0, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 0, 2, 2, 2, 1, 1, 2, 0, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6860/12500 episodes, total num timesteps 109776000/200000000, FPS 546.
+
+average episode rewards is 159.07186269760132
+{'agent0/delivery_rate': [1, 2, 2, 1, 1, 2, 2, 1, 0, 2, 2, 1, 2, 1, 0, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 1, 2, 2, 1, 0, 2, 2, 1, 2, 1, 0, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 1, 2, 2, 1, 0, 2, 2, 1, 2, 1, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6865/12500 episodes, total num timesteps 109856000/200000000, FPS 546.
+
+average episode rewards is 206.17246627807617
+{'agent0/delivery_rate': [2, 0, 1, 2, 2, 2, 1, 2, 2, 2, 1, 0, 1, 0, 2, 0], 'agent1/delivery_rate': [2, 0, 1, 2, 2, 2, 1, 2, 2, 2, 1, 0, 1, 0, 2, 0], 'agent2/delivery_rate': [2, 0, 1, 2, 2, 2, 1, 2, 2, 2, 1, 0, 1, 0, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6870/12500 episodes, total num timesteps 109936000/200000000, FPS 546.
+
+average episode rewards is 197.08138704299927
+{'agent0/delivery_rate': [2, 2, 0, 2, 1, 1, 0, 2, 1, 2, 0, 1, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 0, 2, 1, 1, 0, 2, 1, 2, 0, 1, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 0, 2, 1, 1, 0, 2, 1, 2, 0, 1, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6875/12500 episodes, total num timesteps 110016000/200000000, FPS 546.
+
+average episode rewards is 200.40270686149597
+{'agent0/delivery_rate': [2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 0, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 0, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 0, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6880/12500 episodes, total num timesteps 110096000/200000000, FPS 546.
+
+average episode rewards is 202.593132853508
+{'agent0/delivery_rate': [2, 0, 2, 2, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 0, 2, 2, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 0, 2, 2, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6885/12500 episodes, total num timesteps 110176000/200000000, FPS 546.
+
+average episode rewards is 170.48563063144684
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 1, 1, 0, 2, 0, 1, 1, 0, 0], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 1, 1, 0, 2, 0, 1, 1, 0, 0], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 1, 1, 0, 2, 0, 1, 1, 0, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6890/12500 episodes, total num timesteps 110256000/200000000, FPS 546.
+
+average episode rewards is 189.443439245224
+{'agent0/delivery_rate': [1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 0, 2], 'agent1/delivery_rate': [1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 0, 2], 'agent2/delivery_rate': [1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6895/12500 episodes, total num timesteps 110336000/200000000, FPS 546.
+
+average episode rewards is 180.08370697498322
+{'agent0/delivery_rate': [2, 2, 0, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 2, 0, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 2, 0, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6900/12500 episodes, total num timesteps 110416000/200000000, FPS 546.
+
+average episode rewards is 188.84150683879852
+{'agent0/delivery_rate': [2, 1, 1, 2, 0, 0, 0, 2, 2, 1, 2, 2, 1, 2, 0, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 0, 0, 0, 2, 2, 1, 2, 2, 1, 2, 0, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 0, 0, 0, 2, 2, 1, 2, 2, 1, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6905/12500 episodes, total num timesteps 110496000/200000000, FPS 546.
+
+average episode rewards is 205.61151206493378
+{'agent0/delivery_rate': [2, 2, 0, 2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 0, 2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 0, 2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6910/12500 episodes, total num timesteps 110576000/200000000, FPS 546.
+
+average episode rewards is 177.50896513462067
+{'agent0/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1], 'agent1/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1], 'agent2/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6915/12500 episodes, total num timesteps 110656000/200000000, FPS 546.
+
+average episode rewards is 206.02905750274658
+{'agent0/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 2, 2, 2, 0, 1, 2, 1, 1], 'agent1/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 2, 2, 2, 0, 1, 2, 1, 1], 'agent2/delivery_rate': [1, 1, 2, 2, 1, 2, 1, 1, 2, 2, 2, 0, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6920/12500 episodes, total num timesteps 110736000/200000000, FPS 546.
+
+average episode rewards is 154.3685346841812
+{'agent0/delivery_rate': [2, 2, 1, 1, 2, 2, 1, 1, 0, 2, 1, 0, 1, 0, 1, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 2, 2, 1, 1, 0, 2, 1, 0, 1, 0, 1, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 2, 2, 1, 1, 0, 2, 1, 0, 1, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6925/12500 episodes, total num timesteps 110816000/200000000, FPS 546.
+
+average episode rewards is 166.09108448028564
+{'agent0/delivery_rate': [2, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 0, 2, 1, 2, 0], 'agent1/delivery_rate': [2, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 0, 2, 1, 2, 0], 'agent2/delivery_rate': [2, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 0, 2, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6930/12500 episodes, total num timesteps 110896000/200000000, FPS 546.
+
+average episode rewards is 173.0957180261612
+{'agent0/delivery_rate': [2, 1, 1, 2, 0, 2, 0, 1, 2, 1, 1, 0, 1, 1, 1, 1], 'agent1/delivery_rate': [2, 1, 1, 2, 0, 2, 0, 1, 2, 1, 1, 0, 1, 1, 1, 1], 'agent2/delivery_rate': [2, 1, 1, 2, 0, 2, 0, 1, 2, 1, 1, 0, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6935/12500 episodes, total num timesteps 110976000/200000000, FPS 546.
+
+average episode rewards is 211.10644936561584
+{'agent0/delivery_rate': [1, 2, 2, 2, 1, 0, 2, 0, 1, 2, 2, 1, 1, 1, 1, 2], 'agent1/delivery_rate': [1, 2, 2, 2, 1, 0, 2, 0, 1, 2, 2, 1, 1, 1, 1, 2], 'agent2/delivery_rate': [1, 2, 2, 2, 1, 0, 2, 0, 1, 2, 2, 1, 1, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6940/12500 episodes, total num timesteps 111056000/200000000, FPS 546.
+
+average episode rewards is 211.71779930591583
+{'agent0/delivery_rate': [2, 0, 2, 1, 2, 0, 1, 2, 0, 2, 2, 2, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 0, 2, 1, 2, 0, 1, 2, 0, 2, 2, 2, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 0, 2, 1, 2, 0, 1, 2, 0, 2, 2, 2, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6945/12500 episodes, total num timesteps 111136000/200000000, FPS 546.
+
+average episode rewards is 198.4289288520813
+{'agent0/delivery_rate': [2, 0, 0, 0, 2, 1, 1, 2, 1, 2, 1, 1, 2, 2, 2, 1], 'agent1/delivery_rate': [2, 0, 0, 0, 2, 1, 1, 2, 1, 2, 1, 1, 2, 2, 2, 1], 'agent2/delivery_rate': [2, 0, 0, 0, 2, 1, 1, 2, 1, 2, 1, 1, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6950/12500 episodes, total num timesteps 111216000/200000000, FPS 546.
+
+average episode rewards is 165.19834101200104
+{'agent0/delivery_rate': [1, 1, 2, 1, 2, 2, 1, 2, 2, 2, 1, 1, 0, 1, 1, 2], 'agent1/delivery_rate': [1, 1, 2, 1, 2, 2, 1, 2, 2, 2, 1, 1, 0, 1, 1, 2], 'agent2/delivery_rate': [1, 1, 2, 1, 2, 2, 1, 2, 2, 2, 1, 1, 0, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6955/12500 episodes, total num timesteps 111296000/200000000, FPS 546.
+
+average episode rewards is 168.2078093290329
+{'agent0/delivery_rate': [1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6960/12500 episodes, total num timesteps 111376000/200000000, FPS 546.
+
+average episode rewards is 187.05053627490997
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 2, 2, 1, 0, 2, 2, 1, 2, 1], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 2, 2, 1, 0, 2, 2, 1, 2, 1], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 2, 2, 1, 0, 2, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6965/12500 episodes, total num timesteps 111456000/200000000, FPS 546.
+
+average episode rewards is 192.02116131782532
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 0, 1, 1, 2, 0, 1, 2, 1, 2, 2, 1], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 0, 1, 1, 2, 0, 1, 2, 1, 2, 2, 1], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 0, 1, 1, 2, 0, 1, 2, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6970/12500 episodes, total num timesteps 111536000/200000000, FPS 546.
+
+average episode rewards is 163.23527693748474
+{'agent0/delivery_rate': [1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6975/12500 episodes, total num timesteps 111616000/200000000, FPS 546.
+
+average episode rewards is 159.8701924085617
+{'agent0/delivery_rate': [2, 2, 1, 1, 2, 1, 0, 0, 1, 2, 1, 1, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 2, 1, 0, 0, 1, 2, 1, 1, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 2, 1, 0, 0, 1, 2, 1, 1, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6980/12500 episodes, total num timesteps 111696000/200000000, FPS 546.
+
+average episode rewards is 116.96349084377289
+{'agent0/delivery_rate': [1, 1, 0, 2, 1, 1, 0, 1, 0, 2, 1, 0, 2, 1, 0, 1], 'agent1/delivery_rate': [1, 1, 0, 2, 1, 1, 0, 1, 0, 2, 1, 0, 2, 1, 0, 1], 'agent2/delivery_rate': [1, 1, 0, 2, 1, 1, 0, 1, 0, 2, 1, 0, 2, 1, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6985/12500 episodes, total num timesteps 111776000/200000000, FPS 546.
+
+average episode rewards is 139.8504376411438
+{'agent0/delivery_rate': [2, 2, 0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 2, 0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 2, 0, 1, 0, 1, 1, 0, 2, 0, 0, 2, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6990/12500 episodes, total num timesteps 111856000/200000000, FPS 546.
+
+average episode rewards is 172.77345061302185
+{'agent0/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 0, 1, 2, 2, 2, 1, 1, 1, 2], 'agent1/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 0, 1, 2, 2, 2, 1, 1, 1, 2], 'agent2/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 0, 1, 2, 2, 2, 1, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 6995/12500 episodes, total num timesteps 111936000/200000000, FPS 546.
+
+average episode rewards is 192.3837661743164
+{'agent0/delivery_rate': [0, 2, 1, 1, 2, 2, 0, 2, 0, 1, 1, 0, 2, 2, 1, 1], 'agent1/delivery_rate': [0, 2, 1, 1, 2, 2, 0, 2, 0, 1, 1, 0, 2, 2, 1, 1], 'agent2/delivery_rate': [0, 2, 1, 1, 2, 2, 0, 2, 0, 1, 1, 0, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7000/12500 episodes, total num timesteps 112016000/200000000, FPS 546.
+
+average episode rewards is 175.30938982963562
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 1, 0, 1], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 1, 0, 1], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 1, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7005/12500 episodes, total num timesteps 112096000/200000000, FPS 546.
+
+average episode rewards is 187.55953013896942
+{'agent0/delivery_rate': [1, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1], 'agent1/delivery_rate': [1, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1], 'agent2/delivery_rate': [1, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7010/12500 episodes, total num timesteps 112176000/200000000, FPS 546.
+
+average episode rewards is 171.0788607597351
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1, 0, 1, 1, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1, 0, 1, 1, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1, 0, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7015/12500 episodes, total num timesteps 112256000/200000000, FPS 546.
+
+average episode rewards is 164.79958593845367
+{'agent0/delivery_rate': [2, 2, 2, 0, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 2, 0, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 2, 0, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7020/12500 episodes, total num timesteps 112336000/200000000, FPS 546.
+
+average episode rewards is 197.28730618953705
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7025/12500 episodes, total num timesteps 112416000/200000000, FPS 546.
+
+average episode rewards is 171.56650125980377
+{'agent0/delivery_rate': [1, 1, 1, 1, 0, 2, 1, 2, 1, 1, 2, 2, 2, 0, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 1, 0, 2, 1, 2, 1, 1, 2, 2, 2, 0, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 1, 0, 2, 1, 2, 1, 1, 2, 2, 2, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7030/12500 episodes, total num timesteps 112496000/200000000, FPS 546.
+
+average episode rewards is 192.58463382720947
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 0, 2, 2, 1, 2, 2, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 0, 2, 2, 1, 2, 2, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 0, 2, 2, 1, 2, 2, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7035/12500 episodes, total num timesteps 112576000/200000000, FPS 546.
+
+average episode rewards is 173.6254245042801
+{'agent0/delivery_rate': [0, 2, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 2, 1, 2], 'agent1/delivery_rate': [0, 2, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 2, 1, 2], 'agent2/delivery_rate': [0, 2, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7040/12500 episodes, total num timesteps 112656000/200000000, FPS 546.
+
+average episode rewards is 157.43090212345123
+{'agent0/delivery_rate': [0, 1, 2, 1, 2, 2, 2, 1, 0, 1, 1, 1, 0, 0, 2, 1], 'agent1/delivery_rate': [0, 1, 2, 1, 2, 2, 2, 1, 0, 1, 1, 1, 0, 0, 2, 1], 'agent2/delivery_rate': [0, 1, 2, 1, 2, 2, 2, 1, 0, 1, 1, 1, 0, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7045/12500 episodes, total num timesteps 112736000/200000000, FPS 546.
+
+average episode rewards is 184.55104529857635
+{'agent0/delivery_rate': [0, 2, 2, 1, 2, 2, 0, 2, 2, 2, 2, 2, 1, 2, 1, 2], 'agent1/delivery_rate': [0, 2, 2, 1, 2, 2, 0, 2, 2, 2, 2, 2, 1, 2, 1, 2], 'agent2/delivery_rate': [0, 2, 2, 1, 2, 2, 0, 2, 2, 2, 2, 2, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7050/12500 episodes, total num timesteps 112816000/200000000, FPS 546.
+
+average episode rewards is 203.1659334897995
+{'agent0/delivery_rate': [2, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 1, 0, 2, 2, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 1, 0, 2, 2, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 1, 0, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7055/12500 episodes, total num timesteps 112896000/200000000, FPS 546.
+
+average episode rewards is 140.48707485198975
+{'agent0/delivery_rate': [2, 1, 0, 0, 2, 0, 1, 1, 2, 0, 1, 1, 0, 1, 0, 0], 'agent1/delivery_rate': [2, 1, 0, 0, 2, 0, 1, 1, 2, 0, 1, 1, 0, 1, 0, 0], 'agent2/delivery_rate': [2, 1, 0, 0, 2, 0, 1, 1, 2, 0, 1, 1, 0, 1, 0, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7060/12500 episodes, total num timesteps 112976000/200000000, FPS 546.
+
+average episode rewards is 189.11932408809662
+{'agent0/delivery_rate': [1, 1, 0, 2, 1, 2, 2, 2, 2, 2, 0, 2, 2, 0, 1, 2], 'agent1/delivery_rate': [1, 1, 0, 2, 1, 2, 2, 2, 2, 2, 0, 2, 2, 0, 1, 2], 'agent2/delivery_rate': [1, 1, 0, 2, 1, 2, 2, 2, 2, 2, 0, 2, 2, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7065/12500 episodes, total num timesteps 113056000/200000000, FPS 546.
+
+average episode rewards is 156.73601627349854
+{'agent0/delivery_rate': [0, 2, 1, 1, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 1], 'agent1/delivery_rate': [0, 2, 1, 1, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 1], 'agent2/delivery_rate': [0, 2, 1, 1, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7070/12500 episodes, total num timesteps 113136000/200000000, FPS 547.
+
+average episode rewards is 180.16810715198517
+{'agent0/delivery_rate': [2, 2, 2, 2, 0, 2, 1, 1, 1, 1, 2, 0, 2, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 2, 0, 2, 1, 1, 1, 1, 2, 0, 2, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 2, 0, 2, 1, 1, 1, 1, 2, 0, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7075/12500 episodes, total num timesteps 113216000/200000000, FPS 547.
+
+average episode rewards is 187.33955919742584
+{'agent0/delivery_rate': [2, 2, 1, 1, 2, 1, 2, 1, 1, 0, 1, 2, 1, 2, 0, 1], 'agent1/delivery_rate': [2, 2, 1, 1, 2, 1, 2, 1, 1, 0, 1, 2, 1, 2, 0, 1], 'agent2/delivery_rate': [2, 2, 1, 1, 2, 1, 2, 1, 1, 0, 1, 2, 1, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7080/12500 episodes, total num timesteps 113296000/200000000, FPS 546.
+
+average episode rewards is 180.5744618177414
+{'agent0/delivery_rate': [2, 1, 1, 2, 0, 1, 1, 2, 2, 0, 2, 0, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 0, 1, 1, 2, 2, 0, 2, 0, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 0, 1, 1, 2, 2, 0, 2, 0, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7085/12500 episodes, total num timesteps 113376000/200000000, FPS 547.
+
+average episode rewards is 173.45775663852692
+{'agent0/delivery_rate': [1, 1, 0, 1, 2, 1, 0, 1, 1, 2, 2, 1, 2, 2, 2, 1], 'agent1/delivery_rate': [1, 1, 0, 1, 2, 1, 0, 1, 1, 2, 2, 1, 2, 2, 2, 1], 'agent2/delivery_rate': [1, 1, 0, 1, 2, 1, 0, 1, 1, 2, 2, 1, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7090/12500 episodes, total num timesteps 113456000/200000000, FPS 546.
+
+average episode rewards is 185.55572628974915
+{'agent0/delivery_rate': [1, 1, 2, 0, 2, 2, 2, 2, 2, 2, 0, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 2, 0, 2, 2, 2, 2, 2, 2, 0, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 2, 0, 2, 2, 2, 2, 2, 2, 0, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7095/12500 episodes, total num timesteps 113536000/200000000, FPS 547.
+
+average episode rewards is 190.16699492931366
+{'agent0/delivery_rate': [1, 2, 2, 0, 2, 0, 2, 0, 1, 2, 0, 2, 2, 1, 1, 1], 'agent1/delivery_rate': [1, 2, 2, 0, 2, 0, 2, 0, 1, 2, 0, 2, 2, 1, 1, 1], 'agent2/delivery_rate': [1, 2, 2, 0, 2, 0, 2, 0, 1, 2, 0, 2, 2, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7100/12500 episodes, total num timesteps 113616000/200000000, FPS 547.
+
+average episode rewards is 152.2539258003235
+{'agent0/delivery_rate': [1, 2, 1, 1, 0, 0, 1, 0, 1, 0, 2, 0, 2, 2, 1, 1], 'agent1/delivery_rate': [1, 2, 1, 1, 0, 0, 1, 0, 1, 0, 2, 0, 2, 2, 1, 1], 'agent2/delivery_rate': [1, 2, 1, 1, 0, 0, 1, 0, 1, 0, 2, 0, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7105/12500 episodes, total num timesteps 113696000/200000000, FPS 547.
+
+average episode rewards is 150.79157054424286
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 2, 2, 1, 0, 1, 2, 0, 2, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 2, 2, 1, 0, 1, 2, 0, 2, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 2, 2, 1, 0, 1, 2, 0, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7110/12500 episodes, total num timesteps 113776000/200000000, FPS 547.
+
+average episode rewards is 183.12451243400574
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1, 2, 2, 0, 0, 2], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1, 2, 2, 0, 0, 2], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1, 2, 2, 0, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7115/12500 episodes, total num timesteps 113856000/200000000, FPS 547.
+
+average episode rewards is 199.1622895002365
+{'agent0/delivery_rate': [1, 2, 0, 2, 1, 1, 2, 0, 2, 1, 0, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 0, 2, 1, 1, 2, 0, 2, 1, 0, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 0, 2, 1, 1, 2, 0, 2, 1, 0, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7120/12500 episodes, total num timesteps 113936000/200000000, FPS 547.
+
+average episode rewards is 161.0764116048813
+{'agent0/delivery_rate': [1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 1, 0, 2, 2, 0], 'agent1/delivery_rate': [1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 1, 0, 2, 2, 0], 'agent2/delivery_rate': [1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 1, 0, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7125/12500 episodes, total num timesteps 114016000/200000000, FPS 547.
+
+average episode rewards is 186.85534596443176
+{'agent0/delivery_rate': [2, 2, 1, 2, 2, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1, 2], 'agent1/delivery_rate': [2, 2, 1, 2, 2, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1, 2], 'agent2/delivery_rate': [2, 2, 1, 2, 2, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7130/12500 episodes, total num timesteps 114096000/200000000, FPS 547.
+
+average episode rewards is 186.40686571598053
+{'agent0/delivery_rate': [1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7135/12500 episodes, total num timesteps 114176000/200000000, FPS 547.
+
+average episode rewards is 149.8173624277115
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 1, 0, 1, 1, 1, 2, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 1, 0, 1, 1, 1, 2, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 1, 0, 1, 1, 1, 2, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7140/12500 episodes, total num timesteps 114256000/200000000, FPS 547.
+
+average episode rewards is 168.34712028503418
+{'agent0/delivery_rate': [1, 0, 1, 1, 0, 1, 2, 2, 1, 1, 1, 2, 1, 0, 2, 1], 'agent1/delivery_rate': [1, 0, 1, 1, 0, 1, 2, 2, 1, 1, 1, 2, 1, 0, 2, 1], 'agent2/delivery_rate': [1, 0, 1, 1, 0, 1, 2, 2, 1, 1, 1, 2, 1, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7145/12500 episodes, total num timesteps 114336000/200000000, FPS 547.
+
+average episode rewards is 169.200599193573
+{'agent0/delivery_rate': [1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 0], 'agent1/delivery_rate': [1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 0], 'agent2/delivery_rate': [1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7150/12500 episodes, total num timesteps 114416000/200000000, FPS 547.
+
+average episode rewards is 175.32232403755188
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 1, 2, 0, 2, 2, 2, 1, 1, 0, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 1, 2, 0, 2, 2, 2, 1, 1, 0, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 1, 2, 0, 2, 2, 2, 1, 1, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7155/12500 episodes, total num timesteps 114496000/200000000, FPS 547.
+
+average episode rewards is 167.9108440876007
+{'agent0/delivery_rate': [1, 2, 2, 0, 1, 2, 0, 2, 1, 2, 1, 2, 1, 0, 2, 1], 'agent1/delivery_rate': [1, 2, 2, 0, 1, 2, 0, 2, 1, 2, 1, 2, 1, 0, 2, 1], 'agent2/delivery_rate': [1, 2, 2, 0, 1, 2, 0, 2, 1, 2, 1, 2, 1, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7160/12500 episodes, total num timesteps 114576000/200000000, FPS 547.
+
+average episode rewards is 158.7526947259903
+{'agent0/delivery_rate': [2, 0, 1, 0, 1, 2, 2, 1, 2, 2, 1, 1, 1, 1, 2, 2], 'agent1/delivery_rate': [2, 0, 1, 0, 1, 2, 2, 1, 2, 2, 1, 1, 1, 1, 2, 2], 'agent2/delivery_rate': [2, 0, 1, 0, 1, 2, 2, 1, 2, 2, 1, 1, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7165/12500 episodes, total num timesteps 114656000/200000000, FPS 547.
+
+average episode rewards is 160.58123111724854
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 0, 1, 1, 2, 0, 1, 1, 2, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 0, 1, 1, 2, 0, 1, 1, 2, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 2, 1, 0, 1, 1, 2, 0, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7170/12500 episodes, total num timesteps 114736000/200000000, FPS 547.
+
+average episode rewards is 162.36454248428345
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7175/12500 episodes, total num timesteps 114816000/200000000, FPS 547.
+
+average episode rewards is 158.54717791080475
+{'agent0/delivery_rate': [2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7180/12500 episodes, total num timesteps 114896000/200000000, FPS 547.
+
+average episode rewards is 133.53778421878815
+{'agent0/delivery_rate': [2, 0, 2, 1, 2, 1, 0, 1, 1, 0, 2, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 0, 2, 1, 2, 1, 0, 1, 1, 0, 2, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 0, 2, 1, 2, 1, 0, 1, 1, 0, 2, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7185/12500 episodes, total num timesteps 114976000/200000000, FPS 547.
+
+average episode rewards is 180.05158007144928
+{'agent0/delivery_rate': [1, 2, 2, 0, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1], 'agent1/delivery_rate': [1, 2, 2, 0, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1], 'agent2/delivery_rate': [1, 2, 2, 0, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7190/12500 episodes, total num timesteps 115056000/200000000, FPS 547.
+
+average episode rewards is 186.31389737129211
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 0, 0, 1, 1, 2, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 0, 0, 1, 1, 2, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 0, 0, 1, 1, 2, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7195/12500 episodes, total num timesteps 115136000/200000000, FPS 547.
+
+average episode rewards is 147.9841023683548
+{'agent0/delivery_rate': [0, 1, 1, 1, 1, 0, 2, 2, 1, 1, 2, 0, 2, 2, 2, 2], 'agent1/delivery_rate': [0, 1, 1, 1, 1, 0, 2, 2, 1, 1, 2, 0, 2, 2, 2, 2], 'agent2/delivery_rate': [0, 1, 1, 1, 1, 0, 2, 2, 1, 1, 2, 0, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7200/12500 episodes, total num timesteps 115216000/200000000, FPS 547.
+
+average episode rewards is 184.55933034420013
+{'agent0/delivery_rate': [2, 1, 0, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 0, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 0, 1, 2, 2, 0, 1, 2, 2, 2, 1, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7205/12500 episodes, total num timesteps 115296000/200000000, FPS 547.
+
+average episode rewards is 164.12001848220825
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 0, 2, 1, 2, 1, 0], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 0, 2, 1, 2, 1, 0], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 0, 2, 1, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7210/12500 episodes, total num timesteps 115376000/200000000, FPS 547.
+
+average episode rewards is 162.75905072689056
+{'agent0/delivery_rate': [1, 0, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 0, 1, 2, 1], 'agent1/delivery_rate': [1, 0, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 0, 1, 2, 1], 'agent2/delivery_rate': [1, 0, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 0, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7215/12500 episodes, total num timesteps 115456000/200000000, FPS 547.
+
+average episode rewards is 168.79220306873322
+{'agent0/delivery_rate': [2, 2, 2, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 2, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 2, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7220/12500 episodes, total num timesteps 115536000/200000000, FPS 547.
+
+average episode rewards is 160.9601229429245
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 1, 1, 1, 2, 2, 1, 1, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 1, 1, 1, 2, 2, 1, 1, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 1, 1, 1, 2, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7225/12500 episodes, total num timesteps 115616000/200000000, FPS 547.
+
+average episode rewards is 170.52382230758667
+{'agent0/delivery_rate': [2, 1, 2, 2, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 2, 2, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 2, 2, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7230/12500 episodes, total num timesteps 115696000/200000000, FPS 547.
+
+average episode rewards is 186.8593394756317
+{'agent0/delivery_rate': [2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 0, 1, 1, 2, 0, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 0, 1, 1, 2, 0, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 0, 1, 1, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7235/12500 episodes, total num timesteps 115776000/200000000, FPS 547.
+
+average episode rewards is 165.2105301618576
+{'agent0/delivery_rate': [2, 1, 1, 2, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 2, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 2, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7240/12500 episodes, total num timesteps 115856000/200000000, FPS 547.
+
+average episode rewards is 187.9635751247406
+{'agent0/delivery_rate': [1, 1, 1, 0, 1, 1, 2, 2, 2, 2, 1, 2, 0, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 0, 1, 1, 2, 2, 2, 2, 1, 2, 0, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 0, 1, 1, 2, 2, 2, 2, 1, 2, 0, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7245/12500 episodes, total num timesteps 115936000/200000000, FPS 547.
+
+average episode rewards is 168.41402649879456
+{'agent0/delivery_rate': [1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7250/12500 episodes, total num timesteps 116016000/200000000, FPS 547.
+
+average episode rewards is 157.69842267036438
+{'agent0/delivery_rate': [0, 0, 1, 1, 0, 0, 1, 2, 2, 1, 2, 0, 0, 1, 1, 0], 'agent1/delivery_rate': [0, 0, 1, 1, 0, 0, 1, 2, 2, 1, 2, 0, 0, 1, 1, 0], 'agent2/delivery_rate': [0, 0, 1, 1, 0, 0, 1, 2, 2, 1, 2, 0, 0, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7255/12500 episodes, total num timesteps 116096000/200000000, FPS 547.
+
+average episode rewards is 194.20599937438965
+{'agent0/delivery_rate': [2, 2, 0, 1, 2, 1, 0, 1, 2, 2, 2, 0, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 0, 1, 2, 1, 0, 1, 2, 2, 2, 0, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 0, 1, 2, 1, 0, 1, 2, 2, 2, 0, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7260/12500 episodes, total num timesteps 116176000/200000000, FPS 547.
+
+average episode rewards is 208.6891084909439
+{'agent0/delivery_rate': [2, 1, 1, 1, 1, 2, 2, 1, 0, 2, 2, 0, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 1, 1, 1, 1, 2, 2, 1, 0, 2, 2, 0, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 1, 1, 1, 1, 2, 2, 1, 0, 2, 2, 0, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7265/12500 episodes, total num timesteps 116256000/200000000, FPS 547.
+
+average episode rewards is 147.7157324552536
+{'agent0/delivery_rate': [2, 0, 2, 2, 1, 1, 2, 0, 0, 0, 1, 2, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 0, 2, 2, 1, 1, 2, 0, 0, 0, 1, 2, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 0, 2, 2, 1, 1, 2, 0, 0, 0, 1, 2, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7270/12500 episodes, total num timesteps 116336000/200000000, FPS 547.
+
+average episode rewards is 175.0333458185196
+{'agent0/delivery_rate': [2, 2, 1, 2, 2, 0, 2, 2, 1, 1, 2, 1, 0, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 1, 2, 2, 0, 2, 2, 1, 1, 2, 1, 0, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 1, 2, 2, 0, 2, 2, 1, 1, 2, 1, 0, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7275/12500 episodes, total num timesteps 116416000/200000000, FPS 547.
+
+average episode rewards is 159.07154977321625
+{'agent0/delivery_rate': [0, 0, 2, 2, 1, 2, 1, 2, 2, 2, 0, 1, 2, 2, 1, 2], 'agent1/delivery_rate': [0, 0, 2, 2, 1, 2, 1, 2, 2, 2, 0, 1, 2, 2, 1, 2], 'agent2/delivery_rate': [0, 0, 2, 2, 1, 2, 1, 2, 2, 2, 0, 1, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7280/12500 episodes, total num timesteps 116496000/200000000, FPS 547.
+
+average episode rewards is 182.74198472499847
+{'agent0/delivery_rate': [0, 0, 1, 2, 2, 2, 2, 1, 1, 2, 2, 1, 2, 0, 1, 1], 'agent1/delivery_rate': [0, 0, 1, 2, 2, 2, 2, 1, 1, 2, 2, 1, 2, 0, 1, 1], 'agent2/delivery_rate': [0, 0, 1, 2, 2, 2, 2, 1, 1, 2, 2, 1, 2, 0, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7285/12500 episodes, total num timesteps 116576000/200000000, FPS 547.
+
+average episode rewards is 203.8550227880478
+{'agent0/delivery_rate': [2, 1, 1, 0, 0, 1, 2, 2, 2, 1, 2, 1, 2, 0, 2, 1], 'agent1/delivery_rate': [2, 1, 1, 0, 0, 1, 2, 2, 2, 1, 2, 1, 2, 0, 2, 1], 'agent2/delivery_rate': [2, 1, 1, 0, 0, 1, 2, 2, 2, 1, 2, 1, 2, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7290/12500 episodes, total num timesteps 116656000/200000000, FPS 547.
+
+average episode rewards is 190.243199467659
+{'agent0/delivery_rate': [1, 1, 1, 2, 1, 0, 0, 2, 2, 2, 1, 0, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 1, 0, 0, 2, 2, 2, 1, 0, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 1, 0, 0, 2, 2, 2, 1, 0, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7295/12500 episodes, total num timesteps 116736000/200000000, FPS 547.
+
+average episode rewards is 166.58133268356323
+{'agent0/delivery_rate': [0, 1, 1, 0, 1, 2, 0, 2, 2, 1, 2, 1, 0, 1, 0, 2], 'agent1/delivery_rate': [0, 1, 1, 0, 1, 2, 0, 2, 2, 1, 2, 1, 0, 1, 0, 2], 'agent2/delivery_rate': [0, 1, 1, 0, 1, 2, 0, 2, 2, 1, 2, 1, 0, 1, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7300/12500 episodes, total num timesteps 116816000/200000000, FPS 547.
+
+average episode rewards is 181.1438649892807
+{'agent0/delivery_rate': [2, 1, 2, 0, 1, 1, 1, 0, 2, 0, 0, 1, 1, 1, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 0, 1, 1, 1, 0, 2, 0, 0, 1, 1, 1, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 0, 1, 1, 1, 0, 2, 0, 0, 1, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7305/12500 episodes, total num timesteps 116896000/200000000, FPS 547.
+
+average episode rewards is 169.25464570522308
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1, 2, 2, 2, 2, 1], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1, 2, 2, 2, 2, 1], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1, 2, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7310/12500 episodes, total num timesteps 116976000/200000000, FPS 547.
+
+average episode rewards is 171.36125266551971
+{'agent0/delivery_rate': [1, 2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7315/12500 episodes, total num timesteps 117056000/200000000, FPS 547.
+
+average episode rewards is 184.53329801559448
+{'agent0/delivery_rate': [2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 0, 1, 1], 'agent1/delivery_rate': [2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 0, 1, 1], 'agent2/delivery_rate': [2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 0, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7320/12500 episodes, total num timesteps 117136000/200000000, FPS 547.
+
+average episode rewards is 209.53591167926788
+{'agent0/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 1, 1, 2, 2, 2, 1, 0, 2, 1], 'agent1/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 1, 1, 2, 2, 2, 1, 0, 2, 1], 'agent2/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 1, 1, 2, 2, 2, 1, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7325/12500 episodes, total num timesteps 117216000/200000000, FPS 547.
+
+average episode rewards is 162.54647076129913
+{'agent0/delivery_rate': [2, 2, 0, 0, 0, 2, 0, 1, 2, 1, 0, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [2, 2, 0, 0, 0, 2, 0, 1, 2, 1, 0, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [2, 2, 0, 0, 0, 2, 0, 1, 2, 1, 0, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7330/12500 episodes, total num timesteps 117296000/200000000, FPS 547.
+
+average episode rewards is 173.02122712135315
+{'agent0/delivery_rate': [1, 2, 2, 2, 1, 2, 0, 2, 2, 1, 1, 2, 1, 0, 2, 1], 'agent1/delivery_rate': [1, 2, 2, 2, 1, 2, 0, 2, 2, 1, 1, 2, 1, 0, 2, 1], 'agent2/delivery_rate': [1, 2, 2, 2, 1, 2, 0, 2, 2, 1, 1, 2, 1, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7335/12500 episodes, total num timesteps 117376000/200000000, FPS 547.
+
+average episode rewards is 178.07507514953613
+{'agent0/delivery_rate': [1, 2, 1, 1, 2, 2, 2, 2, 2, 2, 0, 1, 1, 0, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 2, 2, 2, 2, 2, 2, 0, 1, 1, 0, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 2, 2, 2, 2, 2, 2, 0, 1, 1, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7340/12500 episodes, total num timesteps 117456000/200000000, FPS 547.
+
+average episode rewards is 180.63515424728394
+{'agent0/delivery_rate': [1, 1, 0, 2, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [1, 1, 0, 2, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [1, 1, 0, 2, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7345/12500 episodes, total num timesteps 117536000/200000000, FPS 547.
+
+average episode rewards is 151.60603821277618
+{'agent0/delivery_rate': [1, 2, 1, 0, 0, 2, 2, 2, 2, 2, 1, 1, 2, 2, 0, 1], 'agent1/delivery_rate': [1, 2, 1, 0, 0, 2, 2, 2, 2, 2, 1, 1, 2, 2, 0, 1], 'agent2/delivery_rate': [1, 2, 1, 0, 0, 2, 2, 2, 2, 2, 1, 1, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7350/12500 episodes, total num timesteps 117616000/200000000, FPS 547.
+
+average episode rewards is 162.96380758285522
+{'agent0/delivery_rate': [1, 2, 1, 0, 1, 2, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 0, 1, 2, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 0, 1, 2, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7355/12500 episodes, total num timesteps 117696000/200000000, FPS 547.
+
+average episode rewards is 194.63536143302917
+{'agent0/delivery_rate': [0, 1, 2, 2, 2, 0, 1, 1, 2, 1, 1, 2, 1, 1, 0, 1], 'agent1/delivery_rate': [0, 1, 2, 2, 2, 0, 1, 1, 2, 1, 1, 2, 1, 1, 0, 1], 'agent2/delivery_rate': [0, 1, 2, 2, 2, 0, 1, 1, 2, 1, 1, 2, 1, 1, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7360/12500 episodes, total num timesteps 117776000/200000000, FPS 547.
+
+average episode rewards is 144.6014940738678
+{'agent0/delivery_rate': [1, 1, 1, 1, 2, 1, 1, 0, 1, 0, 2, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 1, 2, 1, 1, 0, 1, 0, 2, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 1, 2, 1, 1, 0, 1, 0, 2, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7365/12500 episodes, total num timesteps 117856000/200000000, FPS 547.
+
+average episode rewards is 137.62804865837097
+{'agent0/delivery_rate': [1, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 2, 2, 2, 2, 0], 'agent1/delivery_rate': [1, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 2, 2, 2, 2, 0], 'agent2/delivery_rate': [1, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 2, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7370/12500 episodes, total num timesteps 117936000/200000000, FPS 547.
+
+average episode rewards is 152.42381393909454
+{'agent0/delivery_rate': [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 0, 1, 0], 'agent1/delivery_rate': [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 0, 1, 0], 'agent2/delivery_rate': [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 0, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7375/12500 episodes, total num timesteps 118016000/200000000, FPS 547.
+
+average episode rewards is 189.0714168548584
+{'agent0/delivery_rate': [2, 1, 0, 1, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 2], 'agent1/delivery_rate': [2, 1, 0, 1, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 2], 'agent2/delivery_rate': [2, 1, 0, 1, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7380/12500 episodes, total num timesteps 118096000/200000000, FPS 547.
+
+average episode rewards is 182.82932043075562
+{'agent0/delivery_rate': [2, 1, 1, 2, 1, 0, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1], 'agent1/delivery_rate': [2, 1, 1, 2, 1, 0, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1], 'agent2/delivery_rate': [2, 1, 1, 2, 1, 0, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7385/12500 episodes, total num timesteps 118176000/200000000, FPS 547.
+
+average episode rewards is 175.48686265945435
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7390/12500 episodes, total num timesteps 118256000/200000000, FPS 547.
+
+average episode rewards is 172.15095460414886
+{'agent0/delivery_rate': [1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1], 'agent1/delivery_rate': [1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1], 'agent2/delivery_rate': [1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7395/12500 episodes, total num timesteps 118336000/200000000, FPS 547.
+
+average episode rewards is 150.7636457681656
+{'agent0/delivery_rate': [2, 0, 1, 2, 1, 2, 2, 2, 2, 0, 1, 1, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 0, 1, 2, 1, 2, 2, 2, 2, 0, 1, 1, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 0, 1, 2, 1, 2, 2, 2, 2, 0, 1, 1, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7400/12500 episodes, total num timesteps 118416000/200000000, FPS 547.
+
+average episode rewards is 166.931614279747
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 1], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 1], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7405/12500 episodes, total num timesteps 118496000/200000000, FPS 547.
+
+average episode rewards is 194.60538029670715
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 2, 0, 2, 0, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 2, 0, 2, 0, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 1, 0, 2, 2, 0, 2, 0, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7410/12500 episodes, total num timesteps 118576000/200000000, FPS 547.
+
+average episode rewards is 187.62394785881042
+{'agent0/delivery_rate': [1, 1, 2, 1, 0, 1, 1, 1, 1, 1, 2, 1, 1, 2, 0, 2], 'agent1/delivery_rate': [1, 1, 2, 1, 0, 1, 1, 1, 1, 1, 2, 1, 1, 2, 0, 2], 'agent2/delivery_rate': [1, 1, 2, 1, 0, 1, 1, 1, 1, 1, 2, 1, 1, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7415/12500 episodes, total num timesteps 118656000/200000000, FPS 547.
+
+average episode rewards is 186.36929988861084
+{'agent0/delivery_rate': [0, 0, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 1, 2, 2], 'agent1/delivery_rate': [0, 0, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 1, 2, 2], 'agent2/delivery_rate': [0, 0, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7420/12500 episodes, total num timesteps 118736000/200000000, FPS 547.
+
+average episode rewards is 195.23802399635315
+{'agent0/delivery_rate': [0, 1, 2, 2, 2, 0, 1, 1, 0, 2, 1, 1, 2, 2, 1, 0], 'agent1/delivery_rate': [0, 1, 2, 2, 2, 0, 1, 1, 0, 2, 1, 1, 2, 2, 1, 0], 'agent2/delivery_rate': [0, 1, 2, 2, 2, 0, 1, 1, 0, 2, 1, 1, 2, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7425/12500 episodes, total num timesteps 118816000/200000000, FPS 547.
+
+average episode rewards is 183.60811471939087
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 1, 0, 1, 1, 1, 1, 0, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 1, 0, 1, 1, 1, 1, 0, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 1, 0, 1, 1, 1, 1, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7430/12500 episodes, total num timesteps 118896000/200000000, FPS 547.
+
+average episode rewards is 172.89383709430695
+{'agent0/delivery_rate': [2, 0, 1, 2, 2, 0, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2], 'agent1/delivery_rate': [2, 0, 1, 2, 2, 0, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2], 'agent2/delivery_rate': [2, 0, 1, 2, 2, 0, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7435/12500 episodes, total num timesteps 118976000/200000000, FPS 547.
+
+average episode rewards is 151.4652967453003
+{'agent0/delivery_rate': [0, 0, 1, 2, 2, 2, 1, 0, 0, 1, 2, 1, 0, 2, 2, 1], 'agent1/delivery_rate': [0, 0, 1, 2, 2, 2, 1, 0, 0, 1, 2, 1, 0, 2, 2, 1], 'agent2/delivery_rate': [0, 0, 1, 2, 2, 2, 1, 0, 0, 1, 2, 1, 0, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7440/12500 episodes, total num timesteps 119056000/200000000, FPS 547.
+
+average episode rewards is 168.23925077915192
+{'agent0/delivery_rate': [2, 2, 2, 0, 2, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 0], 'agent1/delivery_rate': [2, 2, 2, 0, 2, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 0], 'agent2/delivery_rate': [2, 2, 2, 0, 2, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7445/12500 episodes, total num timesteps 119136000/200000000, FPS 547.
+
+average episode rewards is 160.49359738826752
+{'agent0/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 0, 2, 0, 2, 1], 'agent1/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 0, 2, 0, 2, 1], 'agent2/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 0, 2, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7450/12500 episodes, total num timesteps 119216000/200000000, FPS 547.
+
+average episode rewards is 175.35941302776337
+{'agent0/delivery_rate': [1, 1, 2, 1, 0, 2, 2, 1, 2, 1, 2, 1, 1, 1, 1, 2], 'agent1/delivery_rate': [1, 1, 2, 1, 0, 2, 2, 1, 2, 1, 2, 1, 1, 1, 1, 2], 'agent2/delivery_rate': [1, 1, 2, 1, 0, 2, 2, 1, 2, 1, 2, 1, 1, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7455/12500 episodes, total num timesteps 119296000/200000000, FPS 547.
+
+average episode rewards is 153.32016348838806
+{'agent0/delivery_rate': [2, 1, 2, 2, 1, 2, 0, 0, 2, 0, 1, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 2, 1, 2, 0, 0, 2, 0, 1, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 2, 1, 2, 0, 0, 2, 0, 1, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7460/12500 episodes, total num timesteps 119376000/200000000, FPS 547.
+
+average episode rewards is 191.03308022022247
+{'agent0/delivery_rate': [2, 1, 2, 2, 0, 2, 0, 0, 1, 2, 1, 0, 2, 0, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 2, 0, 2, 0, 0, 1, 2, 1, 0, 2, 0, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 2, 0, 2, 0, 0, 1, 2, 1, 0, 2, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7465/12500 episodes, total num timesteps 119456000/200000000, FPS 547.
+
+average episode rewards is 150.70104598999023
+{'agent0/delivery_rate': [2, 0, 2, 2, 1, 1, 1, 1, 2, 1, 0, 0, 1, 2, 1, 1], 'agent1/delivery_rate': [2, 0, 2, 2, 1, 1, 1, 1, 2, 1, 0, 0, 1, 2, 1, 1], 'agent2/delivery_rate': [2, 0, 2, 2, 1, 1, 1, 1, 2, 1, 0, 0, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7470/12500 episodes, total num timesteps 119536000/200000000, FPS 547.
+
+average episode rewards is 156.01862967014313
+{'agent0/delivery_rate': [2, 0, 2, 2, 0, 1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 2], 'agent1/delivery_rate': [2, 0, 2, 2, 0, 1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 2], 'agent2/delivery_rate': [2, 0, 2, 2, 0, 1, 1, 1, 1, 1, 2, 2, 0, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7475/12500 episodes, total num timesteps 119616000/200000000, FPS 547.
+
+average episode rewards is 155.8920443058014
+{'agent0/delivery_rate': [0, 1, 1, 2, 0, 1, 2, 2, 2, 1, 0, 1, 0, 2, 1, 1], 'agent1/delivery_rate': [0, 1, 1, 2, 0, 1, 2, 2, 2, 1, 0, 1, 0, 2, 1, 1], 'agent2/delivery_rate': [0, 1, 1, 2, 0, 1, 2, 2, 2, 1, 0, 1, 0, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7480/12500 episodes, total num timesteps 119696000/200000000, FPS 547.
+
+average episode rewards is 151.06895565986633
+{'agent0/delivery_rate': [1, 2, 2, 0, 0, 1, 1, 1, 2, 2, 1, 2, 2, 2, 2, 1], 'agent1/delivery_rate': [1, 2, 2, 0, 0, 1, 1, 1, 2, 2, 1, 2, 2, 2, 2, 1], 'agent2/delivery_rate': [1, 2, 2, 0, 0, 1, 1, 1, 2, 2, 1, 2, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7485/12500 episodes, total num timesteps 119776000/200000000, FPS 547.
+
+average episode rewards is 165.53343832492828
+{'agent0/delivery_rate': [1, 1, 0, 2, 2, 0, 0, 1, 2, 2, 0, 0, 0, 1, 1, 1], 'agent1/delivery_rate': [1, 1, 0, 2, 2, 0, 0, 1, 2, 2, 0, 0, 0, 1, 1, 1], 'agent2/delivery_rate': [1, 1, 0, 2, 2, 0, 0, 1, 2, 2, 0, 0, 0, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7490/12500 episodes, total num timesteps 119856000/200000000, FPS 547.
+
+average episode rewards is 200.63374936580658
+{'agent0/delivery_rate': [0, 0, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 0], 'agent1/delivery_rate': [0, 0, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 0], 'agent2/delivery_rate': [0, 0, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7495/12500 episodes, total num timesteps 119936000/200000000, FPS 547.
+
+average episode rewards is 157.37757086753845
+{'agent0/delivery_rate': [1, 0, 2, 0, 2, 1, 0, 2, 2, 2, 2, 0, 1, 1, 1, 1], 'agent1/delivery_rate': [1, 0, 2, 0, 2, 1, 0, 2, 2, 2, 2, 0, 1, 1, 1, 1], 'agent2/delivery_rate': [1, 0, 2, 0, 2, 1, 0, 2, 2, 2, 2, 0, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7500/12500 episodes, total num timesteps 120016000/200000000, FPS 547.
+
+average episode rewards is 154.06134724617004
+{'agent0/delivery_rate': [0, 2, 1, 0, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1], 'agent1/delivery_rate': [0, 2, 1, 0, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1], 'agent2/delivery_rate': [0, 2, 1, 0, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7505/12500 episodes, total num timesteps 120096000/200000000, FPS 547.
+
+average episode rewards is 167.18068718910217
+{'agent0/delivery_rate': [2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 2, 0, 0, 2, 2, 1], 'agent1/delivery_rate': [2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 2, 0, 0, 2, 2, 1], 'agent2/delivery_rate': [2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 2, 0, 0, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7510/12500 episodes, total num timesteps 120176000/200000000, FPS 547.
+
+average episode rewards is 158.09562802314758
+{'agent0/delivery_rate': [2, 1, 1, 0, 1, 1, 1, 2, 2, 0, 2, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 1, 0, 1, 1, 1, 2, 2, 0, 2, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 1, 0, 1, 1, 1, 2, 2, 0, 2, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7515/12500 episodes, total num timesteps 120256000/200000000, FPS 547.
+
+average episode rewards is 187.8780871629715
+{'agent0/delivery_rate': [1, 1, 0, 0, 1, 1, 0, 1, 2, 2, 2, 0, 2, 2, 2, 0], 'agent1/delivery_rate': [1, 1, 0, 0, 1, 1, 0, 1, 2, 2, 2, 0, 2, 2, 2, 0], 'agent2/delivery_rate': [1, 1, 0, 0, 1, 1, 0, 1, 2, 2, 2, 0, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7520/12500 episodes, total num timesteps 120336000/200000000, FPS 547.
+
+average episode rewards is 165.85110127925873
+{'agent0/delivery_rate': [1, 0, 0, 2, 1, 1, 2, 0, 1, 0, 0, 0, 0, 2, 2, 1], 'agent1/delivery_rate': [1, 0, 0, 2, 1, 1, 2, 0, 1, 0, 0, 0, 0, 2, 2, 1], 'agent2/delivery_rate': [1, 0, 0, 2, 1, 1, 2, 0, 1, 0, 0, 0, 0, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7525/12500 episodes, total num timesteps 120416000/200000000, FPS 547.
+
+average episode rewards is 190.08849561214447
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 0, 0, 1, 1, 1, 2, 0, 1, 1, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 0, 0, 1, 1, 1, 2, 0, 1, 1, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 0, 0, 1, 1, 1, 2, 0, 1, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7530/12500 episodes, total num timesteps 120496000/200000000, FPS 547.
+
+average episode rewards is 171.64550721645355
+{'agent0/delivery_rate': [2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 2, 1, 0, 2, 2, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 2, 1, 0, 2, 2, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 2, 1, 0, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7535/12500 episodes, total num timesteps 120576000/200000000, FPS 547.
+
+average episode rewards is 159.4565361738205
+{'agent0/delivery_rate': [1, 1, 0, 1, 1, 1, 2, 1, 1, 0, 1, 0, 1, 0, 2, 2], 'agent1/delivery_rate': [1, 1, 0, 1, 1, 1, 2, 1, 1, 0, 1, 0, 1, 0, 2, 2], 'agent2/delivery_rate': [1, 1, 0, 1, 1, 1, 2, 1, 1, 0, 1, 0, 1, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7540/12500 episodes, total num timesteps 120656000/200000000, FPS 547.
+
+average episode rewards is 165.1475429534912
+{'agent0/delivery_rate': [1, 1, 2, 1, 2, 2, 1, 2, 1, 2, 0, 1, 0, 1, 2, 1], 'agent1/delivery_rate': [1, 1, 2, 1, 2, 2, 1, 2, 1, 2, 0, 1, 0, 1, 2, 1], 'agent2/delivery_rate': [1, 1, 2, 1, 2, 2, 1, 2, 1, 2, 0, 1, 0, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7545/12500 episodes, total num timesteps 120736000/200000000, FPS 547.
+
+average episode rewards is 187.99513578414917
+{'agent0/delivery_rate': [1, 1, 2, 1, 0, 1, 1, 2, 1, 1, 2, 2, 0, 1, 1, 1], 'agent1/delivery_rate': [1, 1, 2, 1, 0, 1, 1, 2, 1, 1, 2, 2, 0, 1, 1, 1], 'agent2/delivery_rate': [1, 1, 2, 1, 0, 1, 1, 2, 1, 1, 2, 2, 0, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7550/12500 episodes, total num timesteps 120816000/200000000, FPS 547.
+
+average episode rewards is 167.18673706054688
+{'agent0/delivery_rate': [2, 1, 0, 2, 0, 1, 0, 2, 0, 2, 1, 1, 1, 1, 2, 1], 'agent1/delivery_rate': [2, 1, 0, 2, 0, 1, 0, 2, 0, 2, 1, 1, 1, 1, 2, 1], 'agent2/delivery_rate': [2, 1, 0, 2, 0, 1, 0, 2, 0, 2, 1, 1, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7555/12500 episodes, total num timesteps 120896000/200000000, FPS 547.
+
+average episode rewards is 155.33339977264404
+{'agent0/delivery_rate': [2, 1, 2, 1, 1, 2, 0, 1, 0, 1, 2, 2, 0, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 2, 1, 1, 2, 0, 1, 0, 1, 2, 2, 0, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 2, 1, 1, 2, 0, 1, 0, 1, 2, 2, 0, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7560/12500 episodes, total num timesteps 120976000/200000000, FPS 547.
+
+average episode rewards is 193.0149495601654
+{'agent0/delivery_rate': [2, 2, 0, 2, 1, 1, 0, 1, 2, 1, 2, 1, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 0, 2, 1, 1, 0, 1, 2, 1, 2, 1, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 0, 2, 1, 1, 0, 1, 2, 1, 2, 1, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7565/12500 episodes, total num timesteps 121056000/200000000, FPS 547.
+
+average episode rewards is 176.829531788826
+{'agent0/delivery_rate': [1, 0, 1, 1, 1, 1, 2, 2, 1, 1, 0, 2, 2, 1, 2, 1], 'agent1/delivery_rate': [1, 0, 1, 1, 1, 1, 2, 2, 1, 1, 0, 2, 2, 1, 2, 1], 'agent2/delivery_rate': [1, 0, 1, 1, 1, 1, 2, 2, 1, 1, 0, 2, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7570/12500 episodes, total num timesteps 121136000/200000000, FPS 547.
+
+average episode rewards is 186.62980198860168
+{'agent0/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 2, 0, 2, 2, 1, 2, 0, 0], 'agent1/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 2, 0, 2, 2, 1, 2, 0, 0], 'agent2/delivery_rate': [2, 2, 2, 2, 2, 2, 1, 2, 2, 0, 2, 2, 1, 2, 0, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7575/12500 episodes, total num timesteps 121216000/200000000, FPS 547.
+
+average episode rewards is 170.6508845090866
+{'agent0/delivery_rate': [1, 0, 1, 1, 1, 0, 1, 2, 2, 0, 0, 1, 2, 1, 2, 0], 'agent1/delivery_rate': [1, 0, 1, 1, 1, 0, 1, 2, 2, 0, 0, 1, 2, 1, 2, 0], 'agent2/delivery_rate': [1, 0, 1, 1, 1, 0, 1, 2, 2, 0, 0, 1, 2, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7580/12500 episodes, total num timesteps 121296000/200000000, FPS 547.
+
+average episode rewards is 170.6976294517517
+{'agent0/delivery_rate': [2, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7585/12500 episodes, total num timesteps 121376000/200000000, FPS 547.
+
+average episode rewards is 175.21081864833832
+{'agent0/delivery_rate': [1, 1, 2, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 1, 2, 1], 'agent1/delivery_rate': [1, 1, 2, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 1, 2, 1], 'agent2/delivery_rate': [1, 1, 2, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7590/12500 episodes, total num timesteps 121456000/200000000, FPS 547.
+
+average episode rewards is 173.36666584014893
+{'agent0/delivery_rate': [1, 1, 1, 2, 0, 2, 1, 1, 0, 1, 2, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 0, 2, 1, 1, 0, 1, 2, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 0, 2, 1, 1, 0, 1, 2, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7595/12500 episodes, total num timesteps 121536000/200000000, FPS 547.
+
+average episode rewards is 185.31231582164764
+{'agent0/delivery_rate': [1, 0, 0, 1, 2, 0, 2, 0, 2, 1, 1, 1, 2, 0, 1, 0], 'agent1/delivery_rate': [1, 0, 0, 1, 2, 0, 2, 0, 2, 1, 1, 1, 2, 0, 1, 0], 'agent2/delivery_rate': [1, 0, 0, 1, 2, 0, 2, 0, 2, 1, 1, 1, 2, 0, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7600/12500 episodes, total num timesteps 121616000/200000000, FPS 547.
+
+average episode rewards is 182.22378194332123
+{'agent0/delivery_rate': [0, 2, 1, 2, 1, 0, 1, 1, 1, 2, 2, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [0, 2, 1, 2, 1, 0, 1, 1, 1, 2, 2, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [0, 2, 1, 2, 1, 0, 1, 1, 1, 2, 2, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7605/12500 episodes, total num timesteps 121696000/200000000, FPS 547.
+
+average episode rewards is 160.35331785678864
+{'agent0/delivery_rate': [0, 2, 0, 2, 2, 1, 2, 1, 1, 2, 1, 1, 1, 1, 2, 0], 'agent1/delivery_rate': [0, 2, 0, 2, 2, 1, 2, 1, 1, 2, 1, 1, 1, 1, 2, 0], 'agent2/delivery_rate': [0, 2, 0, 2, 2, 1, 2, 1, 1, 2, 1, 1, 1, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7610/12500 episodes, total num timesteps 121776000/200000000, FPS 547.
+
+average episode rewards is 142.629012465477
+{'agent0/delivery_rate': [1, 0, 1, 1, 0, 1, 2, 1, 2, 0, 2, 1, 0, 1, 1, 0], 'agent1/delivery_rate': [1, 0, 1, 1, 0, 1, 2, 1, 2, 0, 2, 1, 0, 1, 1, 0], 'agent2/delivery_rate': [1, 0, 1, 1, 0, 1, 2, 1, 2, 0, 2, 1, 0, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7615/12500 episodes, total num timesteps 121856000/200000000, FPS 547.
+
+average episode rewards is 185.51979959011078
+{'agent0/delivery_rate': [1, 1, 1, 2, 1, 2, 2, 1, 1, 0, 0, 2, 2, 1, 1, 1], 'agent1/delivery_rate': [1, 1, 1, 2, 1, 2, 2, 1, 1, 0, 0, 2, 2, 1, 1, 1], 'agent2/delivery_rate': [1, 1, 1, 2, 1, 2, 2, 1, 1, 0, 0, 2, 2, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7620/12500 episodes, total num timesteps 121936000/200000000, FPS 547.
+
+average episode rewards is 193.73339414596558
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 0, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 0, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 0, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7625/12500 episodes, total num timesteps 122016000/200000000, FPS 547.
+
+average episode rewards is 163.54119777679443
+{'agent0/delivery_rate': [0, 2, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [0, 2, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [0, 2, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7630/12500 episodes, total num timesteps 122096000/200000000, FPS 547.
+
+average episode rewards is 192.8195357322693
+{'agent0/delivery_rate': [1, 1, 1, 0, 2, 1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 1], 'agent1/delivery_rate': [1, 1, 1, 0, 2, 1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 1], 'agent2/delivery_rate': [1, 1, 1, 0, 2, 1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7635/12500 episodes, total num timesteps 122176000/200000000, FPS 547.
+
+average episode rewards is 172.63279855251312
+{'agent0/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1, 1, 1, 2, 2, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1, 1, 1, 2, 2, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 1, 1, 2, 1, 2, 2, 1, 1, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7640/12500 episodes, total num timesteps 122256000/200000000, FPS 547.
+
+average episode rewards is 164.88857567310333
+{'agent0/delivery_rate': [2, 0, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2], 'agent1/delivery_rate': [2, 0, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2], 'agent2/delivery_rate': [2, 0, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7645/12500 episodes, total num timesteps 122336000/200000000, FPS 547.
+
+average episode rewards is 181.57409131526947
+{'agent0/delivery_rate': [1, 2, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 0, 2, 1, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 0, 2, 1, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 0, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7650/12500 episodes, total num timesteps 122416000/200000000, FPS 547.
+
+average episode rewards is 201.39355957508087
+{'agent0/delivery_rate': [1, 1, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2, 0, 2, 2], 'agent1/delivery_rate': [1, 1, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2, 0, 2, 2], 'agent2/delivery_rate': [1, 1, 2, 2, 2, 2, 1, 2, 1, 0, 1, 2, 2, 0, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7655/12500 episodes, total num timesteps 122496000/200000000, FPS 547.
+
+average episode rewards is 200.60433447360992
+{'agent0/delivery_rate': [2, 0, 2, 1, 2, 2, 2, 0, 1, 2, 1, 2, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 0, 2, 1, 2, 2, 2, 0, 1, 2, 1, 2, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 0, 2, 1, 2, 2, 2, 0, 1, 2, 1, 2, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7660/12500 episodes, total num timesteps 122576000/200000000, FPS 547.
+
+average episode rewards is 191.60129129886627
+{'agent0/delivery_rate': [2, 0, 0, 2, 2, 1, 2, 2, 0, 1, 2, 1, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 0, 0, 2, 2, 1, 2, 2, 0, 1, 2, 1, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 0, 0, 2, 2, 1, 2, 2, 0, 1, 2, 1, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7665/12500 episodes, total num timesteps 122656000/200000000, FPS 547.
+
+average episode rewards is 151.10905468463898
+{'agent0/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7670/12500 episodes, total num timesteps 122736000/200000000, FPS 547.
+
+average episode rewards is 197.62274622917175
+{'agent0/delivery_rate': [2, 0, 1, 2, 1, 1, 2, 2, 2, 2, 0, 1, 1, 1, 2, 1], 'agent1/delivery_rate': [2, 0, 1, 2, 1, 1, 2, 2, 2, 2, 0, 1, 1, 1, 2, 1], 'agent2/delivery_rate': [2, 0, 1, 2, 1, 1, 2, 2, 2, 2, 0, 1, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7675/12500 episodes, total num timesteps 122816000/200000000, FPS 547.
+
+average episode rewards is 180.64579367637634
+{'agent0/delivery_rate': [1, 2, 1, 0, 1, 2, 2, 2, 0, 2, 1, 1, 0, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 0, 1, 2, 2, 2, 0, 2, 1, 1, 0, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 0, 1, 2, 2, 2, 0, 2, 1, 1, 0, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7680/12500 episodes, total num timesteps 122896000/200000000, FPS 547.
+
+average episode rewards is 201.7611712217331
+{'agent0/delivery_rate': [2, 0, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 0, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 0, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7685/12500 episodes, total num timesteps 122976000/200000000, FPS 547.
+
+average episode rewards is 153.21201086044312
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 0], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 0], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7690/12500 episodes, total num timesteps 123056000/200000000, FPS 547.
+
+average episode rewards is 149.1679549217224
+{'agent0/delivery_rate': [0, 1, 1, 2, 2, 1, 2, 0, 2, 2, 2, 2, 2, 1, 1, 2], 'agent1/delivery_rate': [0, 1, 1, 2, 2, 1, 2, 0, 2, 2, 2, 2, 2, 1, 1, 2], 'agent2/delivery_rate': [0, 1, 1, 2, 2, 1, 2, 0, 2, 2, 2, 2, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7695/12500 episodes, total num timesteps 123136000/200000000, FPS 547.
+
+average episode rewards is 170.07069289684296
+{'agent0/delivery_rate': [1, 2, 2, 2, 1, 0, 0, 2, 1, 2, 1, 2, 1, 1, 0, 2], 'agent1/delivery_rate': [1, 2, 2, 2, 1, 0, 0, 2, 1, 2, 1, 2, 1, 1, 0, 2], 'agent2/delivery_rate': [1, 2, 2, 2, 1, 0, 0, 2, 1, 2, 1, 2, 1, 1, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7700/12500 episodes, total num timesteps 123216000/200000000, FPS 547.
+
+average episode rewards is 191.40632450580597
+{'agent0/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 1, 1, 2, 1, 1, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 1, 1, 2, 1, 1, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 1, 2, 0, 2, 2, 1, 1, 2, 1, 1, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7705/12500 episodes, total num timesteps 123296000/200000000, FPS 547.
+
+average episode rewards is 185.1968765258789
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7710/12500 episodes, total num timesteps 123376000/200000000, FPS 547.
+
+average episode rewards is 184.0200573205948
+{'agent0/delivery_rate': [1, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 2], 'agent1/delivery_rate': [1, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 2], 'agent2/delivery_rate': [1, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7715/12500 episodes, total num timesteps 123456000/200000000, FPS 547.
+
+average episode rewards is 188.84141743183136
+{'agent0/delivery_rate': [2, 2, 1, 2, 0, 2, 0, 1, 1, 0, 2, 1, 1, 2, 2, 0], 'agent1/delivery_rate': [2, 2, 1, 2, 0, 2, 0, 1, 1, 0, 2, 1, 1, 2, 2, 0], 'agent2/delivery_rate': [2, 2, 1, 2, 0, 2, 0, 1, 1, 0, 2, 1, 1, 2, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7720/12500 episodes, total num timesteps 123536000/200000000, FPS 547.
+
+average episode rewards is 158.3106964826584
+{'agent0/delivery_rate': [1, 2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 1, 0, 1, 2, 0], 'agent1/delivery_rate': [1, 2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 1, 0, 1, 2, 0], 'agent2/delivery_rate': [1, 2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 1, 0, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7725/12500 episodes, total num timesteps 123616000/200000000, FPS 547.
+
+average episode rewards is 201.06254518032074
+{'agent0/delivery_rate': [2, 2, 0, 2, 2, 0, 2, 2, 1, 1, 1, 2, 2, 1, 2, 1], 'agent1/delivery_rate': [2, 2, 0, 2, 2, 0, 2, 2, 1, 1, 1, 2, 2, 1, 2, 1], 'agent2/delivery_rate': [2, 2, 0, 2, 2, 0, 2, 2, 1, 1, 1, 2, 2, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7730/12500 episodes, total num timesteps 123696000/200000000, FPS 547.
+
+average episode rewards is 194.0847933292389
+{'agent0/delivery_rate': [1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 0, 2, 1], 'agent1/delivery_rate': [1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 0, 2, 1], 'agent2/delivery_rate': [1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 0, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7735/12500 episodes, total num timesteps 123776000/200000000, FPS 547.
+
+average episode rewards is 163.33460807800293
+{'agent0/delivery_rate': [2, 2, 2, 0, 1, 1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2], 'agent1/delivery_rate': [2, 2, 2, 0, 1, 1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2], 'agent2/delivery_rate': [2, 2, 2, 0, 1, 1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7740/12500 episodes, total num timesteps 123856000/200000000, FPS 547.
+
+average episode rewards is 184.35797095298767
+{'agent0/delivery_rate': [0, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 2, 1], 'agent1/delivery_rate': [0, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 2, 1], 'agent2/delivery_rate': [0, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7745/12500 episodes, total num timesteps 123936000/200000000, FPS 547.
+
+average episode rewards is 209.57891643047333
+{'agent0/delivery_rate': [0, 1, 2, 1, 2, 1, 2, 0, 2, 1, 2, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [0, 1, 2, 1, 2, 1, 2, 0, 2, 1, 2, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [0, 1, 2, 1, 2, 1, 2, 0, 2, 1, 2, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7750/12500 episodes, total num timesteps 124016000/200000000, FPS 547.
+
+average episode rewards is 163.35874795913696
+{'agent0/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 2, 0, 1, 2, 2, 2, 0, 0, 1], 'agent1/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 2, 0, 1, 2, 2, 2, 0, 0, 1], 'agent2/delivery_rate': [1, 2, 1, 2, 1, 1, 1, 2, 0, 1, 2, 2, 2, 0, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7755/12500 episodes, total num timesteps 124096000/200000000, FPS 547.
+
+average episode rewards is 154.02871370315552
+{'agent0/delivery_rate': [2, 1, 2, 1, 2, 1, 2, 2, 2, 0, 1, 1, 0, 1, 1, 1], 'agent1/delivery_rate': [2, 1, 2, 1, 2, 1, 2, 2, 2, 0, 1, 1, 0, 1, 1, 1], 'agent2/delivery_rate': [2, 1, 2, 1, 2, 1, 2, 2, 2, 0, 1, 1, 0, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7760/12500 episodes, total num timesteps 124176000/200000000, FPS 547.
+
+average episode rewards is 158.6344838142395
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 1, 1, 1, 2, 2, 0, 1, 1, 1], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 1, 1, 1, 2, 2, 0, 1, 1, 1], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 1, 2, 1, 1, 1, 2, 2, 0, 1, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7765/12500 episodes, total num timesteps 124256000/200000000, FPS 547.
+
+average episode rewards is 153.0727595090866
+{'agent0/delivery_rate': [2, 2, 0, 1, 2, 0, 1, 1, 2, 2, 0, 0, 1, 2, 1, 2], 'agent1/delivery_rate': [2, 2, 0, 1, 2, 0, 1, 1, 2, 2, 0, 0, 1, 2, 1, 2], 'agent2/delivery_rate': [2, 2, 0, 1, 2, 0, 1, 1, 2, 2, 0, 0, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7770/12500 episodes, total num timesteps 124336000/200000000, FPS 547.
+
+average episode rewards is 195.92468440532684
+{'agent0/delivery_rate': [1, 0, 2, 2, 1, 2, 2, 1, 1, 1, 0, 0, 0, 2, 2, 1], 'agent1/delivery_rate': [1, 0, 2, 2, 1, 2, 2, 1, 1, 1, 0, 0, 0, 2, 2, 1], 'agent2/delivery_rate': [1, 0, 2, 2, 1, 2, 2, 1, 1, 1, 0, 0, 0, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7775/12500 episodes, total num timesteps 124416000/200000000, FPS 547.
+
+average episode rewards is 181.80245161056519
+{'agent0/delivery_rate': [2, 0, 2, 1, 1, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2, 2], 'agent1/delivery_rate': [2, 0, 2, 1, 1, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2, 2], 'agent2/delivery_rate': [2, 0, 2, 1, 1, 2, 2, 1, 2, 1, 1, 0, 2, 1, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7780/12500 episodes, total num timesteps 124496000/200000000, FPS 547.
+
+average episode rewards is 188.48641216754913
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 1, 2, 2, 1, 0, 1, 1, 2, 2, 0, 1], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 1, 2, 2, 1, 0, 1, 1, 2, 2, 0, 1], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 1, 2, 2, 1, 0, 1, 1, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7785/12500 episodes, total num timesteps 124576000/200000000, FPS 547.
+
+average episode rewards is 147.08788692951202
+{'agent0/delivery_rate': [2, 1, 1, 0, 1, 0, 0, 0, 2, 0, 2, 1, 1, 1, 2, 0], 'agent1/delivery_rate': [2, 1, 1, 0, 1, 0, 0, 0, 2, 0, 2, 1, 1, 1, 2, 0], 'agent2/delivery_rate': [2, 1, 1, 0, 1, 0, 0, 0, 2, 0, 2, 1, 1, 1, 2, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7790/12500 episodes, total num timesteps 124656000/200000000, FPS 547.
+
+average episode rewards is 183.64988267421722
+{'agent0/delivery_rate': [2, 0, 2, 2, 1, 2, 1, 0, 2, 1, 2, 1, 1, 1, 2, 1], 'agent1/delivery_rate': [2, 0, 2, 2, 1, 2, 1, 0, 2, 1, 2, 1, 1, 1, 2, 1], 'agent2/delivery_rate': [2, 0, 2, 2, 1, 2, 1, 0, 2, 1, 2, 1, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7795/12500 episodes, total num timesteps 124736000/200000000, FPS 547.
+
+average episode rewards is 197.78043031692505
+{'agent0/delivery_rate': [2, 2, 1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2, 2, 0, 1], 'agent1/delivery_rate': [2, 2, 1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2, 2, 0, 1], 'agent2/delivery_rate': [2, 2, 1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7800/12500 episodes, total num timesteps 124816000/200000000, FPS 547.
+
+average episode rewards is 192.45921075344086
+{'agent0/delivery_rate': [1, 0, 2, 2, 0, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 2], 'agent1/delivery_rate': [1, 0, 2, 2, 0, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 2], 'agent2/delivery_rate': [1, 0, 2, 2, 0, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7805/12500 episodes, total num timesteps 124896000/200000000, FPS 547.
+
+average episode rewards is 217.24627912044525
+{'agent0/delivery_rate': [1, 2, 2, 2, 2, 1, 0, 1, 2, 2, 1, 2, 2, 2, 0, 1], 'agent1/delivery_rate': [1, 2, 2, 2, 2, 1, 0, 1, 2, 2, 1, 2, 2, 2, 0, 1], 'agent2/delivery_rate': [1, 2, 2, 2, 2, 1, 0, 1, 2, 2, 1, 2, 2, 2, 0, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7810/12500 episodes, total num timesteps 124976000/200000000, FPS 547.
+
+average episode rewards is 207.52640068531036
+{'agent0/delivery_rate': [2, 1, 2, 1, 0, 1, 0, 0, 2, 1, 1, 2, 1, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 2, 1, 0, 1, 0, 0, 2, 1, 1, 2, 1, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 2, 1, 0, 1, 0, 0, 2, 1, 1, 2, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7815/12500 episodes, total num timesteps 125056000/200000000, FPS 547.
+
+average episode rewards is 192.36761331558228
+{'agent0/delivery_rate': [2, 2, 1, 1, 2, 2, 1, 1, 1, 0, 1, 2, 0, 2, 0, 2], 'agent1/delivery_rate': [2, 2, 1, 1, 2, 2, 1, 1, 1, 0, 1, 2, 0, 2, 0, 2], 'agent2/delivery_rate': [2, 2, 1, 1, 2, 2, 1, 1, 1, 0, 1, 2, 0, 2, 0, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7820/12500 episodes, total num timesteps 125136000/200000000, FPS 547.
+
+average episode rewards is 166.03298485279083
+{'agent0/delivery_rate': [1, 1, 0, 2, 1, 1, 2, 0, 1, 2, 0, 2, 1, 2, 1, 2], 'agent1/delivery_rate': [1, 1, 0, 2, 1, 1, 2, 0, 1, 2, 0, 2, 1, 2, 1, 2], 'agent2/delivery_rate': [1, 1, 0, 2, 1, 1, 2, 0, 1, 2, 0, 2, 1, 2, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7825/12500 episodes, total num timesteps 125216000/200000000, FPS 547.
+
+average episode rewards is 188.15535306930542
+{'agent0/delivery_rate': [2, 1, 1, 0, 2, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 0], 'agent1/delivery_rate': [2, 1, 1, 0, 2, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 0], 'agent2/delivery_rate': [2, 1, 1, 0, 2, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 0]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7830/12500 episodes, total num timesteps 125296000/200000000, FPS 547.
+
+average episode rewards is 220.74997425079346
+{'agent0/delivery_rate': [2, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1, 2, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1, 2, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1, 2, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7835/12500 episodes, total num timesteps 125376000/200000000, FPS 547.
+
+average episode rewards is 198.56388866901398
+{'agent0/delivery_rate': [2, 2, 1, 0, 1, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 0, 1, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 0, 1, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7840/12500 episodes, total num timesteps 125456000/200000000, FPS 547.
+
+average episode rewards is 206.27178251743317
+{'agent0/delivery_rate': [1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 1], 'agent1/delivery_rate': [1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 1], 'agent2/delivery_rate': [1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7845/12500 episodes, total num timesteps 125536000/200000000, FPS 547.
+
+average episode rewards is 162.6833826303482
+{'agent0/delivery_rate': [2, 0, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 0, 1, 2], 'agent1/delivery_rate': [2, 0, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 0, 1, 2], 'agent2/delivery_rate': [2, 0, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7850/12500 episodes, total num timesteps 125616000/200000000, FPS 547.
+
+average episode rewards is 180.56927621364594
+{'agent0/delivery_rate': [2, 2, 1, 2, 1, 1, 0, 2, 2, 2, 1, 2, 2, 0, 1, 1], 'agent1/delivery_rate': [2, 2, 1, 2, 1, 1, 0, 2, 2, 2, 1, 2, 2, 0, 1, 1], 'agent2/delivery_rate': [2, 2, 1, 2, 1, 1, 0, 2, 2, 2, 1, 2, 2, 0, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7855/12500 episodes, total num timesteps 125696000/200000000, FPS 547.
+
+average episode rewards is 181.44163489341736
+{'agent0/delivery_rate': [1, 2, 1, 2, 2, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 1], 'agent1/delivery_rate': [1, 2, 1, 2, 2, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 1], 'agent2/delivery_rate': [1, 2, 1, 2, 2, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7860/12500 episodes, total num timesteps 125776000/200000000, FPS 547.
+
+average episode rewards is 171.21413350105286
+{'agent0/delivery_rate': [1, 2, 2, 1, 2, 2, 0, 1, 2, 0, 1, 1, 1, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 2, 1, 2, 2, 0, 1, 2, 0, 1, 1, 1, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 2, 1, 2, 2, 0, 1, 2, 0, 1, 1, 1, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7865/12500 episodes, total num timesteps 125856000/200000000, FPS 547.
+
+average episode rewards is 179.68197166919708
+{'agent0/delivery_rate': [1, 2, 1, 1, 1, 1, 2, 0, 2, 0, 1, 1, 2, 2, 2, 2], 'agent1/delivery_rate': [1, 2, 1, 1, 1, 1, 2, 0, 2, 0, 1, 1, 2, 2, 2, 2], 'agent2/delivery_rate': [1, 2, 1, 1, 1, 1, 2, 0, 2, 0, 1, 1, 2, 2, 2, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7870/12500 episodes, total num timesteps 125936000/200000000, FPS 547.
+
+average episode rewards is 181.63757026195526
+{'agent0/delivery_rate': [2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1, 1, 2, 0, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1, 1, 2, 0, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1, 1, 2, 0, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7875/12500 episodes, total num timesteps 126016000/200000000, FPS 547.
+
+average episode rewards is 147.5236415863037
+{'agent0/delivery_rate': [2, 1, 0, 1, 1, 2, 2, 1, 2, 1, 0, 1, 1, 2, 1, 1], 'agent1/delivery_rate': [2, 1, 0, 1, 1, 2, 2, 1, 2, 1, 0, 1, 1, 2, 1, 1], 'agent2/delivery_rate': [2, 1, 0, 1, 1, 2, 2, 1, 2, 1, 0, 1, 1, 2, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7880/12500 episodes, total num timesteps 126096000/200000000, FPS 547.
+
+average episode rewards is 166.20495915412903
+{'agent0/delivery_rate': [1, 2, 1, 2, 2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1], 'agent1/delivery_rate': [1, 2, 1, 2, 2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1], 'agent2/delivery_rate': [1, 2, 1, 2, 2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7885/12500 episodes, total num timesteps 126176000/200000000, FPS 547.
+
+average episode rewards is 192.20273196697235
+{'agent0/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 1, 1, 2], 'agent1/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 1, 1, 2], 'agent2/delivery_rate': [2, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 1, 1, 2]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7890/12500 episodes, total num timesteps 126256000/200000000, FPS 547.
+
+average episode rewards is 181.68550729751587
+{'agent0/delivery_rate': [2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 2, 2, 0, 1, 1], 'agent1/delivery_rate': [2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 2, 2, 0, 1, 1], 'agent2/delivery_rate': [2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 2, 2, 0, 1, 1]}
+
+ Env SwarmEnv Algo rmappo Exp small updates 7895/12500 episodes, total num timesteps 126336000/200000000, FPS 547.
+
+average episode rewards is 167.11248457431793
+{'agent0/delivery_rate': [1, 2, 2, 2, 0, 1, 2, 2, 1, 1, 0, 2, 2, 1, 2, 2], 'agent1/delivery_rate': [1, 2, 2, 2, 0, 1, 2, 2, 1, 1, 0, 2, 2, 1, 2, 2], 'agent2/delivery_rate': [1, 2, 2, 2, 0, 1, 2, 2, 1, 1, 0, 2, 2, 1, 2, 2]}
+Traceback (most recent call last):
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 178, in <module>
+    main(sys.argv[1:])
+  File "D:\youssef\on-policy\onpolicy\scripts\train\train_swarm.py", line 164, in main
+    runner.run()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\swarm_runner.py", line 46, in run
+    self.save()
+  File "d:\youssef\on-policy\onpolicy\runner\shared\base_runner.py", line 151, in save
+    torch.save(policy_critic.state_dict(), str(self.save_dir) + "/critic.pt")
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\serialization.py", line 369, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\serialization.py", line 234, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\y2-alboraei\.conda\envs\on-policy\lib\site-packages\torch\serialization.py", line 215, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+OSError: [Errno 22] Invalid argument: 'D:\\youssef\\on-policy\\onpolicy\\scripts\\results\\SwarmEnv\\rmappo\\small\\wandb\\run-20240803_185552-slq7q54o\\files/critic.pt'
