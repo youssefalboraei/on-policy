@@ -91,8 +91,8 @@ class SwarmEnv(gym.Env):
         for agent, action in actions.items():
             agent_index = int(agent.split('_')[1])
             # print(action[0])
-            mitigation_actions[agent_index] = action[0] 
-            # mitigation_actions[agent_index] = 0
+            # mitigation_actions[agent_index] = action[0] 
+            mitigation_actions[agent_index] = 0
 
         self.simulator.bb.r_mitigation_action = mitigation_actions
         # print("\t\t", self.simulator.bb.r_mitigation_action)
