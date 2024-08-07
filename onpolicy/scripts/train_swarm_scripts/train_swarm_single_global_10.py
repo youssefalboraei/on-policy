@@ -45,18 +45,18 @@ for seed in range(1, seed_max + 1):
         "--ppo_epoch", "10", # 10
         "--use_ReLU",
         "--gain", "0.01",
-        "--lr", "1e-4",#"7e-4",
+        "--lr", "7e-4",#"7e-4",
         "--critic_lr", "1e-3", #, "7e-4"
         "--wandb_name", "xxx",
         "--user_name", "ygalboraei-university-of-bristol",
 
-        "--clip_param", "0.2",
+        "--clip_param", "0.15",
         "--stacked_frames", "6", # 4 
         "--use_stacked_frames",
         "--hidden_size", "256", # 512
-        "--layer_N", "4",
+        "--layer_N", "3",
         "--entropy_coef", "0.015",
-        "--data_chunk_length", "50",
+        "--data_chunk_length", "40",
 
         # "--num_faults", "1",
         # "--fault_type", "5", # set faults dinamically

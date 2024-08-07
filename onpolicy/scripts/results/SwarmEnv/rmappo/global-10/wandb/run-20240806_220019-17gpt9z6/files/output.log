@@ -1,0 +1,391 @@
+obs_space:  [Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,)]
+share_obs_space:  Box(150,)
+act_space:  [Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13)]
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 0/12500 episodes, total num timesteps 16000/200000000, FPS 73.
+
+average episode rewards is 7.693564053624868
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 5/12500 episodes, total num timesteps 96000/200000000, FPS 86.
+
+average episode rewards is 26.421869173645973
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 10/12500 episodes, total num timesteps 176000/200000000, FPS 87.
+
+average episode rewards is -4.3972935527563095
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 15/12500 episodes, total num timesteps 256000/200000000, FPS 88.
+
+average episode rewards is 16.04749634861946
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 20/12500 episodes, total num timesteps 336000/200000000, FPS 88.
+
+average episode rewards is 12.550001963973045
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 25/12500 episodes, total num timesteps 416000/200000000, FPS 88.
+
+average episode rewards is 12.217101640999317
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 30/12500 episodes, total num timesteps 496000/200000000, FPS 88.
+
+average episode rewards is 20.558401942253113
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 35/12500 episodes, total num timesteps 576000/200000000, FPS 88.
+
+average episode rewards is 8.181304670870304
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 40/12500 episodes, total num timesteps 656000/200000000, FPS 88.
+
+average episode rewards is -15.547099523246288
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 45/12500 episodes, total num timesteps 736000/200000000, FPS 88.
+
+average episode rewards is 20.67352831363678
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 50/12500 episodes, total num timesteps 816000/200000000, FPS 89.
+
+average episode rewards is -3.1096567399799824
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 55/12500 episodes, total num timesteps 896000/200000000, FPS 89.
+
+average episode rewards is 16.897615045309067
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 60/12500 episodes, total num timesteps 976000/200000000, FPS 89.
+
+average episode rewards is 12.892477214336395
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 65/12500 episodes, total num timesteps 1056000/200000000, FPS 89.
+
+average episode rewards is 32.843925058841705
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 70/12500 episodes, total num timesteps 1136000/200000000, FPS 89.
+
+average episode rewards is 13.15588504076004
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 75/12500 episodes, total num timesteps 1216000/200000000, FPS 89.
+
+average episode rewards is 15.917457640171051
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 80/12500 episodes, total num timesteps 1296000/200000000, FPS 89.
+
+average episode rewards is 24.386635050177574
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 85/12500 episodes, total num timesteps 1376000/200000000, FPS 89.
+
+average episode rewards is 5.100333597511053
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 90/12500 episodes, total num timesteps 1456000/200000000, FPS 89.
+
+average episode rewards is 2.0899239461869
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 95/12500 episodes, total num timesteps 1536000/200000000, FPS 89.
+
+average episode rewards is 31.605158001184464
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 100/12500 episodes, total num timesteps 1616000/200000000, FPS 89.
+
+average episode rewards is 37.93182596564293
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 105/12500 episodes, total num timesteps 1696000/200000000, FPS 89.
+
+average episode rewards is -16.68543554842472
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 110/12500 episodes, total num timesteps 1776000/200000000, FPS 89.
+
+average episode rewards is 25.923864915966988
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 115/12500 episodes, total num timesteps 1856000/200000000, FPS 89.
+
+average episode rewards is 8.939690887928009
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 120/12500 episodes, total num timesteps 1936000/200000000, FPS 89.
+
+average episode rewards is 21.487127989530563
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 125/12500 episodes, total num timesteps 2016000/200000000, FPS 89.
+
+average episode rewards is 6.769238971173763
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 130/12500 episodes, total num timesteps 2096000/200000000, FPS 89.
+
+average episode rewards is 14.381109736859798
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 135/12500 episodes, total num timesteps 2176000/200000000, FPS 89.
+
+average episode rewards is 15.440170653164387
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 140/12500 episodes, total num timesteps 2256000/200000000, FPS 89.
+
+average episode rewards is 40.8686064183712
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 145/12500 episodes, total num timesteps 2336000/200000000, FPS 89.
+
+average episode rewards is -16.25431515276432
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 150/12500 episodes, total num timesteps 2416000/200000000, FPS 89.
+
+average episode rewards is 26.04091539978981
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 155/12500 episodes, total num timesteps 2496000/200000000, FPS 89.
+
+average episode rewards is 9.738915599882603
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 160/12500 episodes, total num timesteps 2576000/200000000, FPS 89.
+
+average episode rewards is 9.329956024885178
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 165/12500 episodes, total num timesteps 2656000/200000000, FPS 89.
+
+average episode rewards is 13.706204481422901
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 170/12500 episodes, total num timesteps 2736000/200000000, FPS 89.
+
+average episode rewards is -5.291540641337633
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 175/12500 episodes, total num timesteps 2816000/200000000, FPS 89.
+
+average episode rewards is 59.64227393269539
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 180/12500 episodes, total num timesteps 2896000/200000000, FPS 89.
+
+average episode rewards is 43.20912063121796
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 185/12500 episodes, total num timesteps 2976000/200000000, FPS 89.
+
+average episode rewards is 25.896072387695312
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 190/12500 episodes, total num timesteps 3056000/200000000, FPS 89.
+
+average episode rewards is 37.300895899534225
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 195/12500 episodes, total num timesteps 3136000/200000000, FPS 89.
+
+average episode rewards is 42.15781390666962
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 200/12500 episodes, total num timesteps 3216000/200000000, FPS 89.
+
+average episode rewards is 33.160172402858734
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 205/12500 episodes, total num timesteps 3296000/200000000, FPS 89.
+
+average episode rewards is 38.77279534935951
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 210/12500 episodes, total num timesteps 3376000/200000000, FPS 89.
+
+average episode rewards is 29.21830117702484
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 215/12500 episodes, total num timesteps 3456000/200000000, FPS 89.
+
+average episode rewards is 25.723382830619812
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 220/12500 episodes, total num timesteps 3536000/200000000, FPS 89.
+
+average episode rewards is 34.41326320171356
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 225/12500 episodes, total num timesteps 3616000/200000000, FPS 89.
+
+average episode rewards is 9.180735796689987
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 230/12500 episodes, total num timesteps 3696000/200000000, FPS 89.
+
+average episode rewards is -5.271232686936855
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 235/12500 episodes, total num timesteps 3776000/200000000, FPS 89.
+
+average episode rewards is 15.53769689053297
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 240/12500 episodes, total num timesteps 3856000/200000000, FPS 89.
+
+average episode rewards is 20.78561671078205
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 245/12500 episodes, total num timesteps 3936000/200000000, FPS 89.
+
+average episode rewards is 17.65415072441101
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 250/12500 episodes, total num timesteps 4016000/200000000, FPS 89.
+
+average episode rewards is -16.56116731464863
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 255/12500 episodes, total num timesteps 4096000/200000000, FPS 89.
+
+average episode rewards is 7.821228355169296
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 260/12500 episodes, total num timesteps 4176000/200000000, FPS 89.
+
+average episode rewards is 41.62146523594856
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 265/12500 episodes, total num timesteps 4256000/200000000, FPS 89.
+
+average episode rewards is 14.72302246838808
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 270/12500 episodes, total num timesteps 4336000/200000000, FPS 89.
+
+average episode rewards is 40.740448981523514
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 275/12500 episodes, total num timesteps 4416000/200000000, FPS 89.
+
+average episode rewards is 33.11131149530411
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 280/12500 episodes, total num timesteps 4496000/200000000, FPS 89.
+
+average episode rewards is -2.816898049786687
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 285/12500 episodes, total num timesteps 4576000/200000000, FPS 89.
+
+average episode rewards is 20.321020856499672
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 290/12500 episodes, total num timesteps 4656000/200000000, FPS 89.
+
+average episode rewards is 27.396133169531822
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 295/12500 episodes, total num timesteps 4736000/200000000, FPS 89.
+
+average episode rewards is 40.39308801293373
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 300/12500 episodes, total num timesteps 4816000/200000000, FPS 89.
+
+average episode rewards is 17.43040233850479
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 305/12500 episodes, total num timesteps 4896000/200000000, FPS 89.
+
+average episode rewards is 47.78352007269859
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 310/12500 episodes, total num timesteps 4976000/200000000, FPS 89.
+
+average episode rewards is 51.57506838440895
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 315/12500 episodes, total num timesteps 5056000/200000000, FPS 89.
+
+average episode rewards is 29.88429181277752
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 320/12500 episodes, total num timesteps 5136000/200000000, FPS 89.
+
+average episode rewards is 39.76673260331154
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 325/12500 episodes, total num timesteps 5216000/200000000, FPS 89.
+
+average episode rewards is 38.52391988039017
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 330/12500 episodes, total num timesteps 5296000/200000000, FPS 89.
+
+average episode rewards is 15.696894377470016
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 335/12500 episodes, total num timesteps 5376000/200000000, FPS 89.
+
+average episode rewards is 20.030295476317406
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 340/12500 episodes, total num timesteps 5456000/200000000, FPS 89.
+
+average episode rewards is -4.1417693719267845
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 345/12500 episodes, total num timesteps 5536000/200000000, FPS 89.
+
+average episode rewards is 24.821827188134193
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 350/12500 episodes, total num timesteps 5616000/200000000, FPS 89.
+
+average episode rewards is 7.1357544511556625
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 355/12500 episodes, total num timesteps 5696000/200000000, FPS 89.
+
+average episode rewards is 13.589325360953808
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 360/12500 episodes, total num timesteps 5776000/200000000, FPS 89.
+
+average episode rewards is 30.16030602157116
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 365/12500 episodes, total num timesteps 5856000/200000000, FPS 89.
+
+average episode rewards is 48.32305386662483
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 370/12500 episodes, total num timesteps 5936000/200000000, FPS 89.
+
+average episode rewards is 18.323352560400963
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 375/12500 episodes, total num timesteps 6016000/200000000, FPS 89.
+
+average episode rewards is 15.581217594444752
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 380/12500 episodes, total num timesteps 6096000/200000000, FPS 89.
+
+average episode rewards is 20.620040595531464
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 385/12500 episodes, total num timesteps 6176000/200000000, FPS 89.
+
+average episode rewards is 7.447177078574896
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 390/12500 episodes, total num timesteps 6256000/200000000, FPS 89.
+
+average episode rewards is 24.853022769093513
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 395/12500 episodes, total num timesteps 6336000/200000000, FPS 89.
+
+average episode rewards is 17.51561649143696
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 400/12500 episodes, total num timesteps 6416000/200000000, FPS 89.
+
+average episode rewards is 23.300522938370705
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 405/12500 episodes, total num timesteps 6496000/200000000, FPS 89.
+
+average episode rewards is 38.82736340165138
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 410/12500 episodes, total num timesteps 6576000/200000000, FPS 89.
+
+average episode rewards is 1.8427945906296372
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 415/12500 episodes, total num timesteps 6656000/200000000, FPS 89.
+
+average episode rewards is 59.139434248209
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 420/12500 episodes, total num timesteps 6736000/200000000, FPS 89.
+
+average episode rewards is 30.8380126953125
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 425/12500 episodes, total num timesteps 6816000/200000000, FPS 89.
+
+average episode rewards is 44.24325376749039
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 430/12500 episodes, total num timesteps 6896000/200000000, FPS 89.
+
+average episode rewards is 15.523315407335758
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 435/12500 episodes, total num timesteps 6976000/200000000, FPS 89.
+
+average episode rewards is 2.1331035532057285
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 440/12500 episodes, total num timesteps 7056000/200000000, FPS 89.
+
+average episode rewards is 21.415134891867638
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 445/12500 episodes, total num timesteps 7136000/200000000, FPS 89.
+
+average episode rewards is 30.416961759328842
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 450/12500 episodes, total num timesteps 7216000/200000000, FPS 89.
+
+average episode rewards is 51.01766809821129
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 455/12500 episodes, total num timesteps 7296000/200000000, FPS 89.
+
+average episode rewards is 28.04277092218399
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 460/12500 episodes, total num timesteps 7376000/200000000, FPS 89.
+
+average episode rewards is 17.25812815129757
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 465/12500 episodes, total num timesteps 7456000/200000000, FPS 89.
+
+average episode rewards is 49.58076775074005
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 470/12500 episodes, total num timesteps 7536000/200000000, FPS 89.
+
+average episode rewards is 58.025047183036804
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 475/12500 episodes, total num timesteps 7616000/200000000, FPS 89.
+
+average episode rewards is 48.32722619175911
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 480/12500 episodes, total num timesteps 7696000/200000000, FPS 89.
+
+average episode rewards is 80.3762823343277
