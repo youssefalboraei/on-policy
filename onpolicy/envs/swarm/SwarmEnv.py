@@ -1,4 +1,4 @@
-import marl_sim_2 as marl_sim
+import marl_sim
 import numpy as np
 import gym
 from gym import spaces
@@ -11,11 +11,13 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
+        self.config.steps_per_iteration = 200
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
         self.agents = [f'agent_{i}' for i in range(self.num_agents)]
         self.max_num_agents = self.num_agents
+        
 
         # print(self.config.arena_width, self.config.arena_height, self.config.number_of_agents, self.config.number_of_boxes, self.config.number_of_faults, self.config.fault_type, self.config.delivery_bias)
         # exit()
@@ -39,10 +41,13 @@ class SwarmEnv(gym.Env):
         self.config.seed = np.random.randint(0, 999999)
 
         # Set faults dynamically
-        self.config.number_of_faults = np.random.randint(0,3) # Max 2 faults
-        fault_set = [1, 5, 8]
-        self.config.fault_type = fault_set[np.random.randint(0,3)]
+        # self.config.number_of_faults = np.random.randint(0,3) # Max 2 faults
+        # fault_set = [1, 5, 8]
+        # self.config.fault_type = fault_set[np.random.randint(0,3)]
 
+        self.config.number_of_faults = 2
+        self.config.fault_type = 3
+        print(self.config.number_of_faults, self.config.fault_type)
         # seed = self.config.seed
         # print(seed)
         self.step_counter = 0
@@ -91,7 +96,7 @@ class SwarmEnv(gym.Env):
             # mitigation_actions[agent_index] = 0
 
         self.simulator.bb.r_mitigation_action = mitigation_actions
-        # print("\t\t", self.simulator.bb.r_mitigation_action)
+        print("\t\t", self.simulator.bb.r_mitigation_action)
 
         self.simulator.step()  # Run the simulation step
         # print("simulation done")
@@ -169,7 +174,7 @@ class SwarmEnv(gym.Env):
 
         # 1. Reward for delivered boxes (global reward, split among agents)
         current_delivery_rate = self.simulator.bb.s_delivery_rate[-1]
-        # print(self.step_counter, current_delivery_rate)
+        print(self.step_counter, current_delivery_rate)
 
         if hasattr(self, 'previous_delivery_rate'):
             # print('yes1')

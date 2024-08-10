@@ -32,8 +32,8 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--use_wandb",
         "--stacked_frames", "4", # 4 
         "--use_stacked_frames",
-        "--hidden_size", "128", # 512
-        "--layer_N", "2",
+        "--hidden_size", "256", # 512
+        "--layer_N", "4",
         "--use_naive_recurrent_policy",
         "--model_dir", r"D:\youssef\on-policy\onpolicy\tests"
     ]
@@ -48,8 +48,8 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
 
 def main():
     env = "SwarmEnv"
-    num_agents = 3
-    num_boxes = 3
+    num_agents = 10
+    num_boxes = 10
     algo = "rmappo"
     exp = "check"
     scenario = "single_transport"
@@ -59,7 +59,8 @@ def main():
 
     for seed in range(1, seed_max + 1):
         seed = randint(1, 9999)
-        seed = 8366
+        # seed = 8366
+        seed = 8367
         print(f"seed is {seed}:")
         run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, str(seed))
         print("evaluation is done!")
