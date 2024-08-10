@@ -1,4 +1,4 @@
-import marl_sim_2 as marl_sim
+import marl_sim
 import numpy as np
 import gym
 from gym import spaces
@@ -11,6 +11,7 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
+        self.config.steps_per_iteration = 200
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
@@ -35,8 +36,13 @@ class SwarmEnv(gym.Env):
         if seed is not None:
             self.config.seed = seed
         
-        np.random.seed(self.config.seed)
+        # np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
+
+        # Set faults dynamically
+        self.config.number_of_faults = np.random.randint(0,3) # Max 2 faults
+        fault_set = [3, 4, 5, 6]
+        self.config.fault_type = fault_set[np.random.randint(0,4)]
 
         # seed = self.config.seed
         # print(seed)
@@ -150,10 +156,10 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 3
+        DELIVERY_REWARD = 5
         DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 3
+        DISTANCE_TO_DROP_AREA_WEIGHT = 0.1
         TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
@@ -189,13 +195,23 @@ class SwarmEnv(gym.Env):
         current_box_y_positions = np.array(self.simulator.bb.b_pos_y)
         # print(current_boxm_y_positions)
 
-        if hasattr(self, 'previous_boxm_y_positions'):
-            # print('yes3')
-            y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions) / np.sum(500.0 - self.base_box_y_positions) # <---- standarise the y progress across envs
-            progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
-            for agent in self.agents:
-                rewards[agent] += progress_reward
-        self.previous_boxm_y_positions = current_box_y_positions.copy()
+        # if hasattr(self, 'previous_boxm_y_positions'):
+        #     # print('yes3')
+        #     y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions) / np.sum(500.0 - self.base_box_y_positions) # <---- standarise the y progress across envs
+        #     progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
+        #     for agent in self.agents:
+        #         rewards[agent] += progress_reward
+        # self.previous_boxm_y_positions = current_box_y_positions.copy()
+
+        if hasattr(self, 'previous_box_y_positions'):
+            # print(self.simulator.bb.r_nearest_box_id)
+            for i, agent in enumerate(self.agents):
+                if self.simulator.bb.r_nearest_box_id[i] != -1:
+                    y_progress = current_box_y_positions[self.simulator.bb.r_nearest_box_id[i]] - self.previous_box_y_positions[self.simulator.bb.r_nearest_box_id[i]]
+                    progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress
+                    # print(progress_reward)
+                    rewards[agent] += progress_reward
+        self.previous_box_y_positions = current_box_y_positions.copy()
 
         # 4. Time penalty (per agent)
         for agent in self.agents:
@@ -204,7 +220,7 @@ class SwarmEnv(gym.Env):
         return rewards
 
     def _is_done(self):
-        done = self.simulator.completion_check() or (self.step_counter >= 10_000)
+        done = self.simulator.completion_check() or (self.step_counter >= 250)
         if done:
             # print(self.simulator.completion_check())
             # print(self.step_counter)
