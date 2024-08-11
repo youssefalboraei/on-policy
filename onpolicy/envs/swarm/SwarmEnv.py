@@ -202,7 +202,7 @@ class SwarmEnv(gym.Env):
         #     progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
         #     for agent in self.agents:
         #         rewards[agent] += progress_reward
-        # self.previous_boxm_y_positions = current_box_y_positions.copy()
+        # self.previous_box_y_positions = current_box_y_positions.copy()
 
         if hasattr(self, 'previous_box_y_positions'):
             # print(self.simulator.bb.r_nearest_box_id)
