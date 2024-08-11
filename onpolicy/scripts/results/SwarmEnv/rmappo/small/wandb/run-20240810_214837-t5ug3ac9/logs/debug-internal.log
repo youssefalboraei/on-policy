@@ -15080,3 +15080,24 @@
 2024-08-11 18:47:32,519 DEBUG   SenderThread:32140 [sender.py:send():234] send: stats
 2024-08-11 18:47:32,659 DEBUG   HandlerThread:32140 [handler.py:handle_request():130] handle_request: stop_status
 2024-08-11 18:47:32,659 DEBUG   SenderThread:32140 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 18:47:47,883 DEBUG   HandlerThread:32140 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 18:47:47,884 DEBUG   SenderThread:32140 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 18:48:03,056 DEBUG   HandlerThread:32140 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 18:48:03,056 DEBUG   SenderThread:32140 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 18:48:03,705 INFO    Thread-8  :32140 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_214837-t5ug3ac9\files\critic.pt
+2024-08-11 18:48:03,705 INFO    Thread-8  :32140 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_214837-t5ug3ac9\files\actor.pt
+2024-08-11 18:48:05,383 DEBUG   SenderThread:32140 [sender.py:send():234] send: stats
+2024-08-11 18:48:18,335 DEBUG   HandlerThread:32140 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 18:48:18,335 DEBUG   SenderThread:32140 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 18:48:38,332 DEBUG   SenderThread:32140 [sender.py:send():234] send: stats
+2024-08-11 18:49:10,620 DEBUG   SenderThread:32140 [sender.py:send():234] send: stats
+2024-08-11 18:49:35,193 DEBUG   SenderThread:32140 [sender.py:send():234] send: history
+2024-08-11 18:49:35,193 DEBUG   SenderThread:32140 [sender.py:send():234] send: summary
+2024-08-11 18:49:35,194 INFO    SenderThread:32140 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 18:49:35,367 INFO    Thread-8  :32140 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_214837-t5ug3ac9\files\critic.pt
+2024-08-11 18:49:35,367 INFO    Thread-8  :32140 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_214837-t5ug3ac9\files\actor.pt
+2024-08-11 18:49:35,367 INFO    Thread-8  :32140 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_214837-t5ug3ac9\files\wandb-summary.json
+2024-08-11 18:49:37,394 INFO    Thread-8  :32140 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_214837-t5ug3ac9\files\output.log
+2024-08-11 18:49:43,082 DEBUG   SenderThread:32140 [sender.py:send():234] send: stats
+2024-08-11 18:50:16,341 DEBUG   SenderThread:32140 [sender.py:send():234] send: stats
+2024-08-11 18:50:48,758 DEBUG   SenderThread:32140 [sender.py:send():234] send: stats

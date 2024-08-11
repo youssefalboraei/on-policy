@@ -1,0 +1,16 @@
+obs_space:  [Box(-inf, inf, (12,), float64), Box(-inf, inf, (12,), float64), Box(-inf, inf, (12,), float64)]
+share_obs_space:  Box(-inf, inf, (48,), float64)
+act_space:  [Discrete(13), Discrete(13), Discrete(13)]
+ Env SwarmEnv Algo rmappo Exp small updates 0/12500 episodes, total num timesteps 16000/200000000, FPS 525.
+average episode rewards is -0.4176334186922759
+ Env SwarmEnv Algo rmappo Exp small updates 5/12500 episodes, total num timesteps 96000/200000000, FPS 371.
+average episode rewards is 6.377026904374361
+ Env SwarmEnv Algo rmappo Exp small updates 10/12500 episodes, total num timesteps 176000/200000000, FPS 336.
+average episode rewards is 27.15853601694107
+ Env SwarmEnv Algo rmappo Exp small updates 15/12500 episodes, total num timesteps 256000/200000000, FPS 323.
+average episode rewards is 36.78496181964874
+ Env SwarmEnv Algo rmappo Exp small updates 20/12500 episodes, total num timesteps 336000/200000000, FPS 316.
+average episode rewards is 49.94817078113556
+ Env SwarmEnv Algo rmappo Exp small updates 25/12500 episodes, total num timesteps 416000/200000000, FPS 314.
+average episode rewards is 54.651398211717606
+ Env SwarmEnv Algo rmappo Exp small updates 30/12500 episodes, total num timesteps 496000/200000000, FPS 312.
