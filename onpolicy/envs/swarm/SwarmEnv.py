@@ -11,7 +11,7 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
-        self.config.steps_per_iteration = 200
+        self.config.steps_per_iteration = 100
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
@@ -131,6 +131,7 @@ class SwarmEnv(gym.Env):
                 # bb.r_messages_s[i],       #
                 # bb.r_delivered[i],        #
                 # bb.r_delivered_m[i]
+                bb.r_bid[i]
             ], dtype=np.float32)
             observations[agent] = agent_obs
         return observations
@@ -156,7 +157,7 @@ class SwarmEnv(gym.Env):
 
     def _get_reward(self):
         # Constants
-        DELIVERY_REWARD = 5
+        DELIVERY_REWARD = 10
         DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
         DISTANCE_TO_DROP_AREA_WEIGHT = 0.1
@@ -201,13 +202,13 @@ class SwarmEnv(gym.Env):
         #     progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
         #     for agent in self.agents:
         #         rewards[agent] += progress_reward
-        # self.previous_boxm_y_positions = current_box_y_positions.copy()
+        # self.previous_box_y_positions = current_box_y_positions.copy()
 
         if hasattr(self, 'previous_box_y_positions'):
             # print(self.simulator.bb.r_nearest_box_id)
             for i, agent in enumerate(self.agents):
-                if self.simulator.bb.r_nearest_box_id[i] != -1:
-                    y_progress = current_box_y_positions[self.simulator.bb.r_nearest_box_id[i]] - self.previous_box_y_positions[self.simulator.bb.r_nearest_box_id[i]]
+                if self.simulator.bb.r_bid[i] != -1:
+                    y_progress = current_box_y_positions[self.simulator.bb.r_bid[i]] - self.previous_box_y_positions[self.simulator.bb.r_bid[i]]
                     progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress
                     # print(progress_reward)
                     rewards[agent] += progress_reward
