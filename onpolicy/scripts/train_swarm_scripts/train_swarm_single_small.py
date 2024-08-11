@@ -38,7 +38,7 @@ for seed in range(1, seed_max + 1):
         "--seed", str(seed),
         "--n_training_threads", "1",
         "--n_eval_rollout_threads", "1",
-        "--n_rollout_threads", "16", #
+        "--n_rollout_threads", "32", #
         "--num_mini_batch", "1",
         "--episode_length", "1_000",
         "--num_env_steps", "200_000_000", #
@@ -58,8 +58,8 @@ for seed in range(1, seed_max + 1):
         "--entropy_coef", "0.015",
         "--data_chunk_length", "20",
 
-        "--num_faults", "1",
-        "--fault_type", "8", 
+        # "--num_faults", "1",
+        # "--fault_type", "8", 
     ]
 
     #      echo "seed is ${seed}:"
