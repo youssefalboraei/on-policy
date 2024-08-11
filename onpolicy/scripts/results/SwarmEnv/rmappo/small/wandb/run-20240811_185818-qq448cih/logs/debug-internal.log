@@ -412,3 +412,1044 @@
 2024-08-11 19:27:36,766 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
 2024-08-11 19:27:40,206 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
 2024-08-11 19:27:40,206 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:27:49,574 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:27:49,574 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:28:04,820 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:28:04,820 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:28:08,873 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:28:20,081 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:28:20,081 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:28:34,526 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:28:34,526 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:28:35,238 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:28:35,238 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:28:40,470 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:28:50,445 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:28:50,445 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:29:05,603 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:29:05,603 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:29:11,902 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:29:20,848 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:29:20,848 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:29:26,351 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:29:26,351 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:29:26,351 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:29:26,774 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:29:26,774 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:29:26,774 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:29:26,774 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:29:36,104 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:29:36,104 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:29:43,876 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:29:51,365 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:29:51,365 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:30:06,598 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:30:06,598 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:30:14,907 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:30:20,047 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:30:20,047 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:30:21,864 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:30:21,864 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:30:37,088 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:30:37,088 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:30:46,904 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:30:52,350 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:30:52,350 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:31:07,538 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:31:07,538 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:31:13,304 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:31:13,304 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:31:18,285 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:31:22,803 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:31:22,803 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:31:38,061 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:31:38,061 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:31:49,976 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:31:53,312 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:31:53,312 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:32:04,611 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:32:04,611 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:32:08,508 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:32:08,508 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:32:21,891 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:32:23,742 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:32:23,742 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:32:38,985 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:32:38,985 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:32:52,861 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:32:53,936 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:32:53,936 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:32:54,157 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:32:54,157 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:33:09,421 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:33:09,421 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:33:24,569 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:33:24,650 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:33:24,650 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:33:39,846 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:33:39,846 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:33:40,508 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:33:40,508 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:33:40,508 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:33:41,244 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:33:41,244 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:33:41,244 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:33:42,250 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:33:55,030 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:33:55,030 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:33:56,287 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:34:10,205 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:34:10,205 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:34:25,404 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:34:25,404 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:34:27,258 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:34:27,530 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:34:27,530 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:34:40,599 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:34:40,599 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:34:55,759 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:34:55,759 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:34:59,023 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:35:10,937 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:35:10,937 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:35:15,842 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:35:15,842 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:35:26,141 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:35:26,141 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:35:30,592 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:35:41,368 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:35:41,368 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:35:56,554 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:35:56,554 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:36:01,541 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:36:04,178 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:36:04,178 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:36:11,759 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:36:11,759 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:36:27,011 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:36:27,011 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:36:33,294 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:36:42,181 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:36:42,181 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:36:53,517 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:36:53,517 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:36:57,349 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:36:57,349 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:37:05,025 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:37:12,557 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:37:12,557 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:37:27,770 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:37:27,770 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:37:36,606 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:37:42,948 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:37:42,948 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:37:44,104 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:37:44,104 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:37:44,104 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:37:44,844 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:37:44,844 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:37:44,844 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:37:46,863 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:37:58,147 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:37:58,147 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:38:08,820 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:38:13,390 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:38:13,390 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:38:28,622 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:38:28,622 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:38:38,193 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:38:38,193 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:38:40,455 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:38:43,856 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:38:43,856 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:38:59,019 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:38:59,019 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:39:12,473 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:39:14,210 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:39:14,210 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:39:29,378 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:39:29,379 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:39:31,569 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:39:31,569 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:39:44,596 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:39:44,596 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:39:44,776 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:39:59,779 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:39:59,779 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:40:14,997 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:40:14,997 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:40:16,425 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:40:24,937 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:40:24,937 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:40:30,206 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:40:30,206 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:40:45,449 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:40:45,449 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:40:48,589 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:41:00,646 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:41:00,647 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:41:15,917 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:41:15,917 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:41:18,326 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:41:18,326 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:41:20,158 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:41:31,079 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:41:31,079 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:41:46,295 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:41:46,295 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:41:52,262 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:42:01,555 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:42:01,555 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:42:11,637 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:42:11,637 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:42:11,637 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:42:11,667 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:42:11,667 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:42:11,667 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:42:13,677 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:42:16,826 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:42:16,826 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:42:24,289 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:42:32,101 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:42:32,101 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:42:47,374 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:42:47,374 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:42:55,854 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:43:02,520 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:43:02,520 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:43:06,025 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:43:06,025 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:43:17,718 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:43:17,718 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:43:28,017 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:43:32,902 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:43:32,902 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:43:48,137 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:43:48,137 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:43:58,380 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:43:58,380 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:43:59,577 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:44:03,298 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:44:03,308 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:44:18,530 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:44:18,530 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:44:31,506 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:44:33,738 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:44:33,738 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:44:48,937 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:44:48,938 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:44:52,778 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:44:52,778 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:45:03,507 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:45:04,198 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:45:04,198 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:45:19,363 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:45:19,364 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:45:34,596 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:45:34,596 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:45:35,016 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:45:47,166 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:45:47,166 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:45:49,812 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:45:49,812 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:46:05,030 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:46:05,030 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:46:06,996 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:46:20,260 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:46:20,260 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:46:35,519 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:46:35,519 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:46:38,488 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:46:40,149 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:46:40,149 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:46:40,159 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:46:40,517 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:46:40,517 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:46:40,517 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:46:42,560 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:46:50,729 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:46:50,729 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:47:05,983 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:47:05,983 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:47:10,732 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:47:21,228 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:47:21,228 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:47:33,890 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:47:33,890 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:47:36,438 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:47:36,438 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:47:42,608 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:47:51,632 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:47:51,632 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:48:06,974 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:48:06,974 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:48:14,304 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:48:22,219 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:48:22,219 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:48:27,291 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:48:27,291 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:48:37,461 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:48:37,461 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:48:46,458 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:48:52,692 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:48:52,693 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:49:07,865 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:49:07,865 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:49:17,936 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:49:19,649 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:49:19,649 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:49:23,049 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:49:23,049 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:49:38,256 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:49:38,257 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:49:50,098 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:49:53,424 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:49:53,424 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:50:08,646 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:50:08,646 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:50:13,058 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:50:13,058 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:50:22,059 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:50:23,901 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:50:23,901 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:50:39,146 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:50:39,146 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:50:53,739 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:50:54,300 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:50:54,300 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:51:05,373 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:51:05,373 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:51:05,373 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:51:05,434 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:51:05,434 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:51:05,434 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:51:07,455 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:51:09,517 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:51:09,517 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:51:24,714 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:51:24,714 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:51:25,955 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:51:39,898 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:51:39,899 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:51:55,092 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:51:55,092 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:51:57,477 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:51:58,778 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:51:58,788 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:52:10,289 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:52:10,289 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:52:25,563 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:52:25,563 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:52:29,612 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:52:40,779 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:52:40,779 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:52:50,087 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:52:50,087 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:52:55,948 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:52:55,948 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:53:01,246 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:53:11,238 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:53:11,239 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:53:26,499 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:53:26,499 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:53:32,591 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:53:41,338 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:53:41,338 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:53:41,700 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:53:41,700 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:53:56,937 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:53:56,937 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:54:04,547 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:54:12,168 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:54:12,168 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:54:27,360 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:54:27,360 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:54:32,635 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:54:32,635 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:54:35,898 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:54:42,572 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:54:42,572 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:54:57,739 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:54:57,739 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:55:07,579 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:55:12,930 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:55:12,930 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:55:23,821 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:55:23,821 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:55:23,821 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:55:23,841 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:55:23,841 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:55:23,841 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:55:26,874 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:55:28,127 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:55:28,127 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:55:39,577 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:55:43,402 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:55:43,402 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:55:58,617 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:55:58,617 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:56:10,667 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:56:13,836 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:56:13,836 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:56:15,129 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:56:15,129 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:56:29,049 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:56:29,049 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:56:42,627 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:56:44,326 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:56:44,326 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:56:59,553 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:56:59,553 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:57:06,408 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:57:06,408 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:57:13,998 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:57:14,751 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:57:14,751 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:57:29,975 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:57:29,975 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:57:45,228 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:57:45,228 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:57:45,409 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:57:55,711 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:57:55,711 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:58:00,419 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:58:00,419 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:58:15,652 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:58:15,652 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:58:17,203 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:58:30,877 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:58:30,877 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:58:45,971 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:58:45,971 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:58:46,101 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:58:46,101 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:58:48,399 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:59:01,284 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:59:01,284 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:59:16,455 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:59:16,455 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:59:20,092 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 19:59:31,672 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:59:31,672 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:59:36,038 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 19:59:36,038 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 19:59:36,038 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 19:59:36,269 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 19:59:36,269 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 19:59:36,269 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 19:59:37,272 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 19:59:46,912 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 19:59:46,912 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 19:59:52,047 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:00:02,176 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:00:02,176 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:00:17,424 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:00:17,424 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:00:23,155 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:00:28,503 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:00:28,503 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:00:32,607 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:00:32,607 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:00:47,822 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:00:47,823 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:00:55,151 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:01:02,987 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:01:02,987 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:01:18,208 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:01:18,208 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:01:19,801 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:01:19,801 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:01:26,706 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:01:33,411 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:01:33,411 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:01:48,622 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:01:48,622 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:01:58,088 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:02:03,884 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:02:03,884 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:02:11,042 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:02:11,042 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:02:19,124 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:02:19,124 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:02:29,843 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:02:34,351 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:02:34,351 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:02:49,558 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:02:49,558 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:03:00,938 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:03:02,348 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:03:02,348 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:03:04,729 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:03:04,729 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:03:19,960 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:03:19,960 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:03:32,860 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:03:35,167 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:03:35,167 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:03:50,424 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:03:50,424 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:03:53,592 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:03:53,592 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:03:53,592 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:03:53,662 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:03:53,662 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:03:53,662 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:03:55,672 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:04:04,623 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:04:05,658 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:04:05,658 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:04:20,909 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:04:20,909 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:04:35,981 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:04:36,071 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:04:36,072 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:04:46,967 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:04:46,967 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:04:51,303 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:04:51,303 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:05:06,566 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:05:06,566 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:05:07,737 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:05:21,828 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:05:21,828 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:05:37,079 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:05:37,079 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:05:38,877 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:05:39,208 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:05:39,208 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:05:52,250 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:05:52,250 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:06:07,506 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:06:07,506 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:06:10,732 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:06:22,769 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:06:22,769 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:06:31,494 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:06:31,494 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:06:37,996 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:06:37,996 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:06:42,413 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:06:53,254 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:06:53,254 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:07:08,477 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:07:08,477 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:07:13,836 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:07:23,683 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:07:23,683 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:07:24,834 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:07:24,834 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:07:38,924 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:07:38,924 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:07:45,715 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:07:54,160 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:07:54,160 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:08:09,331 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:08:09,331 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:08:16,307 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:08:16,307 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:08:16,316 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:08:16,850 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:08:17,121 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:08:17,121 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:08:17,121 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:08:19,140 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:08:24,509 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:08:24,509 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:08:39,708 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:08:39,708 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:08:49,110 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:08:54,903 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:08:54,903 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:09:09,416 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:09:09,416 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:09:10,079 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:09:10,079 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:09:20,956 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:09:25,427 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:09:25,427 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:09:40,659 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:09:40,659 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:09:52,242 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:09:55,928 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:09:55,928 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:10:01,675 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:10:01,675 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:10:11,117 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:10:11,118 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:10:24,109 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:10:26,305 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:10:26,305 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:10:41,550 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:10:41,551 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:10:51,977 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:10:51,977 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:10:55,409 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:10:56,721 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:10:56,721 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:11:11,965 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:11:11,965 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:11:26,993 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:11:27,176 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:11:27,176 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:11:42,339 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:11:42,339 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:11:44,257 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:11:44,257 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:11:57,586 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:11:57,586 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:11:58,775 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:12:12,807 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:12:12,807 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:12:28,059 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:12:28,059 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:12:29,925 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:12:37,196 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:12:37,196 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:12:37,196 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:12:37,579 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:12:37,579 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:12:37,579 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:12:39,604 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:12:43,318 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:12:43,318 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:12:58,592 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:12:58,592 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:13:01,778 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:13:13,750 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:13:13,750 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:13:28,933 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:13:28,933 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:13:29,939 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:13:29,939 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:13:33,170 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:13:44,124 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:13:44,124 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:13:59,326 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:13:59,326 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:14:04,896 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:14:14,549 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:14:14,549 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:14:20,178 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:14:20,178 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:14:29,714 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:14:29,714 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:14:36,789 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:14:44,925 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:14:44,925 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:15:00,167 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:15:00,167 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:15:07,907 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:15:12,494 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:15:12,494 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:15:15,357 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:15:15,357 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:15:30,541 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:15:30,541 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:15:39,821 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:15:45,797 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:15:45,798 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:16:00,995 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:16:00,995 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:16:03,763 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:16:03,763 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:16:11,517 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:16:16,254 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:16:16,254 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:16:31,467 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:16:31,467 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:16:42,887 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:16:46,709 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:16:46,710 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:16:53,584 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:16:53,584 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:16:53,584 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:16:54,057 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:16:54,057 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:16:54,057 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:16:55,072 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:17:01,883 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:17:01,883 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:17:14,730 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:17:17,134 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:17:17,134 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:17:32,279 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:17:32,279 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:17:45,361 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:17:45,361 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:17:45,853 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:17:47,519 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:17:47,519 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:18:02,776 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:18:02,776 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:18:17,778 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:18:18,041 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:18:18,041 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:18:33,276 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:18:33,276 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:18:36,620 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:18:36,620 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:18:48,474 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:18:48,474 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:18:49,628 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:19:03,717 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:19:03,717 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:19:18,963 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:19:18,963 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:19:20,784 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:19:27,874 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:19:27,874 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:19:34,195 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:19:34,195 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:19:49,462 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:19:49,462 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:19:52,540 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:20:04,661 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:20:04,661 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:20:19,834 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:20:19,834 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:20:20,156 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:20:20,156 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:20:23,843 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:20:35,021 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:20:35,021 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:20:50,184 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:20:50,185 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:20:55,498 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:21:05,389 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:21:05,389 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:21:10,997 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:21:10,997 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:21:10,997 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:21:11,440 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:21:11,440 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:21:11,440 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:21:13,466 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:21:21,393 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:21:21,393 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:21:27,427 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:21:36,589 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:21:36,589 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:21:51,856 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:21:51,856 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:21:58,489 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:22:02,681 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:22:02,681 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:22:07,107 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:22:07,107 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:22:22,336 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:22:22,336 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:22:30,564 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:22:37,553 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:22:37,553 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:22:52,797 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:22:52,797 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:22:53,925 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:22:53,925 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:23:02,077 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:23:08,042 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:23:08,042 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:23:23,208 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:23:23,208 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:23:33,531 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:23:38,418 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:23:38,418 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:23:45,194 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:23:45,194 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:23:53,614 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:23:53,614 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:24:05,373 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:24:08,766 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:24:08,766 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:24:24,011 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:24:24,011 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:24:36,516 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:24:37,511 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:24:37,511 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:24:39,243 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:24:39,243 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:24:54,477 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:24:54,477 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:25:08,222 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:25:09,656 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:25:09,656 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:25:24,835 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:25:24,835 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:25:30,052 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:25:30,052 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:25:30,052 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:25:30,794 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:25:30,794 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:25:30,794 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:25:32,803 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:25:39,856 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:25:39,987 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:25:39,987 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:25:55,162 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:25:55,162 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:26:10,308 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:26:10,308 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:26:11,217 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:26:22,086 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:26:22,086 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:26:25,572 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:26:25,572 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:26:40,830 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:26:40,831 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:26:43,080 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:26:56,059 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:26:56,059 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:27:11,280 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:27:11,281 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:27:14,145 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:27:15,395 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:27:15,395 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:27:26,460 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:27:26,460 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:27:41,730 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:27:41,730 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:27:45,897 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:27:56,872 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:27:56,872 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:28:06,658 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:28:06,658 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:28:12,140 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:28:12,140 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:28:17,682 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:28:27,332 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:28:27,332 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:28:42,547 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:28:42,547 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:28:48,915 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:28:57,699 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:28:57,699 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:28:58,941 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:28:58,941 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:29:12,890 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:29:12,890 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:29:20,789 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:29:28,137 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:29:28,137 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:29:43,371 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:29:43,372 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:29:50,056 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:29:50,056 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:29:50,056 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:29:50,302 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:29:50,302 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:29:50,302 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:29:51,303 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:29:52,107 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:29:58,614 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:29:58,614 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:30:13,878 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:30:13,878 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:30:23,835 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:30:29,139 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:30:29,139 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:30:42,622 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:30:42,622 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:30:44,372 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:30:44,372 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:30:55,653 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:30:59,560 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:30:59,560 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:31:14,747 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:31:14,747 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:31:26,911 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:31:29,981 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:31:29,981 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:31:34,914 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:31:34,914 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:31:45,203 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:31:45,203 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:31:58,883 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:32:00,381 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:32:00,381 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:32:15,620 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:32:15,621 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:32:26,163 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:32:26,163 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:32:30,217 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:32:30,869 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:32:30,869 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:32:46,134 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:32:46,134 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:33:01,343 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:33:01,343 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:33:01,899 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:33:16,556 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:33:16,556 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:33:17,402 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:33:17,402 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:33:31,800 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:33:31,800 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:33:33,721 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:33:48,013 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:33:48,013 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:34:03,229 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:34:03,229 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:34:04,776 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:34:08,182 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:34:08,182 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:34:08,182 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:34:08,595 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:34:08,595 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:34:08,595 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:34:09,598 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:34:18,479 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:34:18,479 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:34:33,710 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:34:33,710 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:34:36,610 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:34:48,958 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:34:48,959 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:35:00,858 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:35:00,858 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:35:04,140 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:35:04,140 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:35:08,044 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:35:19,331 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:35:19,331 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:35:34,591 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:35:34,591 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:35:39,513 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:35:49,812 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:35:49,813 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:35:53,165 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:35:53,165 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:36:05,049 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:36:05,049 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:36:11,565 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:36:20,267 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:36:20,267 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:36:35,417 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:36:35,417 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:36:42,654 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:36:46,484 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:36:46,484 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:36:50,631 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:36:50,631 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:37:05,869 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:37:05,869 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:37:14,485 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:37:21,139 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:37:21,139 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:37:36,377 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:37:36,377 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:37:38,766 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:37:38,766 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:37:46,218 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:37:51,602 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:37:51,602 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:38:06,792 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:38:06,793 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:38:17,552 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:38:21,993 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:38:21,993 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:38:29,890 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:38:29,890 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:38:29,890 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:38:30,030 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:38:30,030 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:38:30,030 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:38:33,056 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:38:37,234 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:38:37,234 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:38:49,418 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:38:52,425 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:38:52,426 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:39:07,694 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:39:07,695 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:39:20,534 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:39:22,323 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:39:22,323 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:39:22,914 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:39:22,914 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:39:38,178 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:39:38,178 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:39:53,124 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:39:53,354 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:39:53,354 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:40:08,554 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:40:08,554 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:40:12,587 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:40:12,587 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:40:23,800 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:40:23,800 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:40:25,632 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:40:39,006 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:40:39,006 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:40:54,235 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:40:54,235 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:40:56,842 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:41:03,896 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:41:03,896 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:41:09,412 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:41:09,412 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:41:24,592 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:41:24,592 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:41:28,744 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:41:39,804 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:41:39,804 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:41:54,969 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:41:54,969 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:41:55,272 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:41:55,272 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:42:00,169 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:42:10,153 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:42:10,153 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:42:25,361 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:42:25,362 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:42:31,784 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:42:40,607 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:42:40,607 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:42:47,779 DEBUG   SenderThread:36708 [sender.py:send():234] send: history
+2024-08-11 20:42:47,779 DEBUG   SenderThread:36708 [sender.py:send():234] send: summary
+2024-08-11 20:42:47,780 INFO    SenderThread:36708 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-11 20:42:48,625 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\wandb-summary.json
+2024-08-11 20:42:48,625 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:42:48,625 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:42:49,639 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\output.log
+2024-08-11 20:42:55,796 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:42:55,796 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:43:03,680 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:43:11,051 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:43:11,051 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:43:26,285 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:43:26,285 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:43:34,759 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:43:39,927 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:43:39,927 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:43:41,508 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:43:41,508 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:43:56,714 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:43:56,714 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:44:06,727 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:44:11,883 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:44:11,883 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:44:27,133 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:44:27,133 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:44:32,212 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:44:32,212 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:44:38,299 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:44:42,302 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:44:42,302 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:44:57,494 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:44:57,494 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:45:09,820 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:45:12,708 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:45:12,708 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:45:22,489 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:45:22,489 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
+2024-08-11 20:45:27,915 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:45:27,915 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:45:41,579 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:45:43,107 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:45:43,107 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:45:58,343 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:45:58,343 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:46:12,977 DEBUG   SenderThread:36708 [sender.py:send():234] send: stats
+2024-08-11 20:46:13,556 DEBUG   HandlerThread:36708 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-11 20:46:13,556 DEBUG   SenderThread:36708 [sender.py:send_request():248] send_request: stop_status
+2024-08-11 20:46:14,833 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\actor.pt
+2024-08-11 20:46:14,834 INFO    Thread-8  :36708 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240811_185818-qq448cih\files\critic.pt
