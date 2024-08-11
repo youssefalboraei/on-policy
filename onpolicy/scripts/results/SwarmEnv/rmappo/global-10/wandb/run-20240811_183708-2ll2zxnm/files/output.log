@@ -1,0 +1,7 @@
+obs_space:  [Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,), Box(11,)]
+share_obs_space:  Box(150,)
+act_space:  [Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13), Discrete(13)]
+
+ Env SwarmEnv Algo rmappo Exp global-10 updates 0/400000 episodes, total num timesteps 500/200000000, FPS 86.
+
+average episode rewards is 0.5795308388769627

@@ -1,0 +1,24 @@
+2024-08-11 18:23:50,215 INFO    MainThread:22508 [wandb_init.py:_log_setup():292] Logging user logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\global-10\wandb\run-20240811_182350-37l7b064\logs\debug.log
+2024-08-11 18:23:50,215 INFO    MainThread:22508 [wandb_init.py:_log_setup():293] Logging internal logs to D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\global-10\wandb\run-20240811_182350-37l7b064\logs\debug-internal.log
+2024-08-11 18:23:50,215 INFO    MainThread:22508 [wandb_setup.py:_flush():68] setting env: {}
+2024-08-11 18:23:50,215 INFO    MainThread:22508 [wandb_setup.py:_flush():68] setting user settings: {}
+2024-08-11 18:23:50,215 INFO    MainThread:22508 [wandb_setup.py:_flush():68] multiprocessing start_methods=spawn
+2024-08-11 18:23:51,785 INFO    MainThread:22508 [wandb_run.py:_console_start():1265] atexit reg
+2024-08-11 18:23:51,787 INFO    MainThread:22508 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.WRAP
+2024-08-11 18:23:51,787 INFO    MainThread:22508 [wandb_run.py:_redirect():1166] Wrapping output streams.
+2024-08-11 18:23:51,787 INFO    MainThread:22508 [wandb_run.py:_redirect():1182] Redirects installed.
+2024-08-11 18:24:16,589 INFO    MainThread:22508 [wandb_run.py:_atexit_cleanup():1238] got exitcode: 1
+2024-08-11 18:24:16,589 INFO    MainThread:22508 [wandb_run.py:_restore():1210] restore
+2024-08-11 18:24:16,589 INFO    MainThread:22508 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "2fb66d374cbe46b3bda5800df3c82c68"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1941
+      total_bytes: 1941
+    }
+  }
+}
+
