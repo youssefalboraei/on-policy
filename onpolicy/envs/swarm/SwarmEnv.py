@@ -11,7 +11,7 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
-        self.config.steps_per_iteration = 100
+        self.config.steps_per_iteration = 150
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
@@ -41,7 +41,7 @@ class SwarmEnv(gym.Env):
 
         # Set faults dynamically
         self.config.number_of_faults = np.random.randint(0,3) # Max 2 faults
-        fault_set = [3, 4, 5, 6]
+        fault_set = [3, 4, 5, 8]
         self.config.fault_type = fault_set[np.random.randint(0,4)]
 
         # seed = self.config.seed

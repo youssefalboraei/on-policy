@@ -1,1 +1,1 @@
-{}
+{"value_loss": 0.07505601719021797, "policy_loss": -0.0020068722589096756, "dist_entropy": 1.9071001887321473, "actor_grad_norm": 0.1723623424768448, "critic_grad_norm": 0.06136094406247139, "ratio": 1.000413417816162, "average_episode_rewards": 309.2769384384155, "agent0/delivery_rate": 1.71875, "agent1/delivery_rate": 1.71875, "agent2/delivery_rate": 1.71875, "_step": 24992000, "_runtime": 45571, "_timestamp": 1723446145}
