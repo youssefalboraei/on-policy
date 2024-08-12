@@ -7,3 +7,39 @@
 2024-08-10 23:06:42,943 INFO    MainThread:25840 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.WRAP
 2024-08-10 23:06:42,943 INFO    MainThread:25840 [wandb_run.py:_redirect():1166] Wrapping output streams.
 2024-08-10 23:06:42,943 INFO    MainThread:25840 [wandb_run.py:_redirect():1182] Redirects installed.
+2024-08-12 08:06:49,219 INFO    MainThread:25840 [wandb_run.py:_atexit_cleanup():1238] got exitcode: 255
+2024-08-12 08:06:49,219 INFO    MainThread:25840 [wandb_run.py:_restore():1210] restore
+2024-08-12 08:06:49,219 INFO    MainThread:25840 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "649284be89eb479e84cab94c2faed8f6"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1942
+      total_bytes: 1942
+    }
+  }
+}
+
+2024-08-12 08:06:51,227 INFO    MainThread:25840 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "9071f7eb51fe4e37893d0164565289a0"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      other_count: 2
+    }
+    pusher_stats {
+      uploaded_bytes: 1299791
+      total_bytes: 1299791
+    }
+  }
+}
+
+2024-08-12 08:06:52,291 INFO    MainThread:25840 [wandb_run.py:_show_summary():1477] rendering summary
+2024-08-12 08:06:52,301 INFO    MainThread:25840 [wandb_run.py:_show_history():1515] rendering history
+2024-08-12 08:06:52,301 INFO    MainThread:25840 [wandb_run.py:_show_files():1543] logging synced files
+2024-08-12 08:06:52,311 INFO    MainThread:25840 [internal.py:handle_exit():137] Internal process exited
