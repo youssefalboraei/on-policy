@@ -90,5 +90,5 @@ class SwarmEnvWrapper(gym.Env):
             "state_shape": self.get_state().shape[0],
             "obs_shape": self.observation_space[0].shape[0],
             "share_obs_shape": self.share_observation_space[0].shape[0],
-            "episode_limit": 1_000
+            "episode_limit": 500
         }

@@ -1,0 +1,2 @@
+obs_space:  [Box(-inf, inf, (11,), float64), Box(-inf, inf, (11,), float64), Box(-inf, inf, (11,), float64)]
+share_obs_space:  Box(-inf, inf, (45,), float64)

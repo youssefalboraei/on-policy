@@ -1,0 +1,145 @@
+2024-08-10 22:52:05,716 INFO    MainThread:34444 [internal.py:wandb_internal():90] W&B internal server running at pid: 34444, started at: 2024-08-10 22:52:05.715471
+2024-08-10 22:52:05,717 INFO    WriterThread:34444 [datastore.py:open_for_write():77] open: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\run-r5zcfc5r.wandb
+2024-08-10 22:52:05,717 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: check_version
+2024-08-10 22:52:05,721 DEBUG   SenderThread:34444 [sender.py:send():234] send: header
+2024-08-10 22:52:05,721 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: check_version
+2024-08-10 22:52:06,098 DEBUG   SenderThread:34444 [sender.py:send():234] send: run
+2024-08-10 22:52:06,351 INFO    SenderThread:34444 [dir_watcher.py:__init__():169] watching files in: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files
+2024-08-10 22:52:06,351 INFO    SenderThread:34444 [sender.py:_start_run_threads():807] run started: r5zcfc5r with start time 1723326724
+2024-08-10 22:52:06,370 DEBUG   SenderThread:34444 [sender.py:send():234] send: summary
+2024-08-10 22:52:06,371 INFO    SenderThread:34444 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-10 22:52:06,372 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: run_start
+2024-08-10 22:52:06,401 DEBUG   HandlerThread:34444 [meta.py:__init__():40] meta init
+2024-08-10 22:52:06,401 DEBUG   HandlerThread:34444 [meta.py:__init__():54] meta init done
+2024-08-10 22:52:06,401 DEBUG   HandlerThread:34444 [meta.py:probe():214] probe
+2024-08-10 22:52:06,416 DEBUG   HandlerThread:34444 [meta.py:_save_pip():58] save pip
+2024-08-10 22:52:06,417 DEBUG   HandlerThread:34444 [meta.py:_save_pip():72] save pip done
+2024-08-10 22:52:06,417 DEBUG   HandlerThread:34444 [meta.py:_save_conda():79] save conda
+2024-08-10 22:52:07,367 INFO    Thread-8  :34444 [dir_watcher.py:_on_file_created():217] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\conda-environment.yaml
+2024-08-10 22:52:07,368 INFO    Thread-8  :34444 [dir_watcher.py:_on_file_created():217] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\wandb-summary.json
+2024-08-10 22:52:07,368 INFO    Thread-8  :34444 [dir_watcher.py:_on_file_created():217] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\requirements.txt
+2024-08-10 22:52:10,609 DEBUG   HandlerThread:34444 [meta.py:_save_conda():89] save conda done
+2024-08-10 22:52:10,610 DEBUG   HandlerThread:34444 [meta.py:probe():252] probe done
+2024-08-10 22:52:10,617 DEBUG   SenderThread:34444 [sender.py:send():234] send: files
+2024-08-10 22:52:10,617 INFO    SenderThread:34444 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2024-08-10 22:52:10,631 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-10 22:52:10,631 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: stop_status
+2024-08-10 22:52:11,234 INFO    Thread-11 :34444 [upload_job.py:push():137] Uploaded file C:\Users\Y2-ALB~1\AppData\Local\Temp\tmpxsibmsliwandb\ukht8frs-wandb-metadata.json
+2024-08-10 22:52:11,402 INFO    Thread-8  :34444 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\conda-environment.yaml
+2024-08-10 22:52:11,402 INFO    Thread-8  :34444 [dir_watcher.py:_on_file_created():217] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\wandb-metadata.json
+2024-08-10 22:52:11,403 INFO    Thread-8  :34444 [dir_watcher.py:_on_file_created():217] file/dir created: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\output.log
+2024-08-10 22:52:23,552 INFO    Thread-8  :34444 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\output.log
+2024-08-10 22:52:25,813 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-10 22:52:25,813 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: stop_status
+2024-08-10 22:52:37,872 DEBUG   SenderThread:34444 [sender.py:send():234] send: stats
+2024-08-10 22:52:41,052 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-10 22:52:41,052 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: stop_status
+2024-08-10 22:52:56,295 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: stop_status
+2024-08-10 22:52:56,295 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: stop_status
+2024-08-10 22:52:59,675 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:52:59,675 DEBUG   SenderThread:34444 [sender.py:send():234] send: telemetry
+2024-08-10 22:52:59,676 DEBUG   SenderThread:34444 [sender.py:send():234] send: exit
+2024-08-10 22:52:59,676 INFO    SenderThread:34444 [sender.py:send_exit():366] handling exit code: 1
+2024-08-10 22:52:59,676 INFO    SenderThread:34444 [sender.py:send_exit():368] handling runtime: 53
+2024-08-10 22:52:59,678 INFO    SenderThread:34444 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-10 22:52:59,679 INFO    SenderThread:34444 [sender.py:send_exit():374] send defer
+2024-08-10 22:52:59,679 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:52:59,679 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:52:59,679 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 0
+2024-08-10 22:52:59,680 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:52:59,680 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 0
+2024-08-10 22:52:59,680 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 1
+2024-08-10 22:52:59,680 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:52:59,680 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 1
+2024-08-10 22:52:59,736 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:52:59,736 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 1
+2024-08-10 22:52:59,736 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 2
+2024-08-10 22:52:59,737 DEBUG   SenderThread:34444 [sender.py:send():234] send: stats
+2024-08-10 22:52:59,737 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:52:59,737 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 2
+2024-08-10 22:52:59,737 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:52:59,737 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 2
+2024-08-10 22:52:59,737 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 3
+2024-08-10 22:52:59,737 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:52:59,737 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 3
+2024-08-10 22:52:59,738 DEBUG   SenderThread:34444 [sender.py:send():234] send: summary
+2024-08-10 22:52:59,738 INFO    SenderThread:34444 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2024-08-10 22:52:59,738 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:52:59,738 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 3
+2024-08-10 22:52:59,738 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 4
+2024-08-10 22:52:59,738 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:52:59,738 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 4
+2024-08-10 22:52:59,739 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:52:59,739 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 4
+2024-08-10 22:52:59,795 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:52:59,911 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 5
+2024-08-10 22:52:59,911 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:52:59,912 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:52:59,912 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 5
+2024-08-10 22:52:59,912 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:52:59,912 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 5
+2024-08-10 22:52:59,912 INFO    SenderThread:34444 [dir_watcher.py:finish():283] shutting down directory watcher
+2024-08-10 22:52:59,935 INFO    SenderThread:34444 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\output.log
+2024-08-10 22:52:59,935 INFO    SenderThread:34444 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\config.yaml
+2024-08-10 22:52:59,935 INFO    SenderThread:34444 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\wandb-summary.json
+2024-08-10 22:52:59,935 INFO    SenderThread:34444 [dir_watcher.py:finish():313] scan: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files
+2024-08-10 22:52:59,936 INFO    SenderThread:34444 [dir_watcher.py:finish():327] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\conda-environment.yaml conda-environment.yaml
+2024-08-10 22:52:59,936 INFO    SenderThread:34444 [dir_watcher.py:finish():327] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\config.yaml config.yaml
+2024-08-10 22:52:59,938 INFO    SenderThread:34444 [dir_watcher.py:finish():327] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\output.log output.log
+2024-08-10 22:52:59,939 INFO    SenderThread:34444 [dir_watcher.py:finish():327] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\requirements.txt requirements.txt
+2024-08-10 22:52:59,943 INFO    SenderThread:34444 [dir_watcher.py:finish():327] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\wandb-metadata.json wandb-metadata.json
+2024-08-10 22:52:59,944 INFO    SenderThread:34444 [dir_watcher.py:finish():327] scan save: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\wandb-summary.json wandb-summary.json
+2024-08-10 22:52:59,945 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 6
+2024-08-10 22:52:59,946 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:52:59,946 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 6
+2024-08-10 22:52:59,948 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:52:59,948 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 6
+2024-08-10 22:52:59,948 INFO    SenderThread:34444 [file_pusher.py:finish():177] shutting down file pusher
+2024-08-10 22:53:00,028 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:00,028 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:00,138 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:00,138 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:00,249 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:00,249 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:00,356 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:00,356 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:00,425 INFO    Thread-13 :34444 [upload_job.py:push():137] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\config.yaml
+2024-08-10 22:53:00,447 INFO    Thread-12 :34444 [upload_job.py:push():137] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\conda-environment.yaml
+2024-08-10 22:53:00,452 INFO    Thread-14 :34444 [upload_job.py:push():137] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\output.log
+2024-08-10 22:53:00,456 INFO    Thread-16 :34444 [upload_job.py:push():137] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\wandb-summary.json
+2024-08-10 22:53:00,464 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:00,464 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:00,466 INFO    Thread-15 :34444 [upload_job.py:push():137] Uploaded file D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\files\requirements.txt
+2024-08-10 22:53:00,574 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:00,574 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:00,668 INFO    Thread-7  :34444 [sender.py:transition_state():387] send defer: 7
+2024-08-10 22:53:00,668 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:53:00,668 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 7
+2024-08-10 22:53:00,668 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:53:00,668 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 7
+2024-08-10 22:53:00,683 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:01,049 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 8
+2024-08-10 22:53:01,050 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:01,050 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:53:01,050 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 8
+2024-08-10 22:53:01,050 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:53:01,051 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 8
+2024-08-10 22:53:01,051 INFO    SenderThread:34444 [sender.py:transition_state():387] send defer: 9
+2024-08-10 22:53:01,052 DEBUG   SenderThread:34444 [sender.py:send():234] send: final
+2024-08-10 22:53:01,052 DEBUG   SenderThread:34444 [sender.py:send():234] send: footer
+2024-08-10 22:53:01,052 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: defer
+2024-08-10 22:53:01,052 INFO    HandlerThread:34444 [handler.py:handle_request_defer():147] handle defer: 9
+2024-08-10 22:53:01,053 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: defer
+2024-08-10 22:53:01,053 INFO    SenderThread:34444 [sender.py:send_request_defer():383] handle sender defer: 9
+2024-08-10 22:53:01,152 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: poll_exit
+2024-08-10 22:53:01,152 DEBUG   SenderThread:34444 [sender.py:send_request():248] send_request: poll_exit
+2024-08-10 22:53:01,152 INFO    SenderThread:34444 [file_pusher.py:join():182] waiting for file pusher
+2024-08-10 22:53:01,430 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: get_summary
+2024-08-10 22:53:01,431 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: sampled_history
+2024-08-10 22:53:01,431 DEBUG   HandlerThread:34444 [handler.py:handle_request():130] handle_request: shutdown
+2024-08-10 22:53:01,432 INFO    HandlerThread:34444 [handler.py:finish():731] shutting down handler
+2024-08-10 22:53:02,060 INFO    WriterThread:34444 [datastore.py:close():281] close: D:\youssef\on-policy\onpolicy\scripts\results\SwarmEnv\rmappo\small\wandb\run-20240810_225204-r5zcfc5r\run-r5zcfc5r.wandb
+2024-08-10 22:53:02,435 INFO    SenderThread:34444 [sender.py:finish():1070] shutting down sender
+2024-08-10 22:53:02,435 INFO    SenderThread:34444 [file_pusher.py:finish():177] shutting down file pusher
+2024-08-10 22:53:02,435 INFO    SenderThread:34444 [file_pusher.py:join():182] waiting for file pusher
+2024-08-10 22:53:02,439 INFO    MainThread:34444 [internal.py:handle_exit():77] Internal process exited

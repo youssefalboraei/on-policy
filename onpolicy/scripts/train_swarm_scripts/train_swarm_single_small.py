@@ -40,23 +40,23 @@ for seed in range(1, seed_max + 1):
         "--n_eval_rollout_threads", "1",
         "--n_rollout_threads", "32", #
         "--num_mini_batch", "1",
-        "--episode_length", "1_000",
+        "--episode_length", "500",
         "--num_env_steps", "200_000_000", #
         "--ppo_epoch", "10", # 10
         "--use_ReLU",
         "--gain", "0.01",
         "--lr", "7e-4",
-        "--critic_lr", "1e-3", #, "7e-4"
+        "--critic_lr", "2e-3", #, "7e-4"
         "--wandb_name", "xxx",
         "--user_name", "ygalboraei-university-of-bristol",
 
         "--clip_param", "0.2",
-        "--stacked_frames", "4", # 4 
+        "--stacked_frames", "6", # 4 
         "--use_stacked_frames",
         "--hidden_size", "128", # 512
-        "--layer_N", "2",
+        "--layer_N", "3",
         "--entropy_coef", "0.015",
-        "--data_chunk_length", "20",
+        "--data_chunk_length", "30",
 
         # "--num_faults", "1",
         # "--fault_type", "8", 
