@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 
 # No-fault Standard-env baseline.
 # Mirrors train_swarm_single_global_10.py byte-for-byte except experiment_name.
@@ -19,7 +20,7 @@ seed_max = 1
 
 print(f"env is {env}, scenario is {scenario}, algo is {algo}, exp is {exp}, max seed is {seed_max}")
 
-train_script_path = "../train/train_swarm.py"
+train_script_path = "train/train_swarm.py"
 
 for seed in range(1, seed_max + 1):
     print(f"seed is {seed}:")
@@ -27,8 +28,8 @@ for seed in range(1, seed_max + 1):
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
     command = [
-        "python", train_script_path,
-        "--cuda", "True",
+        sys.executable, train_script_path,
+        # --cuda is store_false default=True; omit to use GPU (passing it would DISABLE cuda).
         "--env_name", env,
         "--algorithm_name", algo,
         "--experiment_name", exp,
