@@ -53,7 +53,7 @@ for seed in range(1, seed_max + 1):
         "--use_ReLU",
         "--gain", "0.01",
         "--lr", "7e-4",
-        "--critic_lr", "1e-4",
+        "--critic_lr", "0.002",
         "--wandb_name", "xxx",
         "--user_name", "ygalboraei-university-of-bristol",
         "--clip_param", "0.2",
@@ -62,7 +62,7 @@ for seed in range(1, seed_max + 1):
         "--hidden_size", "128",
         "--layer_N", "3",
         "--entropy_coef", "0.015",
-        "--data_chunk_length", "32",
+        "--data_chunk_length", "30",
     ]
 
     try:
