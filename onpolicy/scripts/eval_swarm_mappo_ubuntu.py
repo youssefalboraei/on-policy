@@ -15,8 +15,8 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--num_agents", str(num_agents),
         "--num_boxes", str(num_boxes),
         "--seed", str(seed),
-        "--arena_height", "250",
-        "--arena_width", "250",
+        # "--arena_height", "250",
+        # "--arena_width", "250",
         "--delivery_bias", "1",
         "--n_training_threads", "1",
         "--n_rollout_threads", "1",
@@ -33,14 +33,14 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
         "--user_name", "ygalboraei-university-of-bristol",
         "--use_eval",
         "--use_wandb",
-        "--stacked_frames", "4", # 4 
+        "--stacked_frames", "6", # 4 
         "--use_stacked_frames",
         "--hidden_size", "128", # 512
-        "--layer_N", "2",
+        "--layer_N", "3",
         # "--use_naive_recurrent_policy",
-        "--model_dir", "/home/yga/MSc_Robotics/Dissertation/on-policy/onpolicy/tests",
+        "--model_dir", "/home/yga/MSc_Robotics/Dissertation/on-policy/onpolicy/tests/best_a99",
         "--num_faults", "1",
-        "--fault_type", "8"
+        "--fault_type", "4"
     ]
 
     env_vars = os.environ.copy()
@@ -53,8 +53,8 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed):
 
 def main():
     env = "SwarmEnv"
-    num_agents = 4
-    num_boxes = 5
+    num_agents = 10
+    num_boxes = 10
     algo = "rmappo"
     exp = "check"
     scenario = "single_transport"
@@ -65,10 +65,11 @@ def main():
     for seed in range(1, seed_max + 1):
         seed = randint(1, 999)
         # seed = 704
-        seed = 706
+        # seed = 706
         # seed = 707
         # seed = 709
         # seed = 708
+        seed = 9123
         print(f"seed is {seed}:")
         run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, str(seed))
         print("evaluation is done!")

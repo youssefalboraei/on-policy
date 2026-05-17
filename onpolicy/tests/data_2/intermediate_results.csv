@@ -1,0 +1,5 @@
+Fault_Number_,Fault_Type_,Fault_Name_,P_With_Mitigation_mean,P_With_Mitigation_std,P_With_Mitigation_min,P_With_Mitigation_max,P_Without_Mitigation_mean,P_Without_Mitigation_std,P_Without_Mitigation_min,P_Without_Mitigation_max,P_Difference_mean,P_Difference_std,P_Difference_min,P_Difference_max,P_Relative_Difference_mean,P_Relative_Difference_std,P_Relative_Difference_min,P_Relative_Difference_max
+1,3,F_ALL_WHEEL_V0,26.82,11.823089889933787,0,49,25.38,10.254124570487267,3,47,1.44,13.72038224281266,-27,39,29.670314794717033,105.73743851544232,-100.0,557.1428571428571
+1,4,F_ALL_WHEEL_V10,26.21,12.048131587407017,0,57,25.61,10.803006502587579,0,49,0.6,14.373094955014336,-47,31,inf,,-100.0,inf
+1,5,F_ALL_WHEEL_V50,27.13,10.173897081167167,1,57,25.31,10.994668129267351,3,50,1.82,13.662881959321155,-29,29,31.223184055423776,90.34082736616291,-85.18518518518519,580.0
+1,8,F_PICKUP,26.51,12.099332146190482,0,57,25.95,11.724424131364454,0,50,0.56,16.182869106720617,-39,34,inf,,-100.0,inf

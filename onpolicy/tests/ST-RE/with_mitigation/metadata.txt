@@ -1,0 +1,1 @@
+{"arena_width":250.000000,"arena_height":250.000000,"number_of_agents":3,"number_of_boxes":3,"number_of_boxes_m":0,"number_of_faults":3,"iterations":50000,"deposit_zones":[[[0.000000,212.500000],250.000000,37.500000]]}

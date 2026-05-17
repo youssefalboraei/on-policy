@@ -16,8 +16,8 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed, fault_
         "--num_agents", str(num_agents),
         "--num_boxes", str(num_boxes),
         "--seed", str(seed),
-        "--arena_height", "250",
-        "--arena_width", "250",
+        "--arena_height", "250", #
+        "--arena_width", "250", #
         "--delivery_bias", "1",
         "--n_training_threads", "1",
         "--n_rollout_threads", "1",
@@ -37,9 +37,9 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed, fault_
         "--stacked_frames", "4", # 4 
         "--use_stacked_frames",
         "--hidden_size", "128", # 512
-        "--layer_N", "2",
+        "--layer_N", "3",
         # "--use_naive_recurrent_policy",
-        "--model_dir", "/home/yga/MSc_Robotics/Dissertation/on-policy/onpolicy/tests",
+        "--model_dir", "/home/yga/MSc_Robotics/Dissertation/on-policy/onpolicy/tests/best_a99", #ST
         "--num_faults", str(num_faults),
         "--fault_type", str(fault_type)
     ]
@@ -54,13 +54,15 @@ def run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, seed, fault_
 
 def main():
     env = "SwarmEnv"
-    num_agents = 3
-    num_boxes = 3
+    num_agents = 3 #
+    num_boxes = 3 #
     algo = "rmappo"
     exp = "check"
     scenario = "single_transport"
     seed_max = 1
     np.random.seed(0)
+
+    fault_set = [3, 4, 5, 8]
 
     print(f"env is {env}, algo is {algo}, exp is {exp}, scenario is {scenario}, max seed is {seed_max}")
 
@@ -74,16 +76,25 @@ def main():
     #     print(f"seed is {seed}:")
     #     run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, str(seed))
     #     print("evaluation is done!")
+    
+    # fn = 1
 
-    for ft in range(11):
-        print(f"Executing for fault no. {ft}.")
-        for fn in range(3):
+    for run in range(100):
+        seed = np.random.randint(0, 9999)
+        continue
+        run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, str(seed), 
+                        0, 0)
+    for ft in range(4):
+        for fn in range(1,4):
+            print(f"Executing for fault no. {ft}.")
             np.random.seed(0)
-            for run in range(33):
-                seed = np.random.randint(0, 999)
+            for run in range(100):
+                seed = np.random.randint(0, 9999)
+                if fn < 3:
+                    continue    
                 run_evaluation(env, num_agents, num_boxes, algo, exp, scenario, str(seed), 
-                            ft, fn)
-        print(f"Done executing for fault no. {ft}.")
+                                fault_set[ft], fn)
+            print(f"Done executing for fault no. {ft}.")
             
 
 

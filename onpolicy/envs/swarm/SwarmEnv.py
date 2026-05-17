@@ -13,7 +13,8 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
-        # self.config.write_viz = True
+        self.config.write_viz = True
+        self.config.steps_per_iteration = 200
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
@@ -91,6 +92,9 @@ class SwarmEnv(gym.Env):
         for agent, action in actions.items():
             agent_index = int(agent.split('_')[1])
             # print(action[0])
+            # if action[0] == 12:
+            #     mitigation_actions[agent_index] = 0
+            # else:
             mitigation_actions[agent_index] = action[0] 
             # mitigation_actions[agent_index] = 0
 
@@ -106,8 +110,8 @@ class SwarmEnv(gym.Env):
         truncated = {agent: False for agent in self.agents}  # Assuming no truncation
         info = self._get_info()    
 
-        self.data_collector.add_step_data(mitigation_actions,
-                                          self.previous_delivery_rate)        
+        # self.data_collector.add_step_data(mitigation_actions,
+        #                                   self.previous_delivery_rate)        
         
         return observation, share_observation, reward, done, truncated, info
 
@@ -137,6 +141,7 @@ class SwarmEnv(gym.Env):
                 # bb.r_messages_s[i],       #
                 # bb.r_delivered[i],        #
                 # bb.r_delivered_m[i]
+                bb.r_bid[i]
             ], dtype=np.float32)
             observations[agent] = agent_obs
         return observations
@@ -216,14 +221,15 @@ class SwarmEnv(gym.Env):
         return rewards
 
     def _is_done(self):
-        # done = self.simulator.completion_check() or (self.step_counter >= 10_000)
-        done = (self.step_counter > 100)
+        # done = self.simulator.completion_check() or (self.step_counter >= 1_000)
+        done = (self.step_counter > 200)
         if done:
             # print(self.simulator.completion_check())
             # print(self.step_counter)
             # print(self.previous_delivery_rate)
             # print("done")
-            self.data_collector.save_data()
+
+            # self.data_collector.save_data()
             self.step_counter = 0
             exit()
             

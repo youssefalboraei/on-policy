@@ -1,0 +1,112 @@
+Robot_State,Action,Frequency
+F T3,A10: Bias from nearest wall,5.949046628531804
+F T3,A12: Repel neighbour,41.110010317460315
+F T3,A13: Drop box,15.372908259348947
+F T3,A1: No action,3.0093101343101343
+F T3,A2: Decrease speed 50%,4.874909495962125
+F T3,A3: Stop moving,4.647923791984564
+F T3,A4: Bias to nearest robot,16.355606995884756
+F T3,A5: Bias to nearest box,16.27764841269842
+F T3,A6: Bias to nearest wall,5.229328368645554
+F T3,A7: Bias left,4.457230456568205
+F T3,A8: Bias from nearest robot,3.673663522012578
+F T3,A9: Bias from nearest box,5.130461594599527
+F T4,A10: Bias from nearest wall,3.6344588572187098
+F T4,A12: Repel neighbour,14.324103646158036
+F T4,A13: Drop box,16.511447597907104
+F T4,A1: No action,1.145249766573296
+F T4,A2: Decrease speed 50%,4.234013037602353
+F T4,A3: Stop moving,2.584420634920636
+F T4,A4: Bias to nearest robot,40.199598778752815
+F T4,A5: Bias to nearest box,9.648103174603179
+F T4,A6: Bias to nearest wall,4.653548821548816
+F T4,A7: Bias left,7.013689649470893
+F T4,A8: Bias from nearest robot,2.8475935283009246
+F T4,A9: Bias from nearest box,2.65898449469878
+F T5,A10: Bias from nearest wall,20.5385773074662
+F T5,A11: Attract neighbour,0.25
+F T5,A12: Repel neighbour,6.817750000000002
+F T5,A13: Drop box,0.7826097105508873
+F T5,A1: No action,0.4595008051529789
+F T5,A2: Decrease speed 50%,0.7785714285714289
+F T5,A3: Stop moving,2.0997724867724865
+F T5,A4: Bias to nearest robot,42.88023037366067
+F T5,A5: Bias to nearest box,23.671528571428585
+F T5,A6: Bias to nearest wall,1.0660439114818678
+F T5,A7: Bias left,5.503831417624523
+F T5,A8: Bias from nearest robot,1.5649450814309815
+F T5,A9: Bias from nearest box,0.896705539358601
+F T8,A10: Bias from nearest wall,30.441861111111113
+F T8,A12: Repel neighbour,7.225119047619053
+F T8,A13: Drop box,0.8463595221456859
+F T8,A1: No action,0.49409171075837743
+F T8,A2: Decrease speed 50%,0.5956349206349205
+F T8,A3: Stop moving,1.140964590964591
+F T8,A4: Bias to nearest robot,17.7017253968254
+F T8,A5: Bias to nearest box,35.4075142857143
+F T8,A6: Bias to nearest wall,6.9321532405150155
+F T8,A7: Bias left,0.8719059121233032
+F T8,A8: Bias from nearest robot,1.4390352182539685
+F T8,A9: Bias from nearest box,1.43314962742791
+NF T0,A10: Bias from nearest wall,17.786
+NF T0,A12: Repel neighbour,5.241999999999999
+NF T0,A13: Drop box,0.2
+NF T0,A1: No action,0.2
+NF T0,A2: Decrease speed 50%,0.6
+NF T0,A3: Stop moving,1.836363636363636
+NF T0,A4: Bias to nearest robot,32.29399999999999
+NF T0,A5: Bias to nearest box,38.86
+NF T0,A6: Bias to nearest wall,0.33333333333333326
+NF T0,A7: Bias left,5.213999999999998
+NF T0,A8: Bias from nearest robot,0.36799999999999977
+NF T0,A9: Bias from nearest box,0.6352941176470587
+NF T3,A10: Bias from nearest wall,9.058762169680117
+NF T3,A11: Attract neighbour,0.2857142857142857
+NF T3,A12: Repel neighbour,5.692106943335995
+NF T3,A13: Drop box,0.9480725623582765
+NF T3,A1: No action,0.5805555555555556
+NF T3,A2: Decrease speed 50%,2.2771871539313397
+NF T3,A3: Stop moving,6.682752067963336
+NF T3,A4: Bias to nearest robot,45.00487944992399
+NF T3,A5: Bias to nearest box,27.650634920634936
+NF T3,A6: Bias to nearest wall,1.1044655414908593
+NF T3,A7: Bias left,11.217727240372973
+NF T3,A8: Bias from nearest robot,1.6337514934289126
+NF T3,A9: Bias from nearest box,8.404664942900236
+NF T4,A10: Bias from nearest wall,10.955455621531419
+NF T4,A11: Attract neighbour,0.2857142857142857
+NF T4,A12: Repel neighbour,5.028265293482683
+NF T4,A13: Drop box,1.0310657596371882
+NF T4,A1: No action,0.9462042788129743
+NF T4,A2: Decrease speed 50%,1.3924886621315191
+NF T4,A3: Stop moving,2.249343185550082
+NF T4,A4: Bias to nearest robot,41.02585286527381
+NF T4,A5: Bias to nearest box,32.825318342151675
+NF T4,A6: Bias to nearest wall,0.884562211981567
+NF T4,A7: Bias left,10.305771599978566
+NF T4,A8: Bias from nearest robot,1.3574423963133644
+NF T4,A9: Bias from nearest box,1.1262488328664813
+NF T5,A10: Bias from nearest wall,15.256646825396814
+NF T5,A12: Repel neighbour,4.992565255731924
+NF T5,A13: Drop box,0.85
+NF T5,A1: No action,0.7776785714285714
+NF T5,A2: Decrease speed 50%,0.692857142857143
+NF T5,A3: Stop moving,3.3620811287477954
+NF T5,A4: Bias to nearest robot,33.64652028218697
+NF T5,A5: Bias to nearest box,39.97765873015872
+NF T5,A6: Bias to nearest wall,0.6153439153439159
+NF T5,A7: Bias left,5.702772867677249
+NF T5,A8: Bias from nearest robot,1.0091225254146607
+NF T5,A9: Bias from nearest box,0.9523119392684608
+NF T8,A10: Bias from nearest wall,8.705518664752333
+NF T8,A12: Repel neighbour,3.984808517400288
+NF T8,A13: Drop box,0.46825396825396826
+NF T8,A1: No action,0.33333333333333337
+NF T8,A2: Decrease speed 50%,0.43809523809523815
+NF T8,A3: Stop moving,2.1714285714285717
+NF T8,A4: Bias to nearest robot,43.80409259259264
+NF T8,A5: Bias to nearest box,36.085328042328044
+NF T8,A6: Bias to nearest wall,0.5083652618135374
+NF T8,A7: Bias left,8.113249902782197
+NF T8,A8: Bias from nearest robot,0.6677794141711673
+NF T8,A9: Bias from nearest box,1.3528248587570622
