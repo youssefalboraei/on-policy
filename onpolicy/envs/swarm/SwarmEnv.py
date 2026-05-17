@@ -11,7 +11,8 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
-        self.config.steps_per_iteration = 100
+        # steps_per_iteration is not exposed by the canonical marl_sim Config binding;
+        # falls back to whatever the C++ default is.
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
