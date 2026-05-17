@@ -40,16 +40,9 @@ class SwarmEnv(gym.Env):
         # np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
 
-        # Set faults dynamically
-        self.config.number_of_faults = np.random.randint(0,3) # Max 2 faults
-        fault_set = [3, 4, 5, 8]
-        self.config.fault_type = fault_set[np.random.randint(0,4)]
+        # No-fault baseline: dynamic fault injection disabled on this branch.
+        # Faults come from --num_faults / --fault_type CLI args (default 0/0).
 
-        # self.config.number_of_faults = 2
-        # self.config.fault_type = 3
-        # print(self.config.number_of_faults, self.config.fault_type)
-        # seed = self.config.seed
-        # print(seed)
         self.step_counter = 0
         self.simulator = marl_sim.FaultManagementSimulator(
             self.config,
