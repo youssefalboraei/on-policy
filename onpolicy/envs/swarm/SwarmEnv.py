@@ -154,11 +154,11 @@ class SwarmEnv(gym.Env):
         return share_observations
 
     def _get_reward(self):
-        # Constants
-        DELIVERY_REWARD = 10
+        # Match a99's training-time reward shaping (global-10 commit f59bc7a, active 2024-08-10 → 21:27 2024-08-11).
+        DELIVERY_REWARD = 20
         DISTANCE_TO_BOX_WEIGHT = 0.00
         # DISTANCE_TO_NEAREST_BOX_WEIGHT = 0.00
-        DISTANCE_TO_DROP_AREA_WEIGHT = 0.2
+        DISTANCE_TO_DROP_AREA_WEIGHT = 10
         TIME_PENALTY = 0.01
 
         num_robots = self.simulator.bb.s_no_robots
