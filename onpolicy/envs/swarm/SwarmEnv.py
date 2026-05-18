@@ -11,8 +11,7 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
-        # Match cih's training-time C++ step budget (small-env original SwarmEnv).
-        self.config.steps_per_iteration = 150
+        # cih-era SwarmEnv did NOT set steps_per_iteration — use the C++ default.
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
@@ -38,7 +37,7 @@ class SwarmEnv(gym.Env):
         if seed is not None:
             self.config.seed = seed
         
-        # np.random.seed(self.config.seed)
+        np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
 
         # No-fault baseline: dynamic fault injection disabled on this branch.
