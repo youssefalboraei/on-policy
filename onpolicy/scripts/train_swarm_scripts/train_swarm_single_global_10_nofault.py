@@ -29,7 +29,7 @@ for seed in range(1, seed_max + 1):
 
     command = [
         sys.executable, train_script_path,
-        # --cuda is store_false default=True; omit to use GPU (passing it would DISABLE cuda).
+        "--cuda", "False",   # match a99 (cuda=False, CPU only); --cuda is store_false so this disables CUDA.
         "--env_name", env,
         "--algorithm_name", algo,
         "--experiment_name", exp,
