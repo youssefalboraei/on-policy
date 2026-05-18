@@ -190,25 +190,15 @@ class SwarmEnv(gym.Env):
                 rewards[agent] += DISTANCE_TO_BOX_WEIGHT * distance_decrease
         self.previous_rb_distance = rb_distance.copy()
 
-        # 3. Reward for boxes moving towards drop area
+        # 3. Reward for boxes moving towards drop area — aggregate normalized formula
+        # (matches a99's actual training-time reward; the per-agent gated version was a later rewrite)
         current_box_y_positions = np.array(self.simulator.bb.b_pos_y)
-        # print(current_boxm_y_positions)
-
-        # if hasattr(self, 'previous_boxm_y_positions'):
-        #     # print('yes3')
-        #     y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions) / np.sum(500.0 - self.base_box_y_positions) # <---- standarise the y progress across envs
-        #     progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
-        #     for agent in self.agents:
-        #         rewards[agent] += progress_reward
-        # self.previous_boxm_y_positions = current_box_y_positions.copy()
-
-        if hasattr(self, 'previous_box_y_positions'):
-            for i, agent in enumerate(self.agents):
-                if self.simulator.bb.r_bid[i] > -1:
-                    y_progress = current_box_y_positions[self.simulator.bb.r_bid[i]] - self.previous_box_y_positions[self.simulator.bb.r_bid[i]]
-                    progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress
-                    # print(self.step_counter, progress_reward)
-                    rewards[agent] += progress_reward
+        if hasattr(self, 'previous_boxm_y_positions'):
+            y_progress = np.sum(current_box_y_positions - self.previous_box_y_positions) / np.sum(500.0 - self.base_box_y_positions)
+            progress_reward = DISTANCE_TO_DROP_AREA_WEIGHT * y_progress / num_robots
+            for agent in self.agents:
+                rewards[agent] += progress_reward
+        self.previous_boxm_y_positions = current_box_y_positions.copy()
         self.previous_box_y_positions = current_box_y_positions.copy()
 
         # 4. Time penalty (per agent)
