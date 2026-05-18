@@ -11,8 +11,8 @@ class SwarmEnv(gym.Env):
         self.config.compute_delivery_rate = True
         self.config.compute_metrics = True #
         self.config.predict_fault = False
-        # Match a99's training-time C++ step budget (global-10 original SwarmEnv).
-        self.config.steps_per_iteration = 100
+        # Match a99-era SwarmEnv exactly: steps_per_iteration=200.
+        self.config.steps_per_iteration = 200
         self.simulator = None
         self.num_agents = self.config.number_of_agents
         self.num_boxes = self.config.number_of_boxes
@@ -38,7 +38,7 @@ class SwarmEnv(gym.Env):
         if seed is not None:
             self.config.seed = seed
         
-        # np.random.seed(self.config.seed)
+        np.random.seed(self.config.seed)
         self.config.seed = np.random.randint(0, 999999)
 
         # No-fault baseline: dynamic fault injection disabled on this branch.
