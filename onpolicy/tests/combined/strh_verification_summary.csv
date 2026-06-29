@@ -1,0 +1,21 @@
+Fault,Condition,mean,median,std,count
+DEFAULT,Baseline (random walk),0.49962,0.511,0.10189465544414392,100
+DEFAULT,No-fault model (STNF),0.7423333333333333,0.73,0.06699270847268193,30
+DEFAULT,"With-fault model (ST), historical harness",0.69122,0.7050000000000001,0.07706688424002003,100
+DEFAULT,"With-fault model (ST), same harness",0.6869333333333334,0.709,0.08908691352224266,30
+F1: 0% speed,Baseline (random walk),0.290082,0.31,0.1829078800067634,1000
+F1: 0% speed,No-fault model (STNF),0.42046,0.479,0.2684637611238979,300
+F1: 0% speed,"With-fault model (ST), historical harness",0.301602,0.29,0.23490270512890424,1000
+F1: 0% speed,"With-fault model (ST), same harness",0.3040533333333333,0.284,0.23594709986634724,300
+F2: 10% speed,Baseline (random walk),0.290456,0.309,0.1819899128863806,1000
+F2: 10% speed,No-fault model (STNF),0.4065333333333333,0.41500000000000004,0.22783725537910718,300
+F2: 10% speed,"With-fault model (ST), historical harness",0.34698,0.345,0.21840268160288528,1000
+F2: 10% speed,"With-fault model (ST), same harness",0.34807333333333335,0.34199999999999997,0.21394446804465855,300
+F3: 50% speed,Baseline (random walk),0.348372,0.34299999999999997,0.13360637814221404,1000
+F3: 50% speed,No-fault model (STNF),0.5852866666666667,0.587,0.13170255514730908,300
+F3: 50% speed,"With-fault model (ST), historical harness",0.546556,0.556,0.1224326779280133,1000
+F3: 50% speed,"With-fault model (ST), same harness",0.55906,0.568,0.12740931485454926,300
+F4: pickup,Baseline (random walk),0.288228,0.314,0.18002756994955493,1000
+F4: pickup,No-fault model (STNF),0.4474133333333333,0.503,0.25510174209182324,300
+F4: pickup,"With-fault model (ST), historical harness",0.375514,0.402,0.22708729696846636,1000
+F4: pickup,"With-fault model (ST), same harness",0.3768533333333333,0.387,0.22803242703943202,300
