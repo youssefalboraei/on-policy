@@ -183,12 +183,16 @@ All under `onpolicy/tests/`. Re-run any script with `~/.venv/marl/bin/python <sc
   as-is; the git-clone route omits them. One real source edit if you care:
   `Simulator2/warehouse_sim_cpp/src/wrapper/CMakeLists.txt`.
 
-## 6. Non-git files to copy manually (not in any repo)
+## 6. Non-git files
 
-- Workspace-root `CLAUDE.md` (full project notes) — sits above all repos, won't clone.
-- `training_logs/` at the workspace root (background-run stdout), if you want it.
-- The Claude memory dir `~/.claude/projects/-home-...-mcs-codebase/memory/` (optional;
-  Claude-specific context).
+Brought into this repo so a `git clone` includes them:
+- `WORKSPACE_CLAUDE.md` (repo root) — copy of the workspace-root `CLAUDE.md` full project notes.
+- `training_logs/` (repo root) — background-run stdout.
+
+Still outside any repo (copy manually only if you want them):
+- `conference_videos/` (1.2G presentation MP4s) — outputs, not needed to continue work; too big for git.
+- The Claude memory dir `~/.claude/projects/-home-...-mcs-codebase/memory/` (optional; Claude-specific context).
+- The venv (`~/.venv/marl`) and `marl_sim.so` — machine-specific binaries, rebuilt per section 2.
 
 ## 7. Eval data quick reference
 

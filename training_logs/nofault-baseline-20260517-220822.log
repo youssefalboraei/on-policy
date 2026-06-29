@@ -1,0 +1,32 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+u are choosing to use rmappo, we set use_recurrent_policy to be True
+choose to use cpu...
+Traceback (most recent call last):
+  File "/home/kg23671/projects/mcs_codebase/on-policy/onpolicy/scripts/train/train_swarm.py", line 178, in <module>
+    main(sys.argv[1:])
+  File "/home/kg23671/projects/mcs_codebase/on-policy/onpolicy/scripts/train/train_swarm.py", line 111, in main
+    run = wandb.init(config=all_args,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kg23671/.venv/marl/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1613, in init
+    get_sentry().reraise(e)
+  File "/home/kg23671/.venv/marl/lib/python3.12/site-packages/wandb/analytics/sentry.py", line 191, in reraise
+    raise exc.with_traceback(tb)
+  File "/home/kg23671/.venv/marl/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1530, in init
+    wi.maybe_login(init_settings)
+  File "/home/kg23671/.venv/marl/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 200, in maybe_login
+    wandb_login._login(
+  File "/home/kg23671/.venv/marl/lib/python3.12/site-packages/wandb/sdk/wandb_login.py", line 190, in _login
+    auth = _find_or_prompt_for_key(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kg23671/.venv/marl/lib/python3.12/site-packages/wandb/sdk/wandb_login.py", line 266, in _find_or_prompt_for_key
+    auth = wbauth.authenticate_session(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kg23671/.venv/marl/lib/python3.12/site-packages/wandb/sdk/lib/wbauth/authenticate.py", line 139, in authenticate_session
+    raise UsageError(
+wandb.errors.errors.UsageError: No API key configured. Use `wandb login` to log in.
+env is SwarmEnv, scenario is single_transport_small, algo is rmappo, exp is global-10-nofault, max seed is 1
+seed is 1:
+Command failed with error: Command '['/home/kg23671/.venv/marl/bin/python', 'train/train_swarm.py', '--cuda', 'True', '--env_name', 'SwarmEnv', '--algorithm_name', 'rmappo', '--experiment_name', 'global-10-nofault', '--scenario_name', 'single_transport_small', '--delivery_bias', '1', '--num_agents', '10', '--num_boxes', '10', '--arena_width', '500', '--arena_height', '500', '--seed', '1', '--n_training_threads', '1', '--n_eval_rollout_threads', '1', '--n_rollout_threads', '16', '--num_mini_batch', '1', '--episode_length', '500', '--num_env_steps', '200_000_000', '--ppo_epoch', '10', '--use_ReLU', '--gain', '0.01', '--lr', '7e-4', '--critic_lr', '1e-4', '--wandb_name', 'xxx', '--user_name', 'ygalboraei-university-of-bristol', '--clip_param', '0.2', '--stacked_frames', '6', '--use_stacked_frames', '--hidden_size', '128', '--layer_N', '3', '--entropy_coef', '0.015', '--data_chunk_length', '32']' returned non-zero exit status 1.

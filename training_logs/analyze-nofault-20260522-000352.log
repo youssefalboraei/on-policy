@@ -1,0 +1,44 @@
+
+=== RT-RE ===
+  13 mitigated cells, 13 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== ST-RE ===
+  13 mitigated cells, 13 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== RT-SE ===
+  41 mitigated cells, 41 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== ST-SE ===
+  41 mitigated cells, 41 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== RTNF-RE ===
+  13 mitigated cells, 13 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== STNF-RE ===
+  13 mitigated cells, 13 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== RTNF-SE ===
+  41 mitigated cells, 41 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== STNF-SE ===
+  41 mitigated cells, 41 baseline cells
+  wrote performance_comparison_results.csv, summary_statistics.csv, performance_comparison_boxplot.png
+
+=== Three-way comparison plots (the four cases) ===
+  wrote combined/case1_rt-re.png and combined/case1_rt-re_summary.csv
+  wrote combined/case2_st-re.png and combined/case2_st-re_summary.csv
+  wrote combined/case3_rt-se.png and combined/case3_rt-se_summary.csv
+  wrote combined/case4_st-se.png and combined/case4_st-se_summary.csv
+
+=== Mann-Whitney mitigation power (no-fault buckets) ===
+  RTNF-RE: wrote u-test analysis + heatmap
+  STNF-RE: wrote u-test analysis + heatmap
+  RTNF-SE: wrote u-test analysis + heatmap
+  STNF-SE: wrote u-test analysis + heatmap
