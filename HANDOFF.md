@@ -13,6 +13,45 @@ full mitigation-power heatmap) is committed and pushed to
 clone three repos, **re-apply the uncommitted `cpp-simulator` build fixes**, build
 `marl_sim.so`, make a venv, and you can re-run the figure scripts.
 
+## 0. Moving the whole workspace (recommended: full transfer)
+
+To be sure nothing is missed (uncommitted changes, non-git files, data), copy the
+entire workspace, then rebuild the venv. The venv (`~/.venv/marl`, 7.4G) and
+`marl_sim.so` live OUTSIDE the workspace and are machine-specific binaries — do NOT
+copy them, rebuild per section 2.
+
+Workspace is 5.8G; skip the dead weight (the 1.5G broken macOS conda env, caches,
+build dirs) to move ~4G:
+
+```bash
+# direct machine-to-machine (preferred if you have ssh between them)
+rsync -avzP \
+  --exclude 'msc_dissertation/envs/' \
+  --exclude '__pycache__/' \
+  --exclude '*/build/' \
+  --exclude '.venv/' \
+  ~/projects/mcs_codebase/  USER@NEWHOST:~/projects/mcs_codebase/
+
+# OR a portable archive (USB / cloud); add --exclude='conference_videos' to drop 1.2G
+tar czf ~/mcs_codebase_transfer.tar.gz \
+  --exclude='msc_dissertation/envs' --exclude='__pycache__' --exclude='*/build' \
+  -C ~/projects mcs_codebase
+```
+
+After copying, fix the git worktree link (`on-policy-eval/` is a linked worktree of
+`on-policy/`; its `.git` holds an absolute path):
+
+```bash
+cd ~/projects/mcs_codebase/on-policy && git worktree repair
+```
+
+Then do section 2 (build `marl_sim.so` + venv) and you can continue working.
+
+Lighter alternative (git-clone route): both active repos are fully pushed
+(`on-policy@small-env-eval`, `cpp-simulator@win11`), so you can instead `git clone`
+them (section 1) and rsync only the non-git extras (section 6) — smaller, and no
+worktree repair needed, but you must remember the extras.
+
 ## 1. Workspace layout (three separate git repos)
 
 Put all three side by side in one workspace dir (e.g. `~/projects/mcs_codebase/`):
@@ -36,22 +75,15 @@ git clone -b main           git@github.com:youssefalboraei/msc_dissertation.git
 
 ## 2. Build `marl_sim.so` (verified: Linux + Python 3.12)
 
-### 2a. IMPORTANT — the `cpp-simulator` Linux build fixes are UNCOMMITTED
+### 2a. `cpp-simulator` build fixes — now committed
 
-On the source machine, `cpp-simulator` (branch `win11`) had 4 **uncommitted** modified
-files that make it build on Linux/modern pybind11:
-`warehouse_sim_cpp/CMakeLists.txt`, `warehouse_sim_cpp/src/CMakeLists.txt`,
-`warehouse_sim_cpp/scripts/marl_sim.cpp`, `warehouse_sim_cpp/include/simulator_cpp/dirent.h`.
-
-A fresh clone will NOT have them. Either commit+push them on the old machine first, or
-re-apply the equivalent edits (per the workspace `CLAUDE.md` "required code fixes"):
-- `CMakeLists.txt`: drop `EXACT` from `find_package(Python3 3.6 EXACT REQUIRED ...)`.
-- `scripts/marl_sim.cpp`: `bMetrics::getMetric` -> `.def_static(...)` (not `.def`); add
-  `def_readonly` for the 9 `_blackboard_` fields SwarmEnv reads:
-  `r_nearest_box_id, r_nearest_robot_id, r_nearest_wall_id, r_bid, r_messages_r,
-  r_messages_s, r_delivered, r_pos_x, r_pos_y`.
-- The `install(... DESTINATION /home/bk21562/...)` rule is the original author's local
-  path — skip `make install` or rewrite the destination.
+The Linux/modern-pybind11 build fixes are committed and pushed to `origin/win11`
+(commit `d4a0d6e`), so a fresh `git clone -b win11` builds cleanly — no manual edits
+needed. For reference they: guard the Windows-only CONDA_PREFIX block behind WIN32;
+drop `EXACT` from `find_package(Python3 3.6 ...)`; treat GLM as header-only on Linux;
+`#include_next` the system POSIX `<dirent.h>` on non-Windows; and add the
+`Config.write_viz` binding. (Older note: the `install(... DESTINATION /home/bk21562/...)`
+rule is the original author's path — skip `make install` or rewrite it.)
 
 ### 2b. Header-only C++ deps (`~/.local/cxx-deps/`)
 ```bash
@@ -144,11 +176,12 @@ All under `onpolicy/tests/`. Re-run any script with `~/.venv/marl/bin/python <sc
 
 - `on-policy` (`small-env-eval`): clean and pushed, EXCEPT one stray untracked
   `onpolicy/metadata.txt` (a simulator run artifact — ignore or delete).
-- `cpp-simulator` (`win11`): **4 uncommitted build-fix files (section 2a)** — commit or
-  re-apply on the new machine, or `marl_sim` won't build.
-- `msc_dissertation` (`main`): 24 uncommitted entries, mostly an extracted
-  `suet_lee-warehouse_viz-*` archive + `.pyc`/ELF build artifacts. Low value; gitignore
-  or leave. One real source edit: `Simulator2/warehouse_sim_cpp/src/wrapper/CMakeLists.txt`.
+- `cpp-simulator` (`win11`): clean and pushed (build fixes committed as `d4a0d6e`).
+- `msc_dissertation` (`main`): ~24 uncommitted entries, mostly an extracted
+  `suet_lee-warehouse_viz-*` archive + `.pyc`/ELF build artifacts (reference material,
+  not the active RL work). NOT committed — the full transfer in section 0 carries them
+  as-is; the git-clone route omits them. One real source edit if you care:
+  `Simulator2/warehouse_sim_cpp/src/wrapper/CMakeLists.txt`.
 
 ## 6. Non-git files to copy manually (not in any repo)
 
